@@ -1,5 +1,5 @@
 import React from 'react';
-import { Compass, Sparkles, ShieldCheck, BookOpen, TrendingUp, MapPin, Briefcase, Users, Building2, Award, Globe } from 'lucide-react';
+import { Compass, Sparkles, ShieldCheck, BookOpen, TrendingUp, MapPin, Briefcase, Users, Building2, Award, Globe, ClipboardList } from 'lucide-react';
 import { GOLDEN_PROFILES } from '../data/goldenProfiles';
 import { Language } from '../types';
 import ReactCountryFlag from 'react-country-flag';
@@ -27,6 +27,7 @@ export const Navbar: React.FC<NavbarProps> = ({
     { id: 'resilience', labelVi: 'Điểm Kháng AI', labelEn: 'Resilience Score', icon: ShieldCheck },
     { id: 'trajectories', labelVi: 'Lộ Trình & Lương', labelEn: 'Trajectories', icon: TrendingUp },
     { id: 'roadmap', labelVi: 'Bản Đồ Kỹ Năng', labelEn: 'Skill Roadmap', icon: MapPin },
+    { id: 'plans', labelVi: 'Kế Hoạch Của Tôi', labelEn: 'My Plans', icon: ClipboardList },
     { id: 'research', labelVi: 'Thư Viện RAG', labelEn: 'Research Base', icon: BookOpen },
     { id: 'news', labelVi: 'Tin Tức AI', labelEn: 'Job News', icon: Globe },
     { id: 'jobs', labelVi: 'Việc Làm AI', labelEn: 'AI Jobs', icon: Briefcase },

@@ -45,6 +45,17 @@ import { ComprehensiveCareerAnalysisResult } from './types/careerAnalysis';
 import { saveAssessmentLocally, buildCommunityPost, buildEmployerListing } from './lib/localData';
 import { Compass, Sparkles, Shield, Heart, ArrowUp, Database, ArrowRight } from 'lucide-react';
 import type { Trajectory } from './agents/trajectory';
+import { registerWebMcpTools } from './webmcp/registerTools';
+import type { PageContextSnapshot } from './webmcp/context';
+import {
+  requestPlanApproval, requestConfirm, getPendingPlan, getPendingConfirm,
+  resolvePlanApproval, resolveConfirm, subscribeApproval
+} from './webmcp/approval';
+import { listPlans } from './lib/plansStore';
+import { AgentActivityPanel } from './components/AgentActivityPanel';
+import { PlanApprovalModal } from './components/PlanApprovalModal';
+import { AgentConfirm } from './components/AgentConfirm';
+import { PlansView } from './components/PlansView';
 
 export default function App() {
   // Navigation & Localization
@@ -104,6 +115,55 @@ export default function App() {
 
   // Back to top
   const [showBackToTop, setShowBackToTop] = useState(false);
+
+  // WebMCP integration state (progressive enhancement — no-ops in normal browsers)
+  const [webmcpStatus, setWebmcpStatus] = useState<{ registered: boolean; count: number }>({ registered: false, count: 0 });
+  const [pendingPlan, setPendingPlan] = useState(getPendingPlan());
+  const [pendingConfirmMsg, setPendingConfirmMsg] = useState(getPendingConfirm()?.message ?? null);
+  const pageContextRef = useRef<PageContextSnapshot>({
+    activeTab: 'suggest',
+    language,
+    intakeSummary: null,
+    hasCompletedAnalysis: false,
+    savedPlansCount: 0
+  });
+
+  // Register WebMCP tools once — progressive enhancement.
+  useEffect(() => {
+    const result = registerWebMcpTools({
+      getPageContext: () => pageContextRef.current,
+      requestPlanApproval,
+      requestConfirm
+    });
+    setWebmcpStatus(result);
+  }, []);
+
+  // React to approval-bridge state changes (pending modals).
+  useEffect(
+    () =>
+      subscribeApproval(() => {
+        setPendingPlan(getPendingPlan());
+        setPendingConfirmMsg(getPendingConfirm()?.message ?? null);
+      }),
+    []
+  );
+
+  // Keep the page-context snapshot fresh for the agent on every render.
+  pageContextRef.current = {
+    activeTab,
+    language,
+    intakeSummary: intake?.currentRole
+      ? {
+          currentRole: intake.currentRole,
+          experienceYears: intake.experienceYears ?? intake.yearsOfExperience,
+          location: intake.location,
+          education: intake.education,
+          industry: intake.industry
+        }
+      : null,
+    hasCompletedAnalysis: agentTrajectory !== null,
+    savedPlansCount: listPlans().length
+  };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -395,6 +455,11 @@ export default function App() {
           />
         )}
 
+        {/* TAB 4.5: Agent-Native Career Plans (WebMCP workspace) */}
+        {activeTab === 'plans' && (
+          <PlansView language={language} />
+        )}
+
         {/* TAB 5: Research Base & RAG Citations */}
         {activeTab === 'research' && (
           <ResearchLibraryView
@@ -487,6 +552,15 @@ export default function App() {
       )}
 
       <AIChatbox intake={intake} language={language} />
+
+      {/* WebMCP agent-native layer: activity panel + human-in-the-loop modals */}
+      <AgentActivityPanel language={language} webmcpStatus={webmcpStatus} />
+      {pendingPlan && (
+        <PlanApprovalModal draft={pendingPlan} language={language} onResolve={resolvePlanApproval} />
+      )}
+      {pendingConfirmMsg && (
+        <AgentConfirm message={pendingConfirmMsg} language={language} onResolve={resolveConfirm} />
+      )}
     </div>
   );
 }
