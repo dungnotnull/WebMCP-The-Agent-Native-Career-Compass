@@ -1,0 +1,278 @@
+{
+ "score": {
+  "personaId": "persona-accountant",
+  "config": "baseline",
+  "ok": true,
+  "groundingRate": 0.5,
+  "hallucinatedCount": 1,
+  "schemaFailures": 0,
+  "guardrailViolations": 0,
+  "personalization": 85,
+  "usageTokens": 7832,
+  "latencyMs": 9365,
+  "model": "gemini-3.5-flash-lite",
+  "costPerTaskUsd": 0.0023496
+ },
+ "payload": {
+  "source": "eval_baseline",
+  "suggestions": [
+   {
+    "roleTitle": "Financial Data Analyst",
+    "roleTitleVi": "Chuyên viên Phân tích Dữ liệu Tài chính",
+    "aiResilienceScore": 82,
+    "matchScore": 90,
+    "reasoning": "Nghiên cứu từ WEF (2023) và McKinsey (2023) chỉ ra rằng các công việc kế toán truyền thống xử lý dữ liệu định hình sẵn có nguy cơ tự động hóa cao (lên tới 60-70%). Tuy nhiên, vai trò chuyển dịch sang phân tích dữ liệu kinh doanh và tài chính có mức độ bổ trợ (augmentation) rất cao, giúp tăng năng suất và bảo vệ việc làm theo Stanford HAI (2024).",
+    "whyItFitsYou": "Với 6 năm kinh nghiệm làm Kế toán tổng hợp, nắm vững quy trình kế toán và tư duy tuân thủ quy định cùng nền tảng Excel nâng cao từ Đại học Kinh tế Quốc dân, bạn có sẵn nền tảng vững chắc để chuyển sang phân tích dữ liệu tài chính. Điểm yếu chưa biết dùng công cụ phân tích dữ liệu có thể được khắc phục hoàn toàn nhờ ngân sách và thời gian tự học đề xuất.",
+    "transferableSkillsMatch": [
+     "Excel nâng cao và kiểm soát chứng từ",
+     "Nắm vững quy trình kế toán và tuân thủ thuế",
+     "Tư duy chi tiết và cẩn thận với số liệu"
+    ],
+    "skillsGap": [
+     "Công cụ phân tích dữ liệu (Power BI, SQL, Python cơ bản)",
+     "Kỹ năng trực quan hóa và trình bày số liệu (Data Storytelling)",
+     "Ứng dụng Trí tuệ Nhân tạo (GenAI) trong tài chính"
+    ],
+    "averageSalaryRangeVND": "18,000,000 - 35,000,000 VND / tháng",
+    "evidenceCitations": [
+     {
+      "paperTitle": "The Future of Jobs Report 2023",
+      "source": "World Economic Forum (WEF)",
+      "year": "2023",
+      "url": "https://www.weforum.org/reports/the-future-of-jobs-report-2023",
+      "quoteOrDataPoint": "Business Intelligence Analysts and AI/ML Specialists rank among top growth roles, while bookkeeping and data entry face structural decline."
+     },
+     {
+      "paperTitle": "Artificial Intelligence Index Report 2024",
+      "source": "Stanford Institute for Human-Centered Artificial Intelligence (HAI)",
+      "year": "2024",
+      "url": "https://aiindex.stanford.edu/report/",
+      "quoteOrDataPoint": "Workers using generative tools outperform non-users by 35-50% in cycle time and quality for analytical business tasks."
+     }
+    ],
+    "resilienceDetail": {
+     "occupationTitle": "Financial Analysts",
+     "occupationTitleVi": "Chuyên viên phân tích tài chính",
+     "molisaCode": "2413",
+     "onetCode": "13-2051.00",
+     "overallResilienceScore": 82,
+     "automationRiskScore": 25,
+     "augmentationPotentialScore": 75,
+     "humanAdvantageCore": [
+      "Giải thích bối cảnh kinh doanh đằng sau các con số",
+      "Tư vấn chiến lược tài chính cho ban lãnh đạo",
+      "Đảm bảo tuân thủ pháp lý và đạo đức nghề nghiệp"
+     ],
+     "tasksBreakdown": [
+      {
+       "taskName": "Financial Variance and Trend Analysis",
+       "taskNameVi": "Phân tích biến động và xu hướng tài chính dựa trên dữ liệu kế toán tổng hợp",
+       "exposureType": "augmentation",
+       "exposurePercentage": 50,
+       "onetCode": "13-2051.00",
+       "notes": "AI hỗ trợ quét dữ liệu lớn từ MISA/Excel, con người chịu trách nhiệm diễn giải nguyên nhân cốt lõi."
+      },
+      {
+       "taskName": "Executive Data Storytelling & Presentation",
+       "taskNameVi": "Trực quan hóa và trình bày báo cáo tài chính cho hội đồng quản trị",
+       "exposureType": "human_centric",
+       "exposurePercentage": 20,
+       "onetCode": "13-2051.00",
+       "notes": "Kỹ năng thuyết trình và thuyết phục hoàn toàn thuộc về năng lực con người."
+      },
+      {
+       "taskName": "Tax and Regulatory Compliance Review",
+       "taskNameVi": "Kiểm soát tuân thủ quy định thuế và chính sách kế toán mới",
+       "exposureType": "human_centric",
+       "exposurePercentage": 30,
+       "onetCode": "13-2051.00",
+       "notes": "Tư duy tuân thủ luật pháp Việt Nam đòi hỏi sự phán đoán đạo đức và pháp lý mà AI chưa thay thế được."
+      }
+     ],
+     "sources": [
+      "WEF Future of Jobs 2023",
+      "Stanford HAI 2024",
+      "O*NET 28.3"
+     ],
+     "methodologySummary": "Đánh giá dựa trên ma trận rủi ro tự động hóa O*NET kết hợp khảo sát thị trường lao động Việt Nam từ TopCV và GSO.",
+     "uncertaintyRange": "+/- 5%",
+     "vietnamDemandSignal": "high_growth"
+    },
+    "trajectories": [
+     {
+      "pathId": "stay_augment",
+      "pathTitle": "AI-Augmented General Accountant",
+      "pathTitleVi": "Kế toán tổng hợp ứng dụng AI",
+      "feasibilityScore": 95,
+      "estimatedTimelineMonths": 3,
+      "shortDescription": "Giữ vững vị trí kế toán hiện tại nhưng tích hợp các công cụ tự động hóa và AI để xử lý chứng từ, lập báo cáo nhanh hơn 40%.",
+      "targetRoles": [
+       "Kế toán tổng hợp cao cấp",
+       "Trưởng nhóm kế toán"
+      ],
+      "skillsToAcquire": [
+       "Sử dụng ChatGPT/Copilot viết hàm Excel nâng cao",
+       "Tự động hóa báo cáo thuế cơ bản"
+      ],
+      "transferableSkills": [
+       "Kiểm soát chứng từ",
+       "MISA",
+       "Quy trình thuế"
+      ],
+      "riskLevel": "low",
+      "fiveYearSalaryProjection": [
+       15,
+       18,
+       21,
+       24,
+       28
+      ],
+      "rationale": "Giúp tối ưu hóa năng suất hiện tại với rủi ro thấp nhất dựa trên quỹ thời gian 10 giờ/tuần.",
+      "actionStepNow": "Dành 2 giờ tuần này để học cách dùng ChatGPT tạo hàm Excel và Macro tự động."
+     },
+     {
+      "pathId": "pivot_adjacent",
+      "pathTitle": "Financial BI Analyst",
+      "pathTitleVi": "Chuyên viên Phân tích Kinh doanh Tài chính",
+      "feasibilityScore": 85,
+      "estimatedTimelineMonths": 6,
+      "shortDescription": "Chuyển dịch sang mảng phân tích tài chính ứng dụng công cụ Business Intelligence (Power BI/Tableau).",
+      "targetRoles": [
+       "Financial Analyst",
+       "BI Data Analyst"
+      ],
+      "skillsToAcquire": [
+       "Power BI / Tableau",
+       "SQL cơ bản",
+       "Kỹ năng trực quan hóa số liệu"
+      ],
+      "transferableSkills": [
+       "Tư duy tài chính",
+       "Hiểu biết sâu về số liệu doanh nghiệp"
+      ],
+      "riskLevel": "moderate",
+      "fiveYearSalaryProjection": [
+       16,
+       22,
+       28,
+       35,
+       42
+      ],
+      "rationale": "Phù hợp với mong muốn phát triển kỹ năng phân tích tài chính và công nghệ số với mức lương cao hơn.",
+      "actionStepNow": "Đăng ký một khóa học Power BI cơ bản trực tuyến (dưới 4 triệu VND)."
+     },
+     {
+      "pathId": "full_switch",
+      "pathTitle": "Financial Tech Product Specialist",
+      "pathTitleVi": "Chuyên viên Sản phẩm Công nghệ Tài chính (Fintech)",
+      "feasibilityScore": 60,
+      "estimatedTimelineMonths": 12,
+      "shortDescription": "Chuyển hẳn sang các công ty Fintech hoặc khối Chuyển đổi số ngân hàng để vận hành các phần mềm tài chính tự động.",
+      "targetRoles": [
+       "Fintech Operations Specialist",
+       "ERP Consultant"
+      ],
+      "skillsToAcquire": [
+       "Quy trình vận hành phần mềm ERP/Fintech",
+       "Kiến thức cơ bản về quản lý sản phẩm số"
+      ],
+      "transferableSkills": [
+       "Nghiệp vụ kế toán tài chính chuẩn mực"
+      ],
+      "riskLevel": "high",
+      "fiveYearSalaryProjection": [
+       18,
+       25,
+       32,
+       40,
+       50
+      ],
+      "rationale": "Đón đầu làn sóng chuyển đổi số tại Việt Nam nhưng đòi hỏi nỗ lực học hỏi cao.",
+      "actionStepNow": "Nghiên cứu các vị trí tuyển dụng ERP Consultant tại các doanh nghiệp lớn ở Hà Nội."
+     }
+    ],
+    "roadmap": [
+     {
+      "id": "m1",
+      "milestoneNumber": 1,
+      "phaseName": "Foundation & AI Augmentation",
+      "phaseNameVi": "Nền tảng & Ứng dụng AI cơ bản",
+      "title": "Mastering AI Tools for Accounting Efficiency",
+      "titleVi": "Làm chủ công cụ AI để tối ưu hóa công việc kế toán hiện tại",
+      "estimatedHours": 40,
+      "weeksDuration": 4,
+      "skillsCore": [
+       "Prompt Engineering cho Excel",
+       "Tự động hóa xử lý chứng từ qua AI"
+      ],
+      "skillsCovered": [
+       "Prompt Engineering",
+       "Excel Advanced automation"
+      ],
+      "freeResources": [
+       {
+        "name": "Prompt Engineering for ChatGPT",
+        "provider": "DeepLearning.AI",
+        "url": "https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/",
+        "type": "course"
+       }
+      ],
+      "checkpointQuiz": {
+       "question": "Khi sử dụng ChatGPT để hỗ trợ viết hàm Excel phức tạp cho báo cáo tài chính, bước nào là quan trọng nhất từ phía con người?",
+       "options": [
+        "Sao chép nguyên văn mã lệnh mà không cần kiểm tra",
+        "Kiểm tra tính chính xác của kết quả đầu ra và đối chiếu với quy định kế toán",
+        "Bỏ qua bước kiểm tra chứng từ gốc",
+        "Gửi thẳng báo cáo cho cơ quan thuế"
+       ],
+       "correctIndex": 1,
+       "explanation": "Con người luôn phải đóng vai trò kiểm định cuối cùng (human-in-the-loop) để đảm bảo tuân thủ pháp lý."
+      }
+     },
+     {
+      "id": "m2",
+      "milestoneNumber": 2,
+      "phaseName": "Data Visualization & Analysis",
+      "phaseNameVi": "Phân tích & Trực quan hóa dữ liệu",
+      "title": "Building Financial Dashboards with Power BI",
+      "titleVi": "Xây dựng bảng điều khiển tài chính với Power BI",
+      "estimatedHours": 60,
+      "weeksDuration": 6,
+      "skillsCore": [
+       "Power BI Desktop",
+       "DAX cơ bản",
+       "Data Storytelling"
+      ],
+      "skillsCovered": [
+       "Power BI",
+       "Data Visualization",
+       "Financial Analysis"
+      ],
+      "freeResources": [
+       {
+        "name": "Microsoft Power BI Learning Path",
+        "provider": "Microsoft",
+        "url": "https://learn.microsoft.com/en-us/power-bi/",
+        "type": "documentation"
+       }
+      ],
+      "checkpointQuiz": {
+       "question": "Mục đích chính của việc trực quan hóa số liệu tài chính (Data Storytelling) là gì?",
+       "options": [
+        "Làm cho báo cáo trông đẹp mắt hơn bằng nhiều màu sắc",
+        "Giúp ban lãnh đạo nhanh chóng nắm bắt insight cốt lõi và ra quyết định",
+        "Che giấu các khoản lỗ tài chính",
+        "Thay thế hoàn toàn bộ phận kế toán"
+       ],
+       "correctIndex": 1,
+       "explanation": "Trực quan hóa giúp chuyển đổi dữ liệu thô thành thông tin hành động rõ ràng cho nhà quản lý."
+      }
+     }
+    ]
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "usageTokens": 7587,
+  "latencyMs": 9365
+ }
+}

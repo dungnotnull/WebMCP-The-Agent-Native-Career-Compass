@@ -1,0 +1,269 @@
+{
+ "score": {
+  "personaId": "persona-golden-3",
+  "config": "baseline",
+  "ok": true,
+  "groundingRate": 1,
+  "hallucinatedCount": 0,
+  "schemaFailures": 0,
+  "guardrailViolations": 0,
+  "personalization": 40,
+  "usageTokens": 7906,
+  "latencyMs": 9341,
+  "model": "gemini-3.5-flash-lite",
+  "costPerTaskUsd": 0.0023718
+ },
+ "payload": {
+  "source": "eval_baseline",
+  "suggestions": [
+   {
+    "roleTitle": "AI Workflow & Business Operations Specialist",
+    "roleTitleVi": "Chuyên viên Tự động hóa Quy trình AI & Vận hành Doanh nghiệp",
+    "aiResilienceScore": 88,
+    "matchScore": 95,
+    "reasoning": "Dựa trên các nghiên cứu từ McKinsey & Company (2023) và WEF (2023), các công việc kết hợp giữa tư duy kinh doanh tổng quan và tự động hóa AI có mức độ chống chịu cao trước tự động hóa nhờ tính linh hoạt trong phối hợp con người - máy móc. Tại Việt Nam, 62% doanh nghiệp đang tích hợp AI vào vận hành nhưng thiếu nhân sự kết nối giữa bài toán kinh doanh và công nghệ (FPT Corporation, 2024).",
+    "whyItFitsYou": "Với nền tảng Cử nhân Quản trị Kinh doanh từ NEU, tư duy logic, kỹ năng tiếng Anh IELTS 7.0 cùng khả năng tự học nhanh, bạn hoàn toàn có lợi thế để làm cầu nối giữa chiến lược kinh doanh và các giải pháp AI tự động hóa mà không cần phải lập trình chiều sâu.",
+    "transferableSkillsMatch": [
+     "Tư duy tổng quan về doanh nghiệp",
+     "Kỹ năng thuyết trình mạch lạc",
+     "Khả năng tự học nhanh",
+     "Giao tiếp và đàm phán"
+    ],
+    "skillsGap": [
+     "Thiết kế luồng công việc AI (AI Workflow Design)",
+     "Prompt Engineering thực chiến cho doanh nghiệp",
+     "Quản lý dự án chuyển đổi số cơ bản"
+    ],
+    "averageSalaryRangeVND": "15,000,000 - 30,000,000 VND / tháng",
+    "evidenceCitations": [
+     {
+      "paperTitle": "The economic potential of generative AI: The next productivity frontier",
+      "source": "McKinsey & Company",
+      "year": "2023",
+      "url": "https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/the-economic-potential-of-generative-ai-the-next-productivity-frontier",
+      "quoteOrDataPoint": "Generative AI could automate tasks that absorb 60-70% of employees' time today, elevating the demand for workflow orchestration roles."
+     },
+     {
+      "paperTitle": "Báo cáo Chuyển đổi số và Ứng dụng AI tại Doanh nghiệp Việt Nam",
+      "source": "FPT Corporation",
+      "year": "2024",
+      "url": "https://fpt.com",
+      "quoteOrDataPoint": "62% doanh nghiệp Việt Nam tích hợp AI nhưng chỉ 15% có chương trình đào tạo bài bản, tạo cơ hội lớn cho nhân sự tự học."
+     }
+    ],
+    "resilienceDetail": {
+     "occupationTitle": "Business Operations and Workflow Specialist",
+     "occupationTitleVi": "Chuyên viên Vận hành và Quy trình Doanh nghiệp",
+     "molisaCode": "2421",
+     "onetCode": "13-1111.00",
+     "overallResilienceScore": 88,
+     "automationRiskScore": 15,
+     "augmentationPotentialScore": 85,
+     "humanAdvantageCore": [
+      "Đàm phán và thuyết phục ban lãnh đạo",
+      "Thiết kế chiến lược vận hành đặc thù doanh nghiệp",
+      "Giải quyết xung đột và quản trị sự thay đổi"
+     ],
+     "tasksBreakdown": [
+      {
+       "taskName": "Auditing current business workflows for AI integration opportunities",
+       "taskNameVi": "Đánh giá quy trình kinh doanh hiện tại để tìm kiếm cơ hội tích hợp AI",
+       "exposureType": "Augmented",
+       "exposurePercentage": 60,
+       "onetCode": "13-1111.00",
+       "notes": "Sử dụng LLM để phân tích tài liệu quy trình nhưng cần tư duy hệ thống của NEU để chuẩn hóa."
+      },
+      {
+       "taskName": "Designing automated marketing and analytics pipelines using no-code tools",
+       "taskNameVi": "Thiết kế luồng marketing và phân tích tự động bằng công cụ no-code",
+       "exposureType": "Augmented",
+       "exposurePercentage": 70,
+       "onetCode": "13-1111.00",
+       "notes": "Tận dụng kỹ năng phân tích và ngoại ngữ để cập nhật tài liệu công nghệ nhanh chóng."
+      },
+      {
+       "taskName": "Presenting ROI reports of AI adoption directly to C-level executives",
+       "taskNameVi": "Thuyết trình báo cáo ROI về việc ứng dụng AI trực tiếp cho ban lãnh đạo",
+       "exposureType": "Human-Led",
+       "exposurePercentage": 10,
+       "onetCode": "13-1111.00",
+       "notes": "Kỹ năng giao tiếp mạch lạc và IELTS 7.0 giúp bạn làm việc trực tiếp với cấp quản lý."
+      }
+     ],
+     "sources": [
+      "McKinsey & Company (2023)",
+      "FPT Corporation (2024)"
+     ],
+     "methodologySummary": "Đánh giá dựa trên ma trận rủi ro O*NET kết hợp khảo sát thực tế thị trường lao động Việt Nam từ Navigos và TopCV.",
+     "uncertaintyRange": "+/- 5%",
+     "vietnamDemandSignal": "high_growth"
+    },
+    "trajectories": [
+     {
+      "pathId": "stay_augment",
+      "pathTitle": "Stay and Augment Current Domain",
+      "pathTitleVi": "Tập trung và Tăng cường Năng lực Trợ lý AI",
+      "feasibilityScore": 92,
+      "estimatedTimelineMonths": 3,
+      "shortDescription": "Sử dụng các công cụ Generative AI (ChatGPT, Claude, Notion AI) để tối ưu hóa 300% hiệu suất công việc hành chính và phân tích kinh doanh cơ bản.",
+      "targetRoles": [
+       "Business Analyst",
+       "Digital Marketing Executive (AI-Enhanced)"
+      ],
+      "skillsToAcquire": [
+       "Advanced Prompting",
+       "Data Visualization AI Tools",
+       "Workflow Automation (Zapier/Make)"
+      ],
+      "transferableSkills": [
+       "Tư duy logic",
+       "Tiếng Anh IELTS 7.0",
+       "Kỹ năng thuyết trình"
+      ],
+      "riskLevel": "low",
+      "fiveYearSalaryProjection": [
+       12,
+       18,
+       26,
+       38,
+       50
+      ],
+      "rationale": "Phù hợp với quỹ thời gian 18 giờ/tuần và ngân sách tối ưu, giúp tăng tốc độ thăng tiến mà không cần thay đổi vị trí cốt lõi.",
+      "actionStepNow": "Đăng ký một khóa học ngắn hạn về Prompt Engineering và thực hành tự động hóa 3 tác vụ lặp đi lặp lại hàng ngày."
+     },
+     {
+      "pathId": "pivot_adjacent",
+      "pathTitle": "Pivot to AI Workflow Automation",
+      "pathTitleVi": "Chuyển hướng sang Tự động hóa Quy trình AI",
+      "feasibilityScore": 85,
+      "estimatedTimelineMonths": 6,
+      "shortDescription": "Chuyển dịch hẳn sang vai trò chuyên trách tư vấn và thiết kế quy trình vận hành tự động bằng AI cho các SME tại Hà Nội.",
+      "targetRoles": [
+       "AI Operations Coordinator",
+       "Digital Transformation Specialist"
+      ],
+      "skillsToAcquire": [
+       "No-Code / Low-Code Platforms",
+       "API Integration Basics",
+       "Project Management"
+      ],
+      "transferableSkills": [
+       "Tư duy tổng quan doanh nghiệp",
+       "Giao tiếp mạch lạc"
+      ],
+      "riskLevel": "moderate",
+      "fiveYearSalaryProjection": [
+       15,
+       22,
+       32,
+       45,
+       65
+      ],
+      "rationale": "Đáp ứng trực tiếp nhu cầu tuyển dụng tăng cao của các doanh nghiệp vừa và nhỏ đang muốn số hóa.",
+      "actionStepNow": "Xây dựng một portfolio cá nhân gồm 2 dự án tự động hóa quy trình marketing/sales bằng công cụ miễn phí."
+     },
+     {
+      "pathId": "full_switch",
+      "pathTitle": "Full Switch to AI Product Management",
+      "pathTitleVi": "Chuyển dịch toàn diện sang Quản lý Sản phẩm AI",
+      "feasibilityScore": 70,
+      "estimatedTimelineMonths": 12,
+      "shortDescription": "Xây dựng định hướng trở thành Product Manager cho các công ty công nghệ chuyên cung cấp giải pháp AI.",
+      "targetRoles": [
+       "Junior AI Product Manager",
+       "Product Owner"
+      ],
+      "skillsToAcquire": [
+       "AI Product Lifecycle",
+       "Basic Python for Data Analysis",
+       "Agile/Scrum Methodologies"
+      ],
+      "transferableSkills": [
+       "Tư duy chiến lược",
+       "Ngoại ngữ"
+      ],
+      "riskLevel": "high",
+      "fiveYearSalaryProjection": [
+       18,
+       28,
+       42,
+       60,
+       85
+      ],
+      "rationale": "Mức thu nhập tiềm năng rất cao và tiếp cận sát ban lãnh đạo tập đoàn công nghệ, tuy nhiên đòi hỏi nỗ lực học tập lớn ngoài 18 giờ/tuần.",
+      "actionStepNow": "Nghiên cứu khung năng lực Product Management và tham gia các cộng đồng AI Product tại Việt Nam."
+     }
+    ],
+    "roadmap": [
+     {
+      "id": "m1",
+      "milestoneNumber": 1,
+      "phaseName": "Foundation & AI Tooling",
+      "phaseNameVi": "Nền tảng & Thành thạo Công cụ AI",
+      "title": "Master Generative AI & Prompt Engineering for Business",
+      "titleVi": "Làm chủ GenAI & Kỹ thuật Prompt cho Kinh doanh",
+      "estimatedHours": 72,
+      "weeksDuration": 4,
+      "skillsCovered": [
+       "Advanced Prompt Engineering",
+       "AI-Assisted Data Analysis",
+       "Content & Workflow Generation"
+      ],
+      "freeResources": {
+       "name": "Generative AI Learning Path",
+       "provider": "Google Cloud Skills Boost",
+       "url": "https://www.cloudskillsboost.google",
+       "type": "Online Course"
+      },
+      "checkpointQuiz": {
+       "question": "Khi sử dụng LLM để phân tích dữ liệu kinh doanh, yếu tố quan trọng nhất để đảm bảo kết quả chính xác là gì?",
+       "options": [
+        "Cung cấp prompt chung chung không cần ngữ cảnh",
+        "Cung cấp ngữ cảnh rõ ràng, dữ liệu sạch và kiểm chứng chéo kết quả",
+        "Để AI tự động quyết định toàn bộ chiến lược",
+        "Chỉ sử dụng tiếng Việt để AI hiểu đúng nhất"
+       ],
+       "correctIndex": 1,
+       "explanation": "Ngữ cảnh rõ ràng, dữ liệu chuẩn và kiểm chứng chéo (Human-in-the-loop) giúp khắc phục hiện tượng ảo giác của AI và đảm bảo tính chính xác cho doanh nghiệp."
+      }
+     },
+     {
+      "id": "m2",
+      "milestoneNumber": 2,
+      "phaseName": "Automation & Portfolio",
+      "phaseNameVi": "Tự động hóa & Xây dựng Hồ sơ năng lực",
+      "title": "Build No-Code AI Workflows and Real-world Portfolio",
+      "titleVi": "Xây dựng Luồng công việc AI Không cần code & Portfolio thực chiến",
+      "estimatedHours": 108,
+      "weeksDuration": 6,
+      "skillsCovered": [
+       "Zapier/Make Automation",
+       "Portfolio Building",
+       "ROI Measurement"
+      ],
+      "freeResources": {
+       "name": "Zapier Automation Academy",
+       "provider": "Zapier",
+       "url": "https://zapier.com/learn",
+       "type": "Interactive Tutorial"
+      },
+      "checkpointQuiz": {
+       "question": "Lợi ích lớn nhất của việc ứng dụng các công cụ no-code kết hợp AI trong vận hành doanh nghiệp là gì?",
+       "options": [
+        "Loại bỏ hoàn toàn nhân sự con người",
+        "Giảm thời gian xử lý tác vụ lặp đi lặp lại và tối ưu hóa chi phí vận hành",
+        "Làm cho hệ thống phức tạp hơn để gây ấn tượng với sếp",
+        "Miễn phí hoàn toàn không tốn bất kỳ chi phí nào"
+       ],
+       "correctIndex": 1,
+       "explanation": "No-code và AI giúp tự động hóa các tác vụ lặp đi lặp lại, tiết kiệm thời gian và tối ưu hiệu suất làm việc của nhân sự."
+      }
+     }
+    ]
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "usageTokens": 7673,
+  "latencyMs": 9341
+ }
+}

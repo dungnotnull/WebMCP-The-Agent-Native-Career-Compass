@@ -1,0 +1,272 @@
+{
+ "score": {
+  "personaId": "persona-nurse",
+  "config": "baseline",
+  "ok": true,
+  "groundingRate": 0.5,
+  "hallucinatedCount": 1,
+  "schemaFailures": 0,
+  "guardrailViolations": 0,
+  "personalization": 95,
+  "usageTokens": 7773,
+  "latencyMs": 10225,
+  "model": "gemini-3.5-flash-lite",
+  "costPerTaskUsd": 0.0023319
+ },
+ "payload": {
+  "source": "eval_baseline",
+  "suggestions": [
+   {
+    "roleTitle": "Digital Health Program Coordinator",
+    "roleTitleVi": "Điều phối viên Chương trình Y tế số",
+    "aiResilienceScore": 88,
+    "matchScore": 92,
+    "reasoning": "Với 7 năm kinh nghiệm Điều dưỡng và sự bùng nổ của Y tế số tại Việt Nam theo báo cáo của FPT Corporation (2024), vai trò điều phối các giải pháp y tế từ xa và quản lý hồ sơ bệnh án điện tử có khả năng kháng tự động hóa cao (88%) nhờ đòi hỏi kỹ năng giao tiếp, thấu cảm và tương tác trực tiếp với con người.",
+    "whyItFitsYou": "Vị trí này tận dụng tối đa thế mạnh 'Giao tiếp với bệnh nhân', 'Xử lý tình huống cấp cứu' và kinh nghiệm sử dụng 'Hồ sơ bệnh án điện tử' của bạn. Đồng thời, nó giúp bạn bước chân vào lĩnh vực Y tế số và Sức khỏe cộng đồng mà bạn yêu thích mà không bỏ phí chuyên môn điều dưỡng.",
+    "transferableSkillsMatch": [
+     "Chăm sóc bệnh nhân",
+     "Hồ sơ bệnh án điện tử",
+     "Giao tiếp và thấu cảm",
+     "Xử lý tình huống cấp cứu"
+    ],
+    "skillsGap": [
+     "Quản lý dự án y tế số",
+     "Phân tích dữ liệu y tế cơ bản",
+     "Kỹ năng sử dụng công cụ AI hỗ trợ hành chính y tế"
+    ],
+    "averageSalaryRangeVND": "15,000,000 - 28,000,000 VND / tháng",
+    "evidenceCitations": [
+     {
+      "paperTitle": "Báo cáo Chuyển đổi số và Ứng dụng AI tại Doanh nghiệp Việt Nam",
+      "source": "FPT Corporation",
+      "year": "2024",
+      "url": "https://fpt.com",
+      "quoteOrDataPoint": "62% doanh nghiệp Việt Nam đã bắt đầu tích hợp AI và công nghệ số vào vận hành, đặc biệt trong chăm sóc khách hàng và quản lý dữ liệu."
+     },
+     {
+      "paperTitle": "The Future of Employment",
+      "source": "Oxford Martin School",
+      "year": "2017",
+      "url": "https://www.oxfordmartin.ox.ac.uk",
+      "quoteOrDataPoint": "Các công việc đòi hỏi trí tuệ xã hội cao, giao tiếp và thấu cảm có mức độ rủi ro tự động hóa rất thấp."
+     }
+    ],
+    "resilienceDetail": {
+     "occupationTitle": "Health Services Coordinator",
+     "occupationTitleVi": "Điều phối viên Dịch vụ Y tế",
+     "molisaCode": "2221",
+     "onetCode": "29-1141.00",
+     "overallResilienceScore": 88,
+     "automationRiskScore": 12,
+     "augmentationPotentialScore": 75,
+     "humanAdvantageCore": [
+      "Thấu cảm tâm lý bệnh nhân",
+      "Xử lý khủng hoảng y tế trực tiếp",
+      "Điều phối liên chuyên khoa"
+     ],
+     "tasksBreakdown": [
+      {
+       "taskName": "Patient Consultation & Digital Triage",
+       "taskNameVi": "Tư vấn và phân loại bệnh nhân trực tuyến",
+       "exposureType": "augmentation",
+       "exposurePercentage": 40,
+       "onetCode": "29-1141.00",
+       "notes": "Sử dụng trợ lý AI để sàng lọc triệu chứng ban đầu nhưng quyết định cuối cùng và sự trấn an thuộc về điều dưỡng."
+      },
+      {
+       "taskName": "Electronic Health Record Management",
+       "taskNameVi": "Quản lý Hồ sơ Bệnh án Điện tử",
+       "exposureType": "augmentation",
+       "exposurePercentage": 60,
+       "onetCode": "29-1141.00",
+       "notes": "Tự động hóa nhập liệu bằng AI giúp giảm tải 60% thời gian hành chính, tăng thời gian tương tác trực tiếp."
+      },
+      {
+       "taskName": "Emergency Protocol Coordination",
+       "taskNameVi": "Điều phối quy trình cấp cứu và xử lý tình huống",
+       "exposureType": "automation_resistant",
+       "exposurePercentage": 5,
+       "onetCode": "29-1141.00",
+       "notes": "Đòi hỏi phản xạ tức thì, kỹ năng xử lý tình huống cấp cứu thực tế mà AI không thể thay thế."
+      }
+     ],
+     "sources": [
+      "FPT Corporation (2024)",
+      "Oxford Martin School (2017)"
+     ],
+     "methodologySummary": "Đánh giá dựa trên khung phân tích tác vụ O*NET kết hợp dữ liệu chuyển đổi số y tế tại Việt Nam.",
+     "uncertaintyRange": "+/- 5%",
+     "vietnamDemandSignal": "high_growth"
+    },
+    "trajectories": [
+     {
+      "pathId": "stay_augment",
+      "pathTitle": "Stay and Augment in Digital Nursing",
+      "pathTitleVi": "Tiếp tục gắn bó và ứng dụng AI trong Điều dưỡng số",
+      "feasibilityScore": 95,
+      "estimatedTimelineMonths": 3,
+      "shortDescription": "Tận dụng kinh nghiệm điều dưỡng sẵn có, học cách sử dụng các công cụ AI trong quản lý bệnh án điện tử tại các bệnh viện thông minh.",
+      "targetRoles": [
+       "Điều dưỡng trưởng ca",
+       "Chuyên viên Quản lý Bệnh án Điện tử"
+      ],
+      "skillsToAcquire": [
+       "Sử dụng phần mềm quản lý y tế thông minh",
+       "Kỹ năng AI cơ bản trong hành chính y tế"
+      ],
+      "transferableSkills": [
+       "Chăm sóc bệnh nhân",
+       "Tiêm truyền",
+       "Hồ sơ bệnh án điện tử"
+      ],
+      "riskLevel": "low",
+      "fiveYearSalaryProjection": [
+       12,
+       14,
+       16,
+       19,
+       22
+      ],
+      "rationale": "Phù hợp với mức độ chịu rủi ro thấp và không gian thời gian hạn chế (5 giờ/tuần), tận dụng tối đa nền tảng 7 năm kinh nghiệm.",
+      "actionStepNow": "Đăng ký một khóa học ngắn hạn miễn phí về Hồ sơ bệnh án điện tử nâng cao và ứng dụng trợ lý ảo trong y tế."
+     },
+     {
+      "pathId": "pivot_adjacent",
+      "pathTitle": "Pivot to Digital Health Coordinator",
+      "pathTitleVi": "Chuyển dịch sang Điều phối viên Y tế số",
+      "feasibilityScore": 85,
+      "estimatedTimelineMonths": 6,
+      "shortDescription": "Chuyển sang các công ty công nghệ y tế (HealthTech) hoặc các bệnh viện tư nhân tiên phong chuyển đổi số tại Cần Thơ và khu vực ĐBSCL.",
+      "targetRoles": [
+       "Digital Health Program Coordinator",
+       "Chuyên viên Tư vấn Sức khỏe Từ xa (Telehealth)"
+      ],
+      "skillsToAcquire": [
+       "Quản lý chương trình y tế số",
+       "Giao tiếp qua nền tảng số",
+       "Prompt engineering cơ bản cho y tế"
+      ],
+      "transferableSkills": [
+       "Giao tiếp với bệnh nhân",
+       "Xử lý tình huống cấp cứu",
+       "Kiên nhẫn"
+      ],
+      "riskLevel": "moderate",
+      "fiveYearSalaryProjection": [
+       14,
+       17,
+       21,
+       26,
+       32
+      ],
+      "rationale": "Đáp ứng nhu cầu tăng lương (ưu tiên 4) và sở thích về Y tế số, mở rộng cơ hội làm việc linh hoạt hơn.",
+      "actionStepNow": "Kết nối trên LinkedIn với các chuyên gia đang làm việc tại các startup HealthTech Việt Nam."
+     },
+     {
+      "pathId": "full_switch",
+      "pathTitle": "Full Career Pivot to Health Tech Product Specialist",
+      "pathTitleVi": "Chuyển đổi hoàn toàn sang Chuyên viên Sản phẩm Công nghệ Y tế",
+      "feasibilityScore": 50,
+      "estimatedTimelineMonths": 18,
+      "shortDescription": "Học sâu về thiết kế sản phẩm công nghệ y tế và phân tích dữ liệu sức khỏe cộng đồng.",
+      "targetRoles": [
+       "HealthTech Product Specialist",
+       "Public Health Data Analyst"
+      ],
+      "skillsToAcquire": [
+       "Phân tích dữ liệu y tế (Data Analytics)",
+       "Quản lý sản phẩm Agile/Scrum",
+       "AI tools cho phân tích y tế cộng đồng"
+      ],
+      "transferableSkills": [
+       "Am hiểu sâu sắc quy trình lâm sàng và nhu cầu thực tế của bệnh nhân"
+      ],
+      "riskLevel": "high",
+      "fiveYearSalaryProjection": [
+       15,
+       18,
+       24,
+       32,
+       45
+      ],
+      "rationale": "Rủi ro cao do vượt quá giới hạn ngân sách và thời gian hiện tại, nhưng mang lại tiềm năng thu nhập lớn nhất.",
+      "actionStepNow": "Tạm hoãn lựa chọn này cho đến khi hoàn thành các mốc cơ bản của Y tế số."
+     }
+    ],
+    "roadmap": [
+     {
+      "id": "m1",
+      "milestoneNumber": 1,
+      "phaseName": "Foundation & Digital Tools",
+      "phaseNameVi": "Nền tảng & Công cụ Số Y tế",
+      "title": "Mastering Electronic Health Records & Basic AI Assistance",
+      "titleVi": "Làm chủ Hồ sơ Bệnh án Điện tử và Trợ lý AI y tế",
+      "estimatedHours": 25,
+      "weeksDuration": 5,
+      "skillsCovered": [
+       "Hồ sơ bệnh án điện tử nâng cao",
+       "Sử dụng AI tóm tắt văn bản y tế",
+       "Quy trình số hóa bệnh viện"
+      ],
+      "freeResources": [
+       {
+        "name": "Digital Health Course - Coursera",
+        "provider": "Imperial College London",
+        "url": "https://www.coursera.org",
+        "type": "Online Course"
+       }
+      ],
+      "checkpointQuiz": {
+       "question": "Ứng dụng chính của Trợ lý AI trong quản lý hồ sơ bệnh án điện tử là gì?",
+       "options": [
+        "Thay thế hoàn toàn bác sĩ ra y lệnh",
+        "Hỗ trợ tóm tắt thông tin và giảm tải nhập liệu hành chính",
+        "Chẩn đoán 100% chính xác mọi loại bệnh",
+        "Không có tác dụng gì"
+       ],
+       "correctIndex": 1,
+       "explanation": "AI trong y tế hiện nay đóng vai trò hỗ trợ (augmentation) giúp giảm bớt gánh nặng hành chính, chứ không thay thế quyết định lâm sàng của con người."
+      }
+     },
+     {
+      "id": "m2",
+      "milestoneNumber": 2,
+      "phaseName": "Coordination & HealthTech Integration",
+      "phaseNameVi": "Điều phối & Tích hợp Công nghệ Y tế",
+      "title": "Public Health & Telehealth Coordination",
+      "titleVi": "Điều phối Sức khỏe Cộng đồng và Y tế Từ xa",
+      "estimatedHours": 30,
+      "weeksDuration": 6,
+      "skillsCovered": [
+       "Vận hành quy trình Telehealth",
+       "Giao tiếp bệnh nhân qua kênh số",
+       "Quản lý sự cố y tế trực tuyến"
+      ],
+      "freeResources": [
+       {
+        "name": "WHO Digital Health Guidelines Training",
+        "provider": "WHO",
+        "url": "https://www.who.int",
+        "type": "Open Access Material"
+       }
+      ],
+      "checkpointQuiz": {
+       "question": "Yếu tố nào quan trọng nhất khi thực hiện tư vấn sức khỏe từ xa (Telehealth)?",
+       "options": [
+        "Tốc độ gõ phím của điều dưỡng",
+        "Sự thấu cảm, rõ ràng và tuân thủ bảo mật thông tin bệnh nhân",
+        "Sử dụng thuật ngữ y khoa phức tạp nhất",
+        "Chỉ tập trung vào công nghệ phần mềm"
+       ],
+       "correctIndex": 1,
+       "explanation": "Sự thấu cảm và bảo mật thông tin là nền tảng cốt lõi trong mọi tương tác y tế từ xa, nơi con người đóng vai trò giữ niềm tin."
+      }
+     }
+    ]
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "usageTokens": 7538,
+  "latencyMs": 10225
+ }
+}

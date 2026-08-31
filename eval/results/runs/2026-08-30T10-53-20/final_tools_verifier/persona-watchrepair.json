@@ -1,0 +1,550 @@
+{
+ "score": {
+  "personaId": "persona-watchrepair",
+  "config": "final_tools_verifier",
+  "ok": true,
+  "groundingRate": 1,
+  "hallucinatedCount": 0,
+  "schemaFailures": 0,
+  "guardrailViolations": 0,
+  "personalization": 95,
+  "usageTokens": 10031,
+  "latencyMs": 24144,
+  "model": "gemini-3.1-flash-lite",
+  "costPerTaskUsd": 0.0030093
+ },
+ "payload": {
+  "source": "agentic_pipeline",
+  "config": {
+   "useTools": true,
+   "useVerifier": true
+  },
+  "suggestions": [
+   {
+    "roleTitle": "High-End Luxury Watch Restorer & Content Creator",
+    "roleTitleVi": "Thợ Phục Chế Đồng Hồ Cao Cấp Kiêm Sáng Tạo Nội Dung Số",
+    "aiResilienceScore": 88,
+    "matchScore": 92,
+    "reasoning": "Dựa trên nghiên cứu của Oxford (The Future of Employment: How Susceptible Are Jobs to Computerisation?), các công việc đòi hỏi sự khéo léo thủ công tinh vi (manual dexterity) và khả năng xử lý các tình huống phi cấu trúc có tính biến đổi cao như phục chế đồng hồ cơ có khả năng chống tự động hóa cao. Đồng thời, báo cáo của Stanford HAI (Artificial Intelligence Index Report 2024) chỉ ra rằng việc kết hợp công nghệ và nội dung số giúp gia tăng năng suất và tiếp cận khách hàng tốt hơn.",
+    "whyItFitsYou": "Công việc này tận dụng tối đa 15 năm kinh nghiệm, độ chính xác tay nghề cao và sự kiên nhẫn tuyệt đối của bạn với các dòng đồng hồ cao cấp. Thay vì đối đầu với sự thu hẹp của thị trường truyền thống, bạn chuyển đổi mô hình sang phân khúc xa xỉ và tận dụng mạng xã hội để xây dựng thương hiệu cá nhân với ngân sách và thời gian tự học phù hợp.",
+    "transferableSkillsMatch": [
+     "Sửa máy đồng hồ cơ",
+     "Phân biệt linh kiện Swiss/Japanese",
+     "Độ chính xác tay nghề cao",
+     "Uy tín với khách quen"
+    ],
+    "skillsGap": [
+     "Quay dựng video ngắn (Reels/TikTok) bằng smartphone",
+     "Xây dựng kênh bán hàng và tương tác online tối giản",
+     "Kỹ thuật phục chế vỏ đồng hồ cổ độc bản"
+    ],
+    "averageSalaryRangeVND": "15,000,000 - 30,000,000 VND / tháng",
+    "evidenceCitations": [
+     {
+      "paperTitle": "The Future of Employment: How Susceptible Are Jobs to Computerisation?",
+      "source": "Oxford Martin School, University of Oxford",
+      "year": 2017,
+      "url": "https://doi.org/10.1016/j.techfore.2016.08.019",
+      "quoteOrDataPoint": "Found that occupations requiring high manual dexterity and fine motor skills have lower susceptibility to computerisation."
+     },
+     {
+      "paperTitle": "Artificial Intelligence Index Report 2024 (Economy & Labor Chapter)",
+      "source": "Stanford Institute for Human-Centered Artificial Intelligence (HAI)",
+      "year": 2024,
+      "url": "https://aiindex.stanford.edu/report/",
+      "quoteOrDataPoint": "AI labor demand and productivity tools expand across non-tech industries, enabling traditional artisans to leverage digital augmentation."
+     }
+    ],
+    "resilienceDetail": {
+     "occupationTitle": "Fine Watchmaker and Restorer",
+     "occupationTitleVi": "Thợ Chế Tác và Phục Chế Đồng Hồ Tinh Xảo",
+     "molisaCode": "7313",
+     "onetCode": "49-9064.00",
+     "overallResilienceScore": 88,
+     "automationRiskScore": 12,
+     "augmentationPotentialScore": 85,
+     "humanAdvantageCore": [
+      "Sự khéo léo và nhạy bén xúc giác tuyệt đối",
+      "Đạo đức nghề nghiệp và sự tin cậy từ khách hàng lâu năm",
+      "Khả năng chẩn đoán lỗi phức tạp trên các cơ cấu cơ khí độc bản"
+     ],
+     "tasksBreakdown": [
+      {
+       "taskName": "High-end mechanical watch movement overhaul and restoration",
+       "taskNameVi": "Đại tu và phục chế bộ máy đồng hồ cơ cao cấp",
+       "exposureType": "human_led",
+       "exposurePercentage": 10,
+       "onetCode": "49-9064.00",
+       "notes": "Đòi hỏi tay nghề thủ công 15 năm kinh nghiệm và sự tỉ mỉ tuyệt đối mà máy móc chưa thể thay thế."
+      },
+      {
+       "taskName": "Digital documentation and repair process storytelling",
+       "taskNameVi": "Ghi hình quá trình sửa chữa và kể chuyện nghề nghiệp qua video ngắn",
+       "exposureType": "augmented",
+       "exposurePercentage": 60,
+       "onetCode": "27-3041.00",
+       "notes": "Sử dụng điện thoại và các công cụ hỗ trợ cơ bản để tạo nội dung thu hút khách hàng cao cấp."
+      },
+      {
+       "taskName": "Client consultation and luxury artifact authentication",
+       "taskNameVi": "Tư vấn khách hàng và thẩm định đồng hồ chính hãng",
+       "exposureType": "human_led",
+       "exposurePercentage": 30,
+       "onetCode": "49-9064.00",
+       "notes": "Dựa trên uy tín cá nhân và sự thấu hiểu tâm lý khách hàng sưu tầm tại Hà Nội."
+      }
+     ],
+     "sources": [
+      "Oxford Martin School, University of Oxford (2017)",
+      "Stanford Institute for Human-Centered Artificial Intelligence (2024)"
+     ],
+     "methodologySummary": "Đánh giá dựa trên mô hình phân rã nhiệm vụ tác vụ kết hợp mức độ phơi nhiễm tự động hóa theo phân loại O*NET và bối cảnh thị trường lao động Việt Nam.",
+     "uncertaintyRange": "+/- 5%",
+     "vietnamDemandSignal": "transforming"
+    },
+    "trajectories": [
+     {
+      "pathId": "stay_augment",
+      "pathTitle": "Stay and Augment with Digital Presence",
+      "pathTitleVi": "Giữ nghề cũ và kết hợp số hóa quảng bá",
+      "feasibilityScore": 90,
+      "estimatedTimelineMonths": 3,
+      "shortDescription": "Tiếp tục sửa chữa đồng hồ cơ nhưng học cách quay chụp quy trình làm việc để thu hút khách hàng trẻ và người sưu tầm qua mạng xã hội.",
+      "targetRoles": [
+       "Thợ sửa chữa đồng hồ độc lập có thương hiệu cá nhân"
+      ],
+      "skillsToAcquire": [
+       "Quay video bằng điện thoại",
+       "Đăng bài viết và tương tác Facebook/TikTok cơ bản"
+      ],
+      "transferableSkills": [
+       "Kỹ thuật sửa chữa",
+       "Uy tín cá nhân"
+      ],
+      "riskLevel": "low",
+      "fiveYearSalaryProjection": [
+       12,
+       14,
+       16,
+       19,
+       22
+      ],
+      "rationale": "Phù hợp hoàn hảo với ngân sách 3 triệu VND và giới hạn thời gian 6 giờ/tuần, tận dụng tối đa uy tín sẵn có.",
+      "actionStepNow": "Dùng điện thoại quay lại 1 đoạn ngắn quá trình lau dầu một chiếc đồng hồ quen thuộc trong tuần này."
+     },
+     {
+      "pathId": "pivot_adjacent",
+      "pathTitle": "Adjacent Pivot to Luxury Goods Maintenance",
+      "pathTitleVi": "Chuyển dịch sang bảo dưỡng phụ kiện xa xỉ lân cận",
+      "feasibilityScore": 75,
+      "estimatedTimelineMonths": 6,
+      "shortDescription": "Mở rộng dịch vụ sang chăm sóc, đánh bóng và bảo dưỡng các vật phẩm cơ khí xa xỉ khác như bút ký cao cấp, bật lửa Zippo/Dupont cổ.",
+      "targetRoles": [
+       "Chuyên gia bảo dưỡng phụ kiện cơ khí cao cấp"
+      ],
+      "skillsToAcquire": [
+       "Kỹ thuật xử lý bề mặt vật liệu quý",
+       "Kiến thức về các dòng phụ kiện sưu tầm"
+      ],
+      "transferableSkills": [
+       "Độ chính xác tay nghề cao",
+       "Kiên nhẫn tuyệt đối"
+      ],
+      "riskLevel": "low",
+      "fiveYearSalaryProjection": [
+       12,
+       15,
+       18,
+       22,
+       26
+      ],
+      "rationale": "Mở rộng tập khách hàng sang giới trẻ yêu thích sưu tầm đồ vintage/luxury mà không cần đầu tư vốn lớn.",
+      "actionStepNow": "Tìm hiểu các hội nhóm sưu tầm bật lửa và bút ký cổ tại Hà Nội để quan sát nhu cầu thị trường."
+     },
+     {
+      "pathId": "full_switch",
+      "pathTitle": "Full Transition to Precision Micro-Mechanics Consulting",
+      "pathTitleVi": "Chuyển đổi toàn diện sang tư vấn kỹ thuật cơ khí vi mô",
+      "feasibilityScore": 40,
+      "estimatedTimelineMonths": 18,
+      "shortDescription": "Chuyển hoàn toàn sang lĩnh vực lắp ráp, kiểm định linh kiện điện tử/cơ khí chính xác cho các cơ sở sản xuất công nghệ cao.",
+      "targetRoles": [
+       "Kỹ thuật viên kiểm định vi cơ khí"
+      ],
+      "skillsToAcquire": [
+       "Đọc bản vẽ kỹ thuật CAD",
+       "Quy trình quản lý chất lượng ISO"
+      ],
+      "transferableSkills": [
+       "Sự tỉ mỉ",
+       "Kỹ năng kiểm tra chi tiết"
+      ],
+      "riskLevel": "high",
+      "fiveYearSalaryProjection": [
+       10,
+       12,
+       14,
+       16,
+       18
+      ],
+      "rationale": "Rủi ro cao do đòi hỏi học lại kỹ năng hoàn toàn mới, không phù hợp với mức dung nợ rủi ro thấp hiện tại.",
+      "actionStepNow": "Tạm hoãn hướng đi này cho đến khi hoàn thành các bước chuyển dịch cơ bản an toàn hơn."
+     }
+    ],
+    "roadmap": [
+     {
+      "id": "m1",
+      "milestoneNumber": 1,
+      "phaseName": "Digital Foundation",
+      "phaseNameVi": "Nền tảng số hóa cơ bản",
+      "title": "Build a simple online footprint with zero budget",
+      "titleVi": "Xây dựng dấu ấn trực tuyến với chi phí 0 đồng",
+      "estimatedHours": 18,
+      "weeksDuration": 3,
+      "skillsCovered": [
+       "Quay dựng video ngắn trên smartphone",
+       "Tối ưu hóa trang Facebook cá nhân/Fanpage nghề nghiệp"
+      ],
+      "freeResources": {
+       "name": "Học viện YouTube Creator (Tài liệu hướng dẫn sáng tạo nội dung cơ bản)",
+       "provider": "YouTube",
+       "url": "https://creatoracademy.youtube.com/",
+       "type": "video_course"
+      },
+      "checkpointQuiz": {
+       "question": "Yếu tố quan trọng nhất để thu hút khách hàng xem video ngắn về sửa đồng hồ là gì?",
+       "options": [
+        "Đầu tư máy quay phim chuyên nghiệp hàng chục triệu đồng",
+        "Quay cận cảnh thao tác tỉ mỉ và thể hiện sự chân thực của nghề",
+        "Thuê diễn viên quảng cáo nổi tiếng",
+        "Chỉ đăng ảnh tĩnh không cần video"
+       ],
+       "correctIndex": 1,
+       "explanation": "Khách hàng phân khúc cao cấp đánh giá cao tính chân thực, sự tỉ mỉ và tay nghề thực tế của người thợ qua các thước phim cận cảnh."
+      }
+     },
+     {
+      "id": "m2",
+      "milestoneNumber": 2,
+      "phaseName": "Service Expansion",
+      "phaseNameVi": "Mở rộng dịch vụ ngách",
+      "title": "Package premium maintenance services for collectors",
+      "titleVi": "Đóng gói dịch vụ bảo dưỡng cao cấp cho giới sưu tầm",
+      "estimatedHours": 18,
+      "weeksDuration": 3,
+      "skillsCovered": [
+       "Định giá dịch vụ bảo dưỡng chuyên sâu",
+       "Kỹ năng giao tiếp và tư vấn khách hàng sưu tầm online"
+      ],
+      "freeResources": {
+       "name": "Kỹ năng bán hàng và chăm sóc khách hàng cá nhân cơ bản",
+       "provider": "Coursera (Free Audit)",
+       "url": "https://www.coursera.org/",
+       "type": "online_course"
+      },
+      "checkpointQuiz": {
+       "question": "Khi tiếp cận khách hàng sưu tầm đồng hồ trên không gian mạng, yếu tố uy tín nào cần đặt lên hàng đầu?",
+       "options": [
+        "Cam kết giá rẻ nhất thị trường",
+        "Minh bạch quy trình bảo dưỡng và cam kết bảo hành rõ ràng",
+        "Hứa hẹn sửa xong trong vòng 5 phút",
+        "Không cần tương tác với khách hàng"
+       ],
+       "correctIndex": 1,
+       "explanation": "Khách hàng đồ xa xỉ rất coi trọng sự minh bạch, cẩn trọng và uy tín bảo hành của người thợ."
+      }
+     }
+    ]
+   }
+  ],
+  "verification": {
+   "verdict": "pass",
+   "failures": [],
+   "judge": {
+    "personalization": 95,
+    "groundedness": 90,
+    "rationale": "The guidance directly targets the user's specific mechanical watch repair skills, high manual precision, patience, and Swiss/Japanese component knowledge, tailoring tasks and fit to this exact background."
+   },
+   "citationReport": {
+    "total": 2,
+    "verified": 2,
+    "hallucinated": []
+   }
+  },
+  "trajectory": {
+   "runId": "run_1788087827850_emb635",
+   "config": "final_tools_verifier",
+   "startedAt": "2026-08-30T11:03:47.850Z",
+   "events": [
+    {
+     "ts": "2026-08-30T11:03:47.850Z",
+     "type": "run_start",
+     "message": "pipeline for \"Thợ sửa chữa đồng hồ cơ\"",
+     "data": {
+      "config": {
+       "useTools": true,
+       "useVerifier": true
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T11:03:47.850Z",
+     "type": "agent_start",
+     "agent": "profiler"
+    },
+    {
+     "ts": "2026-08-30T11:03:51.046Z",
+     "type": "llm_call",
+     "agent": "profiler",
+     "model": "gemini-3.1-flash-lite",
+     "usageTokens": 503,
+     "latencyMs": 2742
+    },
+    {
+     "ts": "2026-08-30T11:03:51.046Z",
+     "type": "agent_end",
+     "agent": "profiler",
+     "message": "ok",
+     "data": {
+      "keywords": [
+       "watchmaker",
+       "precision technician",
+       "luxury goods repair"
+      ],
+      "riskFlags": [
+       "limited budget for retraining",
+       "low risk tolerance",
+       "market contraction"
+      ]
+     }
+    },
+    {
+     "ts": "2026-08-30T11:03:51.046Z",
+     "type": "agent_start",
+     "agent": "evidence_gatherer"
+    },
+    {
+     "ts": "2026-08-30T11:03:52.683Z",
+     "type": "llm_call",
+     "agent": "evidence_gatherer",
+     "model": "gemini-3.1-flash-lite",
+     "usageTokens": 572,
+     "latencyMs": 1084,
+     "message": "5 tool call(s)"
+    },
+    {
+     "ts": "2026-08-30T11:03:52.683Z",
+     "type": "tool_call",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "lookupOccupation",
+      "args": {
+       "query": "watchmaker"
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T11:03:52.683Z",
+     "type": "tool_response",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "lookupOccupation",
+      "ok": true,
+      "summary": "0 item(s) - No direct match in the Vietnam occupation database."
+     }
+    },
+    {
+     "ts": "2026-08-30T11:03:52.683Z",
+     "type": "tool_call",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "lookupOccupation",
+      "args": {
+       "query": "precision technician"
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T11:03:52.683Z",
+     "type": "tool_response",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "lookupOccupation",
+      "ok": true,
+      "summary": "0 item(s) - No direct match in the Vietnam occupation database."
+     }
+    },
+    {
+     "ts": "2026-08-30T11:03:52.683Z",
+     "type": "tool_call",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "lookupOccupation",
+      "args": {
+       "query": "luxury goods repair"
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T11:03:52.683Z",
+     "type": "tool_response",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "lookupOccupation",
+      "ok": true,
+      "summary": "0 item(s) - No direct match in the Vietnam occupation database."
+     }
+    },
+    {
+     "ts": "2026-08-30T11:03:52.683Z",
+     "type": "tool_call",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "searchResearch",
+      "args": {
+       "query": "automation risk for manual precision craft and luxury repair"
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T11:03:52.684Z",
+     "type": "tool_response",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "searchResearch",
+      "ok": true,
+      "summary": "3 item(s)"
+     }
+    },
+    {
+     "ts": "2026-08-30T11:03:52.684Z",
+     "type": "tool_call",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "searchResearch",
+      "args": {
+       "query": "career transition strategies for skilled manual technicians in Vietnam"
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T11:03:52.684Z",
+     "type": "tool_response",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "searchResearch",
+      "ok": true,
+      "summary": "3 item(s)"
+     }
+    },
+    {
+     "ts": "2026-08-30T11:03:56.564Z",
+     "type": "llm_call",
+     "agent": "evidence_gatherer",
+     "model": "gemini-3.1-flash-lite",
+     "usageTokens": 1614,
+     "latencyMs": 3460,
+     "message": "1 tool call(s)"
+    },
+    {
+     "ts": "2026-08-30T11:03:56.564Z",
+     "type": "tool_call",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "getOccupationNews",
+      "args": {
+       "role": "watch repair technician Vietnam"
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T11:03:58.510Z",
+     "type": "tool_response",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "getOccupationNews",
+      "ok": false,
+      "summary": "0 item(s) - News search failed: {\"error\":{\"code\":429,\"message\":\"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \",\"status\":\"RESOURCE_EXHAUSTED\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]}]}}"
+     }
+    },
+    {
+     "ts": "2026-08-30T11:04:00.571Z",
+     "type": "llm_call",
+     "agent": "evidence_gatherer",
+     "model": "gemini-3.5-flash-lite",
+     "usageTokens": 1758,
+     "latencyMs": 1832,
+     "message": "final turn"
+    },
+    {
+     "ts": "2026-08-30T11:04:00.571Z",
+     "type": "agent_end",
+     "agent": "evidence_gatherer",
+     "data": {
+      "occupations": 0,
+      "research": 5,
+      "news": 0
+     }
+    },
+    {
+     "ts": "2026-08-30T11:04:00.571Z",
+     "type": "agent_start",
+     "agent": "analyst",
+     "message": "initial synthesis"
+    },
+    {
+     "ts": "2026-08-30T11:04:10.658Z",
+     "type": "llm_call",
+     "agent": "analyst",
+     "model": "gemini-3.5-flash-lite",
+     "usageTokens": 4827,
+     "latencyMs": 9865
+    },
+    {
+     "ts": "2026-08-30T11:04:10.658Z",
+     "type": "agent_end",
+     "agent": "analyst",
+     "data": {
+      "suggestions": 1
+     }
+    },
+    {
+     "ts": "2026-08-30T11:04:11.994Z",
+     "type": "llm_call",
+     "agent": "verifier",
+     "model": "gemini-3.5-flash-lite",
+     "usageTokens": 517,
+     "latencyMs": 1125
+    },
+    {
+     "ts": "2026-08-30T11:04:11.994Z",
+     "type": "verification_result",
+     "agent": "verifier",
+     "data": {
+      "verdict": "pass",
+      "failures": [],
+      "judge": {
+       "personalization": 95,
+       "groundedness": 90,
+       "rationale": "The guidance directly targets the user's specific mechanical watch repair skills, high manual precision, patience, and Swiss/Japanese component knowledge, tailoring tasks and fit to this exact background."
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T11:04:11.994Z",
+     "type": "run_end",
+     "message": "final verdict: pass"
+    }
+   ]
+  },
+  "meta": {
+   "models": [
+    "gemini-3.1-flash-lite",
+    "gemini-3.5-flash-lite"
+   ],
+   "usageTokens": 9791,
+   "latencyMs": 24144,
+   "degraded": false
+  }
+ }
+}

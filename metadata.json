@@ -1,0 +1,10 @@
+{
+  "name": "La Bàn - AI Career Compass",
+  "description": "Evidence-based AI career-orientation and labor-market resilience platform for Vietnam, empowering workers and students in the AI transition era.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

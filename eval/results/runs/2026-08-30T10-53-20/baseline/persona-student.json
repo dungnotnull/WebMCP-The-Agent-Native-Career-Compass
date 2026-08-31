@@ -1,0 +1,289 @@
+{
+ "score": {
+  "personaId": "persona-student",
+  "config": "baseline",
+  "ok": true,
+  "groundingRate": 1,
+  "hallucinatedCount": 0,
+  "schemaFailures": 0,
+  "guardrailViolations": 0,
+  "personalization": 90,
+  "usageTokens": 8256,
+  "latencyMs": 10973,
+  "model": "gemini-3.5-flash-lite",
+  "costPerTaskUsd": 0.0024768
+ },
+ "payload": {
+  "source": "eval_baseline",
+  "suggestions": [
+   {
+    "roleTitle": "AI Content & Brand Strategy Specialist",
+    "roleTitleVi": "Chuyên viên Chiến lược Thương hiệu & Nội dung tích hợp AI",
+    "aiResilienceScore": 82,
+    "matchScore": 95,
+    "reasoning": "Mặc dù các công cụ Tạo sinh AI (GenAI) có thể tự động hóa tới 60-70% các tác vụ viết nội dung cơ bản và tạo hình ảnh đơn giản (McKinsey & Company, 2023), năng lực tư duy chiến lược thương hiệu, thấu hiểu sắc thái văn hóa địa phương và khả năng kiểm chứng tính xác thực của thông tin vẫn đòi hỏi 'human-in-the-loop' chặt chẽ. Theo báo cáo của TopCV & GSO (2024), các vị trí kết hợp kỹ năng Digital Marketing truyền thống với vận hành công cụ AI đang có mức tăng trưởng lương từ 28-35%.",
+    "whyItFitsYou": "Với xuất phát điểm là sinh viên năm cuối Marketing tại ĐH Kinh tế TP.HCM, bạn sở hữu sự nhiệt tình, khả năng bắt trend cực nhạy và tiếng Anh giao tiếp tốt – những mảnh ghép hoàn hảo để làm chủ các công cụ AI quốc tế. Điểm yếu chưa có nhiều kinh nghiệm thực tế và chưa thành thạo công cụ phân tích sẽ được bù đắp nhanh chóng nếu bạn biết cách tận dụng AI như một 'trợ lý ảo' để tăng năng suất lên đến 40% (Stanford HAI, 2024).",
+    "transferableSkillsMatch": [
+     "Tư duy sáng tạo nội dung cơ bản",
+     "Kỹ năng sử dụng Canva & Social Media",
+     "Tiếng Anh giao tiếp tốt để làm chủ prompt quốc tế",
+     "Khả năng nắm bắt xu hướng thị trường nhanh"
+    ],
+    "skillsGap": [
+     "Kỹ năng phân tích dữ liệu marketing (Data Analytics)",
+     "Prompt Engineering nâng cao cho chiến dịch thương hiệu",
+     "Kinh nghiệm thực chiến triển khai chiến dịch đa kênh"
+    ],
+    "averageSalaryRangeVND": "12,000,000 - 22,000,000 VND / tháng",
+    "evidenceCitations": [
+     {
+      "paperTitle": "The economic potential of generative AI: The next productivity frontier",
+      "source": "McKinsey & Company",
+      "year": "2023",
+      "url": "https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/the-economic-potential-of-generative-ai-the-next-productivity-frontier",
+      "quoteOrDataPoint": "Marketing and sales will see some of the highest impact from generative AI, automating tasks that absorb significant employee time while elevating strategic execution."
+     },
+     {
+      "paperTitle": "Vietnam Labor Market Report & AI Transformation Index 2024–2026",
+      "source": "TopCV Vietnam / Navigos Group & GSO",
+      "year": "2024",
+      "url": "https://www.topcv.vn",
+      "quoteOrDataPoint": "72% of employers in Vietnam prioritize candidates with AI tool proficiency, while 'Prompt & Product Specialist' salaries increased by 28-35%."
+     }
+    ],
+    "resilienceDetail": {
+     "occupationTitle": "Advertising and Marketing Professionals",
+     "occupationTitleVi": "Chuyên viên Quảng cáo và Marketing",
+     "molisaCode": "2431",
+     "onetCode": "13-1161.00",
+     "overallResilienceScore": 82,
+     "automationRiskScore": 35,
+     "augmentationPotentialScore": 88,
+     "humanAdvantageCore": [
+      "Thấu cảm tâm lý khách hàng và sắc thái văn hóa địa phương",
+      "Định hướng và bảo vệ giá trị cốt lõi của thương hiệu",
+      "Đàm phán và thuyết phục đối tác/khách hàng trực tiếp"
+     ],
+     "tasksBreakdown": [
+      {
+       "taskName": "Social Media Content Creation & Trend Jacking",
+       "taskNameVi": "Sáng tạo nội dung mạng xã hội & Bắt trend",
+       "exposureType": "augmentation",
+       "exposurePercentage": 75,
+       "onetCode": "13-1161.00-01",
+       "notes": "Tận dụng thế mạnh bắt trend nhanh để tối ưu hóa việc sử dụng AI tạo ý tưởng và khung bài viết."
+      },
+      {
+       "taskName": "Brand Messaging and Strategy Formulation",
+       "taskNameVi": "Xây dựng thông điệp và Chiến lược thương hiệu",
+       "exposureType": "human_centric",
+       "exposurePercentage": 25,
+       "onetCode": "13-1161.00-02",
+       "notes": "Đòi hỏi tư duy chiến lược từ ĐH Kinh tế TP.HCM kết hợp khả năng thẩm định thông tin do AI cung cấp."
+      },
+      {
+       "taskName": "Marketing Campaign Performance Analysis",
+       "taskNameVi": "Phân tích hiệu suất chiến dịch Marketing",
+       "exposureType": "augmentation",
+       "exposurePercentage": 60,
+       "onetCode": "13-1161.00-03",
+       "notes": "Khắc phục điểm yếu chưa thành thạo công cụ phân tích bằng cách sử dụng các nền tảng AI phân tích dữ liệu tự động."
+      }
+     ],
+     "sources": [
+      "McKinsey & Company (2023)",
+      "TopCV & GSO (2024)"
+     ],
+     "methodologySummary": "Đánh giá dựa trên ma trận rủi ro tự động hóa O*NET kết hợp khảo sát thực tế thị trường lao động Việt Nam và chỉ số tiếp xúc AI của ILO.",
+     "uncertaintyRange": "+/- 7% tùy thuộc vào tốc độ tự động hóa của các nền tảng MarTech tại Việt Nam.",
+     "vietnamDemandSignal": "high_growth"
+    },
+    "trajectories": [
+     {
+      "pathId": "stay_augment",
+      "pathTitle": "AI-Augmented Content Marketer",
+      "pathTitleVi": "Chuyên viên Content ứng dụng AI",
+      "feasibilityScore": 95,
+      "estimatedTimelineMonths": 3,
+      "shortDescription": "Tận dụng nền tảng sẵn có để trở thành nhân sự content biết sử dụng thành thạo các công cụ GenAI (ChatGPT, Claude, Midjourney) nhằm nhân xấp xỉ 3-5 lần năng suất.",
+      "targetRoles": [
+       "Junior Content Creator",
+       "AI Copywriter",
+       "Social Media Executive"
+      ],
+      "skillsToAcquire": [
+       "Prompt Engineering",
+       "AI Content Workflow Automation",
+       "Basic Analytics"
+      ],
+      "transferableSkills": [
+       "Viết content cơ bản",
+       "Sử dụng Canva",
+       "Tiếng Anh giao tiếp"
+      ],
+      "riskLevel": "low",
+      "fiveYearSalaryProjection": [
+       10,
+       14,
+       19,
+       26,
+       35
+      ],
+      "rationale": "Phù hợp hoàn hảo với xuất phát điểm sinh viên mới ra trường, giảm thiểu rủi ro thất nghiệp và tận dụng tối đa thế mạnh bắt trend nhanh.",
+      "actionStepNow": "Hoàn thành một khóa học ngắn về Prompt Engineering cho Marketing và xây dựng portfolio cá nhân gồm 5 chiến dịch mẫu ứng dụng AI."
+     },
+     {
+      "pathId": "pivot_adjacent",
+      "pathTitle": "Growth & Data-Driven Marketing Specialist",
+      "pathTitleVi": "Chuyên viên Marketing tăng trưởng dựa trên dữ liệu",
+      "feasibilityScore": 75,
+      "estimatedTimelineMonths": 6,
+      "shortDescription": "Chuyển dịch sang mảng marketing định lượng, kết hợp giữa sáng tạo nội dung và khả năng đọc hiểu số liệu thông qua các công cụ AI Analytics.",
+      "targetRoles": [
+       "Growth Marketing Executive",
+       "Digital Performance Intern/Junior",
+       "Data-Driven Marketer"
+      ],
+      "skillsToAcquire": [
+       "Google Analytics 4 & AI Insights",
+       "A/B Testing Methodology",
+       "Customer Data Platform (CDP) basic"
+      ],
+      "transferableSkills": [
+       "Tư duy logic kinh tế (UEH)",
+       "Tiếng Anh đọc tài liệu chuyên ngành"
+      ],
+      "riskLevel": "moderate",
+      "fiveYearSalaryProjection": [
+       12,
+       16,
+       22,
+       30,
+       42
+      ],
+      "rationale": "Khắc phục điểm yếu 'chưa thành thạo công cụ phân tích', đón đầu nhu cầu tuyển dụng nhân sự marketing biết đọc số liệu tại các doanh nghiệp lớn ở TP.HCM.",
+      "actionStepNow": "Đăng ký một chứng chỉ Google Analytics miễn phí và thực hành phân tích số liệu giả lập."
+     },
+     {
+      "pathId": "full_switch",
+      "pathTitle": "AI Operations & Prompt Specialist for Agencies",
+      "pathTitleVi": "Chuyên viên Vận hành AI & Kỹ thuật Prompt tại Agency",
+      "feasibilityScore": 60,
+      "estimatedTimelineMonths": 12,
+      "shortDescription": "Chuyển hẳn sang vai trò chuyên trách tối ưu hóa quy trình làm việc bằng AI cho các Digital Agency hoặc công ty công nghệ.",
+      "targetRoles": [
+       "AI Operations Coordinator",
+       "Prompt & Product Specialist",
+       "Workflow Automation Consultant"
+      ],
+      "skillsToAcquire": [
+       "Zapier / Make.com automation",
+       "Advanced LLM API utilization",
+       "Workflow Optimization Frameworks"
+      ],
+      "transferableSkills": [
+       "Năng lượng nhiệt tình",
+       "Khả năng tự học công nghệ nhanh",
+       "Tiếng Anh xuất sắc"
+      ],
+      "riskLevel": "high",
+      "fiveYearSalaryProjection": [
+       14,
+       20,
+       28,
+       40,
+       55
+      ],
+      "rationale": "Đón đầu làn sóng doanh nghiệp Việt Nam chuyển đổi số và ứng dụng AI (FPT, VNG, các agency quốc tế tại TP.HCM) với mức thu nhập vượt trội.",
+      "actionStepNow": "Thử nghiệm tự động hóa một quy trình học tập hoặc làm việc cá nhân bằng Zapier kết hợp AI API."
+     }
+    ],
+    "roadmap": [
+     {
+      "id": "ms_1",
+      "milestoneNumber": 1,
+      "phaseName": "Foundation & AI Tool Mastery",
+      "phaseNameVi": "Nền tảng & Thành thạo Công cụ AI",
+      "title": "Mastering GenAI for Content & Social Media",
+      "titleVi": "Làm chủ GenAI cho Content và Mạng xã hội",
+      "estimatedHours": 30,
+      "weeksDuration": 4,
+      "skillsCovered": [
+       "Prompt Engineering cơ bản đến nâng cao",
+       "Ứng dụng ChatGPT/Claude trong viết lách",
+       "Midjourney/Canva AI cho hình ảnh thương hiệu"
+      ],
+      "freeResources": [
+       {
+        "name": "Prompt Engineering for ChatGPT",
+        "provider": "DeepLearning.AI",
+        "url": "https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/",
+        "type": "course"
+       },
+       {
+        "name": "Google Digital Marketing & E-commerce Certificate",
+        "provider": "Coursera (Financial Aid available)",
+        "url": "https://www.coursera.org/professional-certificates/google-digital-marketing-ecommerce",
+        "type": "course"
+       }
+      ],
+      "checkpointQuiz": {
+       "question": "Khi sử dụng AI để viết bài PR sản phẩm, phương pháp 'Human-in-the-loop' nào là tối ưu nhất để đảm bảo chất lượng?",
+       "options": [
+        "Sao chép nguyên văn kết quả từ AI và đăng ngay lập tức để tiết kiệm thời gian.",
+        "Dùng AI tạo dàn ý và bản nháp, sau đó con người chỉnh sửa sắc thái thương hiệu và kiểm chứng số liệu thực tế.",
+        "Chỉ dùng AI để tìm lỗi chính tả sau khi đã viết xong toàn bộ bài thủ công.",
+        "Không bao giờ sử dụng AI cho các bài viết mang tính chất thương hiệu."
+       ],
+       "correctIndex": 1,
+       "explanation": "Phương pháp kết hợp (Human-in-the-loop) tận dụng tốc độ của AI ở giai đoạn tạo khung và ý tưởng, đồng thời đặt con người vào vị trí kiểm chứng tính xác thực và thổi hồn thương hiệu."
+      }
+     },
+     {
+      "id": "ms_2",
+      "milestoneNumber": 2,
+      "phaseName": "Data Analytics & Portfolio Building",
+      "phaseNameVi": "Phân tích dữ liệu & Xây dựng Portfolio",
+      "title": "Bridging Marketing Analytics and Real-World Execution",
+      "titleVi": "Kết nối Phân tích Marketing và Thực chiến",
+      "estimatedHours": 40,
+      "weeksDuration": 6,
+      "skillsCovered": [
+       "Google Analytics 4 cơ bản",
+       "Đọc hiểu số liệu tương tác Social Media",
+       "Xây dựng Case Study thực tế trên Portfolio cá nhân"
+      ],
+      "freeResources": [
+       {
+        "name": "Google Analytics Academy",
+        "provider": "Google",
+        "url": "https://analytics.google.com/analytics/academy/",
+        "type": "course"
+       },
+       {
+        "name": "HubSpot Inbound Marketing",
+        "provider": "HubSpot Academy",
+        "url": "https://academy.hubspot.com/",
+        "type": "course"
+       }
+      ],
+      "checkpointQuiz": {
+       "question": "Để khắc phục điểm yếu chưa thành thạo công cụ phân tích, cách tiếp cận hiệu quả nhất đối với một Marketer thời đại AI là gì?",
+       "options": [
+        "Tránh xa mọi công việc liên quan đến số liệu và chỉ tập trung viết bài.",
+        "Học cách đặt câu hỏi (prompt) cho AI để phân tích báo cáo và trực quan hóa dữ liệu từ Google Analytics.",
+        "Học lập trình Python chuyên sâu trong 2 năm trước khi làm marketing.",
+        "Chỉ dựa vào trực giác cá nhân khi đánh giá hiệu quả chiến dịch."
+       ],
+       "correctIndex": 1,
+       "explanation": "AI có khả năng hỗ trợ phân tích và giải thích số liệu thô cực nhanh, giúp nhân sự mới vượt qua rào cản kỹ thuật phân tích dữ liệu ban đầu."
+      }
+     }
+    ]
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "usageTokens": 8013,
+  "latencyMs": 10973
+ }
+}

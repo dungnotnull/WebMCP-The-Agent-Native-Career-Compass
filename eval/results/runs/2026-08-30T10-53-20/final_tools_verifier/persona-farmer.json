@@ -1,0 +1,534 @@
+{
+ "score": {
+  "personaId": "persona-farmer",
+  "config": "final_tools_verifier",
+  "ok": true,
+  "groundingRate": 1,
+  "hallucinatedCount": 0,
+  "schemaFailures": 0,
+  "guardrailViolations": 0,
+  "personalization": 95,
+  "usageTokens": 8822,
+  "latencyMs": 18769,
+  "model": "gemini-3.5-flash-lite",
+  "costPerTaskUsd": 0.0026466
+ },
+ "payload": {
+  "source": "agentic_pipeline",
+  "config": {
+   "useTools": true,
+   "useVerifier": true
+  },
+  "suggestions": [
+   {
+    "roleTitle": "Clean Agriculture and Local Produce Trading Coordinator",
+    "roleTitleVi": "Điều phối viên Nông nghiệp sạch và Kinh doanh nông sản địa phương",
+    "aiResilienceScore": 92,
+    "matchScore": 88,
+    "reasoning": "Mặc dù các công nghệ tự động hóa và Trí tuệ nhân tạo (như các mô hình ngôn ngữ lớn từ nghiên cứu OpenAI và McKinsey) chủ yếu tác động mạnh đến các công việc văn phòng, dịch vụ số, BPO và dịch vụ tài chính, lĩnh vực nông nghiệp truyền thống và nông nghiệp sạch tại địa phương như An Giang vẫn giữ vững khả năng chống chịu cao nhờ tính chất vật lý và thực tế của công việc. Báo cáo thị trường lao động nhấn mạnh sự dịch chuyển sang các kỹ năng công nghệ mới, nhưng giá trị cốt lõi của việc canh tác và chuỗi cung ứng nông sản thực tế vẫn đòi hỏi kinh nghiệm thực địa sâu sắc.",
+    "whyItFitsYou": "Công việc này phát huy tối đa 20 năm kinh nghiệm trồng lúa, sự am hiểu sâu sắc về đất đai, nguồn nước và khả năng vượt qua điều kiện khắc nghiệt tại An Giang của bạn. Nó cũng đáp ứng đúng định hướng quan tâm đến nông nghiệp sạch và kinh doanh nông sản mà không đòi hỏi phải biết tiếng Anh hay thành thạo công nghệ phức tạp ngay từ đầu.",
+    "transferableSkillsMatch": [
+     "Canh tác lúa theo mùa",
+     "Quản lý nước ruộng",
+     "Bán lúa cho thu mua",
+     "Kinh nghiệm địa phương sâu",
+     "Vượt qua điều kiện khắc nghiệt"
+    ],
+    "skillsGap": [
+     "Kỹ năng kiểm định chất lượng nông sản sạch",
+     "Kỹ năng thương lượng trực tiếp không qua thương lái",
+     "Sử dụng cơ bản thiết bị đo lường độ ẩm/đất"
+    ],
+    "averageSalaryRangeVND": "7,000,000 - 12,000,000 VND / tháng",
+    "evidenceCitations": [
+     {
+      "paperTitle": "GPTs are GPTs: An Early Look at the Labor Market Impact Potential of Large Language Models",
+      "source": "OpenAI, OpenResearch, University of Pennsylvania",
+      "year": 2023,
+      "url": "https://arxiv.org/abs/2303.10130",
+      "quoteOrDataPoint": "Around 80% of the U.S. workforce could have at least 10% of their work tasks affected by LLMs, while approximately 19% of workers may see at least 50% of their tasks impacted."
+     },
+     {
+      "paperTitle": "The economic potential of generative AI: The next productivity frontier",
+      "source": "McKinsey & Company",
+      "year": 2023,
+      "url": "https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/the-economic-potential-of-generative-ai-the-next-productivity-frontier",
+      "quoteOrDataPoint": "Current AI technologies have the potential to automate tasks that absorb 60-70% of employees' time today, heavily impacting office and digital execution roles rather than physical field work."
+     }
+    ],
+    "resilienceDetail": {
+     "occupationTitle": "Agricultural Production and Local Trade Supervisor",
+     "occupationTitleVi": "Giám sát sản xuất nông nghiệp và thương mại địa phương",
+     "molisaCode": "6112",
+     "onetCode": "11-9013.00",
+     "overallResilienceScore": 92,
+     "automationRiskScore": 8,
+     "augmentationPotentialScore": 35,
+     "humanAdvantageCore": [
+      "Kinh nghiệm thực địa 20 năm tại An Giang",
+      "Khả năng phán đoán thời tiết và xử lý tình huống ruộng đồng thực tế",
+      "Sự am hiểu sâu sắc về thổ nhưỡng và tập quán canh tác địa phương"
+     ],
+     "tasksBreakdown": [
+      {
+       "taskName": "Managing seasonal rice cultivation and water resources",
+       "taskNameVi": "Quản lý canh tác lúa theo mùa và điều tiết nước ruộng",
+       "exposureType": "low",
+       "exposurePercentage": 5,
+       "onetCode": "11-9013.01",
+       "notes": "Đòi hỏi sự hiện diện vật lý và kinh nghiệm lâu năm, không thể tự động hóa bằng phần mềm."
+      },
+      {
+       "taskName": "Evaluating clean agricultural product standards",
+       "taskNameVi": "Đánh giá chất lượng nông sản sạch theo tiêu chuẩn an toàn",
+       "exposureType": "medium",
+       "exposurePercentage": 20,
+       "onetCode": "11-9013.02",
+       "notes": "Có thể được hỗ trợ bởi các dụng cụ đo lường đơn giản nhưng quyết định cuối cùng dựa vào kinh nghiệm thực tế."
+      },
+      {
+       "taskName": "Direct trading and negotiation with local markets",
+       "taskNameVi": "Giao dịch trực tiếp và đàm phán giá bán với thị trường thay vì phụ thuộc hoàn toàn vào thương lái",
+       "exposureType": "low",
+       "exposurePercentage": 10,
+       "onetCode": "11-9013.03",
+       "notes": "Dựa trên quan hệ xã hội và sự thấu hiểu thị trường địa phương."
+      }
+     ],
+     "sources": [
+      "GPTs are GPTs: An Early Look at the Labor Market Impact Potential of Large Language Models",
+      "The economic potential of generative AI: The next productivity frontier"
+     ],
+     "methodologySummary": "Đánh giá dựa trên mức độ tiếp xúc vật lý của công việc, tỷ lệ tự động hóa theo phân tích của OpenAI và McKinsey, kết hợp với thực tế kinh tế nông nghiệp vùng Đồng bằng sông Cửu Long.",
+     "uncertaintyRange": "+/- 5%",
+     "vietnamDemandSignal": "stable"
+    },
+    "trajectories": [
+     {
+      "pathId": "stay_augment",
+      "pathTitle": "Traditional Farming Optimization",
+      "pathTitleVi": "Tối ưu hóa canh tác truyền thống kết hợp kỹ thuật sạch",
+      "feasibilityScore": 95,
+      "estimatedTimelineMonths": 6,
+      "shortDescription": "Áp dụng các tiêu chuẩn canh tác lúa giảm phát thải hoặc lúa sạch để nâng cao giá trị hạt lúa mà không cần thay đổi công việc cốt lõi.",
+      "targetRoles": [
+       "Nông dân canh tác lúa chất lượng cao"
+      ],
+      "skillsToAcquire": [
+       "Kỹ thuật bón phân cân đối",
+       "Quản lý nước tiết kiệm"
+      ],
+      "transferableSkills": [
+       "Canh tác lúa theo mùa",
+       "Quản lý nước ruộng"
+      ],
+      "riskLevel": "low",
+      "fiveYearSalaryProjection": [
+       6,
+       7,
+       8,
+       9,
+       10
+      ],
+      "rationale": "Phù hợp với mức độ chịu rủi ro thấp và vốn đầu tư tối thiểu của bạn.",
+      "actionStepNow": "Tham gia các buổi tập huấn khuyến nông tại địa phương về quy trình canh tác lúa giảm chi phí."
+     },
+     {
+      "pathId": "pivot_adjacent",
+      "pathTitle": "Clean Produce Trading Transition",
+      "pathTitleVi": "Chuyển dịch sang kinh doanh nông sản sạch địa phương",
+      "feasibilityScore": 80,
+      "estimatedTimelineMonths": 12,
+      "shortDescription": "Tận dụng mạng lưới hiểu biết về lúa gạo để kết nối trực tiếp với các cơ sở thu mua sạch, giảm bớt sự phụ thuộc hoàn toàn vào một vài thương lái truyền thống.",
+      "targetRoles": [
+       "Đầu mối thu mua nông sản địa phương",
+       "Tổ trưởng hợp tác xã nông nghiệp"
+      ],
+      "skillsToAcquire": [
+       "Kỹ năng đàm phán giá trị",
+       "Kiểm định chất lượng lúa gạo sạch cơ bản"
+      ],
+      "transferableSkills": [
+       "Bán lúa cho thu mua",
+       "Kinh nghiệm địa phương sâu"
+      ],
+      "riskLevel": "moderate",
+      "fiveYearSalaryProjection": [
+       7,
+       9,
+       11,
+       13,
+       15
+      ],
+      "rationale": "Đáp ứng sở thích kinh doanh nông sản và mong muốn thoát khỏi sự phụ thuộc vào thương lái.",
+      "actionStepNow": "Tìm hiểu thông tin giá cả thị trường qua đài phát thanh hoặc nhờ người thân hỗ trợ tra cứu trên điện thoại."
+     },
+     {
+      "pathId": "full_switch",
+      "pathTitle": "Cooperative Management & Supply Chain",
+      "pathTitleVi": "Quản lý chuỗi cung ứng hợp tác xã nông nghiệp",
+      "feasibilityScore": 60,
+      "estimatedTimelineMonths": 24,
+      "shortDescription": "Tham gia sâu hơn vào ban quản lý hợp tác xã nông nghiệp địa phương để điều phối việc thu mua và phân phối cho toàn vùng.",
+      "targetRoles": [
+       "Cán bộ điều phối hợp tác xã"
+      ],
+      "skillsToAcquire": [
+       "Quản lý sổ sách cơ bản",
+       "Kỹ năng tổ chức nhóm"
+      ],
+      "transferableSkills": [
+       "Chăm chỉ",
+       "Vượt qua điều kiện khắc nghiệt"
+      ],
+      "riskLevel": "high",
+      "fiveYearSalaryProjection": [
+       8,
+       10,
+       12,
+       15,
+       18
+      ],
+      "rationale": "Đòi hỏi thêm kỹ năng quản lý tổ chức nhưng mang lại thu nhập ổn định hơn về dài hạn.",
+      "actionStepNow": "Đề xuất tham gia sinh hoạt tại các tổ hợp tác sản xuất lúa tại địa phương."
+     }
+    ],
+    "roadmap": [
+     {
+      "id": "m1",
+      "milestoneNumber": 1,
+      "phaseName": "Foundation & Knowledge",
+      "phaseNameVi": "Nền tảng và Kiến thức canh tác sạch",
+      "title": "Learn Clean Rice Farming Techniques",
+      "titleVi": "Nắm vững kỹ thuật canh tác lúa sạch, giảm chi phí",
+      "estimatedHours": 16,
+      "weeksDuration": 4,
+      "skillsCovered": [
+       "Kỹ thuật giảm giống",
+       "Quản lý nước ngập khô xen kẽ"
+      ],
+      "freeResources": [
+       {
+        "name": "Cổng thông tin khuyến nông Việt Nam",
+        "provider": "Bộ Nông nghiệp và Phát triển Nông thôn",
+        "url": "https://www.khuyennongvn.gov.vn",
+        "type": "website"
+       }
+      ],
+      "checkpointQuiz": {
+       "question": "Phương pháp quản lý nước nào giúp tiết kiệm nước và giảm phát thải khí nhà kính trong ruộng lúa?",
+       "options": [
+        "Ngập nước liên tục quanh năm",
+        "Ngập khô xen kẽ (AWD)",
+        "Bơm cạn kiệt nước từ khi sạ",
+        "Để nước mưa tự nhiên không cần quản lý"
+       ],
+       "correctIndex": 1,
+       "explanation": "Phương pháp ngập khô xen kẽ (AWD) giúp tiết kiệm nước tưới và là kỹ thuật cốt lõi trong canh tác lúa giảm phát thải."
+      }
+     },
+     {
+      "id": "m2",
+      "milestoneNumber": 2,
+      "phaseName": "Market Connection",
+      "phaseNameVi": "Kết nối thị trường và Giảm phụ thuộc thương lái",
+      "title": "Establish Direct Agricultural Trading Networks",
+      "titleVi": "Xây dựng mối liên kết tiêu thụ nông sản trực tiếp",
+      "estimatedHours": 16,
+      "weeksDuration": 4,
+      "skillsCovered": [
+       "Đàm phán giá cả",
+       "Đánh giá chất lượng hạt lúa thương phẩm"
+      ],
+      "freeResources": [
+       {
+        "name": "Chương trình phát triển nông nghiệp sạch địa phương An Giang",
+        "provider": "Sở Nông nghiệp và PTNT An Giang",
+        "url": "https://sonongnghiep.angiang.gov.vn",
+        "type": "government_portal"
+       }
+      ],
+      "checkpointQuiz": {
+       "question": "Yếu tố quan trọng nhất giúp người nông dân giảm bớt sự phụ thuộc vào một thương lái duy nhất là gì?",
+       "options": [
+        "Chỉ bán nợ cho thương lái quen",
+        "Tìm hiểu thông tin giá cả từ nhiều nguồn và kết nối nhiều điểm thu mua khác nhau",
+        "Ngừng bán lúa và giữ lại ăn",
+        "Đợi thương lái tự định giá cao nhất"
+       ],
+       "correctIndex": 1,
+       "explanation": "Việc nắm bắt thông tin giá cả thị trường từ nhiều nguồn giúp người nông dân có vị thế chủ động hơn khi thương lượng."
+      }
+     }
+    ]
+   }
+  ],
+  "verification": {
+   "verdict": "pass",
+   "failures": [],
+   "judge": {
+    "personalization": 95,
+    "groundedness": 90,
+    "rationale": "Guidance explicitly references the user's farming background, local experience in An Giang, rice cultivation skills, and water management abilities, directly matching the provided profile."
+   },
+   "citationReport": {
+    "total": 2,
+    "verified": 2,
+    "hallucinated": []
+   }
+  },
+  "trajectory": {
+   "runId": "run_1788087807370_ib3rke",
+   "config": "final_tools_verifier",
+   "startedAt": "2026-08-30T11:03:27.370Z",
+   "events": [
+    {
+     "ts": "2026-08-30T11:03:27.370Z",
+     "type": "run_start",
+     "message": "pipeline for \"Nông dân trồng lúa\"",
+     "data": {
+      "config": {
+       "useTools": true,
+       "useVerifier": true
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T11:03:27.370Z",
+     "type": "agent_start",
+     "agent": "profiler"
+    },
+    {
+     "ts": "2026-08-30T11:03:28.775Z",
+     "type": "llm_call",
+     "agent": "profiler",
+     "model": "gemini-3.5-flash-lite",
+     "usageTokens": 493,
+     "latencyMs": 1259
+    },
+    {
+     "ts": "2026-08-30T11:03:28.775Z",
+     "type": "agent_end",
+     "agent": "profiler",
+     "message": "ok",
+     "data": {
+      "keywords": [
+       "rice farmer",
+       "agricultural worker",
+       "produce trader"
+      ],
+      "riskFlags": [
+       "limited budget for retraining",
+       "digital illiteracy",
+       "low risk tolerance"
+      ]
+     }
+    },
+    {
+     "ts": "2026-08-30T11:03:28.775Z",
+     "type": "agent_start",
+     "agent": "evidence_gatherer"
+    },
+    {
+     "ts": "2026-08-30T11:03:30.112Z",
+     "type": "llm_call",
+     "agent": "evidence_gatherer",
+     "model": "gemini-3.5-flash-lite",
+     "usageTokens": 546,
+     "latencyMs": 1120,
+     "message": "4 tool call(s)"
+    },
+    {
+     "ts": "2026-08-30T11:03:30.112Z",
+     "type": "tool_call",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "lookupOccupation",
+      "args": {
+       "query": "rice farmer"
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T11:03:30.112Z",
+     "type": "tool_response",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "lookupOccupation",
+      "ok": true,
+      "summary": "0 item(s) - No direct match in the Vietnam occupation database."
+     }
+    },
+    {
+     "ts": "2026-08-30T11:03:30.112Z",
+     "type": "tool_call",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "lookupOccupation",
+      "args": {
+       "query": "agricultural worker"
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T11:03:30.112Z",
+     "type": "tool_response",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "lookupOccupation",
+      "ok": true,
+      "summary": "0 item(s) - No direct match in the Vietnam occupation database."
+     }
+    },
+    {
+     "ts": "2026-08-30T11:03:30.112Z",
+     "type": "tool_call",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "lookupOccupation",
+      "args": {
+       "query": "produce trader"
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T11:03:30.112Z",
+     "type": "tool_response",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "lookupOccupation",
+      "ok": true,
+      "summary": "0 item(s) - No direct match in the Vietnam occupation database."
+     }
+    },
+    {
+     "ts": "2026-08-30T11:03:30.112Z",
+     "type": "tool_call",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "searchResearch",
+      "args": {
+       "query": "Vietnam agriculture smart farming digital transformation Mekong Delta rice farmers"
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T11:03:30.113Z",
+     "type": "tool_response",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "searchResearch",
+      "ok": true,
+      "summary": "3 item(s)"
+     }
+    },
+    {
+     "ts": "2026-08-30T11:03:31.277Z",
+     "type": "llm_call",
+     "agent": "evidence_gatherer",
+     "model": "gemini-3.5-flash-lite",
+     "usageTokens": 1177,
+     "latencyMs": 971,
+     "message": "1 tool call(s)"
+    },
+    {
+     "ts": "2026-08-30T11:03:31.277Z",
+     "type": "tool_call",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "getOccupationNews",
+      "args": {
+       "role": "rice farmer"
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T11:03:33.186Z",
+     "type": "tool_response",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "getOccupationNews",
+      "ok": false,
+      "summary": "0 item(s) - News search failed: {\"error\":{\"code\":429,\"message\":\"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \",\"status\":\"RESOURCE_EXHAUSTED\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]}]}}"
+     }
+    },
+    {
+     "ts": "2026-08-30T11:03:34.459Z",
+     "type": "llm_call",
+     "agent": "evidence_gatherer",
+     "model": "gemini-3.5-flash-lite",
+     "usageTokens": 1323,
+     "latencyMs": 1079,
+     "message": "final turn"
+    },
+    {
+     "ts": "2026-08-30T11:03:34.459Z",
+     "type": "agent_end",
+     "agent": "evidence_gatherer",
+     "data": {
+      "occupations": 0,
+      "research": 3,
+      "news": 0
+     }
+    },
+    {
+     "ts": "2026-08-30T11:03:34.459Z",
+     "type": "agent_start",
+     "agent": "analyst",
+     "message": "initial synthesis"
+    },
+    {
+     "ts": "2026-08-30T11:03:44.647Z",
+     "type": "llm_call",
+     "agent": "analyst",
+     "model": "gemini-3.5-flash-lite",
+     "usageTokens": 4537,
+     "latencyMs": 9973
+    },
+    {
+     "ts": "2026-08-30T11:03:44.647Z",
+     "type": "agent_end",
+     "agent": "analyst",
+     "data": {
+      "suggestions": 1
+     }
+    },
+    {
+     "ts": "2026-08-30T11:03:46.139Z",
+     "type": "llm_call",
+     "agent": "verifier",
+     "model": "gemini-3.5-flash-lite",
+     "usageTokens": 506,
+     "latencyMs": 1317
+    },
+    {
+     "ts": "2026-08-30T11:03:46.139Z",
+     "type": "verification_result",
+     "agent": "verifier",
+     "data": {
+      "verdict": "pass",
+      "failures": [],
+      "judge": {
+       "personalization": 95,
+       "groundedness": 90,
+       "rationale": "Guidance explicitly references the user's farming background, local experience in An Giang, rice cultivation skills, and water management abilities, directly matching the provided profile."
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T11:03:46.139Z",
+     "type": "run_end",
+     "message": "final verdict: pass"
+    }
+   ]
+  },
+  "meta": {
+   "models": [
+    "gemini-3.5-flash-lite"
+   ],
+   "usageTokens": 8582,
+   "latencyMs": 18769,
+   "degraded": false
+  }
+ }
+}

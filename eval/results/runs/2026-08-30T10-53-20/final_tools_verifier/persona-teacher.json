@@ -1,0 +1,568 @@
+{
+ "score": {
+  "personaId": "persona-teacher",
+  "config": "final_tools_verifier",
+  "ok": true,
+  "groundingRate": 1,
+  "hallucinatedCount": 0,
+  "schemaFailures": 0,
+  "guardrailViolations": 0,
+  "personalization": 95,
+  "usageTokens": 20752,
+  "latencyMs": 30249,
+  "model": "gemini-3.5-flash-lite",
+  "costPerTaskUsd": 0.0062255999999999995
+ },
+ "payload": {
+  "source": "agentic_pipeline",
+  "config": {
+   "useTools": true,
+   "useVerifier": true
+  },
+  "suggestions": [
+   {
+    "roleTitle": "Educational Content Creator & AI Pedagogy Specialist",
+    "roleTitleVi": "Chuyên gia Sáng tạo Nội dung Giáo dục & Sư phạm AI",
+    "aiResilienceScore": 78,
+    "matchScore": 92,
+    "reasoning": "Với 12 năm kinh nghiệm giảng dạy Ngữ văn và Thạc sĩ Sư phạm, bạn sở hữu nền tảng nhân văn sâu sắc và kỹ năng giao tiếp xuất sắc. Ngành giáo dục đang chuyển dịch mạnh mẽ theo hướng tăng cường AI (augmentation), nơi AI hỗ trợ soạn thảo giáo án và bài tập (chiếm tỷ trọng lớn), nhưng giá trị cốt lõi về truyền cảm hứng, thấu cảm tâm lý và rèn luyện tư duy phản biện của con người không thể thay thế. Điều này phù hợp với định hướng phát triển của WEF (2023) về sự tăng trưởng của các vai trò giáo dục.",
+    "whyItFitsYou": "Công việc này tận dụng tối đa thế mạnh giao tiếp, tư duy phản biện và kiến thức Ngữ văn sâu rộng của bạn, đồng thời mở rộng sang lĩnh vực giáo dục công nghệ và viết nội dung mà bạn yêu thích. Bạn có thể khắc phục điểm yếu chưa biết về AI thông qua việc học cách sử dụng các công cụ trợ năng để tối ưu hóa thời gian soạn bài.",
+    "transferableSkillsMatch": [
+     "Thiết kế bài giảng",
+     "Quản lý lớp học",
+     "Đánh giá học sinh",
+     "Truyền cảm hứng và giao tiếp"
+    ],
+    "skillsGap": [
+     "Kỹ năng sử dụng công cụ AI (ChatGPT, Claude, Canva Magic Studio)",
+     "Kỹ năng số cơ bản và tối ưu hóa quy trình làm việc số",
+     "Xây dựng nội dung số đa kênh"
+    ],
+    "averageSalaryRangeVND": "15,000,000 - 30,000,000 VND / tháng",
+    "evidenceCitations": [
+     {
+      "paperTitle": "WEF (2023): Education & Training roles show high resilience with +10% net job growth driven by human pedagogical connection.",
+      "source": "World Economic Forum",
+      "year": 2023,
+      "url": "https://www.weforum.org/reports/the-future-of-jobs-report-2023/",
+      "quoteOrDataPoint": "Education & Training roles show high resilience with +10% net job growth driven by human pedagogical connection."
+     },
+     {
+      "paperTitle": "Vietnam Labor Market Report & AI Transformation Index 2024–2026",
+      "source": "TopCV Vietnam / Navigos Group & Vietnam General Statistics Office (GSO)",
+      "year": 2024,
+      "url": "https://www.topcv.vn/bao-cao-thi-truong-tuyen-dung",
+      "quoteOrDataPoint": "72% of employers in Vietnam prioritize candidates with AI tool proficiency."
+     }
+    ],
+    "resilienceDetail": {
+     "occupationTitle": "Educator & Instructional Designer",
+     "occupationTitleVi": "Giáo viên & Chuyên gia Thiết kế Đào tạo",
+     "molisaCode": "2310",
+     "onetCode": "25-2022.00",
+     "overallResilienceScore": 78,
+     "automationRiskScore": 32,
+     "augmentationPotentialScore": 88,
+     "humanAdvantageCore": [
+      "Empathetic mentorship, student motivation & emotional safety (Truyền cảm hứng và nâng đỡ tâm lý học sinh)",
+      "Dynamic classroom behavioral management (Quản lý tương tác và năng lượng lớp học)",
+      "Adaptive teaching based on real-time student body language (Điều chỉnh sư phạm theo phản ứng tức thì)",
+      "Instilling critical thinking, ethics and character (Rèn luyện tư duy phản biện và nhân cách)"
+     ],
+     "tasksBreakdown": [
+      {
+       "taskName": "Grading multiple-choice quizzes and basic homework assignments",
+       "taskNameVi": "Chấm điểm bài trắc nghiệm và chấm bài tập ngữ pháp cơ bản",
+       "exposureType": "direct_automation",
+       "exposurePercentage": 88,
+       "onetCode": "25-2022.00-T1",
+       "notes": "Automated AI grading engines score and provide rubric feedback instantly."
+      },
+      {
+       "taskName": "Creating lesson plans, visual slides, and personalized practice quizzes",
+       "taskNameVi": "Soạn giáo án, slide bài giảng và tạo bài tập cá nhân hóa theo trình độ",
+       "exposureType": "ai_augmentation",
+       "exposurePercentage": 74,
+       "onetCode": "25-2022.00-T2",
+       "notes": "AI acts as a 5x co-pilot for lesson material preparation."
+      },
+      {
+       "taskName": "Direct student mentorship, emotional coaching, and live interactive debate",
+       "taskNameVi": "Kèm cặp tâm lý, khích lệ đam mê và điều phối thảo luận phản biện trực tiếp",
+       "exposureType": "human_core",
+       "exposurePercentage": 12,
+       "onetCode": "25-2022.00-T3",
+       "notes": "Pure human empathy, connection, and mentorship value."
+      }
+     ],
+     "sources": [
+      {
+       "sourceId": "wef-future-of-jobs-2023-2025",
+       "citationText": "WEF (2023): Education & Training roles show high resilience with +10% net job growth driven by human pedagogical connection.",
+       "url": "https://www.weforum.org/reports/the-future-of-jobs-report-2023/"
+      }
+     ],
+     "methodologySummary": "Đánh giá dựa trên mô hình tác vụ O*NET kết hợp dữ liệu tuyển dụng Việt Nam và xu hướng chuyển đổi số lao động từ WEF.",
+     "uncertaintyRange": "+/- 5%",
+     "vietnamDemandSignal": "high_growth"
+    },
+    "trajectories": [
+     {
+      "pathId": "stay_augment",
+      "pathTitle": "Stay and Augment (AI-Powered Educator)",
+      "pathTitleVi": "Ở lại và Nâng cấp (Giáo viên tích hợp AI)",
+      "feasibilityScore": 95,
+      "estimatedTimelineMonths": 2,
+      "shortDescription": "Giữ vững vị thế giáo viên tại trường nhưng ứng dụng các công cụ AI để tối ưu hóa việc soạn giáo án và chấm bài, tăng thời gian tương tác cá nhân hóa với học sinh.",
+      "targetRoles": [
+       "Giáo viên Ngữ văn cốt cán ứng dụng công nghệ"
+      ],
+      "skillsToAcquire": [
+       "Sử dụng ChatGPT/Claude để soạn giáo án",
+       "Ứng dụng Canva trong thiết kế bài giảng sinh động"
+      ],
+      "transferableSkills": [
+       "Thiết kế bài giảng",
+       "Truyền cảm hứng",
+       "Quản lý lớp học"
+      ],
+      "riskLevel": "low",
+      "fiveYearSalaryProjection": [
+       12,
+       14,
+       16,
+       18,
+       20
+      ],
+      "rationale": "Phù hợp với quỹ thời gian 8 giờ/tuần và ngân sách hạn chế của bạn, mang lại sự ổn định cao.",
+      "actionStepNow": "Dành 2 giờ cuối tuần này để thử nghiệm ChatGPT lập dàn ý cho một tiết học Ngữ văn."
+     },
+     {
+      "pathId": "pivot_adjacent",
+      "pathTitle": "Adjacent Pivot (Instructional Designer & EdTech Content Writer)",
+      "pathTitleVi": "Chuyển dịch cận biên (Chuyên viên Thiết kế Bài giảng & Viết nội dung EdTech)",
+      "feasibilityScore": 85,
+      "estimatedTimelineMonths": 6,
+      "shortDescription": "Chuyển sang làm việc cho các công ty công nghệ giáo dục (EdTech) hoặc làm nhà sáng tạo nội dung giáo dục số độc lập.",
+      "targetRoles": [
+       "Chuyên viên thiết kế giáo dục (Instructional Designer)",
+       "Chuyên viên nội dung giáo dục số"
+      ],
+      "skillsToAcquire": [
+       "Thiết kế instructional design cơ bản",
+       "Tối ưu hóa nội dung SEO và viết bài đa nền tảng"
+      ],
+      "transferableSkills": [
+       "Kiến thức nhân văn sâu",
+       "Tư duy phản biện",
+       "Đánh giá học sinh"
+      ],
+      "riskLevel": "moderate",
+      "fiveYearSalaryProjection": [
+       15,
+       18,
+       22,
+       26,
+       32
+      ],
+      "rationale": "Tận dụng kinh nghiệm sư phạm lâu năm để bước chân vào thị trường EdTech đang phát triển tại Đà Nẵng và trực tuyến.",
+      "actionStepNow": "Tìm hiểu các khóa học miễn phí về Instructional Design trên Coursera hoặc YouTube."
+     },
+     {
+      "pathId": "full_switch",
+      "pathTitle": "Full Switch (AI Content Strategist & EdTech Consultant)",
+      "pathTitleVi": "Chuyển đổi toàn diện (Chiến lược gia Nội dung AI & Tư vấn EdTech)",
+      "feasibilityScore": 60,
+      "estimatedTimelineMonths": 12,
+      "shortDescription": "Rời hẳn môi trường giảng dạy truyền thống để trở thành chuyên gia tư vấn chiến lược nội dung và sản phẩm giáo dục số toàn thời gian.",
+      "targetRoles": [
+       "AI Content Strategist",
+       "EdTech Product Consultant"
+      ],
+      "skillsToAcquire": [
+       "Prompt engineering chuyên sâu",
+       "Quản trị dự án nội dung số",
+       "Phân tích dữ liệu học tập cơ bản"
+      ],
+      "transferableSkills": [
+       "Giao tiếp xuất sắc",
+       "Tư duy phản biện",
+       "Truyền cảm hứng"
+      ],
+      "riskLevel": "high",
+      "fiveYearSalaryProjection": [
+       18,
+       22,
+       28,
+       35,
+       45
+      ],
+      "rationale": "Mang lại mức thu nhập cao nhưng đòi hỏi phải đầu tư thêm thời gian và vượt qua rào cản kỹ năng số ban đầu.",
+      "actionStepNow": "Lập danh sách các nền tảng EdTech tại Việt Nam và theo dõi các chuyên gia trong ngành."
+     }
+    ],
+    "roadmap": [
+     {
+      "id": "m1",
+      "milestoneNumber": 1,
+      "phaseName": "Foundation & Digital Literacy",
+      "phaseNameVi": "Nền tảng & Kỹ năng số cơ bản",
+      "title": "Mastering AI Co-Pilots for Teaching",
+      "titleVi": "Làm chủ Trợ lý AI trong Giảng dạy",
+      "estimatedHours": 16,
+      "weeksDuration": 4,
+      "skillsCovered": [
+       "Sử dụng ChatGPT và Claude cơ bản",
+       "Kỹ thuật đặt câu lệnh (Prompting) cho giáo viên",
+       "Soạn giáo án tự động hóa 50%"
+      ],
+      "freeResources": [
+       {
+        "name": "AI for Teachers Free Course",
+        "provider": "OpenAI / EdTech Community",
+        "url": "https://www.openai.com",
+        "type": "Online Course"
+       }
+      ],
+      "checkpointQuiz": {
+       "question": "Prompt nào hiệu quả nhất khi yêu cầu AI hỗ trợ soạn giáo án Ngữ văn lớp 10?",
+       "options": [
+        "Viết cho tôi bài soạn văn.",
+        "Hãy đóng vai chuyên gia sư phạm Ngữ văn, soạn giáo án 45 phút bài 'Truyện Kiều' theo hướng phát triển năng lực học sinh, có phần thảo luận nhóm.",
+        "Soạn bài văn mẫu về Truyện Kiều."
+       ],
+       "correctIndex": 1,
+       "explanation": "Đóng vai trò cụ thể, chỉ định rõ thời lượng, phương pháp sư phạm và hoạt động tương tác giúp AI đưa ra kết quả chất lượng cao nhất."
+      }
+     },
+     {
+      "id": "m2",
+      "milestoneNumber": 2,
+      "phaseName": "Skill Expansion & Application",
+      "phaseNameVi": "Mở rộng kỹ năng & Ứng dụng thực tế",
+      "title": "Digital Content Creation & EdTech Integration",
+      "titleVi": "Sáng tạo Nội dung Số & Tích hợp EdTech",
+      "estimatedHours": 16,
+      "weeksDuration": 4,
+      "skillsCovered": [
+       "Thiết kế slide và tài liệu học tập với Canva",
+       "Viết bài chia sẻ kiến thức giáo dục trên mạng xã hội",
+       "Xây dựng portfolio cá nhân"
+      ],
+      "freeResources": [
+       {
+        "name": "Canva for Education Tutorials",
+        "provider": "Canva Design School",
+        "url": "https://www.canva.com/designschool/",
+        "type": "Video Tutorial"
+       }
+      ],
+      "checkpointQuiz": {
+       "question": "Yếu tố con người nào quan trọng nhất khi sử dụng nội dung do AI tạo ra cho học sinh?",
+       "options": [
+        "Sao chép nguyên văn để tiết kiệm thời gian.",
+        "Kiểm chứng độ chính xác, điều chỉnh phù hợp với văn hóa và thêm cảm xúc cá nhân.",
+        "Chỉ dùng hình ảnh do AI tạo mà không cần chỉnh sửa."
+       ],
+       "correctIndex": 1,
+       "explanation": "AI chỉ là công cụ hỗ trợ (co-pilot). Giá trị cốt lõi của giáo viên là khả năng kiểm chứng, thấu cảm và điều chỉnh phù hợp với người học."
+      }
+     }
+    ]
+   }
+  ],
+  "verification": {
+   "verdict": "pass",
+   "failures": [],
+   "judge": {
+    "personalization": 95,
+    "groundedness": 90,
+    "rationale": "The guidance directly incorporates the user's specific role as a Literature teacher, leveraging their exact skills in lesson design and strengths like critical thinking and humanistic knowledge."
+   },
+   "citationReport": {
+    "total": 2,
+    "verified": 2,
+    "hallucinated": []
+   }
+  },
+  "trajectory": {
+   "runId": "run_1788087693354_3jnlna",
+   "config": "final_tools_verifier",
+   "startedAt": "2026-08-30T11:01:33.354Z",
+   "events": [
+    {
+     "ts": "2026-08-30T11:01:33.354Z",
+     "type": "run_start",
+     "message": "pipeline for \"Giáo viên Ngữ văn cấp 3\"",
+     "data": {
+      "config": {
+       "useTools": true,
+       "useVerifier": true
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T11:01:33.354Z",
+     "type": "agent_start",
+     "agent": "profiler"
+    },
+    {
+     "ts": "2026-08-30T11:01:35.197Z",
+     "type": "llm_call",
+     "agent": "profiler",
+     "model": "gemini-3.5-flash-lite",
+     "usageTokens": 523,
+     "latencyMs": 1654
+    },
+    {
+     "ts": "2026-08-30T11:01:35.197Z",
+     "type": "agent_end",
+     "agent": "profiler",
+     "message": "ok",
+     "data": {
+      "keywords": [
+       "Instructional Designer",
+       "Content Writer",
+       "Educational Consultant"
+      ],
+      "riskFlags": [
+       "limited budget for retraining",
+       "low weekly time availability",
+       "digital skills gap"
+      ]
+     }
+    },
+    {
+     "ts": "2026-08-30T11:01:35.197Z",
+     "type": "agent_start",
+     "agent": "evidence_gatherer"
+    },
+    {
+     "ts": "2026-08-30T11:01:36.499Z",
+     "type": "llm_call",
+     "agent": "evidence_gatherer",
+     "model": "gemini-3.5-flash-lite",
+     "usageTokens": 554,
+     "latencyMs": 1101,
+     "message": "4 tool call(s)"
+    },
+    {
+     "ts": "2026-08-30T11:01:36.499Z",
+     "type": "tool_call",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "lookupOccupation",
+      "args": {
+       "query": "Instructional Designer"
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T11:01:36.499Z",
+     "type": "tool_response",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "lookupOccupation",
+      "ok": true,
+      "summary": "2 item(s)"
+     }
+    },
+    {
+     "ts": "2026-08-30T11:01:36.499Z",
+     "type": "tool_call",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "lookupOccupation",
+      "args": {
+       "query": "Content Writer"
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T11:01:36.499Z",
+     "type": "tool_response",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "lookupOccupation",
+      "ok": true,
+      "summary": "1 item(s)"
+     }
+    },
+    {
+     "ts": "2026-08-30T11:01:36.499Z",
+     "type": "tool_call",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "lookupOccupation",
+      "args": {
+       "query": "Educational Consultant"
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T11:01:36.499Z",
+     "type": "tool_response",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "lookupOccupation",
+      "ok": true,
+      "summary": "0 item(s) - No direct match in the Vietnam occupation database."
+     }
+    },
+    {
+     "ts": "2026-08-30T11:01:36.499Z",
+     "type": "tool_call",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "searchResearch",
+      "args": {
+       "query": "generative AI education instructional design Vietnam labor market"
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T11:01:36.500Z",
+     "type": "tool_response",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "searchResearch",
+      "ok": true,
+      "summary": "3 item(s)"
+     }
+    },
+    {
+     "ts": "2026-08-30T11:01:38.043Z",
+     "type": "llm_call",
+     "agent": "evidence_gatherer",
+     "model": "gemini-3.5-flash-lite",
+     "usageTokens": 3389,
+     "latencyMs": 1112,
+     "message": "final turn"
+    },
+    {
+     "ts": "2026-08-30T11:01:38.043Z",
+     "type": "agent_end",
+     "agent": "evidence_gatherer",
+     "data": {
+      "occupations": 3,
+      "research": 3,
+      "news": 0
+     }
+    },
+    {
+     "ts": "2026-08-30T11:01:38.043Z",
+     "type": "agent_start",
+     "agent": "analyst",
+     "message": "initial synthesis"
+    },
+    {
+     "ts": "2026-08-30T11:01:49.813Z",
+     "type": "llm_call",
+     "agent": "analyst",
+     "model": "gemini-3.5-flash-lite",
+     "usageTokens": 7646,
+     "latencyMs": 11533
+    },
+    {
+     "ts": "2026-08-30T11:01:49.813Z",
+     "type": "agent_end",
+     "agent": "analyst",
+     "data": {
+      "suggestions": 1
+     }
+    },
+    {
+     "ts": "2026-08-30T11:01:51.337Z",
+     "type": "llm_call",
+     "agent": "verifier",
+     "model": "gemini-3.5-flash-lite",
+     "usageTokens": 574,
+     "latencyMs": 1160
+    },
+    {
+     "ts": "2026-08-30T11:01:51.337Z",
+     "type": "verification_result",
+     "agent": "verifier",
+     "data": {
+      "verdict": "repair",
+      "failures": [
+       "suggestion[0]: citation not found in evidence base: \"TopCV Vietnam / Navigos Group & Vietnam General Statistics Office (GSO)\""
+      ],
+      "judge": {
+       "personalization": 90,
+       "groundedness": 85,
+       "rationale": "The guidance directly incorporates the user's background in literature teaching, humanistic knowledge, and skills like inspiring others and lesson planning into specific tasks and reasoning."
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T11:01:51.337Z",
+     "type": "repair_retry",
+     "agent": "analyst",
+     "data": {
+      "feedback": [
+       "suggestion[0]: citation not found in evidence base: \"TopCV Vietnam / Navigos Group & Vietnam General Statistics Office (GSO)\""
+      ]
+     }
+    },
+    {
+     "ts": "2026-08-30T11:01:51.337Z",
+     "type": "agent_start",
+     "agent": "analyst",
+     "message": "repair attempt 1"
+    },
+    {
+     "ts": "2026-08-30T11:02:02.200Z",
+     "type": "llm_call",
+     "agent": "analyst",
+     "model": "gemini-3.5-flash-lite",
+     "usageTokens": 7278,
+     "latencyMs": 10610
+    },
+    {
+     "ts": "2026-08-30T11:02:02.200Z",
+     "type": "agent_end",
+     "agent": "analyst",
+     "data": {
+      "suggestions": 1
+     }
+    },
+    {
+     "ts": "2026-08-30T11:02:03.603Z",
+     "type": "llm_call",
+     "agent": "verifier",
+     "model": "gemini-3.5-flash-lite",
+     "usageTokens": 526,
+     "latencyMs": 1196
+    },
+    {
+     "ts": "2026-08-30T11:02:03.603Z",
+     "type": "verification_result",
+     "agent": "verifier",
+     "data": {
+      "verdict": "pass",
+      "failures": [],
+      "judge": {
+       "personalization": 95,
+       "groundedness": 90,
+       "rationale": "The guidance directly incorporates the user's specific role as a Literature teacher, leveraging their exact skills in lesson design and strengths like critical thinking and humanistic knowledge."
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T11:02:03.603Z",
+     "type": "run_end",
+     "message": "final verdict: pass"
+    }
+   ]
+  },
+  "meta": {
+   "models": [
+    "gemini-3.5-flash-lite"
+   ],
+   "usageTokens": 20490,
+   "latencyMs": 30249,
+   "degraded": false
+  }
+ }
+}

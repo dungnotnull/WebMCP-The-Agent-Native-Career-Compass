@@ -1,0 +1,288 @@
+{
+ "score": {
+  "personaId": "persona-golden-2",
+  "config": "baseline",
+  "ok": true,
+  "groundingRate": 1,
+  "hallucinatedCount": 0,
+  "schemaFailures": 0,
+  "guardrailViolations": 0,
+  "personalization": 95,
+  "usageTokens": 8066,
+  "latencyMs": 10624,
+  "model": "gemini-3.5-flash-lite",
+  "costPerTaskUsd": 0.0024197999999999997
+ },
+ "payload": {
+  "source": "eval_baseline",
+  "suggestions": [
+   {
+    "roleTitle": "AI Model Evaluation & Quality Assurance Engineer",
+    "roleTitleVi": "Kỹ sư Đánh giá Mô hình AI & Đảm bảo Chất lượng",
+    "aiResilienceScore": 88,
+    "matchScore": 92,
+    "reasoning": "Dựa trên dữ liệu từ Stanford HAI (2024) và McKinsey (2023), quá trình phát triển LLM và AI tạo sinh đòi hỏi lượng lớn công việc kiểm thử hành vi, tìm kiếm edge-cases và benchmark độ tin cậy. Kỹ năng tìm lỗi sâu (edge-case hunting) của QA truyền thống kết hợp với tư duy logic giúp vai trò này có khả năng chống tự động hóa rất cao và được bổ trợ mạnh mẽ bởi AI.",
+    "whyItFitsYou": "Với 3 năm kinh nghiệm Manual QA, tư duy cẩn trọng, khả năng tìm edge-case sâu và hiểu rõ quy trình Agile/Scrum từ Đại học Bách Khoa Đà Nẵng, bạn có nền tảng hoàn hảo để chuyển dịch sang kiểm thử và đánh giá chất lượng mô hình AI (LLM Evaluation) mà không phải bắt đầu lại từ con số không.",
+    "transferableSkillsMatch": [
+     "Tư duy tìm lỗi và phân tích edge-case",
+     "Hiểu biết quy trình phát triển phần mềm (Agile/Scrum)",
+     "Kỹ năng viết tài liệu kiểm thử và báo cáo lỗi rõ ràng",
+     "Khả năng giao tiếp kỹ thuật với lập trình viên"
+    ],
+    "skillsGap": [
+     "Kỹ năng viết mã tự động hóa bằng Python cơ bản",
+     "Kiến thức nền tảng về Prompt Engineering và LLM Evaluation",
+     "Kinh nghiệm benchmark và đánh giá độ chính xác của mô hình AI",
+     "Sử dụng tiếng Anh kỹ thuật trong phỏng vấn và làm việc quốc tế"
+    ],
+    "averageSalaryRangeVND": "25,000,000 - 45,000,000 VND / tháng",
+    "evidenceCitations": [
+     {
+      "paperTitle": "Artificial Intelligence Index Report 2024 (Economy & Labor Chapter)",
+      "source": "Stanford Institute for Human-Centered Artificial Intelligence (HAI)",
+      "year": "2024",
+      "url": "https://aiindex.stanford.edu/report/",
+      "quoteOrDataPoint": "AI labor demand has expanded across technical validation and model evaluation roles, showing human-in-the-loop augmentation increases quality by 40%."
+     },
+     {
+      "paperTitle": "Vietnam Labor Market Report & AI Transformation Index 2024-2026",
+      "source": "TopCV Vietnam & GSO",
+      "year": "2024",
+      "url": "https://www.gso.gov.vn",
+      "quoteOrDataPoint": "Manual regression QA roles face contraction while specialized roles such as AI Operations and Product Testing see salary increases of 28-35%."
+     }
+    ],
+    "resilienceDetail": {
+     "occupationTitle": "Software Quality Assurance and Testing Specialists",
+     "occupationTitleVi": "Chuyên viên Đảm bảo Chất lượng và Kiểm thử Phần mềm",
+     "molisaCode": "2512",
+     "onetCode": "15-1253.00",
+     "overallResilienceScore": 88,
+     "automationRiskScore": 25,
+     "augmentationPotentialScore": 95,
+     "humanAdvantageCore": [
+      "Xác định edge-cases phức tạp và định tính hành vi AI",
+      "Đánh giá tính an toàn, đạo đức và độ lệch (bias) của mô hình",
+      "Giao tiếp chiến lược và đồng sáng tạo tiêu chí kiểm thử với Product Owners"
+     ],
+     "tasksBreakdown": [
+      {
+       "taskName": "Designing LLM Evaluation Prompt Test Suites",
+       "taskNameVi": "Thiết kế bộ kiểm thử Prompt đánh giá LLM",
+       "exposureType": "augmentation",
+       "exposurePercentage": 75,
+       "onetCode": "15-1253.00",
+       "notes": "Tận dụng tư duy tìm lỗi sâu và kỹ năng viết test case thủ công để tạo ra các kịch bản kiểm thử mô hình AI."
+      },
+      {
+       "taskName": "Manual QA Bug Triage & Edge-Case Analysis",
+       "taskNameVi": "Phân loại lỗi QA thủ công và phân tích trường hợp biên",
+       "exposureType": "augmentation",
+       "exposurePercentage": 60,
+       "onetCode": "15-1253.00",
+       "notes": "Chuyển từ kiểm thử giao diện sang kiểm thử hành vi đầu ra của hệ thống AI dựa trên dữ liệu lịch sử."
+      },
+      {
+       "taskName": "Automated Test Script Generation with Python",
+       "taskNameVi": "Tạo kịch bản kiểm thử tự động bằng Python",
+       "exposureType": "augmentation",
+       "exposurePercentage": 80,
+       "onetCode": "15-1253.00",
+       "notes": "Sử dụng trợ lý AI (như GitHub Copilot) để bù đắp điểm yếu chưa tự tin viết code từ đầu, giúp tăng tốc độ viết script."
+      }
+     ],
+     "sources": [
+      "Stanford HAI AI Index 2024",
+      "TopCV Vietnam Labor Market Report 2024"
+     ],
+     "methodologySummary": "Đánh giá dựa trên ma trận rủi ro O*NET kết hợp khả năng bổ trợ của GenAI theo phân tích của Stanford HAI và dữ liệu thị trường lao động Việt Nam.",
+     "uncertaintyRange": "+/- 5%",
+     "vietnamDemandSignal": "high_growth"
+    },
+    "trajectories": [
+     {
+      "pathId": "stay_augment",
+      "pathTitle": "AI-Augmented QA Specialist",
+      "pathTitleVi": "Chuyên viên QA Tích hợp AI",
+      "feasibilityScore": 95,
+      "estimatedTimelineMonths": 3,
+      "shortDescription": "Nâng cấp kỹ năng kiểm thử thủ công hiện tại bằng cách tích hợp các công cụ AI để tự động hóa test case và quản lý tài liệu lỗi.",
+      "targetRoles": [
+       "Senior Manual QA",
+       "AI-Assisted QA Engineer"
+      ],
+      "skillsToAcquire": [
+       "Prompt Engineering cho QA",
+       "Sử dụng AI Test Generation Tools",
+       "Quản lý Test Case tự động cơ bản"
+      ],
+      "transferableSkills": [
+       "Tư duy tìm lỗi",
+       "Hiểu quy trình Agile",
+       "Giao tiếp kỹ thuật"
+      ],
+      "riskLevel": "low",
+      "fiveYearSalaryProjection": [
+       18,
+       22,
+       26,
+       31,
+       38
+      ],
+      "rationale": "Phát huy tối đa kinh nghiệm 3 năm sẵn có, giảm thiểu rủi ro thất nghiệp ngắn hạn và tạo bước đệm tài chính an toàn.",
+      "actionStepNow": "Bắt đầu khóa học ngắn về cách dùng ChatGPT và Copilot để viết test case trong tuần tới."
+     },
+     {
+      "pathId": "pivot_adjacent",
+      "pathTitle": "AI Model Evaluation & Automation Engineer",
+      "pathTitleVi": "Kỹ sư Đánh giá Mô hình AI & Tự động hóa",
+      "feasibilityScore": 82,
+      "estimatedTimelineMonths": 6,
+      "shortDescription": "Chuyển dịch sang mảng kiểm thử chất lượng mô hình AI và viết script tự động hóa bằng Python kết hợp công cụ AI hỗ trợ.",
+      "targetRoles": [
+       "AI QA Engineer",
+       "LLM Evaluation Specialist",
+       "Automation QA"
+      ],
+      "skillsToAcquire": [
+       "Python cơ bản cho Automation",
+       "LLM Evaluation Frameworks",
+       "API Testing với Postman & Python"
+      ],
+      "transferableSkills": [
+       "Tư duy edge-case",
+       "Quy trình kiểm thử phần mềm"
+      ],
+      "riskLevel": "moderate",
+      "fiveYearSalaryProjection": [
+       20,
+       25,
+       32,
+       40,
+       50
+      ],
+      "rationale": "Đáp ứng nhu cầu tuyển dụng đang tăng mạnh tại các công ty công nghệ quốc tế và outsource tại Đà Nẵng với mức lương cao.",
+      "actionStepNow": "Dành 10 giờ/tuần học Python căn bản và cách kiểm thử API đơn giản."
+     },
+     {
+      "pathId": "full_switch",
+      "pathTitle": "Cybersecurity & AI Security Auditor",
+      "pathTitleVi": "Chuyên gia Kiểm định Bảo mật & An toàn AI",
+      "feasibilityScore": 65,
+      "estimatedTimelineMonths": 12,
+      "shortDescription": "Rẽ hướng hoàn toàn sang kiểm định bảo mật hệ thống và bảo mật mô hình AI (Prompt Injection, Data Privacy).",
+      "targetRoles": [
+       "Security QA",
+       "AI Safety Auditor",
+       "Junior Penetration Tester"
+      ],
+      "skillsToAcquire": [
+       "Kiến thức mạng và bảo mật ứng dụng",
+       "OWASP Top 10 cho LLM",
+       "Python nâng cao cho Security"
+      ],
+      "transferableSkills": [
+       "Tư duy tìm lỗ hổng",
+       "Tính cẩn trọng và kiên nhẫn"
+      ],
+      "riskLevel": "high",
+      "fiveYearSalaryProjection": [
+       22,
+       28,
+       38,
+       48,
+       65
+      ],
+      "rationale": "Phù hợp với tính cách cẩn trọng và thích tìm lỗi sâu, mở ra cơ hội làm việc từ xa lương cao với các tập đoàn toàn cầu.",
+      "actionStepNow": "Tìm hiểu tài liệu OWASP Top 10 về rủi ro bảo mật LLM trong thời gian rảnh."
+     }
+    ],
+    "roadmap": [
+     {
+      "id": "m1",
+      "milestoneNumber": 1,
+      "phaseName": "Foundation & AI Augmentation",
+      "phaseNameVi": "Nền tảng & Tăng cường AI",
+      "title": "Mastering AI-Assisted QA & Python Basics",
+      "titleVi": "Làm chủ QA hỗ trợ bởi AI & Python cơ bản",
+      "estimatedHours": 60,
+      "weeksDuration": 4,
+      "skillsCovered": [
+       "Prompt Engineering cho QA",
+       "Sử dụng AI viết Test Case",
+       "Python syntax cơ bản"
+      ],
+      "freeResources": [
+       {
+        "name": "Python for Everybody",
+        "provider": "Coursera / University of Michigan",
+        "url": "https://www.coursera.org/learn/python",
+        "type": "Course"
+       },
+       {
+        "name": "Prompt Engineering Guide",
+        "provider": "DAIR.AI",
+        "url": "https://www.promptingguide.ai/",
+        "type": "Documentation"
+       }
+      ],
+      "checkpointQuiz": {
+       "question": "Công cụ AI hỗ trợ lập trình giúp lập trình viên hoàn thành nhiệm vụ nhanh hơn bao nhiêu phần trăm theo nghiên cứu của GitHub/Microsoft Research (2022)?",
+       "options": [
+        "10.5%",
+        "25.0%",
+        "55.8%",
+        "90.0%"
+       ],
+       "correctIndex": 2,
+       "explanation": "Theo nghiên cứu của GitHub và Microsoft Research (2022), các lập trình viên sử dụng GitHub Copilot hoàn thành nhiệm vụ nhanh hơn 55.8% so với nhóm đối chứng."
+      }
+     },
+     {
+      "id": "m2",
+      "milestoneNumber": 2,
+      "phaseName": "Specialization & Practical LLM Testing",
+      "phaseNameVi": "Chuyên môn hóa & Kiểm thử LLM Thực tế",
+      "title": "LLM Evaluation & API Testing Mastery",
+      "titleVi": "Thành thạo Đánh giá LLM & Kiểm thử API",
+      "estimatedHours": 90,
+      "weeksDuration": 6,
+      "skillsCovered": [
+       "API Testing với Postman",
+       "LLM Evaluation Benchmarks",
+       "Viết script Python tự động hóa kiểm thử đơn giản"
+      ],
+      "freeResources": [
+       {
+        "name": "Introduction to LLMs",
+        "provider": "Google Cloud Skills Boost",
+        "url": "https://www.cloudskillsboost.google/",
+        "type": "Course"
+       },
+       {
+        "name": "Postman Learning Center",
+        "provider": "Postman",
+        "url": "https://learning.postman.com/",
+        "type": "Documentation"
+       }
+      ],
+      "checkpointQuiz": {
+       "question": "Yếu tố nào sau đây là thế mạnh cốt lõi của con người trong quy trình đánh giá mô hình AI mà AI chưa thể tự động hoàn toàn?",
+       "options": [
+        "Tốc độ chạy hàng triệu phép tính mỗi giây",
+        "Xác định các edge-cases phức tạp, đánh giá đạo đức và độ lệch (bias)",
+        "Lưu trữ dữ liệu lớn trong bộ nhớ đệm",
+        "Tự động sinh mã nguồn không có lỗi cú pháp"
+       ],
+       "correctIndex": 1,
+       "explanation": "Con người giữ ưu thế cốt lõi trong việc nhận diện edge-cases phức tạp, đánh giá tính an toàn, đạo đức và độ lệch của mô hình dựa trên ngữ cảnh thực tế."
+      }
+     }
+    ]
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "usageTokens": 7842,
+  "latencyMs": 10624
+ }
+}

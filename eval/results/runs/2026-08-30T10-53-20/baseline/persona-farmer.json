@@ -1,0 +1,268 @@
+{
+ "score": {
+  "personaId": "persona-farmer",
+  "config": "baseline",
+  "ok": true,
+  "groundingRate": 1,
+  "hallucinatedCount": 0,
+  "schemaFailures": 0,
+  "guardrailViolations": 0,
+  "personalization": 90,
+  "usageTokens": 7872,
+  "latencyMs": 10154,
+  "model": "gemini-3.5-flash-lite",
+  "costPerTaskUsd": 0.0023615999999999997
+ },
+ "payload": {
+  "source": "eval_baseline",
+  "suggestions": [
+   {
+    "roleTitle": "Clean Agriculture and Local Produce Business Specialist",
+    "roleTitleVi": "Chuyên gia Kinh doanh Nông sản và Canh tác Sạch",
+    "aiResilienceScore": 88,
+    "matchScore": 92,
+    "reasoning": "Nông nghiệp sạch và kinh doanh nông sản địa phương đòi hỏi sự thấu hiểu sâu sắc về thổ nhưỡng, quản lý thực tế và quan hệ con người—những yếu tố thuộc nhóm 'Physical and emotional-care tasks exhibit near-zero direct exposure' và 'Occupations requiring high negotiation, persuasion, social perceptiveness... remain resilient' [Source: GPTs are GPTs: An Early Look at the Labor Market Impact Potential of Large Language Models (OpenAI, 2023); Source: The Future of Employment: How Susceptible Are Jobs to Computerisation? (Oxford Martin School, University of Oxford, 2017)].",
+    "whyItFitsYou": "Với 20 năm kinh nghiệm trồng lúa tại An Giang, bạn sở hữu 'Kinh nghiệm địa phương sâu' và khả năng 'Vượt qua điều kiện khắc nghiệt'. Những kỹ năng này không thể bị thay thế bởi AI. Hướng đi này giúp bạn chuyển từ phụ thuộc thương lái sang tự chủ kinh doanh nông sản sạch, tận dụng tối đa ngân sách dưới 1 triệu VNĐ và quỹ thời gian 4 giờ/tuần.",
+    "transferableSkillsMatch": [
+     "Quản lý nước ruộng và điều kiện canh tác",
+     "Kinh nghiệm sản xuất lúa theo mùa vụ địa phương",
+     "Sự kiên trì và thích ứng với điều kiện thời tiết khắc nghiệt"
+    ],
+    "skillsGap": [
+     "Kỹ năng tiếp thị nông sản sạch qua điện thoại/mạng xã hội cơ bản",
+     "Kiến thức cơ bản về đóng gói và bảo quản nông sản sau thu hoạch",
+     "Kỹ năng đàm phán trực tiếp với người mua sỉ"
+    ],
+    "averageSalaryRangeVND": "7,000,000 - 15,000,000 VND / tháng",
+    "evidenceCitations": [
+     {
+      "paperTitle": "The Future of Employment: How Susceptible Are Jobs to Computerisation?",
+      "source": "Oxford Martin School, University of Oxford",
+      "year": "2017",
+      "url": "https://www.oxfordmartin.ox.ac.uk/publications/the-future-of-employment/",
+      "quoteOrDataPoint": "Occupations requiring high negotiation, persuasion, social perceptiveness, and unstructured physical dexterity remain resilient."
+     },
+     {
+      "paperTitle": "Báo cáo Chuyển đổi số và Ứng dụng AI tại Doanh nghiệp Việt Nam",
+      "source": "FPT Corporation",
+      "year": "2024",
+      "url": "https://www.fpt.com.vn",
+      "quoteOrDataPoint": "62% doanh nghiệp Việt Nam tích hợp công nghệ nhưng nông nghiệp địa phương vẫn dựa trên năng lực cốt lõi của người nông dân."
+     }
+    ],
+    "resilienceDetail": {
+     "occupationTitle": "Agricultural and Related Trades Workers",
+     "occupationTitleVi": "Lao động trồng trọt và các nghề có liên quan",
+     "molisaCode": "611",
+     "onetCode": "61-0000",
+     "overallResilienceScore": 88,
+     "automationRiskScore": 12,
+     "augmentationPotentialScore": 45,
+     "humanAdvantageCore": [
+      "Sự am hiểu thổ nhưỡng và kinh nghiệm thực địa tại An Giang",
+      "Khả năng phán đoán thời tiết và điều chỉnh nước ruộng thủ công",
+      "Tương tác trực tiếp và tạo dựng lòng tin với khách hàng địa phương"
+     ],
+     "tasksBreakdown": [
+      {
+       "taskName": "Water level and irrigation management",
+       "taskNameVi": "Quản lý nguồn nước và điều tiết ruộng lúa",
+       "exposureType": "low",
+       "exposurePercentage": 10,
+       "onetCode": "61-1011.00",
+       "notes": "Dựa hoàn toàn vào kinh nghiệm thực tế tại địa phương."
+      },
+      {
+       "taskName": "Local agricultural produce negotiation",
+       "taskNameVi": "Đàm phán và kinh doanh nông sản với đối tác",
+       "exposureType": "low",
+       "exposurePercentage": 15,
+       "onetCode": "41-1012.00",
+       "notes": "Đòi hỏi giao tiếp trực tiếp và xây dựng uy tín cá nhân."
+      },
+      {
+       "taskName": "Harvest timing and seasonal planning",
+       "taskNameVi": "Lên lịch thu hoạch và đánh giá chất lượng lúa gạo",
+       "exposureType": "low",
+       "exposurePercentage": 20,
+       "onetCode": "61-1011.01",
+       "notes": "Kinh nghiệm 20 năm giúp đưa ra quyết định chính xác."
+      }
+     ],
+     "sources": [
+      "Oxford Martin School (2017)",
+      "GSO Vietnam (2020)"
+     ],
+     "methodologySummary": "Đánh giá dựa trên ma trận rủi ro tự động hóa O*NET kết hợp với khung phân loại nghề nghiệp quốc gia Việt Nam (VSCO).",
+     "uncertaintyRange": "+/- 5%",
+     "vietnamDemandSignal": "stable"
+    },
+    "trajectories": [
+     {
+      "pathId": "stay_augment",
+      "pathTitle": "Stay and Augment: Traditional Farming with Digital Market Reach",
+      "pathTitleVi": "Giữ vững nghề cũ và Mở rộng thị trường qua kết nối số",
+      "feasibilityScore": 95,
+      "estimatedTimelineMonths": 6,
+      "shortDescription": "Tiếp tục canh tác lúa nhưng áp dụng phương pháp sạch và sử dụng điện thoại thông minh để tìm kiếm đầu mối thu mua trực tiếp, bỏ qua thương lái trung gian.",
+      "targetRoles": [
+       "Nông dân sản xuất lúa gạo chất lượng cao",
+       "Chủ hộ kinh doanh nông sản độc lập"
+      ],
+      "skillsToAcquire": [
+       "Sử dụng Zalo/Facebook để chào bán nông sản",
+       "Kỹ thuật canh tác lúa giảm phát thải/an toàn"
+      ],
+      "transferableSkills": [
+       "20 năm kinh nghiệm trồng lúa",
+       "Quản lý đồng ruộng An Giang"
+      ],
+      "riskLevel": "low",
+      "fiveYearSalaryProjection": [
+       7,
+       8,
+       9,
+       11,
+       13
+      ],
+      "rationale": "Tận dụng tối đa kinh nghiệm cốt lõi, không đòi hỏi chi phí lớn hay công nghệ phức tạp, phù hợp với ràng buộc ngân sách 1 triệu VND và 4 giờ/tuần.",
+      "actionStepNow": "Lập danh sách các vựa lúa và cơ sở gạo sạch uy tín trong huyện để liên hệ trực tiếp vào vụ tới."
+     },
+     {
+      "pathId": "pivot_adjacent",
+      "pathTitle": "Pivot Adjacent: Clean Produce Supplier",
+      "pathTitleVi": "Chuyển dịch sang Cung ứng nông sản sạch đặc sản",
+      "feasibilityScore": 80,
+      "estimatedTimelineMonths": 12,
+      "shortDescription": "Kết hợp giữa trồng lúa truyền thống và thu gom gạo sạch từ các hộ xung quanh để cung cấp cho các cửa hàng thực phẩm sạch tại các tỉnh lân cận.",
+      "targetRoles": [
+       "Đầu mối cung cấp nông sản sạch địa phương",
+       "Kinh doanh gạo đặc sản An Giang"
+      ],
+      "skillsToAcquire": [
+       "Kiến thức phân loại chất lượng gạo",
+       "Kỹ năng giao dịch cơ bản với khách hàng sỉ nhỏ"
+      ],
+      "transferableSkills": [
+       "Am hiểu mạng lưới nhà nông tại địa phương",
+       "Sức bền và sự chịu khó"
+      ],
+      "riskLevel": "moderate",
+      "fiveYearSalaryProjection": [
+       8,
+       10,
+       12,
+       15,
+       18
+      ],
+      "rationale": "Nâng cao giá trị gia tăng từ nông sản thay vì chỉ bán lúa thô, giúp tăng thu nhập ổn định dài hạn.",
+      "actionStepNow": "Tìm hiểu quy trình đóng gói bao bì nhỏ (túi 5kg, 10kg) cho gạo gia đình."
+     },
+     {
+      "pathId": "full_switch",
+      "pathTitle": "Full Switch: Local Agricultural Cooperative Coordinator",
+      "pathTitleVi": "Chuyển đổi hoàn toàn: Thành viên điều phối hợp tác xã nông nghiệp",
+      "feasibilityScore": 65,
+      "estimatedTimelineMonths": 24,
+      "shortDescription": "Tham gia vào ban quản lý hoặc điều phối của hợp tác xã nông nghiệp địa phương để hỗ trợ bà con nông dân kết nối với doanh nghiệp lớn.",
+      "targetRoles": [
+       "Điều phối viên hợp tác xã",
+       "Đại diện liên kết sản xuất nông nghiệp"
+      ],
+      "skillsToAcquire": [
+       "Kỹ năng làm việc với giấy tờ hành chính cơ bản",
+       "Giao tiếp tổ nhóm"
+      ],
+      "transferableSkills": [
+       "Uy tín cá nhân trong cộng đồng nông dân",
+       "Hiểu biết sâu sắc về lịch thời vụ và quy trình canh tác"
+      ],
+      "riskLevel": "moderate",
+      "fiveYearSalaryProjection": [
+       9,
+       11,
+       14,
+       17,
+       22
+      ],
+      "rationale": "Mang lại ý nghĩa cộng đồng cao và tính ổn định bền vững theo định hướng phát triển nông nghiệp của nhà nước.",
+      "actionStepNow": "Trao đổi với ban quản lý hợp tác xã nông nghiệp gần nhất tại địa phương về các hoạt động hỗ trợ thành viên."
+     }
+    ],
+    "roadmap": [
+     {
+      "id": "milestone_1",
+      "milestoneNumber": 1,
+      "phaseName": "Foundation & Digital Basics",
+      "phaseNameVi": "Nền tảng và Cơ bản số",
+      "title": "Mastering Smartphone for Agricultural Connections",
+      "titleVi": "Sử dụng Điện thoại thông minh kết nối thị trường",
+      "estimatedHours": 16,
+      "weeksDuration": 4,
+      "skillsCovered": [
+       "Sử dụng Zalo tìm kiếm khách hàng",
+       "Chụp ảnh nông sản rõ nét đăng bán",
+       "Nhắn tin và gọi điện thoại thương lượng giá"
+      ],
+      "freeResources": [
+       {
+        "name": "Kênh hướng dẫn Zalo và Mạng xã hội cơ bản",
+        "provider": "YouTube Cộng đồng",
+        "url": "https://www.youtube.com",
+        "type": "Video"
+       }
+      ],
+      "checkpointQuiz": {
+       "question": "Làm thế nào để giảm sự phụ thuộc vào thương lái trung gian khi bán lúa gạo?",
+       "options": [
+        "Chỉ bán cho một thương lái duy nhất",
+        "Kết nối trực tiếp với các vựa gạo và người tiêu dùng qua điện thoại/Zalo",
+        "Ngừng bán lúa hoàn toàn",
+        "Đợi thương lái tự đến ép giá"
+       ],
+       "correctIndex": 1,
+       "explanation": "Kết nối trực tiếp qua các kênh liên lạc số giúp bạn chủ động hơn về giá cả và đầu ra."
+      }
+     },
+     {
+      "id": "milestone_2",
+      "milestoneNumber": 2,
+      "phaseName": "Quality & Direct Business",
+      "phaseNameVi": "Nâng cao chất lượng và Kinh doanh trực tiếp",
+      "title": "Clean Farming and Direct Selling Practice",
+      "titleVi": "Thực hành Canh tác sạch và Bán hàng trực tiếp",
+      "estimatedHours": 16,
+      "weeksDuration": 4,
+      "skillsCovered": [
+       "Quản lý chi phí phân bón và nước tưới",
+       "Đóng gói gạo sạch quy mô nhỏ",
+       "Chăm sóc khách hàng mua lẻ"
+      ],
+      "freeResources": [
+       {
+        "name": "Tài liệu Khuyến nông An Giang",
+        "provider": "Sở Nông nghiệp và PTNT An Giang",
+        "url": "https://snnptnt.angiang.gov.vn",
+        "type": "Document"
+       }
+      ],
+      "checkpointQuiz": {
+       "question": "Yếu tố nào giúp nông sản của bạn giữ chân được khách hàng lâu dài?",
+       "options": [
+        "Giá rẻ nhất bất kể chất lượng",
+        "Chất lượng sạch, uy tín và sự trung thực",
+        "Quảng cáo sai sự thật",
+        "Bán hàng qua nhiều tầng trung gian"
+       ],
+       "correctIndex": 1,
+       "explanation": "Uy tín và chất lượng nông sản sạch là cốt lõi để xây dựng thương hiệu cá nhân bền vững."
+      }
+     }
+    ]
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "usageTokens": 7642,
+  "latencyMs": 10154
+ }
+}

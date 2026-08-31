@@ -1,0 +1,493 @@
+{
+ "score": {
+  "personaId": "persona-garment",
+  "config": "stage1_tools",
+  "ok": true,
+  "groundingRate": 1,
+  "hallucinatedCount": 0,
+  "schemaFailures": 1,
+  "guardrailViolations": 0,
+  "personalization": 90,
+  "usageTokens": 8043,
+  "latencyMs": 16084,
+  "model": "gemini-3.5-flash-lite",
+  "costPerTaskUsd": 0.0024129
+ },
+ "payload": {
+  "source": "agentic_pipeline",
+  "config": {
+   "useTools": true,
+   "useVerifier": false
+  },
+  "suggestions": [
+   {
+    "roleTitle": "Handmade Craft & Small Business Entrepreneur",
+    "roleTitleVi": "Chủ cơ sở kinh doanh đồ thủ công & may đo nhỏ",
+    "aiResilienceScore": 88,
+    "matchScore": 85,
+    "reasoning": "Ngành thủ công và kinh doanh nhỏ ít chịu ảnh hưởng trực tiếp từ tự động hóa AI (trái ngược với xu hướng rủi ro tại các vị trí văn phòng hoặc gia công tự động đại trà), tận dụng tối đa sự khéo tay và khả năng chịu áp lực được ghi nhận từ OECD Employment Outlook về việc duy trì giá trị lao động thủ công.",
+    "whyItFitsYou": "Phù hợp hoàn hảo với sở thích kinh doanh nhỏ và nghề thủ công của bạn, đồng thời phát huy tối đa điểm mạnh khéo tay, chịu được áp lực và kỹ năng kiểm tra chất lượng sản phẩm đã tích lũy trong 8 năm qua.",
+    "transferableSkillsMatch": [
+     "Kiểm tra chất lượng sản phẩm",
+     "Đọc bản vẽ kỹ thuật",
+     "Làm việc nhóm"
+    ],
+    "skillsGap": [
+     "Quản lý tài chính cơ bản",
+     "Kinh doanh trực tuyến/bán hàng qua mạng xã hội",
+     "Tiếp cận công cụ số cơ bản"
+    ],
+    "averageSalaryRangeVND": "7,000,000 - 15,000,000 VND / tháng",
+    "evidenceCitations": [
+     {
+      "paperTitle": "OECD Employment Outlook 2023: Artificial Intelligence and the Labour Market",
+      "source": "OECD",
+      "year": 2023,
+      "url": "https://www.oecd.org/employment-outlook/2023/",
+      "quoteOrDataPoint": "While AI adoption is still relatively low, 27% of jobs are in occupations at high risk of automation. Workers report that AI has improved job quality but also increased work intensity and stress."
+     }
+    ],
+    "resilienceDetail": {
+     "occupationTitle": "Handmade Craft & Small Business Entrepreneur",
+     "occupationTitleVi": "Chủ cơ sở kinh doanh đồ thủ công & may đo nhỏ",
+     "molisaCode": "7533",
+     "onetCode": "51-6031.00",
+     "overallResilienceScore": 88,
+     "automationRiskScore": 12,
+     "augmentationPotentialScore": 75,
+     "humanAdvantageCore": [
+      "Sự khéo léo của bàn tay",
+      "Khả năng sáng tạo sản phẩm thủ công",
+      "Tương tác và thấu hiểu khách hàng trực tiếp"
+     ],
+     "tasksBreakdown": [
+      {
+       "taskName": "Handcrafting specialized sewing and textile products",
+       "taskNameVi": "May đo và hoàn thiện sản phẩm thủ công chuyên biệt",
+       "exposureType": "low",
+       "exposurePercentage": 10,
+       "onetCode": "51-6031.00",
+       "notes": "Dựa trên 8 năm kinh nghiệm vận hành máy may và sự khéo tay."
+      },
+      {
+       "taskName": "Quality inspection of finished goods",
+       "taskNameVi": "Kiểm tra chất lượng thành phẩm thủ công",
+       "exposureType": "low",
+       "exposurePercentage": 15,
+       "onetCode": "51-9061.00",
+       "notes": "Tận dụng kỹ năng kiểm tra chất lượng sản phẩm hiện tại."
+      },
+      {
+       "taskName": "Direct customer service and small business management",
+       "taskNameVi": "Chăm sóc khách hàng trực tiếp và quản lý bán hàng nhỏ",
+       "exposureType": "low",
+       "exposurePercentage": 20,
+       "onetCode": "41-2031.00",
+       "notes": "Đáp ứng sở thích kinh doanh nhỏ tại Bình Dương."
+      }
+     ],
+     "sources": [
+      "OECD Employment Outlook 2023: Artificial Intelligence and the Labour Market"
+     ],
+     "methodologySummary": "Đánh giá dựa trên năng lực thích ứng của các ngành nghề thủ công và dịch vụ cá nhân trong bối cảnh tự động hóa công nghệ.",
+     "uncertaintyRange": "+/- 5%",
+     "vietnamDemandSignal": "stable"
+    },
+    "trajectories": [
+     {
+      "pathId": "stay_augment",
+      "pathTitle": "Stay and Augment in Garment Sector",
+      "pathTitleVi": "Tiếp tục gắn bó và tối ưu hóa công việc ngành may",
+      "feasibilityScore": 90,
+      "estimatedTimelineMonths": 6,
+      "shortDescription": "Nâng cao năng suất chuyên môn hiện tại, nhận các đơn hàng có độ tinh xảo cao hơn.",
+      "targetRoles": [
+       "Thợ may kỹ thuật cao",
+       "Kiểm định viên chất lượng chuyền may (KCS)"
+      ],
+      "skillsToAcquire": [
+       "Đọc bản vẽ kỹ thuật nâng cao",
+       "Quản lý thời gian dây chuyền"
+      ],
+      "transferableSkills": [
+       "Vận hành máy may",
+       "Kiểm tra chất lượng",
+       "Chịu áp lực đơn hàng"
+      ],
+      "riskLevel": "low",
+      "fiveYearSalaryProjection": [
+       7,
+       7.5,
+       8,
+       8.5,
+       9
+      ],
+      "rationale": "Phù hợp với rủi ro thấp và ngân sách hạn chế, tận dụng tối đa 8 năm kinh nghiệm thực tế.",
+      "actionStepNow": "Đăng ký học thêm kỹ năng kiểm định chất lượng nâng cao tại xưởng."
+     },
+     {
+      "pathId": "pivot_adjacent",
+      "pathTitle": "Pivot to Craft and Small Business",
+      "pathTitleVi": "Chuyển hướng sang làm nghề thủ công và kinh doanh nhỏ",
+      "feasibilityScore": 80,
+      "estimatedTimelineMonths": 12,
+      "shortDescription": "Tự mở tiệm may đo, sửa quần áo hoặc kinh doanh sản phẩm thủ công riêng tại Bình Dương.",
+      "targetRoles": [
+       "Chủ tiệm may đo cá nhân",
+       "Nhà sáng lập thương hiệu thủ công nhỏ"
+      ],
+      "skillsToAcquire": [
+       "Quản lý tài chính hộ kinh doanh",
+       "Bán hàng qua mạng xã hội cơ bản"
+      ],
+      "transferableSkills": [
+       "Khéo tay",
+       "Kiểm tra chất lượng",
+       "Chịu được áp lực"
+      ],
+      "riskLevel": "moderate",
+      "fiveYearSalaryProjection": [
+       6,
+       8,
+       10,
+       13,
+       16
+      ],
+      "rationale": "Thỏa mãn sở thích cá nhân và có tiềm năng thu nhập tốt hơn nếu xây dựng được lượng khách hàng ổn định.",
+      "actionStepNow": "Tận dụng thời gian rảnh (6 giờ/tuần) để tìm hiểu cách đăng bán sản phẩm lên mạng xã hội."
+     },
+     {
+      "path_switch": "full_switch",
+      "pathTitle": "Full Career Transition to Digital Commerce",
+      "pathTitleVi": "Chuyển đổi hoàn toàn sang thương mại điện tử",
+      "feasibilityScore": 40,
+      "estimatedTimelineMonths": 24,
+      "shortDescription": "Chuyển hẳn sang làm nhân viên kho vận thương mại điện tử hoặc quản lý gian hàng trực tuyến.",
+      "targetRoles": [
+       "Nhân viên kho vận e-commerce",
+       "Quản lý đơn hàng trực tuyến"
+      ],
+      "skillsToAcquire": [
+       "Tin học văn phòng cơ bản",
+       "Sử dụng phần mềm quản lý kho"
+      ],
+      "transferableSkills": [
+       "Làm việc nhóm",
+       "Chịu áp lực cao"
+      ],
+      "riskLevel": "high",
+      "fiveYearSalaryProjection": [
+       6.5,
+       7,
+       7.5,
+       8,
+       8.5
+      ],
+      "rationale": "Rủi ro cao do hạn chế về máy tính và tiếng Anh, đòi hỏi nhiều thời gian thích nghi.",
+      "actionStepNow": "Tham gia một lớp tin học văn phòng cơ bản miễn phí vào cuối tuần."
+     }
+    ],
+    "roadmap": [
+     {
+      "id": "m1",
+      "milestoneNumber": 1,
+      "phaseName": "Foundation & Skill Optimization",
+      "phaseNameVi": "Xây dựng nền tảng & tối ưu kỹ năng",
+      "title": "Build basic digital and business literacy",
+      "titleVi": "Xây dựng kiến thức kỹ thuật số và kinh doanh cơ bản",
+      "estimatedHours": 36,
+      "weeksDuration": 6,
+      "skillsCovered": [
+       "Sử dụng điện thoại thông minh/máy tính cơ bản",
+       "Kiến thức kinh doanh nhỏ"
+      ],
+      "freeResources": [
+       {
+        "name": "Kỹ năng số cơ bản",
+        "provider": "Coursera (Free audit)",
+        "url": "https://www.coursera.org",
+        "type": "Online Course"
+       }
+      ],
+      "checkpointQuiz": {
+       "question": "Yếu tố nào quan trọng nhất khi bắt đầu kinh doanh đồ thủ công nhỏ?",
+       "options": [
+        "Đầu tư máy móc hàng tỷ đồng",
+        "Hiểu rõ nhu cầu khách hàng và chất lượng sản phẩm",
+        "Thuê 50 nhân viên ngay lập tức",
+        "Không cần kiểm tra chất lượng"
+       ],
+       "correctIndex": 1,
+       "explanation": "Chất lượng sản phẩm và thấu hiểu khách hàng là cốt lõi cho quy mô kinh doanh nhỏ với ngân sách thấp."
+      }
+     },
+     {
+      "id": "m2",
+      "milestoneNumber": 2,
+      "phaseName": "Execution & Small Launch",
+      "phaseNameVi": "Triển khai & Thử nghiệm kinh doanh nhỏ",
+      "title": "Launch small craft project with zero/low budget",
+      "titleVi": "Khởi động dự án thủ công với ngân sách thấp",
+      "estimatedHours": 36,
+      "weeksDuration": 6,
+      "skillsCovered": [
+       "Làm sản phẩm mẫu",
+       "Giới thiệu sản phẩm trên mạng xã hội"
+      ],
+      "freeResources": [
+       {
+        "name": "Hướng dẫn kinh doanh nhỏ trên Facebook",
+        "provider": "Meta Blueprint",
+        "url": "https://www.facebookblueprint.com",
+        "type": "Tutorial"
+       }
+      ],
+      "checkpointQuiz": {
+       "question": "Với ngân sách dưới 2 triệu VND, bạn nên bắt đầu kinh doanh bằng hình thức nào?",
+       "options": [
+        "Mở cửa hàng mặt tiền lớn",
+        "Làm sản phẩm mẫu và đăng bán online thử nghiệm",
+        "Nhập hàng loạt hàng hóa tồn kho",
+        "Thuê quảng cáo tivi đắt tiền"
+       ],
+       "correctIndex": 1,
+       "explanation": "Làm sản phẩm mẫu và kiểm tra thị trường online giúp giảm thiểu rủi ro tài chính tối đa."
+      }
+     }
+    ]
+   }
+  ],
+  "verification": null,
+  "trajectory": {
+   "runId": "run_1788087433168_lmxxs1",
+   "config": "stage1_tools",
+   "startedAt": "2026-08-30T10:57:13.168Z",
+   "events": [
+    {
+     "ts": "2026-08-30T10:57:13.168Z",
+     "type": "run_start",
+     "message": "pipeline for \"Công nhân may công nghiệp\"",
+     "data": {
+      "config": {
+       "useTools": true,
+       "useVerifier": false
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T10:57:13.168Z",
+     "type": "agent_start",
+     "agent": "profiler"
+    },
+    {
+     "ts": "2026-08-30T10:57:14.760Z",
+     "type": "llm_call",
+     "agent": "profiler",
+     "model": "gemini-3.5-flash-lite",
+     "usageTokens": 496,
+     "latencyMs": 1334
+    },
+    {
+     "ts": "2026-08-30T10:57:14.760Z",
+     "type": "agent_end",
+     "agent": "profiler",
+     "message": "ok",
+     "data": {
+      "keywords": [
+       "sewing machine operator",
+       "garment worker",
+       "quality control inspector"
+      ],
+      "riskFlags": [
+       "limited budget for retraining",
+       "limited computer literacy",
+       "limited English proficiency"
+      ]
+     }
+    },
+    {
+     "ts": "2026-08-30T10:57:14.760Z",
+     "type": "agent_start",
+     "agent": "evidence_gatherer"
+    },
+    {
+     "ts": "2026-08-30T10:57:16.075Z",
+     "type": "llm_call",
+     "agent": "evidence_gatherer",
+     "model": "gemini-3.5-flash-lite",
+     "usageTokens": 555,
+     "latencyMs": 995,
+     "message": "4 tool call(s)"
+    },
+    {
+     "ts": "2026-08-30T10:57:16.076Z",
+     "type": "tool_call",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "lookupOccupation",
+      "args": {
+       "query": "sewing machine operator"
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T10:57:16.076Z",
+     "type": "tool_response",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "lookupOccupation",
+      "ok": true,
+      "summary": "0 item(s) - No direct match in the Vietnam occupation database."
+     }
+    },
+    {
+     "ts": "2026-08-30T10:57:16.076Z",
+     "type": "tool_call",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "lookupOccupation",
+      "args": {
+       "query": "garment worker"
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T10:57:16.076Z",
+     "type": "tool_response",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "lookupOccupation",
+      "ok": true,
+      "summary": "0 item(s) - No direct match in the Vietnam occupation database."
+     }
+    },
+    {
+     "ts": "2026-08-30T10:57:16.076Z",
+     "type": "tool_call",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "lookupOccupation",
+      "args": {
+       "query": "quality control inspector"
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T10:57:16.076Z",
+     "type": "tool_response",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "lookupOccupation",
+      "ok": true,
+      "summary": "0 item(s) - No direct match in the Vietnam occupation database."
+     }
+    },
+    {
+     "ts": "2026-08-30T10:57:16.076Z",
+     "type": "tool_call",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "searchResearch",
+      "args": {
+       "query": "Vietnam garment textile automation AI risk Binh Duong"
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T10:57:16.076Z",
+     "type": "tool_response",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "searchResearch",
+      "ok": true,
+      "summary": "3 item(s)"
+     }
+    },
+    {
+     "ts": "2026-08-30T10:57:18.234Z",
+     "type": "llm_call",
+     "agent": "evidence_gatherer",
+     "model": "gemini-3.5-flash-lite",
+     "usageTokens": 1188,
+     "latencyMs": 1184,
+     "message": "1 tool call(s)"
+    },
+    {
+     "ts": "2026-08-30T10:57:18.234Z",
+     "type": "tool_call",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "getOccupationNews",
+      "args": {
+       "role": "sewing machine operator garment worker quality control inspector"
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T10:57:19.780Z",
+     "type": "tool_response",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "getOccupationNews",
+      "ok": false,
+      "summary": "0 item(s) - News search failed: {\"error\":{\"code\":429,\"message\":\"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \",\"status\":\"RESOURCE_EXHAUSTED\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]}]}}"
+     }
+    },
+    {
+     "ts": "2026-08-30T10:57:21.067Z",
+     "type": "llm_call",
+     "agent": "evidence_gatherer",
+     "model": "gemini-3.5-flash-lite",
+     "usageTokens": 1327,
+     "latencyMs": 1076,
+     "message": "final turn"
+    },
+    {
+     "ts": "2026-08-30T10:57:21.067Z",
+     "type": "agent_end",
+     "agent": "evidence_gatherer",
+     "data": {
+      "occupations": 0,
+      "research": 3,
+      "news": 0
+     }
+    },
+    {
+     "ts": "2026-08-30T10:57:21.067Z",
+     "type": "agent_start",
+     "agent": "analyst",
+     "message": "initial synthesis"
+    },
+    {
+     "ts": "2026-08-30T10:57:29.252Z",
+     "type": "llm_call",
+     "agent": "analyst",
+     "model": "gemini-3.5-flash-lite",
+     "usageTokens": 4233,
+     "latencyMs": 8057
+    },
+    {
+     "ts": "2026-08-30T10:57:29.252Z",
+     "type": "agent_end",
+     "agent": "analyst",
+     "data": {
+      "suggestions": 1
+     }
+    },
+    {
+     "ts": "2026-08-30T10:57:29.252Z",
+     "type": "run_end",
+     "message": "no verifier (config)"
+    }
+   ]
+  },
+  "meta": {
+   "models": [
+    "gemini-3.5-flash-lite"
+   ],
+   "usageTokens": 7799,
+   "latencyMs": 16084,
+   "degraded": false
+  }
+ }
+}

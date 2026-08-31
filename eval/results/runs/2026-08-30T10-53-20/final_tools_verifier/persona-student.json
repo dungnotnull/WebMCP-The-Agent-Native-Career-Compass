@@ -1,0 +1,518 @@
+{
+ "score": {
+  "personaId": "persona-student",
+  "config": "final_tools_verifier",
+  "ok": true,
+  "groundingRate": 1,
+  "hallucinatedCount": 0,
+  "schemaFailures": 0,
+  "guardrailViolations": 0,
+  "personalization": 90,
+  "usageTokens": 12195,
+  "latencyMs": 15453,
+  "model": "gemini-3.5-flash-lite",
+  "costPerTaskUsd": 0.0036585
+ },
+ "payload": {
+  "source": "agentic_pipeline",
+  "config": {
+   "useTools": true,
+   "useVerifier": true
+  },
+  "suggestions": [
+   {
+    "roleTitle": "AI Content & Brand Strategist",
+    "roleTitleVi": "Chuyên gia Chiến lược Nội dung & Thương hiệu tích hợp AI",
+    "aiResilienceScore": 48,
+    "matchScore": 90,
+    "reasoning": "Dựa trên dữ liệu từ TopCV (2024), các vị trí viết nội dung truyền thống đang thu hẹp 62% do tự động hóa LLM, nhưng các vai trò kết hợp sản xuất đa kênh và chiến lược AI lại tăng trưởng 85%. Kỹ năng tiếng Anh tốt và khả năng bắt trend nhanh giúp bạn dễ dàng chuyển dịch từ viết content cơ bản sang điều phối công cụ AI để tạo ra các chiến dịch mang đậm dấu ấn văn hóa Việt Nam.",
+    "whyItFitsYou": "Bạn là sinh viên năm cuối nhiệt tình, bắt trend nhanh và có tiếng Anh giao tiếp tốt – hoàn toàn phù hợp để làm chủ các công cụ AI thế hệ mới. Mặc dù chưa có nhiều kinh nghiệm thực tế và chưa thành thạo công cụ phân tích, sự nhạy bén với mạng xã hội và tư duy thương hiệu sẽ giúp bạn bù đắp và nhanh chóng nắm bắt cơ hội trong ngành Digital Marketing tại TP.HCM.",
+    "transferableSkillsMatch": [
+     "Sáng tạo nội dung mạng xã hội",
+     "Sử dụng công cụ thiết kế cơ bản Canva",
+     "Giao tiếp tiếng Anh và nắm bắt xu hướng nhanh"
+    ],
+    "skillsGap": [
+     "Kỹ năng vận hành công cụ AI chuyên sâu (ChatGPT, Claude, Midjourney)",
+     "Kiến thức phân tích dữ liệu và đo lường hiệu quả content",
+     "Kinh nghiệm thực chiến triển khai chiến dịch thương hiệu"
+    ],
+    "averageSalaryRangeVND": "8,000,000 - 15,000,000 VND / tháng",
+    "evidenceCitations": [
+     {
+      "paperTitle": "TopCV (2024): 62% contraction in standard freelance writer postings; 85% growth in \"AI Content Strategist & Multi-channel Producer\" roles.",
+      "source": "TopCV Vietnam / Navigos Group",
+      "year": 2024,
+      "url": "https://www.topcv.vn/bao-cao-thi-truong-tuyen-dung",
+      "quoteOrDataPoint": "85% growth in AI Content Strategist & Multi-channel Producer roles."
+     },
+     {
+      "paperTitle": "OpenAI/UPenn (2023): Writers and authors have 100% alpha task exposure to language model assistance and drafting.",
+      "source": "OpenAI / OpenResearch / UPenn",
+      "year": 2023,
+      "url": "https://arxiv.org/abs/2303.10130",
+      "quoteOrDataPoint": "Around 80% of the U.S. workforce could have at least 10% of their work tasks affected by LLMs."
+     }
+    ],
+    "resilienceDetail": {
+     "occupationTitle": "Content Writer & SEO Specialist",
+     "occupationTitleVi": "Chuyên viên Viết Nội dung & Tối ưu hóa SEO",
+     "molisaCode": "2641",
+     "onetCode": "27-3042.00",
+     "overallResilienceScore": 48,
+     "automationRiskScore": 78,
+     "augmentationPotentialScore": 88,
+     "humanAdvantageCore": [
+      "Sự hài hước, ngôn ngữ đời sống và cảm xúc thật",
+      "Góc nhìn chuyên gia độc bản, không sao chép",
+      "Xử lý khủng hoảng truyền thông và kể chuyện thương hiệu cao cấp"
+     ],
+     "tasksBreakdown": [
+      {
+       "taskName": "Drafting generic social media captions and basic product descriptions using Canva and trends",
+       "taskNameVi": "Viết caption mạng xã hội và mô tả sản phẩm cơ bản dựa trên Canva và xu hướng",
+       "exposureType": "direct_automation",
+       "exposurePercentage": 90,
+       "onetCode": "27-3042.00-T1",
+       "notes": "Các tác vụ lặp đi lặp lại dễ dàng được tự động hóa bằng LLM."
+      },
+      {
+       "taskName": "Proofreading and optimizing content format for social platforms",
+       "taskNameVi": "Hiệu đính và tối ưu hóa định dạng nội dung cho các nền tảng mạng xã hội",
+       "exposureType": "ai_augmentation",
+       "exposurePercentage": 75,
+       "onetCode": "27-3042.00-T2",
+       "notes": "AI hỗ trợ kiểm tra ngữ pháp và gợi ý cấu trúc, con người chịu trách nhiệm kiểm duyệt cuối cùng."
+      },
+      {
+       "taskName": "Crafting localized brand narrative and culturally resonant storytelling for Vietnamese audience",
+       "taskNameVi": "Xây dựng câu chuyện thương hiệu mang đậm dấu ấn văn hóa và thấu cảm sâu sắc với khán giả Việt Nam",
+       "exposureType": "human_core",
+       "exposurePercentage": 22,
+       "onetCode": "27-3042.00-T3",
+       "notes": "Đòi hỏi góc nhìn sống thực tế và sự thấu hiểu tâm lý khách hàng nội địa."
+      }
+     ],
+     "sources": [
+      {
+       "sourceId": "openai-upenn-2023",
+       "citationText": "OpenAI/UPenn (2023): Writers and authors have 100% alpha task exposure to language model assistance and drafting.",
+       "url": "https://arxiv.org/abs/2303.10130"
+      },
+      {
+       "sourceId": "topcv-vietnamworks-labor-2024-2026",
+       "citationText": "TopCV (2024): 62% contraction in standard freelance writer postings; 85% growth in \"AI Content Strategist & Multi-channel Producer\" roles.",
+       "url": "https://www.topcv.vn/bao-cao-thi-truong-tuyen-dung"
+      }
+     ],
+     "methodologySummary": "Đánh giá dựa trên mô hình phơi nhiễm tác vụ AI của OpenAI/UPenn và dữ liệu tuyển dụng thực tế từ TopCV tại thị trường Việt Nam.",
+     "uncertaintyRange": "+/- 10% tùy thuộc vào tốc độ thích ứng công nghệ của doanh nghiệp vừa và nhỏ.",
+     "vietnamDemandSignal": "transforming"
+    },
+    "trajectories": [
+     {
+      "pathId": "stay_augment",
+      "pathTitle": "AI-Augmented Content Creator",
+      "pathTitleVi": "Sáng tạo nội dung tích hợp AI",
+      "feasibilityScore": 95,
+      "estimatedTimelineMonths": 3,
+      "shortDescription": "Tận dụng nền tảng sẵn có để trở thành người tạo nội dung biết sử dụng AI thành thạo.",
+      "targetRoles": [
+       "Junior AI Content Creator",
+       "Social Media Executive"
+      ],
+      "skillsToAcquire": [
+       "Prompt Engineering cơ bản",
+       "Quản lý lịch nội dung đa kênh",
+       "Chỉnh sửa hình ảnh/video ngắn bằng AI"
+      ],
+      "transferableSkills": [
+       "Viết content cơ bản",
+       "Canva",
+       "Social media"
+      ],
+      "riskLevel": "low",
+      "fiveYearSalaryProjection": [
+       10,
+       14,
+       19,
+       26,
+       35
+      ],
+      "rationale": "Phù hợp với ngân sách thấp và thời gian 20 giờ/tuần của bạn, giúp nhanh chóng có việc làm ngay khi ra trường.",
+      "actionStepNow": "Thực hành kết hợp ChatGPT và Canva để tạo portfolio 5 bài viết mẫu có ứng dụng AI trong tuần này."
+     },
+     {
+      "pathId": "pivot_adjacent",
+      "pathTitle": "Digital Brand Specialist",
+      "pathTitleVi": "Chuyên viên Thương hiệu số",
+      "feasibilityScore": 80,
+      "estimatedTimelineMonths": 6,
+      "shortDescription": "Mở rộng sang việc hoạch định chiến lược thương hiệu và phân tích dữ liệu hành vi người dùng.",
+      "targetRoles": [
+       "Brand Executive",
+       "Digital Marketing Assistant"
+      ],
+      "skillsToAcquire": [
+       "Phân tích dữ liệu marketing cơ bản (Google Analytics)",
+       "Nghiên cứu thị trường và đối thủ",
+       "Chiến lược xây dựng thương hiệu"
+      ],
+      "transferableSkills": [
+       "Bắt trend nhanh",
+       "Tiếng Anh giao tiếp tốt"
+      ],
+      "riskLevel": "moderate",
+      "fiveYearSalaryProjection": [
+       12,
+       17,
+       24,
+       33,
+       45
+      ],
+      "rationale": "Khắc phục điểm yếu thiếu kỹ năng phân tích bằng các khóa học ngắn hạn miễn phí/chi phí thấp, nâng cao giá trị nghề nghiệp.",
+      "actionStepNow": "Đăng ký một khóa học Google Analytics cơ bản và thực hành phân tích một nhãn hàng yêu thích."
+     },
+     {
+      "pathId": "full_switch",
+      "pathTitle": "Data-Driven Marketing Analyst",
+      "pathTitleVi": "Chuyên viên Phân tích Marketing định hướng dữ liệu",
+      "feasibilityScore": 60,
+      "estimatedTimelineMonths": 12,
+      "shortDescription": "Chuyển hướng hẳn sang mảng phân tích dữ liệu và thấu hiểu khách hàng dựa trên nền tảng marketing.",
+      "targetRoles": [
+       "Marketing Data Analyst",
+       "Customer Insights Executive"
+      ],
+      "skillsToAcquire": [
+       "SQL cơ bản",
+       "Excel nâng cao / Power BI",
+       "Tư duy thống kê và đo lường ROI"
+      ],
+      "transferableSkills": [
+       "Tư duy logic",
+       "Tiếng Anh đọc hiểu tài liệu quốc tế"
+      ],
+      "riskLevel": "high",
+      "fiveYearSalaryProjection": [
+       15,
+       22,
+       32,
+       45,
+       60
+      ],
+      "rationale": "Mang lại mức thu nhập cao nhất dài hạn nhưng đòi hỏi nỗ lực lớn để vượt qua điểm yếu hiện tại về công cụ phân tích.",
+      "actionStepNow": "Tận dụng các nguồn tài nguyên miễn phí trên YouTube và Coursera để làm quen với bảng biểu dữ liệu phức tạp."
+     }
+    ],
+    "roadmap": [
+     {
+      "id": "m1",
+      "milestoneNumber": 1,
+      "phaseName": "Foundation & AI Tooling",
+      "phaseNameVi": "Nền tảng & Thành thạo Công cụ AI",
+      "title": "Mastering Generative AI for Content Production",
+      "titleVi": "Làm chủ AI tạo sinh trong sản xuất nội dung",
+      "estimatedHours": 40,
+      "weeksDuration": 4,
+      "skillsCovered": [
+       "Prompt Engineering",
+       "AI Copywriting",
+       "Canva AI integration"
+      ],
+      "freeResources": [
+       {
+        "name": "Prompt Engineering for ChatGPT",
+        "provider": "DeepLearning.AI",
+        "url": "https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/",
+        "type": "Online Course"
+       }
+      ],
+      "checkpointQuiz": {
+       "question": "Phương pháp viết prompt nào hiệu quả nhất để AI tạo ra nội dung chuẩn xác theo văn phong thương hiệu?",
+       "options": [
+        "Chỉ gõ một từ khóa ngắn gọn",
+        "Cung cấp vai trò rõ ràng, ngữ cảnh, nhiệm vụ cụ thể và định dạng đầu ra",
+        "Để AI tự do sáng tạo hoàn toàn không cần hướng dẫn",
+        "Sao chép văn bản của người khác dán vào AI"
+       ],
+       "correctIndex": 1,
+       "explanation": "Việc thiết lập vai trò, ngữ cảnh và yêu cầu định dạng rõ ràng giúp AI hiểu đúng bối cảnh và tạo ra nội dung hữu ích nhất."
+      }
+     },
+     {
+      "id": "m2",
+      "milestoneNumber": 2,
+      "phaseName": "Analytics & Portfolio Building",
+      "phaseNameVi": "Phân tích Dữ liệu & Xây dựng Hồ sơ năng lực",
+      "title": "Bridging Analytics Gaps and Creating AI Portfolio",
+      "titleVi": "Khắc phục điểm yếu phân tích và Xây dựng Portfolio cá nhân",
+      "estimatedHours": 50,
+      "weeksDuration": 6,
+      "skillsCovered": [
+       "Google Analytics cơ bản",
+       "Đo lường hiệu quả Social Media",
+       "Xây dựng Case Study cá nhân"
+      ],
+      "freeResources": [
+       {
+        "name": "Google Analytics Academy",
+        "provider": "Google",
+        "url": "https://analytics.google.com/",
+        "type": "Certification Course"
+       }
+      ],
+      "checkpointQuiz": {
+       "question": "Chỉ số nào quan trọng nhất khi đánh giá hiệu quả tương tác của một chiến dịch nội dung trên mạng xã hội?",
+       "options": [
+        "Số lượng người theo dõi tổng kênh",
+        "Tỷ lệ tương tác (Engagement Rate) và phản hồi thực tế của khách hàng",
+        "Số lượng bài đăng mỗi ngày",
+        "Độ dài của bài viết"
+       ],
+       "correctIndex": 1,
+       "explanation": "Tỷ lệ tương tác phản ánh mức độ quan tâm và cộng hưởng thực sự của khán giả với nội dung, vượt hơn con số theo dõi tĩnh."
+      }
+     }
+    ]
+   }
+  ],
+  "verification": {
+   "verdict": "pass",
+   "failures": [],
+   "judge": {
+    "personalization": 95,
+    "groundedness": 90,
+    "rationale": "The guidance directly integrates the user's senior marketing status, Canva and social media skills, enthusiasm, trend awareness, and English proficiency into the reasoning, fit analysis, and task breakdown."
+   },
+   "citationReport": {
+    "total": 2,
+    "verified": 2,
+    "hallucinated": []
+   }
+  },
+  "trajectory": {
+   "runId": "run_1788087742990_nnk3bp",
+   "config": "final_tools_verifier",
+   "startedAt": "2026-08-30T11:02:22.990Z",
+   "events": [
+    {
+     "ts": "2026-08-30T11:02:22.990Z",
+     "type": "run_start",
+     "message": "pipeline for \"Sinh viên năm cuối ngành Marketing\"",
+     "data": {
+      "config": {
+       "useTools": true,
+       "useVerifier": true
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T11:02:22.990Z",
+     "type": "agent_start",
+     "agent": "profiler"
+    },
+    {
+     "ts": "2026-08-30T11:02:24.361Z",
+     "type": "llm_call",
+     "agent": "profiler",
+     "model": "gemini-3.5-flash-lite",
+     "usageTokens": 498,
+     "latencyMs": 1250
+    },
+    {
+     "ts": "2026-08-30T11:02:24.361Z",
+     "type": "agent_end",
+     "agent": "profiler",
+     "message": "ok",
+     "data": {
+      "keywords": [
+       "Digital Marketer",
+       "Content Writer",
+       "Social Media Specialist"
+      ],
+      "riskFlags": [
+       "Zero practical work experience",
+       "Limited budget for retraining",
+       "Not proficient in analytics tools"
+      ]
+     }
+    },
+    {
+     "ts": "2026-08-30T11:02:24.361Z",
+     "type": "agent_start",
+     "agent": "evidence_gatherer"
+    },
+    {
+     "ts": "2026-08-30T11:02:25.400Z",
+     "type": "llm_call",
+     "agent": "evidence_gatherer",
+     "model": "gemini-3.5-flash-lite",
+     "usageTokens": 551,
+     "latencyMs": 815,
+     "message": "4 tool call(s)"
+    },
+    {
+     "ts": "2026-08-30T11:02:25.400Z",
+     "type": "tool_call",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "lookupOccupation",
+      "args": {
+       "query": "Digital Marketer"
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T11:02:25.400Z",
+     "type": "tool_response",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "lookupOccupation",
+      "ok": true,
+      "summary": "1 item(s)"
+     }
+    },
+    {
+     "ts": "2026-08-30T11:02:25.400Z",
+     "type": "tool_call",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "lookupOccupation",
+      "args": {
+       "query": "Content Writer"
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T11:02:25.400Z",
+     "type": "tool_response",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "lookupOccupation",
+      "ok": true,
+      "summary": "1 item(s)"
+     }
+    },
+    {
+     "ts": "2026-08-30T11:02:25.400Z",
+     "type": "tool_call",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "lookupOccupation",
+      "args": {
+       "query": "Social Media Specialist"
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T11:02:25.400Z",
+     "type": "tool_response",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "lookupOccupation",
+      "ok": true,
+      "summary": "2 item(s)"
+     }
+    },
+    {
+     "ts": "2026-08-30T11:02:25.401Z",
+     "type": "tool_call",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "searchResearch",
+      "args": {
+       "query": "Vietnam digital marketing AI automation labor market entry level"
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T11:02:25.401Z",
+     "type": "tool_response",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "searchResearch",
+      "ok": true,
+      "summary": "3 item(s)"
+     }
+    },
+    {
+     "ts": "2026-08-30T11:02:26.939Z",
+     "type": "llm_call",
+     "agent": "evidence_gatherer",
+     "model": "gemini-3.5-flash-lite",
+     "usageTokens": 4034,
+     "latencyMs": 1276,
+     "message": "final turn"
+    },
+    {
+     "ts": "2026-08-30T11:02:26.939Z",
+     "type": "agent_end",
+     "agent": "evidence_gatherer",
+     "data": {
+      "occupations": 2,
+      "research": 3,
+      "news": 0
+     }
+    },
+    {
+     "ts": "2026-08-30T11:02:26.939Z",
+     "type": "agent_start",
+     "agent": "analyst",
+     "message": "initial synthesis"
+    },
+    {
+     "ts": "2026-08-30T11:02:37.121Z",
+     "type": "llm_call",
+     "agent": "analyst",
+     "model": "gemini-3.5-flash-lite",
+     "usageTokens": 6340,
+     "latencyMs": 9958
+    },
+    {
+     "ts": "2026-08-30T11:02:37.121Z",
+     "type": "agent_end",
+     "agent": "analyst",
+     "data": {
+      "suggestions": 1
+     }
+    },
+    {
+     "ts": "2026-08-30T11:02:38.443Z",
+     "type": "llm_call",
+     "agent": "verifier",
+     "model": "gemini-3.5-flash-lite",
+     "usageTokens": 519,
+     "latencyMs": 1118
+    },
+    {
+     "ts": "2026-08-30T11:02:38.443Z",
+     "type": "verification_result",
+     "agent": "verifier",
+     "data": {
+      "verdict": "pass",
+      "failures": [],
+      "judge": {
+       "personalization": 95,
+       "groundedness": 90,
+       "rationale": "The guidance directly integrates the user's senior marketing status, Canva and social media skills, enthusiasm, trend awareness, and English proficiency into the reasoning, fit analysis, and task breakdown."
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T11:02:38.443Z",
+     "type": "run_end",
+     "message": "final verdict: pass"
+    }
+   ]
+  },
+  "meta": {
+   "models": [
+    "gemini-3.5-flash-lite"
+   ],
+   "usageTokens": 11942,
+   "latencyMs": 15453,
+   "degraded": false
+  }
+ }
+}

@@ -1,0 +1,193 @@
+{
+ "runId": "run_1788087466820_xbov42",
+ "config": "stage1_tools",
+ "startedAt": "2026-08-30T10:57:46.820Z",
+ "events": [
+  {
+   "ts": "2026-08-30T10:57:46.820Z",
+   "type": "run_start",
+   "message": "pipeline for \"Lập trình viên Front-end (junior)\"",
+   "data": {
+    "config": {
+     "useTools": true,
+     "useVerifier": false
+    }
+   }
+  },
+  {
+   "ts": "2026-08-30T10:57:46.820Z",
+   "type": "agent_start",
+   "agent": "profiler"
+  },
+  {
+   "ts": "2026-08-30T10:57:48.366Z",
+   "type": "llm_call",
+   "agent": "profiler",
+   "model": "gemini-3.5-flash-lite",
+   "usageTokens": 512,
+   "latencyMs": 1301
+  },
+  {
+   "ts": "2026-08-30T10:57:48.366Z",
+   "type": "agent_end",
+   "agent": "profiler",
+   "message": "ok",
+   "data": {
+    "keywords": [
+     "front-end developer",
+     "react developer",
+     "ui engineer"
+    ],
+    "riskFlags": [
+     "limited budget for retraining",
+     "limited experience with large-scale systems",
+     "intermediate technical English"
+    ]
+   }
+  },
+  {
+   "ts": "2026-08-30T10:57:48.366Z",
+   "type": "agent_start",
+   "agent": "evidence_gatherer"
+  },
+  {
+   "ts": "2026-08-30T10:57:49.453Z",
+   "type": "llm_call",
+   "agent": "evidence_gatherer",
+   "model": "gemini-3.5-flash-lite",
+   "usageTokens": 567,
+   "latencyMs": 830,
+   "message": "4 tool call(s)"
+  },
+  {
+   "ts": "2026-08-30T10:57:49.453Z",
+   "type": "tool_call",
+   "agent": "evidence_gatherer",
+   "data": {
+    "name": "lookupOccupation",
+    "args": {
+     "query": "front-end developer"
+    }
+   }
+  },
+  {
+   "ts": "2026-08-30T10:57:49.453Z",
+   "type": "tool_response",
+   "agent": "evidence_gatherer",
+   "data": {
+    "name": "lookupOccupation",
+    "ok": true,
+    "summary": "0 item(s) - No direct match in the Vietnam occupation database."
+   }
+  },
+  {
+   "ts": "2026-08-30T10:57:49.453Z",
+   "type": "tool_call",
+   "agent": "evidence_gatherer",
+   "data": {
+    "name": "lookupOccupation",
+    "args": {
+     "query": "react developer"
+    }
+   }
+  },
+  {
+   "ts": "2026-08-30T10:57:49.453Z",
+   "type": "tool_response",
+   "agent": "evidence_gatherer",
+   "data": {
+    "name": "lookupOccupation",
+    "ok": true,
+    "summary": "0 item(s) - No direct match in the Vietnam occupation database."
+   }
+  },
+  {
+   "ts": "2026-08-30T10:57:49.453Z",
+   "type": "tool_call",
+   "agent": "evidence_gatherer",
+   "data": {
+    "name": "lookupOccupation",
+    "args": {
+     "query": "ui engineer"
+    }
+   }
+  },
+  {
+   "ts": "2026-08-30T10:57:49.453Z",
+   "type": "tool_response",
+   "agent": "evidence_gatherer",
+   "data": {
+    "name": "lookupOccupation",
+    "ok": true,
+    "summary": "1 item(s)"
+   }
+  },
+  {
+   "ts": "2026-08-30T10:57:49.453Z",
+   "type": "tool_call",
+   "agent": "evidence_gatherer",
+   "data": {
+    "name": "searchResearch",
+    "args": {
+     "query": "generative AI impact front end developer Vietnam software engineering"
+    }
+   }
+  },
+  {
+   "ts": "2026-08-30T10:57:49.454Z",
+   "type": "tool_response",
+   "agent": "evidence_gatherer",
+   "data": {
+    "name": "searchResearch",
+    "ok": true,
+    "summary": "3 item(s)"
+   }
+  },
+  {
+   "ts": "2026-08-30T10:57:51.070Z",
+   "type": "llm_call",
+   "agent": "evidence_gatherer",
+   "model": "gemini-3.5-flash-lite",
+   "usageTokens": 1791,
+   "latencyMs": 1379,
+   "message": "final turn"
+  },
+  {
+   "ts": "2026-08-30T10:57:51.070Z",
+   "type": "agent_end",
+   "agent": "evidence_gatherer",
+   "data": {
+    "occupations": 1,
+    "research": 3,
+    "news": 0
+   }
+  },
+  {
+   "ts": "2026-08-30T10:57:51.070Z",
+   "type": "agent_start",
+   "agent": "analyst",
+   "message": "initial synthesis"
+  },
+  {
+   "ts": "2026-08-30T10:58:00.892Z",
+   "type": "llm_call",
+   "agent": "analyst",
+   "model": "gemini-3.5-flash-lite",
+   "usageTokens": 5653,
+   "latencyMs": 9535
+  },
+  {
+   "ts": "2026-08-30T10:58:00.893Z",
+   "type": "agent_end",
+   "agent": "analyst",
+   "data": {
+    "suggestions": 1
+   }
+  },
+  {
+   "ts": "2026-08-30T10:58:00.893Z",
+   "type": "run_end",
+   "message": "no verifier (config)"
+  }
+ ]
+}

@@ -1,0 +1,511 @@
+{
+ "score": {
+  "personaId": "persona-golden-3",
+  "config": "stage1_tools",
+  "ok": true,
+  "groundingRate": 1,
+  "hallucinatedCount": 0,
+  "schemaFailures": 0,
+  "guardrailViolations": 0,
+  "personalization": 90,
+  "usageTokens": 14329,
+  "latencyMs": 16957,
+  "model": "gemini-3.5-flash-lite",
+  "costPerTaskUsd": 0.0042987
+ },
+ "payload": {
+  "source": "agentic_pipeline",
+  "config": {
+   "useTools": true,
+   "useVerifier": false
+  },
+  "suggestions": [
+   {
+    "roleTitle": "Business Analyst / Data Specialist",
+    "roleTitleVi": "Chuyên viên Phân tích Kinh doanh & Dữ liệu (BA/BI)",
+    "aiResilienceScore": 82,
+    "matchScore": 90,
+    "reasoning": "Với nền tảng Cử nhân Quản trị Kinh doanh từ NEU và tư duy logic kinh doanh tốt, Trần Mai Chi sở hữu nền tảng vững chắc để phát triển trong lĩnh vực Phân tích Kinh doanh. Theo WEF Future of Jobs (2023), Business Intelligence và Data Analyst xếp vị trí thứ 3 toàn cầu về tốc độ tăng trưởng nghề nghiệp. Nghiên cứu của Stanford HAI (2024) cho thấy việc ứng dụng AI giúp chuyên viên phân tích rút ngắn 43% thời gian mô hình hóa thị trường và tăng 25% độ chính xác dự báo, biến AI thành trợ thủ đắc lực thay vì mối đe dọa thay thế.",
+    "whyItFitsYou": "Vị trí này tận dụng tối đa thế mạnh tổng quan doanh nghiệp, tư duy logic và kỹ năng tiếng Anh IELTS 7.0 của bạn để đọc hiểu tài liệu quốc tế. Các điểm yếu về kinh nghiệm công nghệ sâu và chưa có portfolio sẽ được khắc phục nhanh chóng thông qua khả năng tự học nhanh và xu hướng tăng trưởng mạnh tại thị trường Hà Nội.",
+    "transferableSkillsMatch": [
+     "Tư duy tổng quan về doanh nghiệp",
+     "Kỹ năng giao tiếp và thuyết trình mạch lạc",
+     "Khả năng tự học nhanh",
+     "Nền tảng tiếng Anh IELTS 7.0"
+    ],
+    "skillsGap": [
+     "Kỹ năng viết câu lệnh SQL và làm sạch dữ liệu",
+     "Thành thạo công cụ trực quan hóa dữ liệu (Power BI/Tableau)",
+     "Portfolio dự án phân tích dữ liệu thực tế"
+    ],
+    "averageSalaryRangeVND": "12,000,000 - 25,000,000 VND / tháng",
+    "evidenceCitations": [
+     {
+      "paperTitle": "Stanford HAI (2024): Business analysts utilizing AI agents complete market modeling 43% faster with 25% higher forecast accuracy.",
+      "source": "Stanford HAI",
+      "year": 2024,
+      "url": "https://aiindex.stanford.edu/report/",
+      "quoteOrDataPoint": "Business analysts utilizing AI agents complete market modeling 43% faster with 25% higher forecast accuracy."
+     },
+     {
+      "paperTitle": "WEF Future of Jobs (2023): Business Intelligence and Data Analysts ranked as #3 fastest growing occupation globally.",
+      "source": "World Economic Forum",
+      "year": 2023,
+      "url": "https://www.weforum.org/reports/the-future-of-jobs-report-2023/",
+      "quoteOrDataPoint": "Business Intelligence and Data Analysts ranked as #3 fastest growing occupation globally."
+     }
+    ],
+    "resilienceDetail": {
+     "occupationTitle": "Business Analyst / Data Specialist",
+     "occupationTitleVi": "Chuyên viên Phân tích Kinh doanh & Dữ liệu (BA/BI)",
+     "molisaCode": "2511",
+     "onetCode": "15-1211.00",
+     "overallResilienceScore": 82,
+     "automationRiskScore": 35,
+     "augmentationPotentialScore": 92,
+     "humanAdvantageCore": [
+      "Deep domain contextualization & Vietnamese business culture insights (Thấu hiểu sâu bối cảnh thị trường nội địa)",
+      "Executive stakeholder alignment & persuasion (Thuyết phục và gắn kết lãnh đạo)",
+      "Problem framing & translating ambiguous business pains into metrics (Định hình bài toán từ nhu cầu mơ hồ)",
+      "Ethical governance of data pipelines (Quản trị đạo đức và pháp lý dữ liệu)"
+     ],
+     "tasksBreakdown": [
+      {
+       "taskName": "Writing standard SQL queries and data cleaning scripts for business metrics",
+       "taskNameVi": "Viết câu lệnh SQL cơ bản và làm sạch dữ liệu bảng phục vụ chỉ số kinh doanh",
+       "exposureType": "ai_augmentation",
+       "exposurePercentage": 80,
+       "onetCode": "15-1211.00-T1",
+       "notes": "AI writes SQL and Python pandas transforms in seconds; analysts review and validate."
+      },
+      {
+       "taskName": "Creating routine operational dashboards and charts for NEU graduate context",
+       "taskNameVi": "Tạo dashboard vận hành và biểu đồ báo cáo định kỳ cho các bài toán kinh doanh",
+       "exposureType": "ai_augmentation",
+       "exposurePercentage": 70,
+       "onetCode": "15-1211.00-T2",
+       "notes": "Natural language BI tools (Tableau Pulse, Power BI Copilot) generate standard visual summaries automatically."
+      },
+      {
+       "taskName": "Framing strategic business hypotheses and executive consulting for growth",
+       "taskNameVi": "Định hình giả thuyết chiến lược tăng trưởng và tư vấn lãnh đạo dựa trên dữ liệu",
+       "exposureType": "human_core",
+       "exposurePercentage": 15,
+       "onetCode": "15-1211.00-T3",
+       "notes": "Requires strategic intuition, political savvy, and nuanced risk appetite."
+      }
+     ],
+     "sources": [
+      {
+       "sourceId": "stanford-hai-ai-index-2024",
+       "citationText": "Stanford HAI (2024): Business analysts utilizing AI agents complete market modeling 43% faster with 25% higher forecast accuracy.",
+       "url": "https://aiindex.stanford.edu/report/"
+      },
+      {
+       "sourceId": "wef-future-of-jobs-2023-2025",
+       "citationText": "WEF Future of Jobs (2023): Business Intelligence and Data Analysts ranked as #3 fastest growing occupation globally.",
+       "url": "https://www.weforum.org/reports/the-future-of-jobs-report-2023/"
+      }
+     ],
+     "methodologySummary": "Đánh giá dựa trên tổng hợp chỉ số phơi nhiễm tác vụ O*NET kết hợp báo cáo việc làm toàn cầu của WEF và Stanford HAI.",
+     "uncertaintyRange": "±5% tùy thuộc vào tốc độ thích ứng công nghệ của doanh nghiệp tại Hà Nội.",
+     "vietnamDemandSignal": "high_growth"
+    },
+    "trajectories": [
+     {
+      "pathId": "stay_augment",
+      "pathTitle": "AI-Augmented Business Analyst",
+      "pathTitleVi": "Chuyên viên Phân tích Kinh doanh ứng dụng AI",
+      "feasibilityScore": 90,
+      "estimatedTimelineMonths": 6,
+      "shortDescription": "Sử dụng các công cụ AI hỗ trợ viết SQL, tạo dashboard và phân tích dữ liệu để gia tăng năng suất làm việc vượt trội.",
+      "targetRoles": [
+       "Junior Business Analyst",
+       "Data Specialist"
+      ],
+      "skillsToAcquire": [
+       "SQL cơ bản",
+       "Power BI / Tableau",
+       "Prompt Engineering cho dữ liệu"
+      ],
+      "transferableSkills": [
+       "Tư duy chiến lược",
+       "Giao tiếp",
+       "Tiếng Anh"
+      ],
+      "riskLevel": "low",
+      "fiveYearSalaryProjection": [
+       15,
+       22,
+       32,
+       45,
+       60
+      ],
+      "rationale": "Lộ trình an toàn và thực tế nhất giúp bạn nhanh chóng vượt qua điểm yếu thiếu kinh nghiệm kỹ thuật.",
+      "actionStepNow": "Đăng ký một khóa học SQL trực tuyến miễn phí và thực hành trên dữ liệu giả lập thương mại điện tử."
+     },
+     {
+      "pathId": "pivot_adjacent",
+      "pathTitle": "Growth & AI Workflow Specialist",
+      "pathTitleVi": "Chuyên viên Vận hành Tăng trưởng & Tự động hóa AI",
+      "feasibilityScore": 80,
+      "estimatedTimelineMonths": 12,
+      "shortDescription": "Chuyển dịch sang mảng tự động hóa quy trình kinh doanh và marketing bằng các công cụ AI workflow.",
+      "targetRoles": [
+       "Growth Marketing Analyst",
+       "AI Operations Associate"
+      ],
+      "skillsToAcquire": [
+       "Zapier / Make.com",
+       "AI Automation tools",
+       "Digital Marketing analytics"
+      ],
+      "transferableSkills": [
+       "Tư duy tối ưu vận hành",
+       "Giải quyết bài toán tăng trưởng"
+      ],
+      "riskLevel": "moderate",
+      "fiveYearSalaryProjection": [
+       16,
+       24,
+       35,
+       50,
+       70
+      ],
+      "rationale": "Phù hợp với sở thích về E-commerce và AI Workflow Automation của bạn.",
+      "actionStepNow": "Tìm hiểu và thử nghiệm xây dựng một luồng tự động hóa công việc cá nhân bằng công cụ No-code."
+     },
+     {
+      "pathId": "full_switch",
+      "pathTitle": "AI Product Owner Trainee",
+      "pathTitleVi": "Thực tập sinh Quản lý Sản phẩm AI",
+      "feasibilityScore": 65,
+      "estimatedTimelineMonths": 24,
+      "shortDescription": "Chuyển hướng hoàn toàn sang quản lý sản phẩm công nghệ ứng dụng trí tuệ nhân tạo.",
+      "targetRoles": [
+       "Associate Product Manager",
+       "AI Product Analyst"
+      ],
+      "skillsToAcquire": [
+       "Product Management frameworks",
+       "Agile/Scrum",
+       "Technical requirement specification"
+      ],
+      "transferableSkills": [
+       "Lãnh đạo nhóm",
+       "Thuyết trình",
+       "Tư duy hệ thống"
+      ],
+      "riskLevel": "high",
+      "fiveYearSalaryProjection": [
+       18,
+       28,
+       40,
+       60,
+       85
+      ],
+      "rationale": "Đáp ứng mong muốn thăng tiến nhanh và tiếp cận công nghệ mới, nhưng đòi hỏi nỗ lực cao để bù đắp kinh nghiệm.",
+      "actionStepNow": "Đọc tài liệu về Product Management và tham gia các cộng đồng khởi nghiệp công nghệ tại Hà Nội."
+     }
+    ],
+    "roadmap": [
+     {
+      "id": "m1",
+      "milestoneNumber": 1,
+      "phaseName": "Foundation & Skill Building",
+      "phaseNameVi": "Xây dựng Nền tảng & Kỹ năng Kỹ thuật",
+      "title": "Mastering SQL and Data Visualization basics",
+      "titleVi": "Làm chủ SQL và công cụ trực quan hóa dữ liệu cơ bản",
+      "estimatedHours": 72,
+      "weeksDuration": 4,
+      "skillsCovered": [
+       "SQL queries",
+       "Data cleaning",
+       "Power BI basics"
+      ],
+      "freeResources": {
+       "name": "SQLBolt & Mode Analytics SQL Tutorial",
+       "provider": "Mode / Open Web",
+       "url": "https://mode.com/sql-tutorial/",
+       "type": "Interactive Course"
+      },
+      "checkpointQuiz": {
+       "question": "Câu lệnh SQL nào được sử dụng để lọc dữ liệu theo điều kiện trong bảng?",
+       "options": [
+        "SELECT",
+        "WHERE",
+        "GROUP BY",
+        "ORDER BY"
+       ],
+       "correctIndex": 1,
+       "explanation": "Mệnh đề WHERE được dùng để chỉ định điều kiện lọc các bản ghi trong câu lệnh SQL."
+      }
+     },
+     {
+      "id": "m2",
+      "milestoneNumber": 2,
+      "phaseName": "Portfolio & Practical Application",
+      "phaseNameVi": "Xây dựng Portfolio & Dự án Thực chiến",
+      "title": "Creating an AI-augmented Business Case Study",
+      "titleVi": "Thực hiện một dự án phân tích kinh doanh thực tế ứng dụng AI",
+      "estimatedHours": 90,
+      "weeksDuration": 5,
+      "skillsCovered": [
+       "Data storytelling",
+       "Dashboard creation",
+       "AI tool utilization"
+      ],
+      "freeResources": {
+       "name": "Kaggle Datasets & Tableau Public",
+       "provider": "Kaggle",
+       "url": "https://www.kaggle.com/datasets",
+       "type": "Data Source & Community"
+      },
+      "checkpointQuiz": {
+       "question": "Yếu tố quan trọng nhất khi trình bày báo cáo phân tích dữ liệu cho ban lãnh đạo là gì?",
+       "options": [
+        "Sử dụng càng nhiều công thức phức tạp càng tốt",
+        "Tập trung vào insights cốt lõi và đề xuất hành động kinh doanh",
+        "Định dạng màu sắc sặc sỡ",
+        "Viết báo cáo dài trên 50 trang"
+       ],
+       "correctIndex": 1,
+       "explanation": "Ban lãnh đạo quan tâm đến các điểm nhìn sâu sắc (insights) và đề xuất hành động thực tế để giải quyết bài toán kinh doanh."
+      }
+     }
+    ]
+   }
+  ],
+  "verification": null,
+  "trajectory": {
+   "runId": "run_1788087398329_rn9p2q",
+   "config": "stage1_tools",
+   "startedAt": "2026-08-30T10:56:38.329Z",
+   "events": [
+    {
+     "ts": "2026-08-30T10:56:38.329Z",
+     "type": "run_start",
+     "message": "pipeline for \"Fresh Business Graduate\"",
+     "data": {
+      "config": {
+       "useTools": true,
+       "useVerifier": false
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T10:56:38.329Z",
+     "type": "agent_start",
+     "agent": "profiler"
+    },
+    {
+     "ts": "2026-08-30T10:56:39.736Z",
+     "type": "llm_call",
+     "agent": "profiler",
+     "model": "gemini-3.5-flash-lite",
+     "usageTokens": 683,
+     "latencyMs": 1172
+    },
+    {
+     "ts": "2026-08-30T10:56:39.736Z",
+     "type": "agent_end",
+     "agent": "profiler",
+     "message": "ok",
+     "data": {
+      "keywords": [
+       "Business Analyst",
+       "Digital Marketing Specialist",
+       "Project Coordinator"
+      ],
+      "riskFlags": [
+       "limited technical hands-on experience",
+       "lacks concrete project portfolio"
+      ]
+     }
+    },
+    {
+     "ts": "2026-08-30T10:56:39.736Z",
+     "type": "agent_start",
+     "agent": "evidence_gatherer"
+    },
+    {
+     "ts": "2026-08-30T10:56:40.927Z",
+     "type": "llm_call",
+     "agent": "evidence_gatherer",
+     "model": "gemini-3.5-flash-lite",
+     "usageTokens": 547,
+     "latencyMs": 1058,
+     "message": "4 tool call(s)"
+    },
+    {
+     "ts": "2026-08-30T10:56:40.928Z",
+     "type": "tool_call",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "lookupOccupation",
+      "args": {
+       "query": "Business Analyst"
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T10:56:40.928Z",
+     "type": "tool_response",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "lookupOccupation",
+      "ok": true,
+      "summary": "1 item(s)"
+     }
+    },
+    {
+     "ts": "2026-08-30T10:56:40.928Z",
+     "type": "tool_call",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "lookupOccupation",
+      "args": {
+       "query": "Digital Marketing Specialist"
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T10:56:40.928Z",
+     "type": "tool_response",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "lookupOccupation",
+      "ok": true,
+      "summary": "2 item(s)"
+     }
+    },
+    {
+     "ts": "2026-08-30T10:56:40.928Z",
+     "type": "tool_call",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "lookupOccupation",
+      "args": {
+       "query": "Project Coordinator"
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T10:56:40.928Z",
+     "type": "tool_response",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "lookupOccupation",
+      "ok": true,
+      "summary": "0 item(s) - No direct match in the Vietnam occupation database."
+     }
+    },
+    {
+     "ts": "2026-08-30T10:56:40.928Z",
+     "type": "tool_call",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "searchResearch",
+      "args": {
+       "query": "Generative AI impact entry level business graduate Vietnam Hanoi"
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T10:56:40.928Z",
+     "type": "tool_response",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "searchResearch",
+      "ok": true,
+      "summary": "3 item(s)"
+     }
+    },
+    {
+     "ts": "2026-08-30T10:56:42.005Z",
+     "type": "llm_call",
+     "agent": "evidence_gatherer",
+     "model": "gemini-3.5-flash-lite",
+     "usageTokens": 3199,
+     "latencyMs": 833,
+     "message": "1 tool call(s)"
+    },
+    {
+     "ts": "2026-08-30T10:56:42.005Z",
+     "type": "tool_call",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "getOccupationNews",
+      "args": {
+       "role": "Project Coordinator"
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T10:56:44.048Z",
+     "type": "tool_response",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "getOccupationNews",
+      "ok": false,
+      "summary": "0 item(s) - News search failed: {\"error\":{\"code\":429,\"message\":\"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \",\"status\":\"RESOURCE_EXHAUSTED\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]}]}}"
+     }
+    },
+    {
+     "ts": "2026-08-30T10:56:45.740Z",
+     "type": "llm_call",
+     "agent": "evidence_gatherer",
+     "model": "gemini-3.5-flash-lite",
+     "usageTokens": 3345,
+     "latencyMs": 1274,
+     "message": "final turn"
+    },
+    {
+     "ts": "2026-08-30T10:56:45.740Z",
+     "type": "agent_end",
+     "agent": "evidence_gatherer",
+     "data": {
+      "occupations": 2,
+      "research": 3,
+      "news": 0
+     }
+    },
+    {
+     "ts": "2026-08-30T10:56:45.740Z",
+     "type": "agent_start",
+     "agent": "analyst",
+     "message": "initial synthesis"
+    },
+    {
+     "ts": "2026-08-30T10:56:55.286Z",
+     "type": "llm_call",
+     "agent": "analyst",
+     "model": "gemini-3.5-flash-lite",
+     "usageTokens": 6324,
+     "latencyMs": 9385
+    },
+    {
+     "ts": "2026-08-30T10:56:55.286Z",
+     "type": "agent_end",
+     "agent": "analyst",
+     "data": {
+      "suggestions": 1
+     }
+    },
+    {
+     "ts": "2026-08-30T10:56:55.286Z",
+     "type": "run_end",
+     "message": "no verifier (config)"
+    }
+   ]
+  },
+  "meta": {
+   "models": [
+    "gemini-3.5-flash-lite"
+   ],
+   "usageTokens": 14098,
+   "latencyMs": 16957,
+   "degraded": false
+  }
+ }
+}

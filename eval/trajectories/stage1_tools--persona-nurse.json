@@ -1,0 +1,193 @@
+{
+ "runId": "run_1788087498931_tswu2g",
+ "config": "stage1_tools",
+ "startedAt": "2026-08-30T10:58:18.931Z",
+ "events": [
+  {
+   "ts": "2026-08-30T10:58:18.931Z",
+   "type": "run_start",
+   "message": "pipeline for \"Điều dưỡng viên\"",
+   "data": {
+    "config": {
+     "useTools": true,
+     "useVerifier": false
+    }
+   }
+  },
+  {
+   "ts": "2026-08-30T10:58:18.931Z",
+   "type": "agent_start",
+   "agent": "profiler"
+  },
+  {
+   "ts": "2026-08-30T10:58:20.584Z",
+   "type": "llm_call",
+   "agent": "profiler",
+   "model": "gemini-3.5-flash-lite",
+   "usageTokens": 490,
+   "latencyMs": 1458
+  },
+  {
+   "ts": "2026-08-30T10:58:20.584Z",
+   "type": "agent_end",
+   "agent": "profiler",
+   "message": "ok",
+   "data": {
+    "keywords": [
+     "Registered Nurse",
+     "Digital Health Specialist",
+     "Public Health Coordinator"
+    ],
+    "riskFlags": [
+     "limited budget for retraining",
+     "high shift-work pressure",
+     "low weekly time availability"
+    ]
+   }
+  },
+  {
+   "ts": "2026-08-30T10:58:20.584Z",
+   "type": "agent_start",
+   "agent": "evidence_gatherer"
+  },
+  {
+   "ts": "2026-08-30T10:58:21.605Z",
+   "type": "llm_call",
+   "agent": "evidence_gatherer",
+   "model": "gemini-3.5-flash-lite",
+   "usageTokens": 559,
+   "latencyMs": 890,
+   "message": "4 tool call(s)"
+  },
+  {
+   "ts": "2026-08-30T10:58:21.605Z",
+   "type": "tool_call",
+   "agent": "evidence_gatherer",
+   "data": {
+    "name": "lookupOccupation",
+    "args": {
+     "query": "Registered Nurse"
+    }
+   }
+  },
+  {
+   "ts": "2026-08-30T10:58:21.605Z",
+   "type": "tool_response",
+   "agent": "evidence_gatherer",
+   "data": {
+    "name": "lookupOccupation",
+    "ok": true,
+    "summary": "0 item(s) - No direct match in the Vietnam occupation database."
+   }
+  },
+  {
+   "ts": "2026-08-30T10:58:21.605Z",
+   "type": "tool_call",
+   "agent": "evidence_gatherer",
+   "data": {
+    "name": "lookupOccupation",
+    "args": {
+     "query": "Digital Health Specialist"
+    }
+   }
+  },
+  {
+   "ts": "2026-08-30T10:58:21.605Z",
+   "type": "tool_response",
+   "agent": "evidence_gatherer",
+   "data": {
+    "name": "lookupOccupation",
+    "ok": true,
+    "summary": "2 item(s)"
+   }
+  },
+  {
+   "ts": "2026-08-30T10:58:21.605Z",
+   "type": "tool_call",
+   "agent": "evidence_gatherer",
+   "data": {
+    "name": "lookupOccupation",
+    "args": {
+     "query": "Public Health Coordinator"
+    }
+   }
+  },
+  {
+   "ts": "2026-08-30T10:58:21.605Z",
+   "type": "tool_response",
+   "agent": "evidence_gatherer",
+   "data": {
+    "name": "lookupOccupation",
+    "ok": true,
+    "summary": "0 item(s) - No direct match in the Vietnam occupation database."
+   }
+  },
+  {
+   "ts": "2026-08-30T10:58:21.605Z",
+   "type": "tool_call",
+   "agent": "evidence_gatherer",
+   "data": {
+    "name": "searchResearch",
+    "args": {
+     "query": "digital health Vietnam workforce automation healthcare public health"
+    }
+   }
+  },
+  {
+   "ts": "2026-08-30T10:58:21.606Z",
+   "type": "tool_response",
+   "agent": "evidence_gatherer",
+   "data": {
+    "name": "searchResearch",
+    "ok": true,
+    "summary": "3 item(s)"
+   }
+  },
+  {
+   "ts": "2026-08-30T10:58:23.019Z",
+   "type": "llm_call",
+   "agent": "evidence_gatherer",
+   "model": "gemini-3.5-flash-lite",
+   "usageTokens": 2558,
+   "latencyMs": 1102,
+   "message": "final turn"
+  },
+  {
+   "ts": "2026-08-30T10:58:23.019Z",
+   "type": "agent_end",
+   "agent": "evidence_gatherer",
+   "data": {
+    "occupations": 2,
+    "research": 3,
+    "news": 0
+   }
+  },
+  {
+   "ts": "2026-08-30T10:58:23.019Z",
+   "type": "agent_start",
+   "agent": "analyst",
+   "message": "initial synthesis"
+  },
+  {
+   "ts": "2026-08-30T10:58:33.819Z",
+   "type": "llm_call",
+   "agent": "analyst",
+   "model": "gemini-3.5-flash-lite",
+   "usageTokens": 6290,
+   "latencyMs": 10598
+  },
+  {
+   "ts": "2026-08-30T10:58:33.819Z",
+   "type": "agent_end",
+   "agent": "analyst",
+   "data": {
+    "suggestions": 1
+   }
+  },
+  {
+   "ts": "2026-08-30T10:58:33.819Z",
+   "type": "run_end",
+   "message": "no verifier (config)"
+  }
+ ]
+}

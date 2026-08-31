@@ -1,0 +1,214 @@
+{
+ "runId": "run_1788087381767_7wc2jb",
+ "config": "stage1_tools",
+ "startedAt": "2026-08-30T10:56:21.767Z",
+ "events": [
+  {
+   "ts": "2026-08-30T10:56:21.768Z",
+   "type": "run_start",
+   "message": "pipeline for \"Manual Software QA\"",
+   "data": {
+    "config": {
+     "useTools": true,
+     "useVerifier": false
+    }
+   }
+  },
+  {
+   "ts": "2026-08-30T10:56:21.768Z",
+   "type": "agent_start",
+   "agent": "profiler"
+  },
+  {
+   "ts": "2026-08-30T10:56:23.317Z",
+   "type": "llm_call",
+   "agent": "profiler",
+   "model": "gemini-3.5-flash-lite",
+   "usageTokens": 721,
+   "latencyMs": 1184
+  },
+  {
+   "ts": "2026-08-30T10:56:23.317Z",
+   "type": "agent_end",
+   "agent": "profiler",
+   "message": "ok",
+   "data": {
+    "keywords": [
+     "Automation QA Engineer",
+     "Software Tester",
+     "AI Prompt Evaluator"
+    ],
+    "riskFlags": [
+     "Limited budget for retraining",
+     "Hesitant with technical English interviews",
+     "Lacks initial coding experience for automation"
+    ]
+   }
+  },
+  {
+   "ts": "2026-08-30T10:56:23.317Z",
+   "type": "agent_start",
+   "agent": "evidence_gatherer"
+  },
+  {
+   "ts": "2026-08-30T10:56:24.479Z",
+   "type": "llm_call",
+   "agent": "evidence_gatherer",
+   "model": "gemini-3.5-flash-lite",
+   "usageTokens": 592,
+   "latencyMs": 995,
+   "message": "5 tool call(s)"
+  },
+  {
+   "ts": "2026-08-30T10:56:24.479Z",
+   "type": "tool_call",
+   "agent": "evidence_gatherer",
+   "data": {
+    "name": "lookupOccupation",
+    "args": {
+     "query": "Automation QA Engineer"
+    }
+   }
+  },
+  {
+   "ts": "2026-08-30T10:56:24.479Z",
+   "type": "tool_response",
+   "agent": "evidence_gatherer",
+   "data": {
+    "name": "lookupOccupation",
+    "ok": true,
+    "summary": "2 item(s)"
+   }
+  },
+  {
+   "ts": "2026-08-30T10:56:24.479Z",
+   "type": "tool_call",
+   "agent": "evidence_gatherer",
+   "data": {
+    "name": "lookupOccupation",
+    "args": {
+     "query": "Software Tester"
+    }
+   }
+  },
+  {
+   "ts": "2026-08-30T10:56:24.479Z",
+   "type": "tool_response",
+   "agent": "evidence_gatherer",
+   "data": {
+    "name": "lookupOccupation",
+    "ok": true,
+    "summary": "1 item(s)"
+   }
+  },
+  {
+   "ts": "2026-08-30T10:56:24.479Z",
+   "type": "tool_call",
+   "agent": "evidence_gatherer",
+   "data": {
+    "name": "lookupOccupation",
+    "args": {
+     "query": "AI Prompt Evaluator"
+    }
+   }
+  },
+  {
+   "ts": "2026-08-30T10:56:24.479Z",
+   "type": "tool_response",
+   "agent": "evidence_gatherer",
+   "data": {
+    "name": "lookupOccupation",
+    "ok": true,
+    "summary": "1 item(s)"
+   }
+  },
+  {
+   "ts": "2026-08-30T10:56:24.479Z",
+   "type": "tool_call",
+   "agent": "evidence_gatherer",
+   "data": {
+    "name": "searchResearch",
+    "args": {
+     "query": "software testing automation AI impact Vietnam Da Nang"
+    }
+   }
+  },
+  {
+   "ts": "2026-08-30T10:56:24.480Z",
+   "type": "tool_response",
+   "agent": "evidence_gatherer",
+   "data": {
+    "name": "searchResearch",
+    "ok": true,
+    "summary": "3 item(s)"
+   }
+  },
+  {
+   "ts": "2026-08-30T10:56:24.480Z",
+   "type": "tool_call",
+   "agent": "evidence_gatherer",
+   "data": {
+    "name": "searchResearch",
+    "args": {
+     "query": "generative AI data annotation prompt evaluator labor market Vietnam"
+    }
+   }
+  },
+  {
+   "ts": "2026-08-30T10:56:24.481Z",
+   "type": "tool_response",
+   "agent": "evidence_gatherer",
+   "data": {
+    "name": "searchResearch",
+    "ok": true,
+    "summary": "3 item(s)"
+   }
+  },
+  {
+   "ts": "2026-08-30T10:56:25.939Z",
+   "type": "llm_call",
+   "agent": "evidence_gatherer",
+   "model": "gemini-3.5-flash-lite",
+   "usageTokens": 4902,
+   "latencyMs": 1079,
+   "message": "final turn"
+  },
+  {
+   "ts": "2026-08-30T10:56:25.939Z",
+   "type": "agent_end",
+   "agent": "evidence_gatherer",
+   "data": {
+    "occupations": 2,
+    "research": 5,
+    "news": 0
+   }
+  },
+  {
+   "ts": "2026-08-30T10:56:25.939Z",
+   "type": "agent_start",
+   "agent": "analyst",
+   "message": "initial synthesis"
+  },
+  {
+   "ts": "2026-08-30T10:56:36.218Z",
+   "type": "llm_call",
+   "agent": "analyst",
+   "model": "gemini-3.5-flash-lite",
+   "usageTokens": 6966,
+   "latencyMs": 10084
+  },
+  {
+   "ts": "2026-08-30T10:56:36.218Z",
+   "type": "agent_end",
+   "agent": "analyst",
+   "data": {
+    "suggestions": 1
+   }
+  },
+  {
+   "ts": "2026-08-30T10:56:36.218Z",
+   "type": "run_end",
+   "message": "no verifier (config)"
+  }
+ ]
+}

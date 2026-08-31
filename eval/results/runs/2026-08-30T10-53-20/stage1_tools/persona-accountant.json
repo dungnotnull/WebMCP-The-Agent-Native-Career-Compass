@@ -1,0 +1,480 @@
+{
+ "score": {
+  "personaId": "persona-accountant",
+  "config": "stage1_tools",
+  "ok": true,
+  "groundingRate": 0.5,
+  "hallucinatedCount": 1,
+  "schemaFailures": 0,
+  "guardrailViolations": 0,
+  "personalization": 75,
+  "usageTokens": 10116,
+  "latencyMs": 14252,
+  "model": "gemini-3.5-flash-lite",
+  "costPerTaskUsd": 0.0030348
+ },
+ "payload": {
+  "source": "agentic_pipeline",
+  "config": {
+   "useTools": true,
+   "useVerifier": false
+  },
+  "suggestions": [
+   {
+    "roleTitle": "Financial Analyst & Business Intelligence Specialist",
+    "roleTitleVi": "Chuyên viên Phân tích Tài chính & Kinh doanh Thông minh",
+    "aiResilienceScore": 82,
+    "matchScore": 85,
+    "reasoning": "Dựa trên báo cáo từ WEF Future of Jobs và Stanford HAI (2024), các vai trò giao thoa giữa tài chính và phân tích dữ liệu đang có tốc độ tăng trưởng cao (#3 toàn cầu). Với nền tảng 6 năm kế toán tổng hợp, bạn có lợi thế lớn về sự am hiểu quy trình tài chính doanh nghiệp, trong khi các công cụ AI và BI giúp bù đắp kỹ năng trình bày số liệu và phân tích dữ liệu mà bạn còn thiếu.",
+    "whyItFitsYou": "Hồ sơ của bạn sở hữu tính cẩn thận, chi tiết và tư duy tuân thủ quy định vững chắc từ nền tảng Đại học Kinh tế Quốc dân và 6 năm kinh nghiệm làm kế toán. Điểm yếu hiện tại về 'chưa biết dùng công cụ phân tích dữ liệu' và 'kỹ năng trình bày số liệu' hoàn toàn có thể khắc phục thông qua lộ trình nâng cấp kỹ năng với ngân sách dưới 4 triệu VNĐ và thời gian 10 giờ/tuần.",
+    "transferableSkillsMatch": [
+     "Kiểm soát chứng từ và đối chiếu số liệu",
+     "Nắm vững quy trình kế toán và tuân thủ thuế",
+     "Sử dụng Excel nâng cao",
+     "Sự cẩn thận và tư duy chi tiết"
+    ],
+    "skillsGap": [
+     "Công cụ phân tích dữ liệu (SQL, Power BI)",
+     "Kỹ năng trực quan hóa và trình bày số liệu (Executive Storytelling)",
+     "Tư duy xây dựng mô hình dự báo tài chính"
+    ],
+    "averageSalaryRangeVND": "18,000,000 - 32,000,000 VND / tháng",
+    "evidenceCitations": [
+     {
+      "paperTitle": "WEF Future of Jobs Report 2023",
+      "source": "World Economic Forum",
+      "year": 2023,
+      "url": "https://www.weforum.org/reports/the-future-of-jobs-report-2023/",
+      "quoteOrDataPoint": "Business Intelligence and Data Analysts ranked as #3 fastest growing occupation globally."
+     },
+     {
+      "paperTitle": "Stanford HAI AI Index Report 2024",
+      "source": "Stanford University",
+      "year": 2024,
+      "url": "https://aiindex.stanford.edu/report/",
+      "quoteOrDataPoint": "Business analysts utilizing AI agents complete market modeling 43% faster with 25% higher forecast accuracy."
+     }
+    ],
+    "resilienceDetail": {
+     "occupationTitle": "Business Analyst / Data Specialist",
+     "occupationTitleVi": "Chuyên viên Phân tích Kinh doanh & Dữ liệu (BA/BI)",
+     "molisaCode": "2511",
+     "onetCode": "15-1211.00",
+     "overallResilienceScore": 82,
+     "automationRiskScore": 35,
+     "augmentationPotentialScore": 92,
+     "humanAdvantageCore": [
+      "Thấu hiểu sâu bối cảnh thị trường nội địa",
+      "Thuyết phục và gắn kết lãnh đạo (Executive stakeholder alignment)",
+      "Định hình bài toán từ nhu cầu mơ hồ của doanh nghiệp",
+      "Quản trị đạo đức và pháp lý dữ liệu"
+     ],
+     "tasksBreakdown": [
+      {
+       "taskName": "Writing standard SQL queries and data cleaning scripts based on accounting datasets",
+       "taskNameVi": "Viết câu lệnh SQL cơ bản và làm sạch dữ liệu tài chính từ hệ thống MISA",
+       "exposureType": "ai_augmentation",
+       "exposurePercentage": 80,
+       "onetCode": "15-1211.00-T1",
+       "notes": "AI viết câu lệnh SQL và xử lý dữ liệu bảng nhanh chóng, bạn sẽ đóng vai trò kiểm duyệt và đảm bảo tính chính xác nghiệp vụ."
+      },
+      {
+       "taskName": "Creating routine operational dashboards and financial charts using BI tools",
+       "taskNameVi": "Tạo dashboard vận hành và biểu đồ tài chính trực quan bằng Power BI",
+       "exposureType": "ai_augmentation",
+       "exposurePercentage": 70,
+       "onetCode": "15-1211.00-T2",
+       "notes": "Các công cụ BI tích hợp AI tạo báo cáo trực quan tự động, giúp bạn khắc phục điểm yếu trình bày số liệu."
+      },
+      {
+       "taskName": "Framing strategic business hypotheses and executive financial storytelling",
+       "taskNameVi": "Định hình giả thuyết kinh doanh và tư vấn tài chính chiến lược cho ban giám đốc",
+       "exposureType": "human_core",
+       "exposurePercentage": 15,
+       "onetCode": "15-1211.00-T3",
+       "notes": "Đòi hỏi tư duy chiến lược và sự thấu hiểu sâu sắc về dòng tiền doanh nghiệp mà AI không thể thay thế."
+      }
+     ],
+     "sources": [
+      {
+       "sourceId": "stanford-hai-ai-index-2024",
+       "citationText": "Stanford HAI (2024): Business analysts utilizing AI agents complete market modeling 43% faster with 25% higher forecast accuracy.",
+       "url": "https://aiindex.stanford.edu/report/"
+      }
+     ],
+     "methodologySummary": "Đánh giá dựa trên ma trận năng lực O*NET, dữ liệu từ WEF và Stanford HAI về mức độ bổ trợ của AI đối với các vị trí phân tích dữ liệu và tài chính.",
+     "uncertaintyRange": "+/- 7%",
+     "vietnamDemandSignal": "high_growth"
+    },
+    "trajectories": [
+     {
+      "pathId": "stay_augment",
+      "pathTitle": "Stay and Augment as Senior Tax & Financial Accountant",
+      "pathTitleVi": "Nâng cấp vai trò Kế toán tổng hợp với Trợ lý AI",
+      "feasibilityScore": 95,
+      "estimatedTimelineMonths": 3,
+      "shortDescription": "Tận dụng các công cụ AI (OCR, Excel Copilot) để tự động hóa hoàn toàn việc nhập liệu và đối chiếu chứng từ (vốn chiếm 92% rủi ro tự động hóa), chuyển thời gian sang phân tích thuế chiến lược.",
+      "targetRoles": [
+       "Kế toán trưởng",
+       "Chuyên viên Kiểm toán Thuế cao cấp"
+      ],
+      "skillsToAcquire": [
+       "Sử dụng AI trong tự động hóa chứng từ",
+       "Phân tích dòng tiền nâng cao"
+      ],
+      "transferableSkills": [
+       "Excel nâng cao",
+       "Thủ thuật thuế",
+       "Kiểm soát chứng từ"
+      ],
+      "riskLevel": "low",
+      "fiveYearSalaryProjection": [
+       15,
+       17,
+       20,
+       24,
+       28
+      ],
+      "rationale": "Phù hợp với khẩu vị rủi ro thấp và không tốn chi phí chuyển đổi lớn, giúp tối ưu hóa ngay công việc hiện tại.",
+      "actionStepNow": "Thử nghiệm tích hợp AI vào quy trình đối chiếu hóa đơn hàng ngày để tiết kiệm 30% thời gian."
+     },
+     {
+      "pathId": "pivot_adjacent",
+      "pathTitle": "Pivot to Financial Analyst / Business Intelligence",
+      "pathTitleVi": "Chuyển dịch sang Chuyên viên Phân tích Tài chính & Dữ liệu",
+      "feasibilityScore": 85,
+      "estimatedTimelineMonths": 9,
+      "shortDescription": "Kết hợp nền tảng kế toán 6 năm với kỹ năng phân tích dữ liệu và trực quan hóa (Power BI, SQL) để chuyển sang vị trí BA/BI trong lĩnh vực tài chính.",
+      "targetRoles": [
+       "Chuyên viên Phân tích Tài chính (Financial Analyst)",
+       "Chuyên viên BI (Business Intelligence Specialist)"
+      ],
+      "skillsToAcquire": [
+       "Power BI / Tableau cơ bản",
+       "SQL cho phân tích dữ liệu",
+       "Kỹ năng thuyết trình số liệu"
+      ],
+      "transferableSkills": [
+       "Tư duy số liệu",
+       "Nghiệp vụ kế toán tổng hợp",
+       "Sự cẩn thận"
+      ],
+      "riskLevel": "moderate",
+      "fiveYearSalaryProjection": [
+       15,
+       18,
+       23,
+       30,
+       38
+      ],
+      "rationale": "Tận dụng tối đa kiến thức ngành tài chính kế toán sẵn có đồng thời đón đầu xu hướng tăng trưởng nhân lực phân tích dữ liệu.",
+      "actionStepNow": "Đăng ký khóa học tự học Power BI miễn phí và áp dụng trực tiếp vào việc làm báo cáo tài chính tháng tới."
+     },
+     {
+      "pathId": "full_switch",
+      "pathTitle": "Full Career Switch to Data Engineering in FinTech",
+      "pathTitleVi": "Chuyển ngành hoàn toàn sang Kỹ thuật Dữ liệu Tài chính",
+      "feasibilityScore": 40,
+      "estimatedTimelineMonths": 24,
+      "shortDescription": "Học lập trình Python nâng cao, quản trị cơ sở dữ liệu lớn và xây dựng hệ thống pipeline dữ liệu cho các công ty FinTech.",
+      "targetRoles": [
+       "Data Engineer",
+       "FinTech Data Specialist"
+      ],
+      "skillsToAcquire": [
+       "Python lập trình nâng cao",
+       "Hệ thống cơ sở dữ liệu lớn (Big Data)",
+       "Cloud Computing"
+      ],
+      "transferableSkills": [
+       "Tư duy logic",
+       "Nghiệp vụ tài chính cơ bản"
+      ],
+      "riskLevel": "high",
+      "fiveYearSalaryProjection": [
+       12,
+       16,
+       22,
+       32,
+       45
+      ],
+      "rationale": "Khoảng cách kỹ năng quá lớn so với nền tảng hiện tại và vượt quá ngân sách, thời gian cho phép của bạn.",
+      "actionStepNow": "Không khuyến nghị thực hiện ngay lập tức trong giai đoạn này do rủi ro cao."
+     }
+    ],
+    "roadmap": [
+     {
+      "id": "m1",
+      "milestoneNumber": 1,
+      "phaseName": "Foundation & Data Visualization",
+      "phaseNameVi": "Nền tảng & Trực quan hóa dữ liệu",
+      "title": "Master Power BI & Executive Reporting",
+      "titleVi": "Làm chủ Power BI và Kỹ năng Trình bày Báo cáo",
+      "estimatedHours": 40,
+      "weeksDuration": 8,
+      "skillsCovered": [
+       "Power BI Dashboard",
+       "Data Cleaning",
+       "Executive Storytelling"
+      ],
+      "freeResources": [
+       {
+        "name": "Microsoft Power BI Learning Path",
+        "provider": "Microsoft Learn",
+        "url": "https://learn.microsoft.com/en-us/power-bi/",
+        "type": "free_course"
+       }
+      ],
+      "checkpointQuiz": {
+       "question": "Tính năng nào trong Power BI giúp tự động hóa việc tổng hợp dữ liệu từ nhiều file Excel kế toán khác nhau?",
+       "options": [
+        "Power Query",
+        "Format Painter",
+        "VBA Macro",
+        "Conditional Formatting"
+       ],
+       "correctIndex": 0,
+       "explanation": "Power Query là công cụ tích hợp sẵn trong Power BI và Excel giúp trích xuất, biến đổi và tải dữ liệu (ETL) tự động từ nhiều nguồn file khác nhau."
+      }
+     },
+     {
+      "id": "m2",
+      "milestoneNumber": 2,
+      "phaseName": "SQL & Data Querying",
+      "phaseNameVi": "Truy vấn dữ liệu với SQL",
+      "title": "Learn SQL for Financial Data Analysis",
+      "titleVi": "Học SQL phục vụ Phân tích Tài chính",
+      "estimatedHours": 30,
+      "weeksDuration": 6,
+      "skillsCovered": [
+       "SQL Queries",
+       "Database Joins",
+       "Financial Data Extraction"
+      ],
+      "freeResources": [
+       {
+        "name": "SQLBolt - Learn SQL",
+        "provider": "SQLBolt",
+        "url": "https://sqlbolt.com/",
+        "type": "interactive_tutorial"
+       }
+      ],
+      "checkpointQuiz": {
+       "question": "Câu lệnh SQL nào dùng để kết hợp dữ liệu từ bảng Hóa đơn và bảng Khách hàng?",
+       "options": [
+        "JOIN",
+        "MERGE",
+        "COMBINE",
+        "LINK"
+       ],
+       "correctIndex": 0,
+       "explanation": "Câu lệnh JOIN (như INNER JOIN hoặc LEFT JOIN) trong SQL được sử dụng để kết hợp các dòng từ hai hoặc nhiều bảng dựa trên một cột chung."
+      }
+     }
+    ]
+   }
+  ],
+  "verification": null,
+  "trajectory": {
+   "runId": "run_1788087417154_qk755h",
+   "config": "stage1_tools",
+   "startedAt": "2026-08-30T10:56:57.154Z",
+   "events": [
+    {
+     "ts": "2026-08-30T10:56:57.154Z",
+     "type": "run_start",
+     "message": "pipeline for \"Kế toán tổng hợp\"",
+     "data": {
+      "config": {
+       "useTools": true,
+       "useVerifier": false
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T10:56:57.154Z",
+     "type": "agent_start",
+     "agent": "profiler"
+    },
+    {
+     "ts": "2026-08-30T10:56:58.732Z",
+     "type": "llm_call",
+     "agent": "profiler",
+     "model": "gemini-3.5-flash-lite",
+     "usageTokens": 514,
+     "latencyMs": 1457
+    },
+    {
+     "ts": "2026-08-30T10:56:58.732Z",
+     "type": "agent_end",
+     "agent": "profiler",
+     "message": "ok",
+     "data": {
+      "keywords": [
+       "general accountant",
+       "financial analyst",
+       "accounting supervisor"
+      ],
+      "riskFlags": [
+       "limited budget for retraining",
+       "limited time availability",
+       "lacks data analytics skills"
+      ]
+     }
+    },
+    {
+     "ts": "2026-08-30T10:56:58.732Z",
+     "type": "agent_start",
+     "agent": "evidence_gatherer"
+    },
+    {
+     "ts": "2026-08-30T10:56:59.948Z",
+     "type": "llm_call",
+     "agent": "evidence_gatherer",
+     "model": "gemini-3.5-flash-lite",
+     "usageTokens": 552,
+     "latencyMs": 898,
+     "message": "4 tool call(s)"
+    },
+    {
+     "ts": "2026-08-30T10:56:59.948Z",
+     "type": "tool_call",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "lookupOccupation",
+      "args": {
+       "query": "general accountant"
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T10:56:59.948Z",
+     "type": "tool_response",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "lookupOccupation",
+      "ok": true,
+      "summary": "1 item(s)"
+     }
+    },
+    {
+     "ts": "2026-08-30T10:56:59.948Z",
+     "type": "tool_call",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "lookupOccupation",
+      "args": {
+       "query": "financial analyst"
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T10:56:59.948Z",
+     "type": "tool_response",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "lookupOccupation",
+      "ok": true,
+      "summary": "1 item(s)"
+     }
+    },
+    {
+     "ts": "2026-08-30T10:56:59.948Z",
+     "type": "tool_call",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "lookupOccupation",
+      "args": {
+       "query": "accounting supervisor"
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T10:56:59.948Z",
+     "type": "tool_response",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "lookupOccupation",
+      "ok": true,
+      "summary": "0 item(s) - No direct match in the Vietnam occupation database."
+     }
+    },
+    {
+     "ts": "2026-08-30T10:56:59.948Z",
+     "type": "tool_call",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "searchResearch",
+      "args": {
+       "query": "Vietnam accounting automation generative AI McKinsey WEF"
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T10:56:59.949Z",
+     "type": "tool_response",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "searchResearch",
+      "ok": true,
+      "summary": "3 item(s)"
+     }
+    },
+    {
+     "ts": "2026-08-30T10:57:01.591Z",
+     "type": "llm_call",
+     "agent": "evidence_gatherer",
+     "model": "gemini-3.5-flash-lite",
+     "usageTokens": 2578,
+     "latencyMs": 1391,
+     "message": "final turn"
+    },
+    {
+     "ts": "2026-08-30T10:57:01.591Z",
+     "type": "agent_end",
+     "agent": "evidence_gatherer",
+     "data": {
+      "occupations": 2,
+      "research": 3,
+      "news": 0
+     }
+    },
+    {
+     "ts": "2026-08-30T10:57:01.591Z",
+     "type": "agent_start",
+     "agent": "analyst",
+     "message": "initial synthesis"
+    },
+    {
+     "ts": "2026-08-30T10:57:11.406Z",
+     "type": "llm_call",
+     "agent": "analyst",
+     "model": "gemini-3.5-flash-lite",
+     "usageTokens": 6217,
+     "latencyMs": 9591
+    },
+    {
+     "ts": "2026-08-30T10:57:11.406Z",
+     "type": "agent_end",
+     "agent": "analyst",
+     "data": {
+      "suggestions": 1
+     }
+    },
+    {
+     "ts": "2026-08-30T10:57:11.406Z",
+     "type": "run_end",
+     "message": "no verifier (config)"
+    }
+   ]
+  },
+  "meta": {
+   "models": [
+    "gemini-3.5-flash-lite"
+   ],
+   "usageTokens": 9861,
+   "latencyMs": 14252,
+   "degraded": false
+  }
+ }
+}

@@ -1,0 +1,297 @@
+{
+ "score": {
+  "personaId": "persona-logistics",
+  "config": "baseline",
+  "ok": true,
+  "groundingRate": 1,
+  "hallucinatedCount": 0,
+  "schemaFailures": 0,
+  "guardrailViolations": 0,
+  "personalization": 90,
+  "usageTokens": 8353,
+  "latencyMs": 11485,
+  "model": "gemini-3.5-flash-lite",
+  "costPerTaskUsd": 0.0025059
+ },
+ "payload": {
+  "source": "eval_baseline",
+  "suggestions": [
+   {
+    "roleTitle": "Supply Chain Data Analyst",
+    "roleTitleVi": "Chuyên viên Phân tích Dữ liệu Chuỗi cung ứng",
+    "aiResilienceScore": 82,
+    "matchScore": 90,
+    "reasoning": "Dựa trên nghiên cứu của WEF (2023) và McKinsey (2023), các công việc lặp đi lặp lại như nhập liệu và điều phối thủ công có nguy cơ tự động hóa cao, nhưng các vai trò phân tích vận hành kết hợp AI để tối ưu hóa dữ liệu chuỗi cung ứng lại có mức độ bổ trợ (augmentation potential) rất lớn. Tại Hải Phòng - trung tâm logistics phía Bắc, nhu cầu số hóa quy trình xuất nhập khẩu đang tăng mạnh.",
+    "whyItFitsYou": "Bạn đã có 5 năm kinh nghiệm điều phối container, khai báo hải quan và xử lý văn bản thương mại bằng tiếng Anh - đây là nền tảng thực tế vô giá. Điểm yếu là chưa số hóa báo cáo và quy trình thủ công sẽ được khắc phục hoàn toàn khi bạn chuyển sang sử dụng các công cụ phân tích tự động, giúp biến kinh nghiệm hiện tại thành lợi thế cạnh tranh cốt lõi.",
+    "transferableSkillsMatch": [
+     "Khai báo hải quan và thông quan",
+     "Điều phối container và vận tải",
+     "Giao tiếp nhà cung cấp và đối tác",
+     "Xử lý văn bản thương mại bằng tiếng Anh",
+     "Sử dụng Excel cơ bản trong vận hành"
+    ],
+    "skillsGap": [
+     "Phân tích dữ liệu nâng cao (Power BI / Python cơ bản)",
+     "Tự động hóa quy trình với AI (Prompt Engineering cho Supply Chain)",
+     "Xây dựng dashboard báo cáo vận hành tự động",
+     "Quản trị chuỗi cung ứng số (Digital Supply Chain)"
+    ],
+    "averageSalaryRangeVND": "18,000,000 - 32,000,000 VND / tháng",
+    "evidenceCitations": [
+     {
+      "paperTitle": "The Future of Jobs Report 2023",
+      "source": "World Economic Forum (WEF)",
+      "year": "2023",
+      "url": "https://www.weforum.org/reports/the-future-of-jobs-report-2023",
+      "quoteOrDataPoint": "Business Intelligence Analysts và AI & Machine Learning Specialists nằm trong top các vai trò có nhu cầu tăng trưởng mạnh nhất đến năm 2027."
+     },
+     {
+      "paperTitle": "The economic potential of generative AI: The next productivity frontier",
+      "source": "McKinsey & Company",
+      "year": "2023",
+      "url": "https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/the-economic-potential-of-generative-ai",
+      "quoteOrDataPoint": "Generative AI có khả năng tự động hóa các tác vụ chiếm 60-70% thời gian của nhân viên hiện nay, tạo động lực chuyển dịch sang phân tích dữ liệu."
+     },
+     {
+      "paperTitle": "Vietnam Labor Market Report & AI Transformation Index",
+      "source": "TopCV / Navigos Group & GSO",
+      "year": "2024",
+      "url": "https://www.gso.gov.vn",
+      "quoteOrDataPoint": "72% nhà tuyển dụng tại Việt Nam ưu tiên ứng viên có kỹ năng sử dụng công cụ AI và phân tích dữ liệu, với mức lương cao hơn 25-35%."
+     }
+    ],
+    "resilienceDetail": {
+     "occupationTitle": "Supply Chain Operations and Data Specialist",
+     "occupationTitleVi": "Chuyên gia Vận hành và Dữ liệu Chuỗi cung ứng",
+     "molisaCode": "3331",
+     "onetCode": "13-1081.02",
+     "overallResilienceScore": 82,
+     "automationRiskScore": 35,
+     "augmentationPotentialScore": 88,
+     "humanAdvantageCore": [
+      "Đàm phán xử lý sự cố phát sinh tại cảng biển Hải Phòng",
+      "Đánh giá và xây dựng quan hệ chiến lược với nhà cung cấp",
+      "Ra quyết định xử lý khủng hoảng chuỗi cung ứng theo thời gian thực"
+     ],
+     "tasksBreakdown": [
+      {
+       "taskName": "Customs Declaration & Container Tracking",
+       "taskNameVi": "Khai báo hải quan và theo dõi hành trình container",
+       "exposureType": "augment",
+       "exposurePercentage": 70,
+       "onetCode": "13-1081.02",
+       "notes": "Sử dụng AI để tự động kiểm tra lỗi chứng từ hải quan trước khi nộp, giảm thiểu thời gian tra cứu thủ công."
+      },
+      {
+       "taskName": "Operational Report Generation",
+       "taskNameVi": "Lập báo cáo vận hành xuất nhập khẩu",
+       "exposureType": "augment",
+       "exposurePercentage": 85,
+       "onetCode": "13-1081.02",
+       "notes": "Chuyển từ Excel thủ công sang dashboard tự động cập nhật dữ liệu qua trợ lý AI."
+      },
+      {
+       "taskName": "Supplier Communication & Exception Handling",
+       "taskNameVi": "Giao tiếp nhà cung cấp và xử lý ngoại lệ vận tải",
+       "exposureType": "human_centric",
+       "exposurePercentage": 20,
+       "onetCode": "13-1081.02",
+       "notes": "Đòi hỏi kỹ năng ngoại giao, đàm phán trực tiếp khi hàng hóa bị kẹt tại cảng hoặc phát sinh chi phí."
+      }
+     ],
+     "sources": [
+      "WEF Future of Jobs Report 2023",
+      "O*NET 28.3 Database",
+      "GSO Vietnam 2024"
+     ],
+     "methodologySummary": "Đánh giá dựa trên mô hình kết hợp O*NET DWA và chỉ số phơi nhiễm AI của OpenAI/UPenn, điều chỉnh theo đặc thù ngành logistics tại Hải Phòng.",
+     "uncertaintyRange": "+/- 6%",
+     "vietnamDemandSignal": "high_growth"
+    },
+    "trajectories": [
+     {
+      "pathId": "path_stay_augment",
+      "pathTitle": "AI-Augmented Senior Logistics Coordinator",
+      "pathTitleVi": "Điều phối viên Logistics Cấp cao ứng dụng AI",
+      "feasibilityScore": 95,
+      "estimatedTimelineMonths": 3,
+      "shortDescription": "Giữ vững vai trò hiện tại tại Hải Phòng nhưng tích hợp các công cụ AI và Excel nâng cao để tự động hóa 80% tác vụ thủ công, gia tăng năng suất và thu nhập.",
+      "targetRoles": [
+       "Senior Import-Export Executive",
+       "Logistics Operations Team Lead"
+      ],
+      "skillsToAcquire": [
+       "Prompt Engineering cho chứng từ xuất nhập khẩu",
+       "Excel nâng cao (Power Query & Macros)",
+       "Tự động hóa email và báo cáo"
+      ],
+      "transferableSkills": [
+       "Khai báo hải quan",
+       "Điều phối container",
+       "Tiếng Anh thương mại"
+      ],
+      "riskLevel": "low",
+      "fiveYearSalaryProjection": [
+       14,
+       16,
+       19,
+       22,
+       26
+      ],
+      "rationale": "Tận dụng tối đa 5 năm kinh nghiệm thực chiến tại cụm cảng Hải Phòng, loại bỏ điểm yếu thủ công bằng công nghệ.",
+      "actionStepNow": "Bắt đầu học cách dùng ChatGPT/Claude để soạn thảo email khiếu nại hãng tàu và tối ưu hóa file Excel báo cáo tuần này."
+     },
+     {
+      "pathId": "path_pivot_adjacent",
+      "pathTitle": "Supply Chain Data Analyst",
+      "pathTitleVi": "Chuyên viên Phân tích Dữ liệu Chuỗi cung ứng",
+      "feasibilityScore": 80,
+      "estimatedTimelineMonths": 6,
+      "shortDescription": "Chuyển dịch sang mảng phân tích dữ liệu và tối ưu vận hành chuỗi cung ứng tại các tập đoàn logistics lớn hoặc doanh nghiệp FDI tại khu công nghiệp Hải Phòng.",
+      "targetRoles": [
+       "Supply Chain Analyst",
+       "Operations BI Specialist"
+      ],
+      "skillsToAcquire": [
+       "Power BI / Tableau cơ bản",
+       "SQL cho phân tích logistics",
+       "Tư duy chuỗi cung ứng số"
+      ],
+      "transferableSkills": [
+       "Am hiểu nghiệp vụ XNK",
+       "Xử lý dữ liệu vận tải",
+       "Giao tiếp đa bên"
+      ],
+      "riskLevel": "moderate",
+      "fiveYearSalaryProjection": [
+       15,
+       18,
+       23,
+       28,
+       35
+      ],
+      "rationale": "Đáp ứng đúng xu hướng thị trường khi các doanh nghiệp FDI tại Hải Phòng đang khao khát nhân sự vừa biết vận hành vừa biết phân tích số liệu.",
+      "actionStepNow": "Đăng ký một khóa học Power BI ứng dụng cho logistics và thực hành trực quan hóa dữ liệu tồn kho tháng trước."
+     },
+     {
+      "pathId": "path_full_switch",
+      "pathTitle": "Digital Supply Chain Consultant",
+      "pathTitleVi": "Chuyên gia Tư vấn Chuyển đổi số Chuỗi cung ứng",
+      "feasibilityScore": 60,
+      "estimatedTimelineMonths": 12,
+      "shortDescription": "Trở thành chuyên gia tư vấn triển khai phần mềm quản lý chuỗi cung ứng (ERP/SCM) hoặc chuyên gia tự động hóa quy trình cho các công ty giải pháp logistics.",
+      "targetRoles": [
+       "SCM System Consultant",
+       "Digital Transformation Specialist"
+      ],
+      "skillsToAcquire": [
+       "Quy trình ERP (SAP/Oracle cơ bản)",
+       "Quản trị dự án Agile/Scrum",
+       "Tư vấn giải pháp công nghệ B2B"
+      ],
+      "transferableSkills": [
+       "Nghiệp vụ xuất nhập khẩu cốt lõi",
+       "Kỹ năng thương lượng",
+       "Hiểu rõ điểm nghẽn thực tế của doanh nghiệp"
+      ],
+      "riskLevel": "high",
+      "fiveYearSalaryProjection": [
+       16,
+       20,
+       26,
+       35,
+       45
+      ],
+      "rationale": "Mở ra mức trần thu nhập cao nhất và vị thế chiến lược trong kỷ nguyên số hóa kinh tế biển miền Bắc.",
+      "actionStepNow": "Nghiên cứu các case study về chuyển đổi số cảng biển và logistics tại Việt Nam."
+     }
+    ],
+    "roadmap": [
+     {
+      "id": "milestone_1",
+      "milestoneNumber": 1,
+      "phaseName": "Foundation & Augmentation",
+      "phaseNameVi": "Nền tảng & Tăng cường AI",
+      "title": "Eliminate Manual Bottlenecks with GenAI",
+      "titleVi": "Xóa bỏ điểm nghẽn thủ công bằng Trí tuệ nhân tạo",
+      "estimatedHours": 32,
+      "weeksDuration": 4,
+      "skillsCovered": [
+       "Prompt Engineering thực chiến cho XNK",
+       "Tự động hóa soạn thảo chứng từ",
+       "Excel nâng cao & Power Query"
+      ],
+      "freeResources": [
+       {
+        "name": "Prompt Engineering for ChatGPT",
+        "provider": "DeepLearning.AI",
+        "url": "https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/",
+        "type": "Online Course"
+       },
+       {
+        "name": "Excel Skills for Business",
+        "provider": "Coursera / Macquarie University",
+        "url": "https://www.coursera.org/specializations/excel",
+        "type": "Online Course"
+       }
+      ],
+      "checkpointQuiz": {
+       "question": "Khi sử dụng GenAI để xử lý email khiếu nại cước demurrage/detention từ hãng tàu bằng tiếng Anh, cách tiếp cận an toàn và hiệu quả nhất là gì?",
+       "options": [
+        "Để AI tự động gửi email đi mà không cần kiểm tra lại.",
+        "Dùng AI soạn khung nội dung, sau đó người dùng kiểm tra số liệu container, hợp đồng và chỉnh sửa sắc thái đàm phán trước khi gửi.",
+        "Chỉ dùng AI để dịch từ tiếng Việt sang tiếng Anh mà không dùng prompt ngữ cảnh.",
+        "Không bao giờ sử dụng AI vì dữ liệu logistics là tuyệt mật."
+       ],
+       "correctIndex": 1,
+       "explanation": "Theo nguyên tắc 'Human-in-the-loop' và nghiên cứu của BCG/Harvard, AI hỗ trợ tăng tốc độ soạn thảo (25-40% hiệu suất) nhưng con người phải kiểm chứng các thông tin thực tế như số liệu, mã vận đơn và điều khoản hợp đồng."
+      }
+     },
+     {
+      "id": "milestone_2",
+      "milestoneNumber": 2,
+      "phaseName": "Data Analytics & Dashboarding",
+      "phaseNameVi": "Phân tích Dữ liệu & Xây dựng Báo cáo",
+      "title": "Master Operational Dashboards for Supply Chain",
+      "titleVi": "Làm chủ Báo cáo Vận hành Chuỗi cung ứng",
+      "estimatedHours": 48,
+      "weeksDuration": 6,
+      "skillsCovered": [
+       "Power BI cơ bản cho Logistics",
+       "Trực quan hóa chỉ số KPIs vận tải (Lead time, On-time delivery)",
+       "Tích hợp dữ liệu Excel vào Dashboard"
+      ],
+      "freeResources": [
+       {
+        "name": "Microsoft Power BI Learning Path",
+        "provider": "Microsoft Learn",
+        "url": "https://learn.microsoft.com/en-us/power-bi/",
+        "type": "Documentation & Tutorial"
+       },
+       {
+        "name": "Supply Chain Analytics Free Mini-Course",
+        "provider": "EdX",
+        "url": "https://www.edx.org/",
+        "type": "Online Course"
+       }
+      ],
+      "checkpointQuiz": {
+       "question": "Chỉ số nào sau đây phản ánh chính xác nhất hiệu quả của việc điều phối container xuất nhập khẩu trong báo cáo vận hành?",
+       "options": [
+        "Tổng số lượng email gửi đi mỗi ngày cho nhà cung cấp.",
+        "Tỷ lệ giao hàng đúng hạn (On-Time Delivery - OTD) và thời gian lưu bãi/lưu vỏ (Demurrage/Detention time).",
+        "Số lượng dòng dữ liệu nhập vào file Excel thủ công.",
+        "Tên của hãng tàu vận chuyển."
+       ],
+       "correctIndex": 1,
+       "explanation": "OTD và thời gian Dem/Det là các chỉ số cốt lõi trong quản trị chuỗi cung ứng số, giúp đo lường chính xác hiệu quả chi phí và thời gian vận hành."
+      }
+     }
+    ]
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "usageTokens": 8114,
+  "latencyMs": 11485
+ }
+}

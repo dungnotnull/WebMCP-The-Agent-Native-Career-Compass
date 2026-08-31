@@ -1,0 +1,530 @@
+{
+ "score": {
+  "personaId": "persona-juniordev",
+  "config": "final_tools_verifier",
+  "ok": true,
+  "groundingRate": 1,
+  "hallucinatedCount": 0,
+  "schemaFailures": 0,
+  "guardrailViolations": 0,
+  "personalization": 75,
+  "usageTokens": 9420,
+  "latencyMs": 15536,
+  "model": "gemini-3.5-flash-lite",
+  "costPerTaskUsd": 0.002826
+ },
+ "payload": {
+  "source": "agentic_pipeline",
+  "config": {
+   "useTools": true,
+   "useVerifier": true
+  },
+  "suggestions": [
+   {
+    "roleTitle": "AI Solutions Specialist & Workflow Architect",
+    "roleTitleVi": "Chuyên viên Giải pháp AI & Kiến trúc Luồng Tự động hóa",
+    "aiResilienceScore": 94,
+    "matchScore": 92,
+    "reasoning": "Dựa trên dữ liệu từ TopCV Vietnam (2024), thị trường Việt Nam ghi nhận mức tăng trưởng 180% đối với nhu cầu nhân sự tích hợp luồng AI, với mức lương khởi điểm hấp dẫn từ 35M - 60M VND/tháng. Với nền tảng Front-end sẵn có (React, TypeScript), bạn có khả năng nhanh chóng làm chủ việc xây dựng các giao diện tương tác và tích hợp API với các mô hình ngôn ngữ lớn (LLM).",
+    "whyItFitsYou": "Bạn có 1.5 năm kinh nghiệm Front-end, kỹ năng tự học chủ động và thế mạnh học nhanh công nghệ mới rất phù hợp với nhịp độ phát triển của công nghệ AI. Dù tiếng Anh kỹ thuật ở mức trung bình và chưa có kinh nghiệm hệ thống lớn, khả năng thích ứng cao kết hợp với khẩu vị rủi ro lớn giúp bạn dễ dàng vượt qua giai đoạn chuyển dịch này.",
+    "transferableSkillsMatch": [
+     "Lập trình giao diện với React và TypeScript",
+     "Sử dụng Git trong quản lý mã nguồn",
+     "Kỹ năng tự học và thích nghi nhanh với công nghệ mới"
+    ],
+    "skillsGap": [
+     "Tích hợp API LLM và cơ sở dữ liệu",
+     "Thiết kế hệ thống prompt và đánh giá mô hình chuyên ngành",
+     "Tiếng Anh kỹ thuật nâng cao"
+    ],
+    "averageSalaryRangeVND": "35,000,000 - 60,000,000 VND / tháng",
+    "evidenceCitations": [
+     {
+      "paperTitle": "TopCV Vietnam (2024): 180% surge in enterprise demand for AI Workflow Integrators, with average salaries exceeding 35M - 60M VND/month.",
+      "source": "TopCV Vietnam / Navigos Group",
+      "year": 2024,
+      "url": "https://www.topcv.vn/bao-cao-thi-truong-tuyen-dung",
+      "quoteOrDataPoint": "180% surge in enterprise demand for AI Workflow Integrators, with average salaries exceeding 35M - 60M VND/month."
+     },
+     {
+      "paperTitle": "WEF (2023): AI and Machine Learning Specialists ranked #1 fastest growing global role with 30%+ projected net headcount growth through 2027.",
+      "source": "World Economic Forum",
+      "year": 2023,
+      "url": "https://www.weforum.org/reports/the-future-of-jobs-report-2023/",
+      "quoteOrDataPoint": "AI and Machine Learning Specialists ranked #1 fastest growing global role with 30%+ projected net headcount growth through 2027."
+     }
+    ],
+    "resilienceDetail": {
+     "occupationTitle": "AI Solutions Specialist & Workflow Architect",
+     "occupationTitleVi": "Chuyên viên Giải pháp AI & Kiến trúc Luồng Tự động hóa",
+     "molisaCode": "2519",
+     "onetCode": "15-1299.08 (Computer Systems Analysts - Emerging Tech)",
+     "overallResilienceScore": 94,
+     "automationRiskScore": 18,
+     "augmentationPotentialScore": 98,
+     "humanAdvantageCore": [
+      "End-to-end enterprise workflow automation & systems design (Thiết kế luồng tự động hóa doanh nghiệp)",
+      "Model evaluation, safety guardrails, and compliance benchmarking (Đánh giá chất lượng và an toàn mô hình)",
+      "Cross-departmental change management & employee upskilling (Đào tạo và dẫn dắt chuyển đổi số nội bộ)",
+      "Strategic ROI optimization of AI tool stacks (Tối ưu hóa chi phí và hiệu quả đầu tư công nghệ)"
+     ],
+     "tasksBreakdown": [
+      {
+       "taskName": "Configuring API integrations between LLMs, databases, and business tools using React and TypeScript",
+       "taskNameVi": "Tích hợp API giữa LLM, cơ sở dữ liệu và hệ thống doanh nghiệp bằng React và TypeScript",
+       "exposureType": "ai_augmentation",
+       "exposurePercentage": 65,
+       "onetCode": "15-1299.08-T1",
+       "notes": "AI assists in writing glue code and connectors, while architect defines data boundaries."
+      },
+      {
+       "taskName": "Benchmarking model performance and designing domain-specific prompt systems for digital products",
+       "taskNameVi": "Đo lường hiệu năng mô hình và thiết kế hệ thống prompt chuyên ngành cho sản phẩm số",
+       "exposureType": "ai_augmentation",
+       "exposurePercentage": 45,
+       "onetCode": "15-1299.08-T2",
+       "notes": "Requires rigorous testing frameworks, latency optimization, and cost-per-token economics."
+      },
+      {
+       "taskName": "Translating executive business goals into automated operational pipelines leveraging self-learning strengths",
+       "taskNameVi": "Chuyển hóa mục tiêu kinh doanh thành luồng tự động hóa thực tế tận dụng thế mạnh tự học",
+       "exposureType": "human_core",
+       "exposurePercentage": 10,
+       "onetCode": "15-1299.08-T3",
+       "notes": "High-leverage human strategic responsibility with exponential market upside."
+      }
+     ],
+     "sources": [
+      {
+       "sourceId": "wef-future-of-jobs-2023-2025",
+       "citationText": "WEF (2023): AI and Machine Learning Specialists ranked #1 fastest growing global role with 30%+ projected net headcount growth through 2027.",
+       "url": "https://www.weforum.org/reports/the-future-of-jobs-report-2023/"
+      },
+      {
+       "sourceId": "topcv-vietnamworks-labor-2024-2026",
+       "citationText": "TopCV Vietnam (2024): 180% surge in enterprise demand for AI Workflow Integrators, with average salaries exceeding 35M - 60M VND/month.",
+       "url": "https://www.topcv.vn/bao-cao-thi-truong-tuyen-dung"
+      }
+     ],
+     "methodologySummary": "Sử dụng mô hình O*NET 28.3 kết hợp dữ liệu khảo sát thị trường lao động Việt Nam từ TopCV và WEF để đánh giá mức độ chống chịu tự động hóa và tiềm năng gia tăng năng suất.",
+     "uncertaintyRange": "±5% tùy thuộc vào tốc độ thích ứng công cụ AI của doanh nghiệp và sự cải thiện tiếng Anh kỹ thuật.",
+     "vietnamDemandSignal": "high_growth"
+    },
+    "trajectories": [
+     {
+      "pathId": "stay_augment",
+      "pathTitle": "Stay and Augment (Front-end with AI Tools)",
+      "pathTitleVi": "Duy trì và Tăng cường (Front-end kết hợp AI Tools)",
+      "feasibilityScore": 95,
+      "estimatedTimelineMonths": 3,
+      "shortDescription": "Sử dụng các công cụ AI (GitHub Copilot, ChatGPT) để tăng tốc độ viết mã Front-end lên 2-3 lần, đồng thời nhận thêm các tác vụ tích hợp API đơn giản.",
+      "targetRoles": [
+       "Senior Front-end Developer",
+       "AI-Assisted Web Developer"
+      ],
+      "skillsToAcquire": [
+       "Prompt engineering cho code",
+       "Tích hợp AI API cơ bản"
+      ],
+      "transferableSkills": [
+       "React",
+       "TypeScript",
+       "HTML/CSS",
+       "Git"
+      ],
+      "riskLevel": "low",
+      "fiveYearSalaryProjection": [
+       18,
+       22,
+       28,
+       35,
+       42
+      ],
+      "rationale": "Ít rủi ro nhất, tận dụng ngay kỹ năng hiện có và công cụ AI để gia tăng năng suất cá nhân.",
+      "actionStepNow": "Tích hợp GitHub Copilot vào môi trường phát triển hàng ngày và thực hiện một dự án web nhỏ kết hợp AI API."
+     },
+     {
+      "pathId": "pivot_adjacent",
+      "pathTitle": "Adjacent Pivot (AI Workflow Integrator)",
+      "pathTitleVi": "Chuyển dịch Cận kề (Chuyên viên Tích hợp Luồng AI)",
+      "feasibilityScore": 85,
+      "estimatedTimelineMonths": 6,
+      "shortDescription": "Chuyển hướng từ viết giao diện thuần túy sang kết nối giao diện với các hệ thống LLM, xây dựng ứng dụng Agent đơn giản cho doanh nghiệp vừa và nhỏ.",
+      "targetRoles": [
+       "AI Solutions Specialist",
+       "Workflow Architect"
+      ],
+      "skillsToAcquire": [
+       "LangChain / LlamaIndex",
+       "OpenAI API integration",
+       "Basic Python"
+      ],
+      "transferableSkills": [
+       "TypeScript",
+       "React",
+       "Git"
+      ],
+      "riskLevel": "moderate",
+      "fiveYearSalaryProjection": [
+       20,
+       28,
+       38,
+       50,
+       65
+      ],
+      "rationale": "Bắt kịp xu hướng tăng trưởng 180% tại Việt Nam, mức thu nhập vượt trội và phù hợp với sở thích về AI/ML của bạn.",
+      "actionStepNow": "Dành 15 giờ mỗi tuần học Python cơ bản và xây dựng một ứng dụng web tích hợp OpenAI API."
+     },
+     {
+      "pathId": "full_switch",
+      "pathTitle": "Full Switch (Core AI Engineer)",
+      "pathTitleVi": "Chuyển đổi Toàn diện (Kỹ sư AI Chuyên sâu)",
+      "feasibilityScore": 50,
+      "estimatedTimelineMonths": 18,
+      "shortDescription": "Tập trung hoàn toàn vào việc huấn luyện mô hình, fine-tuning và nghiên cứu thuật toán Machine Learning sâu.",
+      "targetRoles": [
+       "Machine Learning Engineer",
+       "AI Research Scientist"
+      ],
+      "skillsToAcquire": [
+       "Deep Learning",
+       "PyTorch",
+       "Advanced Mathematics"
+      ],
+      "transferableSkills": [
+       "Lập trình cơ bản",
+       "Tự học"
+      ],
+      "riskLevel": "high",
+      "fiveYearSalaryProjection": [
+       15,
+       25,
+       40,
+       60,
+       80
+      ],
+      "rationale": "Rủi ro cao do thiếu nền tảng toán học chuyên sâu ban đầu và hạn chế về tiếng Anh kỹ thuật, cần nhiều thời gian đầu tư.",
+      "actionStepNow": "Đăng ký khóa học toán học ứng dụng cho Machine Learning trước khi tiến hành học thuật toán sâu."
+     }
+    ],
+    "roadmap": [
+     {
+      "id": "milestone-1",
+      "milestoneNumber": 1,
+      "phaseName": "Foundation & Python Bridge",
+      "phaseNameVi": "Nền tảng & Cầu nối Python",
+      "title": "Master Python basics and API integration",
+      "titleVi": "Làm chủ Python cơ bản và Tích hợp API",
+      "estimatedHours": 90,
+      "weeksDuration": 6,
+      "skillsCore": [
+       "Python basics",
+       "RESTful APIs",
+       "Postman"
+      ],
+      "skillsCovered": [
+       "Python basics",
+       "RESTful APIs",
+       "Postman"
+      ],
+      "freeResources": [
+       {
+        "name": "Python for Everybody",
+        "provider": "Coursera / University of Michigan",
+        "url": "https://www.coursera.org/specializations/python",
+        "type": "Course"
+       }
+      ],
+      "checkpointQuiz": {
+       "question": "Phương thức HTTP nào thường được sử dụng để gửi dữ liệu tạo mới một tài nguyên tới server?",
+       "options": [
+        "GET",
+        "POST",
+        "DELETE",
+        "PUT"
+       ],
+       "correctIndex": 1,
+       "explanation": "POST là phương thức HTTP chuẩn được sử dụng để gửi dữ liệu mới tới máy chủ nhằm tạo tài nguyên."
+      }
+     },
+     {
+      "id": "milestone-2",
+      "milestoneNumber": 2,
+      "phaseName": "AI Tooling & Agent Development",
+      "phaseNameVi": "Công cụ AI & Phát triển Agent",
+      "title": "Build AI-powered web applications with React and LLM APIs",
+      "titleVi": "Xây dựng ứng dụng web tích hợp AI với React và LLM API",
+      "estimatedHours": 120,
+      "weeksDuration": 8,
+      "skillsCore": [
+       "OpenAI API",
+       "LangChain.js",
+       "Prompt Engineering"
+      ],
+      "skillsCovered": [
+       "OpenAI API",
+       "LangChain.js",
+       "Prompt Engineering"
+      ],
+      "freeResources": [
+       {
+        "name": "Prompt Engineering for Developers",
+        "provider": "DeepLearning.AI",
+        "url": "https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/",
+        "type": "Course"
+       }
+      ],
+      "checkpointQuiz": {
+       "question": "Kỹ thuật nào giúp LLM giảm thiểu hiện tượng sinh ra thông tin sai lệch (hallucination) dựa trên tài liệu nội bộ?",
+       "options": [
+        "Zero-shot prompting",
+        "Retrieval-Augmented Generation (RAG)",
+        "Model quantization",
+        "CSS Grid layout"
+       ],
+       "correctIndex": 1,
+       "explanation": "RAG cung cấp các tài liệu ngữ cảnh thực tế vào prompt giúp LLM căn cứ vào đó để trả lời chính xác hơn."
+      }
+     }
+    ]
+   }
+  ],
+  "verification": {
+   "verdict": "pass",
+   "failures": [],
+   "judge": {
+    "personalization": 75,
+    "groundedness": 70,
+    "rationale": "The guidance successfully leverages the user's React, TypeScript, and self-learning strengths, connecting them to an AI role, though some assumed details like years of experience were not explicitly in the user profile."
+   },
+   "citationReport": {
+    "total": 2,
+    "verified": 2,
+    "hallucinated": []
+   }
+  },
+  "trajectory": {
+   "runId": "run_1788087725495_c1boi5",
+   "config": "final_tools_verifier",
+   "startedAt": "2026-08-30T11:02:05.495Z",
+   "events": [
+    {
+     "ts": "2026-08-30T11:02:05.496Z",
+     "type": "run_start",
+     "message": "pipeline for \"Lập trình viên Front-end (junior)\"",
+     "data": {
+      "config": {
+       "useTools": true,
+       "useVerifier": true
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T11:02:05.496Z",
+     "type": "agent_start",
+     "agent": "profiler"
+    },
+    {
+     "ts": "2026-08-30T11:02:06.906Z",
+     "type": "llm_call",
+     "agent": "profiler",
+     "model": "gemini-3.5-flash-lite",
+     "usageTokens": 507,
+     "latencyMs": 1274
+    },
+    {
+     "ts": "2026-08-30T11:02:06.906Z",
+     "type": "agent_end",
+     "agent": "profiler",
+     "message": "ok",
+     "data": {
+      "keywords": [
+       "frontend developer",
+       "react developer",
+       "ai product builder"
+      ],
+      "riskFlags": [
+       "limited budget for retraining",
+       "intermediate technical english",
+       "lack of large-scale system experience"
+      ]
+     }
+    },
+    {
+     "ts": "2026-08-30T11:02:06.906Z",
+     "type": "agent_start",
+     "agent": "evidence_gatherer"
+    },
+    {
+     "ts": "2026-08-30T11:02:07.997Z",
+     "type": "llm_call",
+     "agent": "evidence_gatherer",
+     "model": "gemini-3.5-flash-lite",
+     "usageTokens": 559,
+     "latencyMs": 890,
+     "message": "4 tool call(s)"
+    },
+    {
+     "ts": "2026-08-30T11:02:07.997Z",
+     "type": "tool_call",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "lookupOccupation",
+      "args": {
+       "query": "frontend developer"
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T11:02:07.997Z",
+     "type": "tool_response",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "lookupOccupation",
+      "ok": true,
+      "summary": "0 item(s) - No direct match in the Vietnam occupation database."
+     }
+    },
+    {
+     "ts": "2026-08-30T11:02:07.997Z",
+     "type": "tool_call",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "lookupOccupation",
+      "args": {
+       "query": "react developer"
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T11:02:07.997Z",
+     "type": "tool_response",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "lookupOccupation",
+      "ok": true,
+      "summary": "0 item(s) - No direct match in the Vietnam occupation database."
+     }
+    },
+    {
+     "ts": "2026-08-30T11:02:07.997Z",
+     "type": "tool_call",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "lookupOccupation",
+      "args": {
+       "query": "ai product builder"
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T11:02:07.997Z",
+     "type": "tool_response",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "lookupOccupation",
+      "ok": true,
+      "summary": "1 item(s)"
+     }
+    },
+    {
+     "ts": "2026-08-30T11:02:07.997Z",
+     "type": "tool_call",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "searchResearch",
+      "args": {
+       "query": "generative AI Vietnam software engineer junior skills"
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T11:02:07.998Z",
+     "type": "tool_response",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "searchResearch",
+      "ok": true,
+      "summary": "3 item(s)"
+     }
+    },
+    {
+     "ts": "2026-08-30T11:02:09.079Z",
+     "type": "llm_call",
+     "agent": "evidence_gatherer",
+     "model": "gemini-3.5-flash-lite",
+     "usageTokens": 1869,
+     "latencyMs": 818,
+     "message": "final turn"
+    },
+    {
+     "ts": "2026-08-30T11:02:09.079Z",
+     "type": "agent_end",
+     "agent": "evidence_gatherer",
+     "data": {
+      "occupations": 1,
+      "research": 3,
+      "news": 0
+     }
+    },
+    {
+     "ts": "2026-08-30T11:02:09.079Z",
+     "type": "agent_start",
+     "agent": "analyst",
+     "message": "initial synthesis"
+    },
+    {
+     "ts": "2026-08-30T11:02:19.672Z",
+     "type": "llm_call",
+     "agent": "analyst",
+     "model": "gemini-3.5-flash-lite",
+     "usageTokens": 5689,
+     "latencyMs": 10347
+    },
+    {
+     "ts": "2026-08-30T11:02:19.672Z",
+     "type": "agent_end",
+     "agent": "analyst",
+     "data": {
+      "suggestions": 1
+     }
+    },
+    {
+     "ts": "2026-08-30T11:02:21.032Z",
+     "type": "llm_call",
+     "agent": "verifier",
+     "model": "gemini-3.5-flash-lite",
+     "usageTokens": 536,
+     "latencyMs": 1105
+    },
+    {
+     "ts": "2026-08-30T11:02:21.032Z",
+     "type": "verification_result",
+     "agent": "verifier",
+     "data": {
+      "verdict": "pass",
+      "failures": [],
+      "judge": {
+       "personalization": 75,
+       "groundedness": 70,
+       "rationale": "The guidance successfully leverages the user's React, TypeScript, and self-learning strengths, connecting them to an AI role, though some assumed details like years of experience were not explicitly in the user profile."
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T11:02:21.032Z",
+     "type": "run_end",
+     "message": "final verdict: pass"
+    }
+   ]
+  },
+  "meta": {
+   "models": [
+    "gemini-3.5-flash-lite"
+   ],
+   "usageTokens": 9160,
+   "latencyMs": 15536,
+   "degraded": false
+  }
+ }
+}

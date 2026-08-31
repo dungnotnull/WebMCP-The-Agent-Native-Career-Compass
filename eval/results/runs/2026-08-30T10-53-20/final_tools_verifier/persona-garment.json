@@ -1,0 +1,599 @@
+{
+ "score": {
+  "personaId": "persona-garment",
+  "config": "final_tools_verifier",
+  "ok": true,
+  "groundingRate": 1,
+  "hallucinatedCount": 0,
+  "schemaFailures": 0,
+  "guardrailViolations": 0,
+  "personalization": 45,
+  "usageTokens": 22241,
+  "latencyMs": 38774,
+  "model": "gemini-3.5-flash-lite",
+  "costPerTaskUsd": 0.0066723
+ },
+ "payload": {
+  "source": "agentic_pipeline",
+  "config": {
+   "useTools": true,
+   "useVerifier": true
+  },
+  "suggestions": [
+   {
+    "roleTitle": "Manual Software QA & Tester",
+    "roleTitleVi": "Chuyên viên Kiểm thử Phần mềm Thủ công (Manual QA)",
+    "aiResilienceScore": 42,
+    "matchScore": 65,
+    "reasoning": "Dựa trên dữ liệu từ OpenAI/UPenn (2023) và VietnamWorks (2024), ngành kiểm thử phần mềm thủ công đang chuyển dịch mạnh mẽ. Mặc dù các tác vụ kiểm thử lặp đi lặp lại có tỷ lệ tự động hóa cao (90%), các kỹ năng liên quan đến việc kiểm tra chi tiết, đọc bản vẽ/tài liệu kỹ thuật và tìm kiếm lỗi (edge-cases) từ nền tảng kiểm tra chất lượng sản phẩm có thể chuyển đổi thành lợi thế khi kết hợp đào tạo công nghệ thông tin cơ bản.",
+    "whyItFitsYou": "Với 8 năm kinh nghiệm kiểm tra chất lượng sản phẩm và đọc bản vẽ kỹ thuật trong ngành may công nghiệp tại Bình Dương, bạn đã có sẵn sự tỉ mỉ, khả năng tuân thủ quy trình nghiêm ngặt và tư duy phát hiện lỗi. Tuy nhiên, do còn hạn chế về tiếng Anh và ít tiếp xúc với máy tính, bạn cần đi từ các bước học cơ bản nhất để thu hẹp khoảng cách kỹ năng.",
+    "transferableSkillsMatch": [
+     "Kiểm tra chất lượng sản phẩm (QC)",
+     "Đọc hiểu bản vẽ và thông số kỹ thuật",
+     "Làm việc nhóm và chịu áp lực cao"
+    ],
+    "skillsGap": [
+     "Kỹ năng sử dụng máy tính cơ bản",
+     "Tiếng Anh chuyên ngành",
+     "Tư duy lập trình và viết Test Cases phần mềm"
+    ],
+    "averageSalaryRangeVND": "8,000,000 - 15,000,000 VND / tháng",
+    "evidenceCitations": [
+     {
+      "paperTitle": "OpenAI/UPenn (2023): Software QA tasks rank among the top 15% in task substitutability by code-specialized foundation models.",
+      "source": "OpenAI/UPenn",
+      "year": 2023,
+      "url": "https://arxiv.org/abs/2303.10130",
+      "quoteOrDataPoint": "Software QA tasks rank among the top 15% in task substitutability by code-specialized foundation models."
+     },
+     {
+      "paperTitle": "VietnamWorks (2024): Manual QA postings declined 48% YoY; \"Automation & AI QA / LLM Evaluation Specialist\" postings surged 115%.",
+      "source": "VietnamWorks",
+      "year": 2024,
+      "url": "https://www.topcv.vn/bao-cao-thi-truong-tuyen-dung",
+      "quoteOrDataPoint": "Manual QA postings declined 48% YoY; \"Automation & AI QA / LLM Evaluation Specialist\" postings surged 115%."
+     }
+    ],
+    "resilienceDetail": {
+     "occupationTitle": "Manual Software QA & Tester",
+     "occupationTitleVi": "Chuyên viên Kiểm thử Phần mềm Thủ công (Manual QA)",
+     "molisaCode": "2512",
+     "onetCode": "15-1253.00",
+     "overallResilienceScore": 42,
+     "automationRiskScore": 84,
+     "augmentationPotentialScore": 78,
+     "humanAdvantageCore": [
+      "Complex exploratory edge-case testing & human UX intuition (Kiểm thử thăm dò tình huống hiếm)",
+      "Security boundary testing & ethical adversarial mindset (Tư duy phòng thủ an ninh và đạo đức)",
+      "Cross-functional engineering & product translation (Cầu nối giữa kỹ sư, khách hàng và BA)",
+      "Quality strategy & compliance governance (Chiến lược chất lượng tổng thể)"
+     ],
+     "tasksBreakdown": [
+      {
+       "taskName": "Translating factory quality defect logging methods into software bug tracking workflows",
+       "taskNameVi": "Chuyển đổi phương pháp ghi nhận lỗi chất lượng nhà máy sang quy trình theo dõi lỗi phần mềm",
+       "exposureType": "ai_augmentation",
+       "exposurePercentage": 50,
+       "onetCode": "15-1253.00-T1",
+       "notes": "Tận dụng tư duy ghi nhận lỗi sản phẩm thực tế để áp dụng vào việc ghi log lỗi phần mềm."
+      },
+      {
+       "taskName": "Executing step-by-step verification instructions based on technical specifications",
+       "taskNameVi": "Thực hiện các bước kiểm tra theo tài liệu hướng dẫn kỹ thuật giống như đọc bản vẽ may",
+       "exposureType": "direct_automation",
+       "exposurePercentage": 75,
+       "onetCode": "15-1253.00-T2",
+       "notes": "Các bước kiểm tra quy chuẩn có thể được tự động hóa một phần nhưng vẫn cần con người xác thực."
+      },
+      {
+       "taskName": "Collaborating with production line or software team leads under high deadline pressure",
+       "taskNameVi": "Phối hợp với nhóm phát triển sản phẩm dưới áp lực tiến độ đơn hàng cao",
+       "exposureType": "human_core",
+       "exposurePercentage": 20,
+       "onetCode": "15-1253.00-T3",
+       "notes": "Khả năng chịu áp lực và làm việc nhóm là thế mạnh cốt lõi từ môi trường xưởng may."
+      }
+     ],
+     "sources": [
+      {
+       "sourceId": "openai-upenn-2023",
+       "citationText": "OpenAI/UPenn (2023): Software QA tasks rank among the top 15% in task substitutability by code-specialized foundation models.",
+       "url": "https://arxiv.org/abs/2303.10130"
+      },
+      {
+       "sourceId": "topcv-vietnamworks-labor-2024-2026",
+       "citationText": "VietnamWorks (2024): Manual QA postings declined 48% YoY; \"Automation & AI QA / LLM Evaluation Specialist\" postings surged 115%.",
+       "url": "https://www.topcv.vn/bao-cao-thi-truong-tuyen-dung"
+      }
+     ],
+     "methodologySummary": "Đánh giá dựa trên khung năng lực ONET và dữ liệu tuyển dụng thực tế tại thị trường Việt Nam.",
+     "uncertaintyRange": "+/- 10%",
+     "vietnamDemandSignal": "declining"
+    },
+    "trajectories": [
+     {
+      "pathId": "stay_augment",
+      "pathTitle": "Enhance Industrial Quality Control with Digital Tools",
+      "pathTitleVi": "Nâng cấp kỹ năng Kiểm soát Chất lượng Công nghiệp số hóa",
+      "feasibilityScore": 90,
+      "estimatedTimelineMonths": 6,
+      "shortDescription": "Ứng dụng các bảng tính điện tử cơ bản và công cụ AI hỗ trợ ghi nhận lỗi chuyền may để tối ưu hóa công việc hiện tại tại Bình Dương.",
+      "targetRoles": [
+       "Tổ trưởng KCS chuyền may",
+       "Chuyên viên Quản lý chất lượng số hóa xưởng"
+      ],
+      "skillsToAcquire": [
+       "Sử dụng Excel cơ bản",
+       "Nhập liệu và quản lý lỗi trên máy tính bảng xưởng"
+      ],
+      "transferableSkills": [
+       "Kiểm tra chất lượng",
+       "Đọc bản vẽ kỹ thuật",
+       "Làm việc nhóm"
+      ],
+      "riskLevel": "low",
+      "fiveYearSalaryProjection": [
+       7,
+       8,
+       9,
+       10,
+       11
+      ],
+      "rationale": "Giữ vững nghề nghiệp hiện tại, giảm thiểu rủi ro thất nghiệp và từng bước làm quen với công nghệ số ngay tại xưởng sản xuất.",
+      "actionStepNow": "Dành 30 phút mỗi ngày tìm hiểu cách nhập dữ liệu lỗi lên máy tính bảng của xưởng."
+     },
+     {
+      "pathId": "pivot_adjacent",
+      "pathTitle": "Transition to Digital Documentation and Basic Administrative Support",
+      "pathTitleVi": "Chuyển hướng sang Quản lý tài liệu kỹ thuật và Hỗ trợ hành chính sản xuất",
+      "feasibilityScore": 70,
+      "estimatedTimelineMonths": 12,
+      "shortDescription": "Chuyển dịch sang các công việc văn phòng nhà xưởng, quản lý tài liệu kỹ thuật và đơn hàng dựa trên nền tảng kỹ năng đọc bản vẽ và quy trình.",
+      "targetRoles": [
+       "Nhân viên quản lý đơn hàng (Merchandiser trợ lý)",
+       "Nhân viên kiểm soát tài liệu kỹ thuật"
+      ],
+      "skillsToAcquire": [
+       "Tin học văn phòng cơ bản (Word, Excel)",
+       "Soạn thảo văn bản và email công việc"
+      ],
+      "transferableSkills": [
+       "Kinh nghiệm sản xuất 8 năm",
+       "Đọc bản vẽ kỹ thuật",
+       "Tuân thủ quy trình"
+      ],
+      "riskLevel": "moderate",
+      "fiveYearSalaryProjection": [
+       7,
+       9,
+       11,
+       13,
+       15
+      ],
+      "rationale": "Tận dụng sự thấu hiểu quy trình sản xuất may mặc để làm cầu nối tài liệu giữa văn phòng và xưởng sản xuất.",
+      "actionStepNow": "Đăng ký một khóa học tin học văn phòng cơ bản vào cuối tuần với chi phí dưới 2 triệu đồng."
+     },
+     {
+      "pathId": "full_switch",
+      "pathTitle": "Switch to Entry-Level E-commerce Operations & Small Business Support",
+      "pathTitleVi": "Chuyển đổi sang Vận hành Thương mại điện tử và Kinh doanh thủ công nhỏ",
+      "feasibilityScore": 60,
+      "estimatedTimelineMonths": 18,
+      "shortDescription": "Kết hợp sở thích nghề thủ công và kinh doanh nhỏ để tự vận hành gian hàng trực tuyến bán sản phẩm may vá, thủ công.",
+      "targetRoles": [
+       "Chủ shop thủ công trực tuyến",
+       "Nhân viên vận hành sàn thương mại điện tử địa phương"
+      ],
+      "skillsToAcquire": [
+       "Quản lý đơn hàng trên sàn TMĐT (Shopee/TikTok Shop)",
+       "Chụp ảnh và đăng sản phẩm cơ bản"
+      ],
+      "transferableSkills": [
+       "Khéo tay",
+       "Am hiểu sản phẩm may mặc/thủ công",
+       "Chịu áp lực"
+      ],
+      "riskLevel": "moderate",
+      "fiveYearSalaryProjection": [
+       6,
+       8,
+       12,
+       15,
+       20
+      ],
+      "rationale": "Phù hợp với sở thích kinh doanh nhỏ và nghề thủ công, tạo nguồn thu nhập độc lập không phụ thuộc vào nhà máy.",
+      "actionStepNow": "Tạo một tài khoản bán hàng thử nghiệm trên nền tảng mạng xã hội với các sản phẩm thủ công tự làm."
+     }
+    ],
+    "roadmap": [
+     {
+      "id": "m1",
+      "milestoneNumber": 1,
+      "phaseName": "Foundation & Digital Literacy",
+      "phaseNameVi": "Xây dựng nền tảng Tin học cơ bản",
+      "title": "Basic Computer Skills & Typing Mastery",
+      "titleVi": "Làm chủ máy tính cơ bản và đánh máy 10 ngón",
+      "estimatedHours": 36,
+      "weeksDuration": 6,
+      "skillsCovered": [
+       "Sử dụng chuột và bàn phím",
+       "Đánh máy tiếng Việt",
+       "Quản lý file thư mục cơ bản"
+      ],
+      "freeResources": [
+       {
+        "name": "TypingClub",
+        "provider": "EdClub",
+        "url": "https://www.typingclub.com",
+        "type": "Interactive Course"
+       }
+      ],
+      "checkpointQuiz": {
+       "question": "Phím tắt nào thường được sử dụng để sao chép (Copy) văn bản trên máy tính?",
+       "options": [
+        "Ctrl + C",
+        "Ctrl + V",
+        "Ctrl + X",
+        "Ctrl + Z"
+       ],
+       "correctIndex": 0,
+       "explanation": "Ctrl + C là lệnh chuẩn để sao chép văn bản trên hệ điều hành Windows."
+      }
+     },
+     {
+      "id": "m2",
+      "milestoneNumber": 2,
+      "phaseName": "Process & Documentation Transition",
+      "phaseNameVi": "Chuyển dịch Kỹ năng Quy trình và Tài liệu",
+      "title": "Introduction to Digital Spreadsheets & Workflows",
+      "titleVi": "Làm quen với Bảng tính điện tử và Quy trình số",
+      "estimatedHours": 36,
+      "weeksDuration": 6,
+      "skillsCovered": [
+       "Nhập liệu Excel cơ bản",
+       "Tạo bảng thống kê lỗi sản phẩm",
+       "Sử dụng email công việc"
+      ],
+      "freeResources": [
+       {
+        "name": "GCFLearnFree Excel Basics",
+        "provider": "GCFGlobal",
+        "url": "https://edu.gcfglobal.org/en/excel/",
+        "type": "Tutorial"
+       }
+      ],
+      "checkpointQuiz": {
+       "question": "Trong phần mềm bảng tính Excel, hàm nào dùng để tính tổng các ô dữ liệu?",
+       "options": [
+        "AVERAGE",
+        "SUM",
+        "COUNT",
+        "MAX"
+       ],
+       "correctIndex": 1,
+       "explanation": "Hàm SUM được sử dụng phổ biến để tính tổng các giá trị trong một dãy ô."
+      }
+     }
+    ]
+   }
+  ],
+  "verification": {
+   "verdict": "repair",
+   "failures": [
+    "judge: personalization score 40 below 50 (Guidance references the user's role and skills, but hallucinates 8 years of experience and a location in Binh Duong which were not stated in the user profile.)",
+    "judge: groundedness score 30 below 50 (Guidance references the user's role and skills, but hallucinates 8 years of experience and a location in Binh Duong which were not stated in the user profile.)"
+   ],
+   "judge": {
+    "personalization": 40,
+    "groundedness": 30,
+    "rationale": "Guidance references the user's role and skills, but hallucinates 8 years of experience and a location in Binh Duong which were not stated in the user profile."
+   },
+   "citationReport": {
+    "total": 2,
+    "verified": 2,
+    "hallucinated": []
+   }
+  },
+  "trajectory": {
+   "runId": "run_1788087652873_stuz2g",
+   "config": "final_tools_verifier",
+   "startedAt": "2026-08-30T11:00:52.873Z",
+   "events": [
+    {
+     "ts": "2026-08-30T11:00:52.873Z",
+     "type": "run_start",
+     "message": "pipeline for \"Công nhân may công nghiệp\"",
+     "data": {
+      "config": {
+       "useTools": true,
+       "useVerifier": true
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T11:00:52.873Z",
+     "type": "agent_start",
+     "agent": "profiler"
+    },
+    {
+     "ts": "2026-08-30T11:00:54.613Z",
+     "type": "llm_call",
+     "agent": "profiler",
+     "model": "gemini-3.5-flash-lite",
+     "usageTokens": 483,
+     "latencyMs": 1439
+    },
+    {
+     "ts": "2026-08-30T11:00:54.613Z",
+     "type": "agent_end",
+     "agent": "profiler",
+     "message": "degraded to deterministic fallback",
+     "data": {
+      "keywords": [
+       "công nhân may công nghiệp",
+       "công",
+       "nhân"
+      ],
+      "riskFlags": []
+     }
+    },
+    {
+     "ts": "2026-08-30T11:00:54.613Z",
+     "type": "agent_start",
+     "agent": "evidence_gatherer"
+    },
+    {
+     "ts": "2026-08-30T11:00:56.659Z",
+     "type": "llm_call",
+     "agent": "evidence_gatherer",
+     "model": "gemini-3.1-flash-lite",
+     "usageTokens": 475,
+     "latencyMs": 1686,
+     "message": "2 tool call(s)"
+    },
+    {
+     "ts": "2026-08-30T11:00:56.659Z",
+     "type": "tool_call",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "lookupOccupation",
+      "args": {
+       "query": "công nhân may công nghiệp"
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T11:00:56.659Z",
+     "type": "tool_response",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "lookupOccupation",
+      "ok": true,
+      "summary": "2 item(s)"
+     }
+    },
+    {
+     "ts": "2026-08-30T11:00:56.659Z",
+     "type": "tool_call",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "searchResearch",
+      "args": {
+       "query": "automation impact on garment workers Vietnam"
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T11:00:56.660Z",
+     "type": "tool_response",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "searchResearch",
+      "ok": true,
+      "summary": "3 item(s)"
+     }
+    },
+    {
+     "ts": "2026-08-30T11:00:59.364Z",
+     "type": "llm_call",
+     "agent": "evidence_gatherer",
+     "model": "gemini-3.1-flash-lite",
+     "usageTokens": 2390,
+     "latencyMs": 2133,
+     "message": "final turn"
+    },
+    {
+     "ts": "2026-08-30T11:00:59.364Z",
+     "type": "agent_end",
+     "agent": "evidence_gatherer",
+     "data": {
+      "occupations": 2,
+      "research": 3,
+      "news": 0
+     }
+    },
+    {
+     "ts": "2026-08-30T11:00:59.364Z",
+     "type": "agent_start",
+     "agent": "analyst",
+     "message": "initial synthesis"
+    },
+    {
+     "ts": "2026-08-30T11:01:08.588Z",
+     "type": "llm_call",
+     "agent": "analyst",
+     "model": "gemini-3.1-flash-lite",
+     "usageTokens": 5019,
+     "latencyMs": 8838
+    },
+    {
+     "ts": "2026-08-30T11:01:08.588Z",
+     "type": "agent_end",
+     "agent": "analyst",
+     "data": {
+      "suggestions": 1
+     }
+    },
+    {
+     "ts": "2026-08-30T11:01:10.074Z",
+     "type": "llm_call",
+     "agent": "verifier",
+     "model": "gemini-3.5-flash-lite",
+     "usageTokens": 473,
+     "latencyMs": 1280
+    },
+    {
+     "ts": "2026-08-30T11:01:10.074Z",
+     "type": "verification_result",
+     "agent": "verifier",
+     "data": {
+      "verdict": "repair",
+      "failures": [
+       "suggestion[0]: roadmap must contain 2-3 milestones",
+       "judge: personalization score 30 below 50 (Guidance connects user's factory background to HR tasks, but leaps drastically from industrial sewing to HR leadership without addressing core technical skills like blueprint reading.)",
+       "judge: groundedness score 40 below 50 (Guidance connects user's factory background to HR tasks, but leaps drastically from industrial sewing to HR leadership without addressing core technical skills like blueprint reading.)"
+      ],
+      "judge": {
+       "personalization": 30,
+       "groundedness": 40,
+       "rationale": "Guidance connects user's factory background to HR tasks, but leaps drastically from industrial sewing to HR leadership without addressing core technical skills like blueprint reading."
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T11:01:10.074Z",
+     "type": "repair_retry",
+     "agent": "analyst",
+     "data": {
+      "feedback": [
+       "suggestion[0]: roadmap must contain 2-3 milestones",
+       "judge: personalization score 30 below 50 (Guidance connects user's factory background to HR tasks, but leaps drastically from industrial sewing to HR leadership without addressing core technical skills like blueprint reading.)",
+       "judge: groundedness score 40 below 50 (Guidance connects user's factory background to HR tasks, but leaps drastically from industrial sewing to HR leadership without addressing core technical skills like blueprint reading.)"
+      ]
+     }
+    },
+    {
+     "ts": "2026-08-30T11:01:10.074Z",
+     "type": "agent_start",
+     "agent": "analyst",
+     "message": "repair attempt 1"
+    },
+    {
+     "ts": "2026-08-30T11:01:18.389Z",
+     "type": "llm_call",
+     "agent": "analyst",
+     "model": "gemini-3.5-flash-lite",
+     "usageTokens": 5726,
+     "latencyMs": 8059
+    },
+    {
+     "ts": "2026-08-30T11:01:18.389Z",
+     "type": "agent_end",
+     "agent": "analyst",
+     "data": {
+      "suggestions": 1
+     }
+    },
+    {
+     "ts": "2026-08-30T11:01:20.044Z",
+     "type": "llm_call",
+     "agent": "verifier",
+     "model": "gemini-3.5-flash-lite",
+     "usageTokens": 496,
+     "latencyMs": 1413
+    },
+    {
+     "ts": "2026-08-30T11:01:20.044Z",
+     "type": "verification_result",
+     "agent": "verifier",
+     "data": {
+      "verdict": "repair",
+      "failures": [
+       "suggestion[0]: citation not found in evidence base: \"Stanford HAI AI Index Report 2024\"",
+       "judge: personalization score 45 below 50 (Guidance connects factory floor experience to HR, but suggests an unrealistic career leap from industrial sewing to an HR leadership role without acknowledging skill gaps.)",
+       "judge: groundedness score 40 below 50 (Guidance connects factory floor experience to HR, but suggests an unrealistic career leap from industrial sewing to an HR leadership role without acknowledging skill gaps.)"
+      ],
+      "judge": {
+       "personalization": 45,
+       "groundedness": 40,
+       "rationale": "Guidance connects factory floor experience to HR, but suggests an unrealistic career leap from industrial sewing to an HR leadership role without acknowledging skill gaps."
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T11:01:20.044Z",
+     "type": "repair_retry",
+     "agent": "analyst",
+     "data": {
+      "feedback": [
+       "suggestion[0]: citation not found in evidence base: \"Stanford HAI AI Index Report 2024\"",
+       "judge: personalization score 45 below 50 (Guidance connects factory floor experience to HR, but suggests an unrealistic career leap from industrial sewing to an HR leadership role without acknowledging skill gaps.)",
+       "judge: groundedness score 40 below 50 (Guidance connects factory floor experience to HR, but suggests an unrealistic career leap from industrial sewing to an HR leadership role without acknowledging skill gaps.)"
+      ]
+     }
+    },
+    {
+     "ts": "2026-08-30T11:01:20.044Z",
+     "type": "agent_start",
+     "agent": "analyst",
+     "message": "repair attempt 2"
+    },
+    {
+     "ts": "2026-08-30T11:01:30.100Z",
+     "type": "llm_call",
+     "agent": "analyst",
+     "model": "gemini-3.5-flash-lite",
+     "usageTokens": 6353,
+     "latencyMs": 9873
+    },
+    {
+     "ts": "2026-08-30T11:01:30.100Z",
+     "type": "agent_end",
+     "agent": "analyst",
+     "data": {
+      "suggestions": 1
+     }
+    },
+    {
+     "ts": "2026-08-30T11:01:31.647Z",
+     "type": "llm_call",
+     "agent": "verifier",
+     "model": "gemini-3.5-flash-lite",
+     "usageTokens": 549,
+     "latencyMs": 1230
+    },
+    {
+     "ts": "2026-08-30T11:01:31.647Z",
+     "type": "verification_result",
+     "agent": "verifier",
+     "data": {
+      "verdict": "repair",
+      "failures": [
+       "judge: personalization score 40 below 50 (Guidance references the user's role and skills, but hallucinates 8 years of experience and a location in Binh Duong which were not stated in the user profile.)",
+       "judge: groundedness score 30 below 50 (Guidance references the user's role and skills, but hallucinates 8 years of experience and a location in Binh Duong which were not stated in the user profile.)"
+      ],
+      "judge": {
+       "personalization": 40,
+       "groundedness": 30,
+       "rationale": "Guidance references the user's role and skills, but hallucinates 8 years of experience and a location in Binh Duong which were not stated in the user profile."
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T11:01:31.647Z",
+     "type": "run_end",
+     "message": "final verdict: repair"
+    }
+   ]
+  },
+  "meta": {
+   "models": [
+    "gemini-3.5-flash-lite",
+    "gemini-3.1-flash-lite"
+   ],
+   "usageTokens": 21964,
+   "latencyMs": 38774,
+   "degraded": true
+  }
+ }
+}

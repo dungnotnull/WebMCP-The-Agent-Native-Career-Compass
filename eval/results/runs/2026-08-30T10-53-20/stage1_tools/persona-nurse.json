@@ -1,0 +1,482 @@
+{
+ "score": {
+  "personaId": "persona-nurse",
+  "config": "stage1_tools",
+  "ok": true,
+  "groundingRate": 1,
+  "hallucinatedCount": 0,
+  "schemaFailures": 0,
+  "guardrailViolations": 0,
+  "personalization": 45,
+  "usageTokens": 10147,
+  "latencyMs": 14888,
+  "model": "gemini-3.5-flash-lite",
+  "costPerTaskUsd": 0.0030441
+ },
+ "payload": {
+  "source": "agentic_pipeline",
+  "config": {
+   "useTools": true,
+   "useVerifier": false
+  },
+  "suggestions": [
+   {
+    "roleTitle": "Healthcare Data Specialist & Digital Health Analyst",
+    "roleTitleVi": "Chuyên viên Phân tích Dữ liệu Y tế & Chăm sóc Sức khỏe số",
+    "aiResilienceScore": 82,
+    "matchScore": 88,
+    "reasoning": "Dựa trên dữ liệu từ Stanford HAI (2024) và WEF Future of Jobs (2023), các chuyên viên phân tích dữ liệu ứng dụng AI đạt hiệu suất công việc cao hơn nhờ tự động hóa các tác vụ lặp đi lặp lại trong khi vẫn giữ nguyên lợi thế cốt lõi về tư duy chiến lược và thấu hiểu ngữ cảnh con người. Đối với một cử nhân điều dưỡng 7 năm kinh nghiệm tại Cần Thơ, năng lực thấu hiểu quy trình lâm sàng là nền tảng vững chắc để chuyển dịch sang y tế số mà không mất đi lợi thế cạnh tranh.",
+    "whyItFitsYou": "Hồ sơ của bạn kết hợp kinh nghiệm thực tế về 'Hồ sơ bệnh án điện tử' và sự kiên nhẫn trong 'Xử lý tình huống cấp cứu', rất phù hợp với nhu cầu chuyển đổi số ngành y tế tại khu vực Đồng bằng sông Cửu Long. Định hướng này tận dụng thế mạnh giao tiếp bệnh nhân và quan tâm đến 'Y tế số', đồng thời giải quyết điểm yếu 'Ít cơ hội học công nghệ mới' bằng lộ trình học tập tối ưu, phù hợp với ngân sách và thời gian hạn hẹp.",
+    "transferableSkillsMatch": [
+     "Quản lý hồ sơ bệnh án điện tử",
+     "Giao tiếp và thấu cảm với bệnh nhân",
+     "Xử lý tình huống và quản lý áp lực"
+    ],
+    "skillsGap": [
+     "Truy vấn dữ liệu cơ bản (SQL/Python pandas)",
+     "Tạo bảng điều khiển trực quan (Dashboards)",
+     "Phân tích dữ liệu y tế cộng đồng"
+    ],
+    "averageSalaryRangeVND": "15,000,000 - 30,000,000 VND / tháng",
+    "evidenceCitations": [
+     {
+      "paperTitle": "Stanford HAI (2024): Business analysts utilizing AI agents complete market modeling 43% faster with 25% higher forecast accuracy.",
+      "source": "stanford-hai-ai-index-2024",
+      "year": 2024,
+      "url": "https://aiindex.stanford.edu/report/",
+      "quoteOrDataPoint": "Business analysts utilizing AI agents complete market modeling 43% faster with 25% higher forecast accuracy."
+     },
+     {
+      "paperTitle": "WEF Future of Jobs (2023): Business Intelligence and Data Analysts ranked as #3 fastest growing occupation globally.",
+      "source": "wef-future-of-jobs-2023-2025",
+      "year": 2023,
+      "url": "https://www.weforum.org/reports/the-future-of-jobs-report-2023/",
+      "quoteOrDataPoint": "Business Intelligence and Data Analysts ranked as #3 fastest growing occupation globally."
+     }
+    ],
+    "resilienceDetail": {
+     "occupationTitle": "Business Analyst / Data Specialist",
+     "occupationTitleVi": "Chuyên viên Phân tích Kinh doanh & Dữ liệu (BA/BI)",
+     "molisaCode": "2511",
+     "onetCode": "15-1211.00",
+     "overallResilienceScore": 82,
+     "automationRiskScore": 35,
+     "augmentationPotentialScore": 92,
+     "humanAdvantageCore": [
+      "Deep domain contextualization & Vietnamese business culture insights (Thấu hiểu sâu bối cảnh thị trường nội địa)",
+      "Executive stakeholder alignment & persuasion (Thuyết phục và gắn kết lãnh đạo)",
+      "Problem framing & translating ambiguous business pains into metrics (Định hình bài toán từ nhu cầu mơ hồ)",
+      "Ethical governance of data pipelines (Quản trị đạo đức và pháp lý dữ liệu)"
+     ],
+     "tasksBreakdown": [
+      {
+       "taskName": "Extracting clinical data logs and cleaning patient electronic records",
+       "taskNameVi": "Trích xuất nhật ký dữ liệu lâm sàng và làm sạch hồ sơ bệnh án điện tử",
+       "exposureType": "ai_augmentation",
+       "exposurePercentage": 80,
+       "onetCode": "15-1211.00-T1",
+       "notes": "AI trợ lý viết script Python và SQL làm sạch dữ liệu trong vài giây; điều dưỡng viên chuyển đổi góc nhìn lâm sàng sẽ thẩm định độ chính xác y khoa."
+      },
+      {
+       "taskName": "Building hospital operational KPI dashboards and patient flow charts",
+       "taskNameVi": "Xây dựng dashboard vận hành bệnh viện và biểu đồ luồng bệnh nhân",
+       "exposureType": "ai_augmentation",
+       "exposurePercentage": 70,
+       "onetCode": "15-1211.00-T2",
+       "notes": "Công cụ BI tự nhiên tự động hóa biểu đồ trực quan, cho phép người dùng tập trung vào việc diễn giải ý nghĩa số liệu."
+      },
+      {
+       "taskName": "Framing healthcare improvement initiatives and clinical workflow optimization",
+       "taskNameVi": "Định hình sáng kiến cải tiến y tế và tối ưu hóa quy trình lâm sàng",
+       "exposureType": "human_core",
+       "exposurePercentage": 15,
+       "onetCode": "15-1211.00-T3",
+       "notes": "Đòi hỏi sự thấu cảm trực tiếp, kinh nghiệm thực chiến tại giường bệnh và khả năng thấu hiểu tâm lý người bệnh mà AI không thể thay thế."
+      }
+     ],
+     "sources": [
+      {
+       "sourceId": "stanford-hai-ai-index-2024",
+       "citationText": "Stanford HAI (2024): Business analysts utilizing AI agents complete market modeling 43% faster with 25% higher forecast accuracy.",
+       "url": "https://aiindex.stanford.edu/report/"
+      },
+      {
+       "sourceId": "wef-future-of-jobs-2023-2025",
+       "citationText": "WEF Future of Jobs (2023): Business Intelligence and Data Analysts ranked as #3 fastest growing occupation globally.",
+       "url": "https://www.weforum.org/reports/the-future-of-jobs-report-2023/"
+      }
+     ],
+     "methodologySummary": "Đánh giá dựa trên khung năng lực chuẩn O*NET, dữ liệu tự động hóa từ Stanford HAI và báo cáo tương lai việc làm của WEF kết hợp bối cảnh chuyển đổi số y tế tại Việt Nam.",
+     "uncertaintyRange": "±5% tùy thuộc vào tốc độ ứng dụng CNTT tại các cơ sở y tế khu vực Đồng bằng sông Cửu Long.",
+     "vietnamDemandSignal": "high_growth"
+    },
+    "trajectories": [
+     {
+      "pathId": "stay_augment",
+      "pathTitle": "Stay and Augment in Nursing with Health-Tech",
+      "pathTitleVi": "Tiếp tục nghề Điều dưỡng kết hợp Trợ lý Y tế số",
+      "feasibilityScore": 95,
+      "estimatedTimelineMonths": 3,
+      "shortDescription": "Sử dụng các công cụ AI hỗ trợ ghi chép hồ sơ bệnh án, quản lý lịch trực và tối ưu hóa quy trình chăm sóc tại khoa phòng.",
+      "targetRoles": [
+       "Điều dưỡng trưởng ca",
+       "Chuyên viên quản lý chất lượng bệnh viện"
+      ],
+      "skillsToAcquire": [
+       "Sử dụng AI ghi chép y khoa tự động",
+       "Phần mềm quản lý dữ liệu bệnh viện nâng cao"
+      ],
+      "transferableSkills": [
+       "Chăm sóc bệnh nhân",
+       "Tiêm truyền",
+       "Hồ sơ bệnh án điện tử"
+      ],
+      "riskLevel": "low",
+      "fiveYearSalaryProjection": [
+       12,
+       13,
+       14,
+       16,
+       18
+      ],
+      "rationale": "Giảm tải áp lực ca trực bằng công nghệ hiện có mà không phải thay đổi môi trường làm việc đột ngột.",
+      "actionStepNow": "Tận dụng 5 giờ/tuần để tìm hiểu các tính năng tự động nhập liệu trên hệ thống hồ sơ bệnh án điện tử hiện tại của cơ sở y tế."
+     },
+     {
+      "pathId": "pivot_adjacent",
+      "pathTitle": "Pivot to Healthcare Data & Digital Health",
+      "pathTitleVi": "Chuyển dịch sang Phân tích Dữ liệu Y tế & Y tế số",
+      "feasibilityScore": 80,
+      "estimatedTimelineMonths": 9,
+      "shortDescription": "Tận dụng 7 năm kinh nghiệm lâm sàng kết hợp kỹ năng phân tích dữ liệu để làm việc cho các công ty MedTech, bệnh viện tư nhân hoặc cơ quan y tế cộng đồng.",
+      "targetRoles": [
+       "Chuyên viên Phân tích Dữ liệu Y tế",
+       "Chuyên viên CNTT Y tế (Health IT Specialist)"
+      ],
+      "skillsToAcquire": [
+       "SQL cơ bản",
+       "Excel nâng cao / Power BI",
+       "Đạo đức quản trị dữ liệu y tế"
+      ],
+      "transferableSkills": [
+       "Xử lý tình huống cấp cứu",
+       "Giao tiếp với bệnh nhân",
+       "Kiên nhẫn"
+      ],
+      "riskLevel": "moderate",
+      "fiveYearSalaryProjection": [
+       12,
+       15,
+       19,
+       24,
+       30
+      ],
+      "rationale": "Phù hợp hoàn hảo với sở thích Y tế số và Sức khỏe cộng đồng, giải quyết triệt để vấn đề áp lực ca trực.",
+      "actionStepNow": "Đăng ký khóa học trực tuyến miễn phí về phân tích dữ liệu y tế với thời lượng 5 giờ/tuần."
+     },
+     {
+      "pathId": "full_switch",
+      "pathTitle": "Full Switch to General Data Science",
+      "pathTitleVi": "Chuyển đổi hoàn toàn sang Khoa học Dữ liệu Doanh nghiệp",
+      "feasibilityScore": 45,
+      "estimatedTimelineMonths": 24,
+      "shortDescription": "Rẽ hướng hoàn toàn sang lĩnh vực lập trình dữ liệu và phân tích kinh doanh nói chung.",
+      "targetRoles": [
+       "Data Analyst",
+       "Business Analyst"
+      ],
+      "skillsToAcquire": [
+       "Python lập trình",
+       "Thống kê toán học nâng cao",
+       "Machine Learning cơ bản"
+      ],
+      "transferableSkills": [
+       "Tư duy logic",
+       "Giải quyết vấn đề"
+      ],
+      "riskLevel": "high",
+      "fiveYearSalaryProjection": [
+       10,
+       14,
+       20,
+       28,
+       38
+      ],
+      "rationale": "Rủi ro cao do khoảng cách kiến thức công nghệ lớn, vượt quá ngân sách và quỹ thời gian hiện tại của bạn.",
+      "actionStepNow": "Không khuyến nghị thực hiện ngay lập tức trong giai đoạn này."
+     }
+    ],
+    "roadmap": [
+     {
+      "id": "m1",
+      "milestoneNumber": 1,
+      "phaseName": "Foundation & Digital Health Mindset",
+      "phaseNameVi": "Nền tảng & Tư duy Y tế số",
+      "title": "Mastering Health Informatics Basics",
+      "titleVi": "Làm chủ kiến thức Tin học Y tế cơ bản",
+      "estimatedHours": 25,
+      "weeksDuration": 5,
+      "skillsCovered": [
+       "Hồ sơ bệnh án điện tử nâng cao",
+       "Quy trình dữ liệu y tế"
+      ],
+      "freeResources": [
+       {
+        "name": "Digital Health Course by WHO",
+        "provider": "WHO Agora",
+        "url": "https://agora.who.org/",
+        "type": "Online Course"
+       }
+      ],
+      "checkpointQuiz": {
+       "question": "Thành phần cốt lõi nào của hồ sơ bệnh án điện tử giúp giảm thiểu sai sót y khoa?",
+       "options": [
+        "Tốc độ gõ phím của điều dưỡng",
+        "Khả năng đồng bộ dữ liệu thời gian thực và cảnh báo tương tác thuốc",
+        "Màu sắc giao diện phần mềm",
+        "Dung lượng lưu trữ ổ cứng"
+       ],
+       "correctIndex": 1,
+       "explanation": "Đồng bộ dữ liệu thời gian thực và cảnh báo tự động giúp phát hiện sớm các bất thường trong chăm sóc bệnh nhân."
+      }
+     },
+     {
+      "id": "m2",
+      "milestoneNumber": 2,
+      "phaseName": "Data Visualization & Clinical Insights",
+      "phaseNameVi": "Trực quan hóa Dữ liệu & Báo cáo Lâm sàng",
+      "title": "Introduction to Healthcare Dashboards",
+      "titleVi": "Nhập môn Xây dựng Báo cáo Y tế",
+      "estimatedHours": 30,
+      "weeksDuration": 6,
+      "skillsCovered": [
+       "Excel phân tích nâng cao",
+       "Power BI cơ bản cho y tế"
+      ],
+      "freeResources": [
+       {
+        "name": "Microsoft Power BI Learning Path",
+        "provider": "Microsoft Learn",
+        "url": "https://learn.microsoft.com/power-bi/",
+        "type": "Interactive Tutorial"
+       }
+      ],
+      "checkpointQuiz": {
+       "question": "Biểu đồ nào thích hợp nhất để theo dõi xu hướng tỷ lệ bệnh nhân tái nhập viện theo tháng?",
+       "options": [
+        "Biểu đồ tròn (Pie chart)",
+        "Biểu đồ đường (Line chart)",
+        "Sơ đồ tổ chức (Org chart)",
+        "Đám mây từ khóa (Word cloud)"
+       ],
+       "correctIndex": 1,
+       "explanation": "Biểu đồ đường là công cụ tối ưu để thể hiện sự thay đổi và xu hướng của dữ liệu theo chuỗi thời gian."
+      }
+     }
+    ]
+   }
+  ],
+  "verification": null,
+  "trajectory": {
+   "runId": "run_1788087498931_tswu2g",
+   "config": "stage1_tools",
+   "startedAt": "2026-08-30T10:58:18.931Z",
+   "events": [
+    {
+     "ts": "2026-08-30T10:58:18.931Z",
+     "type": "run_start",
+     "message": "pipeline for \"Điều dưỡng viên\"",
+     "data": {
+      "config": {
+       "useTools": true,
+       "useVerifier": false
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T10:58:18.931Z",
+     "type": "agent_start",
+     "agent": "profiler"
+    },
+    {
+     "ts": "2026-08-30T10:58:20.584Z",
+     "type": "llm_call",
+     "agent": "profiler",
+     "model": "gemini-3.5-flash-lite",
+     "usageTokens": 490,
+     "latencyMs": 1458
+    },
+    {
+     "ts": "2026-08-30T10:58:20.584Z",
+     "type": "agent_end",
+     "agent": "profiler",
+     "message": "ok",
+     "data": {
+      "keywords": [
+       "Registered Nurse",
+       "Digital Health Specialist",
+       "Public Health Coordinator"
+      ],
+      "riskFlags": [
+       "limited budget for retraining",
+       "high shift-work pressure",
+       "low weekly time availability"
+      ]
+     }
+    },
+    {
+     "ts": "2026-08-30T10:58:20.584Z",
+     "type": "agent_start",
+     "agent": "evidence_gatherer"
+    },
+    {
+     "ts": "2026-08-30T10:58:21.605Z",
+     "type": "llm_call",
+     "agent": "evidence_gatherer",
+     "model": "gemini-3.5-flash-lite",
+     "usageTokens": 559,
+     "latencyMs": 890,
+     "message": "4 tool call(s)"
+    },
+    {
+     "ts": "2026-08-30T10:58:21.605Z",
+     "type": "tool_call",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "lookupOccupation",
+      "args": {
+       "query": "Registered Nurse"
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T10:58:21.605Z",
+     "type": "tool_response",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "lookupOccupation",
+      "ok": true,
+      "summary": "0 item(s) - No direct match in the Vietnam occupation database."
+     }
+    },
+    {
+     "ts": "2026-08-30T10:58:21.605Z",
+     "type": "tool_call",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "lookupOccupation",
+      "args": {
+       "query": "Digital Health Specialist"
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T10:58:21.605Z",
+     "type": "tool_response",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "lookupOccupation",
+      "ok": true,
+      "summary": "2 item(s)"
+     }
+    },
+    {
+     "ts": "2026-08-30T10:58:21.605Z",
+     "type": "tool_call",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "lookupOccupation",
+      "args": {
+       "query": "Public Health Coordinator"
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T10:58:21.605Z",
+     "type": "tool_response",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "lookupOccupation",
+      "ok": true,
+      "summary": "0 item(s) - No direct match in the Vietnam occupation database."
+     }
+    },
+    {
+     "ts": "2026-08-30T10:58:21.605Z",
+     "type": "tool_call",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "searchResearch",
+      "args": {
+       "query": "digital health Vietnam workforce automation healthcare public health"
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T10:58:21.606Z",
+     "type": "tool_response",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "searchResearch",
+      "ok": true,
+      "summary": "3 item(s)"
+     }
+    },
+    {
+     "ts": "2026-08-30T10:58:23.019Z",
+     "type": "llm_call",
+     "agent": "evidence_gatherer",
+     "model": "gemini-3.5-flash-lite",
+     "usageTokens": 2558,
+     "latencyMs": 1102,
+     "message": "final turn"
+    },
+    {
+     "ts": "2026-08-30T10:58:23.019Z",
+     "type": "agent_end",
+     "agent": "evidence_gatherer",
+     "data": {
+      "occupations": 2,
+      "research": 3,
+      "news": 0
+     }
+    },
+    {
+     "ts": "2026-08-30T10:58:23.019Z",
+     "type": "agent_start",
+     "agent": "analyst",
+     "message": "initial synthesis"
+    },
+    {
+     "ts": "2026-08-30T10:58:33.819Z",
+     "type": "llm_call",
+     "agent": "analyst",
+     "model": "gemini-3.5-flash-lite",
+     "usageTokens": 6290,
+     "latencyMs": 10598
+    },
+    {
+     "ts": "2026-08-30T10:58:33.819Z",
+     "type": "agent_end",
+     "agent": "analyst",
+     "data": {
+      "suggestions": 1
+     }
+    },
+    {
+     "ts": "2026-08-30T10:58:33.819Z",
+     "type": "run_end",
+     "message": "no verifier (config)"
+    }
+   ]
+  },
+  "meta": {
+   "models": [
+    "gemini-3.5-flash-lite"
+   ],
+   "usageTokens": 9897,
+   "latencyMs": 14888,
+   "degraded": false
+  }
+ }
+}

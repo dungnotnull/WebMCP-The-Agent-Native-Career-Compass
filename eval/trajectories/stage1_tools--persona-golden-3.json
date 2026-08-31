@@ -1,0 +1,222 @@
+{
+ "runId": "run_1788087398329_rn9p2q",
+ "config": "stage1_tools",
+ "startedAt": "2026-08-30T10:56:38.329Z",
+ "events": [
+  {
+   "ts": "2026-08-30T10:56:38.329Z",
+   "type": "run_start",
+   "message": "pipeline for \"Fresh Business Graduate\"",
+   "data": {
+    "config": {
+     "useTools": true,
+     "useVerifier": false
+    }
+   }
+  },
+  {
+   "ts": "2026-08-30T10:56:38.329Z",
+   "type": "agent_start",
+   "agent": "profiler"
+  },
+  {
+   "ts": "2026-08-30T10:56:39.736Z",
+   "type": "llm_call",
+   "agent": "profiler",
+   "model": "gemini-3.5-flash-lite",
+   "usageTokens": 683,
+   "latencyMs": 1172
+  },
+  {
+   "ts": "2026-08-30T10:56:39.736Z",
+   "type": "agent_end",
+   "agent": "profiler",
+   "message": "ok",
+   "data": {
+    "keywords": [
+     "Business Analyst",
+     "Digital Marketing Specialist",
+     "Project Coordinator"
+    ],
+    "riskFlags": [
+     "limited technical hands-on experience",
+     "lacks concrete project portfolio"
+    ]
+   }
+  },
+  {
+   "ts": "2026-08-30T10:56:39.736Z",
+   "type": "agent_start",
+   "agent": "evidence_gatherer"
+  },
+  {
+   "ts": "2026-08-30T10:56:40.927Z",
+   "type": "llm_call",
+   "agent": "evidence_gatherer",
+   "model": "gemini-3.5-flash-lite",
+   "usageTokens": 547,
+   "latencyMs": 1058,
+   "message": "4 tool call(s)"
+  },
+  {
+   "ts": "2026-08-30T10:56:40.928Z",
+   "type": "tool_call",
+   "agent": "evidence_gatherer",
+   "data": {
+    "name": "lookupOccupation",
+    "args": {
+     "query": "Business Analyst"
+    }
+   }
+  },
+  {
+   "ts": "2026-08-30T10:56:40.928Z",
+   "type": "tool_response",
+   "agent": "evidence_gatherer",
+   "data": {
+    "name": "lookupOccupation",
+    "ok": true,
+    "summary": "1 item(s)"
+   }
+  },
+  {
+   "ts": "2026-08-30T10:56:40.928Z",
+   "type": "tool_call",
+   "agent": "evidence_gatherer",
+   "data": {
+    "name": "lookupOccupation",
+    "args": {
+     "query": "Digital Marketing Specialist"
+    }
+   }
+  },
+  {
+   "ts": "2026-08-30T10:56:40.928Z",
+   "type": "tool_response",
+   "agent": "evidence_gatherer",
+   "data": {
+    "name": "lookupOccupation",
+    "ok": true,
+    "summary": "2 item(s)"
+   }
+  },
+  {
+   "ts": "2026-08-30T10:56:40.928Z",
+   "type": "tool_call",
+   "agent": "evidence_gatherer",
+   "data": {
+    "name": "lookupOccupation",
+    "args": {
+     "query": "Project Coordinator"
+    }
+   }
+  },
+  {
+   "ts": "2026-08-30T10:56:40.928Z",
+   "type": "tool_response",
+   "agent": "evidence_gatherer",
+   "data": {
+    "name": "lookupOccupation",
+    "ok": true,
+    "summary": "0 item(s) - No direct match in the Vietnam occupation database."
+   }
+  },
+  {
+   "ts": "2026-08-30T10:56:40.928Z",
+   "type": "tool_call",
+   "agent": "evidence_gatherer",
+   "data": {
+    "name": "searchResearch",
+    "args": {
+     "query": "Generative AI impact entry level business graduate Vietnam Hanoi"
+    }
+   }
+  },
+  {
+   "ts": "2026-08-30T10:56:40.928Z",
+   "type": "tool_response",
+   "agent": "evidence_gatherer",
+   "data": {
+    "name": "searchResearch",
+    "ok": true,
+    "summary": "3 item(s)"
+   }
+  },
+  {
+   "ts": "2026-08-30T10:56:42.005Z",
+   "type": "llm_call",
+   "agent": "evidence_gatherer",
+   "model": "gemini-3.5-flash-lite",
+   "usageTokens": 3199,
+   "latencyMs": 833,
+   "message": "1 tool call(s)"
+  },
+  {
+   "ts": "2026-08-30T10:56:42.005Z",
+   "type": "tool_call",
+   "agent": "evidence_gatherer",
+   "data": {
+    "name": "getOccupationNews",
+    "args": {
+     "role": "Project Coordinator"
+    }
+   }
+  },
+  {
+   "ts": "2026-08-30T10:56:44.048Z",
+   "type": "tool_response",
+   "agent": "evidence_gatherer",
+   "data": {
+    "name": "getOccupationNews",
+    "ok": false,
+    "summary": "0 item(s) - News search failed: {\"error\":{\"code\":429,\"message\":\"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \",\"status\":\"RESOURCE_EXHAUSTED\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]}]}}"
+   }
+  },
+  {
+   "ts": "2026-08-30T10:56:45.740Z",
+   "type": "llm_call",
+   "agent": "evidence_gatherer",
+   "model": "gemini-3.5-flash-lite",
+   "usageTokens": 3345,
+   "latencyMs": 1274,
+   "message": "final turn"
+  },
+  {
+   "ts": "2026-08-30T10:56:45.740Z",
+   "type": "agent_end",
+   "agent": "evidence_gatherer",
+   "data": {
+    "occupations": 2,
+    "research": 3,
+    "news": 0
+   }
+  },
+  {
+   "ts": "2026-08-30T10:56:45.740Z",
+   "type": "agent_start",
+   "agent": "analyst",
+   "message": "initial synthesis"
+  },
+  {
+   "ts": "2026-08-30T10:56:55.286Z",
+   "type": "llm_call",
+   "agent": "analyst",
+   "model": "gemini-3.5-flash-lite",
+   "usageTokens": 6324,
+   "latencyMs": 9385
+  },
+  {
+   "ts": "2026-08-30T10:56:55.286Z",
+   "type": "agent_end",
+   "agent": "analyst",
+   "data": {
+    "suggestions": 1
+   }
+  },
+  {
+   "ts": "2026-08-30T10:56:55.286Z",
+   "type": "run_end",
+   "message": "no verifier (config)"
+  }
+ ]
+}

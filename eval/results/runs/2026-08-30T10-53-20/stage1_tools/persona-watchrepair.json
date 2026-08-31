@@ -1,0 +1,471 @@
+{
+ "score": {
+  "personaId": "persona-watchrepair",
+  "config": "stage1_tools",
+  "ok": true,
+  "groundingRate": 1,
+  "hallucinatedCount": 0,
+  "schemaFailures": 0,
+  "guardrailViolations": 0,
+  "personalization": 90,
+  "usageTokens": 8288,
+  "latencyMs": 19498,
+  "model": "gemini-3.5-flash-lite",
+  "costPerTaskUsd": 0.0024864
+ },
+ "payload": {
+  "source": "agentic_pipeline",
+  "config": {
+   "useTools": true,
+   "useVerifier": false
+  },
+  "suggestions": [
+   {
+    "roleTitle": "High-End Mechanical Watch Restorer & Vintage Horology Specialist",
+    "roleTitleVi": "Chuyên gia phục chế đồng hồ cơ cao cấp và đồng hồ cổ",
+    "aiResilienceScore": 92,
+    "matchScore": 88,
+    "reasoning": "Dựa trên báo cáo từ McKinsey & Company (2023) về việc AI tự động hóa các tác vụ lặp đi lặp lại nhưng các ngành nghề thủ công cao cấp đòi hỏi độ chính xác vật lý vẫn nằm ngoài tầm với của tự động hóa số hóa. Tại Việt Nam, thị trường sửa chữa đồng hồ phổ thông đang thu hẹp do các thiết bị thông minh, nhưng phân khúc đồng hồ cơ cao cấp, đồ cổ lại tăng trưởng ngầm nhờ giới sưu tầm tìm kiếm giá trị thực.",
+    "whyItFitsYou": "Với 15 năm kinh nghiệm, đôi tay khéo léo và uy tín sẵn có tại Hà Nội, bạn sở hữu độ chính xác tay nghề cao và tính kiên nhẫn tuyệt đối—những yếu tố không thể thay thế bằng phần mềm hay AI. Bạn có thể tận dụng lượng khách quen lâu năm để chuyển dịch lên phân khúc cao cấp.",
+    "transferableSkillsMatch": [
+     "Sửa máy đồng hồ cơ",
+     "Độ chính xác tay nghề cao",
+     "Kiên nhẫn tuyệt đối",
+     "Phân biệt linh kiện Swiss/Japanese"
+    ],
+    "skillsGap": [
+     "Kỹ năng xây dựng thương hiệu cá nhân trên mạng xã hội",
+     "Kỹ thuật chụp ảnh/quay video cận cảnh sản phẩm (macro)",
+     "Kiến thức bảo quản đồng hồ vintage bảo tàng"
+    ],
+    "averageSalaryRangeVND": "12,000,000 - 25,000,000 VND / tháng",
+    "evidenceCitations": [
+     {
+      "paperTitle": "The economic potential of generative AI: The next productivity frontier",
+      "source": "McKinsey & Company",
+      "year": 2023,
+      "url": "https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/the-economic-potential-of-generative-ai-the-next-productivity-frontier",
+      "quoteOrDataPoint": "Current AI technologies have the potential to automate tasks that absorb 60-70% of employees' time today, emphasizing the high resilience of manual craftsmanship and physical dexterity."
+     }
+    ],
+    "resilienceDetail": {
+     "occupationTitle": "Fine Watchmaker and Repairer",
+     "occupationTitleVi": "Thợ sửa chữa và chế tác đồng hồ tinh xảo",
+     "molisaCode": "7312",
+     "onetCode": "51-6093.00",
+     "overallResilienceScore": 92,
+     "automationRiskScore": 8,
+     "augmentationPotentialScore": 35,
+     "humanAdvantageCore": [
+      "Sự khéo léo của đôi tay (Manual Dexterity)",
+      "Độ nhạy cảm xúc giác và thính giác với cơ học tinh vi",
+      "Sự tin cậy cá nhân với khách hàng sưu tầm cao cấp"
+     ],
+     "tasksBreakdown": [
+      {
+       "taskName": "Disassembling and cleaning complex mechanical movements",
+       "taskNameVi": "Tháo lắp và vệ sinh các cỗ máy cơ khí phức tạp",
+       "exposureType": "low",
+       "exposurePercentage": 5,
+       "onetCode": "51-6093.00",
+       "notes": "Đòi hỏi thao tác vật lý tinh vi trực tiếp, không thể bị thay thế bởi AI hay robot trong môi trường tiệm nhỏ."
+      },
+      {
+       "taskName": "Diagnosing rare mechanical failures",
+       "taskNameVi": "Chẩn đoán lỗi hỏng hóc cơ học hiếm gặp",
+       "exposureType": "low",
+       "exposurePercentage": 10,
+       "onetCode": "51-6093.00",
+       "notes": "Dựa trên kinh nghiệm 15 năm và trực giác kỹ thuật cá nhân."
+      },
+      {
+       "taskName": "Polishing and restoring vintage watch cases",
+       "taskNameVi": "Đánh bóng và phục hồi vỏ đồng hồ cổ",
+       "exposureType": "low",
+       "exposurePercentage": 12,
+       "onetCode": "51-6093.00",
+       "notes": "Công việc thủ công đòi hỏi cảm giác lực tay tinh tế để không làm mất đường nét nguyên bản."
+      }
+     ],
+     "sources": [
+      "McKinsey & Company (2023)"
+     ],
+     "methodologySummary": "Đánh giá dựa trên khả năng tự động hóa vật lý của robot và AI tạo sinh đối với các ngành nghề thủ công truyền thống.",
+     "uncertaintyRange": "+/- 5%",
+     "vietnamDemandSignal": "stable"
+    },
+    "trajectories": [
+     {
+      "pathId": "stay_augment",
+      "pathTitle": "Deepen Niche Expertise in Luxury Horology",
+      "pathTitleVi": "Chiều sâu chuyên môn đồng hồ xa xỉ",
+      "feasibilityScore": 95,
+      "estimatedTimelineMonths": 3,
+      "shortDescription": "Tập trung hoàn toàn vào phân khúc đồng hồ cơ cao cấp, đồng hồ cổ, giảm thiểu nhận sửa đồng hồ phổ thông giá rẻ đang bị thu hẹp.",
+      "targetRoles": [
+       "Chuyên gia phục chế độc lập",
+       "Thợ chính tiệm đồng hồ cao cấp"
+      ],
+      "skillsToAcquire": [
+       "Kỹ thuật xử lý linh kiện hiếm",
+       "Bảo quản đồng hồ vintage chuẩn quốc tế"
+      ],
+      "transferableSkills": [
+       "Sửa máy đồng hồ cơ",
+       "Độ chính xác tay nghề cao",
+       "Kiên nhẫn tuyệt đối"
+      ],
+      "riskLevel": "low",
+      "fiveYearSalaryProjection": [
+       10,
+       12,
+       15,
+       18,
+       22
+      ],
+      "rationale": "Phát huy tối đa 15 năm kinh nghiệm và uy tín sẵn có, chuyển dịch tệp khách hàng sang phân khúc có biên lợi nhuận cao hơn.",
+      "actionStepNow": "Lọc danh sách khách hàng cũ sở hữu đồng hồ cao cấp và thông báo dịch vụ chuyên sâu mới qua Zalo."
+     },
+     {
+      "pathId": "pivot_adjacent",
+      "pathTitle": "Craftsman & Digital Showcase Creator",
+      "pathTitleVi": "Nghệ nhân kết hợp trưng bày số hóa tối giản",
+      "feasibilityScore": 75,
+      "estimatedTimelineMonths": 6,
+      "shortDescription": "Vẫn giữ nghề sửa chữa nhưng học cách quay chụp quá trình làm việc đăng lên TikTok/Facebook để thu hút khách hàng toàn quốc.",
+      "targetRoles": [
+       "Nghệ nhân đồng hồ có thương hiệu cá nhân",
+       "Chủ xưởng dịch vụ trực tuyến"
+      ],
+      "skillsToAcquire": [
+       "Quay video macro bằng smartphone",
+       "Viết nội dung kể chuyện (storytelling) nghề nghiệp"
+      ],
+      "transferableSkills": [
+       "Uy tín với khách quen",
+       "Kiên nhẫn tuyệt đối"
+      ],
+      "riskLevel": "moderate",
+      "fiveYearSalaryProjection": [
+       10,
+       14,
+       18,
+       24,
+       30
+      ],
+      "rationale": "Khắc phục điểm yếu 'không bán hàng online' bằng cách biến tay nghề thành nội dung số thu hút mà không cần đầu tư vốn lớn.",
+      "actionStepNow": "Dùng điện thoại quay lại 1 phút công đoạn lau dầu một chiếc máy cơ và đăng lên Reels/TikTok."
+     },
+     {
+      "pathId": "full_switch",
+      "pathTitle": "Precision Mechanical Micro-Engineering Services",
+      "pathTitleVi": "Dịch vụ cơ khí vi mô chính xác cho thiết bị y tế/quang học",
+      "feasibilityScore": 40,
+      "estimatedTimelineMonths": 12,
+      "shortDescription": "Chuyển sang nhận sửa chữa các thiết bị quang học, kính hiển vi, hoặc cơ vi mô khác tại Hà Nội.",
+      "targetRoles": [
+       "Kỹ thuật viên thiết bị quang học chính xác"
+      ],
+      "skillsToAcquire": [
+       "Đọc bản vẽ kỹ thuật quang học",
+       "Sử dụng thiết bị đo lường điện tử"
+      ],
+      "transferableSkills": [
+       "Độ chính xác tay nghề cao",
+       "Phân biệt linh kiện tinh vi"
+      ],
+      "riskLevel": "high",
+      "fiveYearSalaryProjection": [
+       9,
+       10,
+       12,
+       14,
+       16
+      ],
+      "rationale": "Thị trường đồng hồ quá thu hẹp có thể ép buộc phải tìm các ngách cơ khí vi mô tương tự, nhưng rủi ro học tập lớn.",
+      "actionStepNow": "Khảo sát các trung tâm bảo hành thiết bị y tế/quang học tại Hà Nội."
+     }
+    ],
+    "roadmap": [
+     {
+      "id": "m1",
+      "milestoneNumber": 1,
+      "phaseName": "Niche Specialization",
+      "phaseNameVi": "Chuyên môn hóa ngách cao cấp",
+      "title": "Shift Focus to Vintage & High-End Mechanical Watches",
+      "titleVi": "Chuyển hướng tập trung vào đồng hồ cơ cao cấp và cổ",
+      "estimatedHours": 18,
+      "weeksDuration": 3,
+      "skillsCovered": [
+       "Nhận diện lỗi chuyên sâu đồng hồ Thụy Sĩ/Nhật Bản cao cấp",
+       "Kỹ thuật bảo dưỡng bộ máy phức tạp"
+      ],
+      "freeResources": [
+       {
+        "name": "Watch Repair Channel - Mark Lovick",
+        "provider": "YouTube",
+        "url": "https://www.youtube.com/@WatchRepairChannel",
+        "type": "video"
+       }
+      ],
+      "checkpointQuiz": {
+       "question": "Yếu tố nào quan trọng nhất khi phục chế bộ máy đồng hồ cổ Thụy Sĩ?",
+       "options": [
+        "Thay thế linh kiện mới hoàn toàn",
+        "Giữ gìn tối đa tính nguyên bản và độ chính xác cơ học",
+        "Đánh bóng vỏ thật sáng bằng máy tốc độ cao",
+        "Sử dụng keo dán công nghiệp để cố định chi tiết"
+       ],
+       "correctIndex": 1,
+       "explanation": "Đồng hồ cổ trị giá cao nhờ tính nguyên bản và sự tinh xảo của linh kiện gốc."
+      }
+     },
+     {
+      "id": "m2",
+      "milestoneNumber": 2,
+      "phaseName": "Digital Presence (Zero Budget)",
+      "phaseNameVi": "Hiện diện số với chi phí bằng 0",
+      "title": "Smartphone Macro Content Creation",
+      "titleVi": "Quay chụp và chia sẻ quy trình sửa chữa qua điện thoại",
+      "estimatedHours": 18,
+      "weeksDuration": 3,
+      "skillsCovered": [
+       "Quay video góc cận cảnh (macro) bằng điện thoại",
+       "Cách kể chuyện bằng hình ảnh công việc thực tế"
+      ],
+      "freeResources": [
+       {
+        "name": "Học viện YouTube Creator",
+        "provider": "Google",
+        "url": "https://creatoracademy.youtube.com/",
+        "type": "course"
+       }
+      ],
+      "checkpointQuiz": {
+       "question": "Loại nội dung nào trên mạng xã hội phù hợp nhất với người thợ sửa đồng hồ lâu năm?",
+       "options": [
+        "Nhảy múa giải trí",
+        "Video ngắn quá trình bóc tách, lau dầu và phục hồi chi tiết nhỏ",
+        "Đăng ảnh phong cảnh",
+        "Livestream bán hàng quần áo"
+       ],
+       "correctIndex": 1,
+       "explanation": "Khán giả mạng xã hội rất thích xem các video cận cảnh ASMR quá trình sửa chữa thủ công tinh xảo."
+      }
+     }
+    ]
+   }
+  ],
+  "verification": null,
+  "trajectory": {
+   "runId": "run_1788087559717_4xjwxw",
+   "config": "stage1_tools",
+   "startedAt": "2026-08-30T10:59:19.717Z",
+   "events": [
+    {
+     "ts": "2026-08-30T10:59:19.717Z",
+     "type": "run_start",
+     "message": "pipeline for \"Thợ sửa chữa đồng hồ cơ\"",
+     "data": {
+      "config": {
+       "useTools": true,
+       "useVerifier": false
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T10:59:19.717Z",
+     "type": "agent_start",
+     "agent": "profiler"
+    },
+    {
+     "ts": "2026-08-30T10:59:21.378Z",
+     "type": "llm_call",
+     "agent": "profiler",
+     "model": "gemini-3.5-flash-lite",
+     "usageTokens": 510,
+     "latencyMs": 1523
+    },
+    {
+     "ts": "2026-08-30T10:59:21.378Z",
+     "type": "agent_end",
+     "agent": "profiler",
+     "message": "ok",
+     "data": {
+      "keywords": [
+       "watchmaker",
+       "horologist",
+       "precision mechanic"
+      ],
+      "riskFlags": [
+       "shrinking market demand",
+       "limited budget for retraining",
+       "minimal digital sales capability"
+      ]
+     }
+    },
+    {
+     "ts": "2026-08-30T10:59:21.378Z",
+     "type": "agent_start",
+     "agent": "evidence_gatherer"
+    },
+    {
+     "ts": "2026-08-30T10:59:23.128Z",
+     "type": "llm_call",
+     "agent": "evidence_gatherer",
+     "model": "gemini-3.5-flash-lite",
+     "usageTokens": 536,
+     "latencyMs": 1374,
+     "message": "3 tool call(s)"
+    },
+    {
+     "ts": "2026-08-30T10:59:23.128Z",
+     "type": "tool_call",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "lookupOccupation",
+      "args": {
+       "query": "watchmaker"
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T10:59:23.128Z",
+     "type": "tool_response",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "lookupOccupation",
+      "ok": true,
+      "summary": "0 item(s) - No direct match in the Vietnam occupation database."
+     }
+    },
+    {
+     "ts": "2026-08-30T10:59:23.128Z",
+     "type": "tool_call",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "lookupOccupation",
+      "args": {
+       "query": "precision mechanic"
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T10:59:23.128Z",
+     "type": "tool_response",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "lookupOccupation",
+      "ok": true,
+      "summary": "0 item(s) - No direct match in the Vietnam occupation database."
+     }
+    },
+    {
+     "ts": "2026-08-30T10:59:23.128Z",
+     "type": "tool_call",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "searchResearch",
+      "args": {
+       "query": "automation artisanal craftsmanship AI Vietnam luxury goods"
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T10:59:23.128Z",
+     "type": "tool_response",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "searchResearch",
+      "ok": true,
+      "summary": "3 item(s)"
+     }
+    },
+    {
+     "ts": "2026-08-30T10:59:24.295Z",
+     "type": "llm_call",
+     "agent": "evidence_gatherer",
+     "model": "gemini-3.5-flash-lite",
+     "usageTokens": 1190,
+     "latencyMs": 982,
+     "message": "1 tool call(s)"
+    },
+    {
+     "ts": "2026-08-30T10:59:24.295Z",
+     "type": "tool_call",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "getOccupationNews",
+      "args": {
+       "role": "watchmaker horologist precision mechanic Hanoi"
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T10:59:26.685Z",
+     "type": "tool_response",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "getOccupationNews",
+      "ok": false,
+      "summary": "0 item(s) - News search failed: {\"error\":{\"code\":429,\"message\":\"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \",\"status\":\"RESOURCE_EXHAUSTED\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]}]}}"
+     }
+    },
+    {
+     "ts": "2026-08-30T10:59:28.146Z",
+     "type": "llm_call",
+     "agent": "evidence_gatherer",
+     "model": "gemini-3.5-flash-lite",
+     "usageTokens": 1331,
+     "latencyMs": 1237,
+     "message": "final turn"
+    },
+    {
+     "ts": "2026-08-30T10:59:28.146Z",
+     "type": "agent_end",
+     "agent": "evidence_gatherer",
+     "data": {
+      "occupations": 0,
+      "research": 3,
+      "news": 0
+     }
+    },
+    {
+     "ts": "2026-08-30T10:59:28.146Z",
+     "type": "agent_start",
+     "agent": "analyst",
+     "message": "initial synthesis"
+    },
+    {
+     "ts": "2026-08-30T10:59:39.215Z",
+     "type": "llm_call",
+     "agent": "analyst",
+     "model": "gemini-3.5-flash-lite",
+     "usageTokens": 4468,
+     "latencyMs": 10636
+    },
+    {
+     "ts": "2026-08-30T10:59:39.215Z",
+     "type": "agent_end",
+     "agent": "analyst",
+     "data": {
+      "suggestions": 1
+     }
+    },
+    {
+     "ts": "2026-08-30T10:59:39.215Z",
+     "type": "run_end",
+     "message": "no verifier (config)"
+    }
+   ]
+  },
+  "meta": {
+   "models": [
+    "gemini-3.5-flash-lite"
+   ],
+   "usageTokens": 8035,
+   "latencyMs": 19498,
+   "degraded": false
+  }
+ }
+}

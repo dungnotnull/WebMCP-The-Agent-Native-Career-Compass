@@ -1,0 +1,476 @@
+{
+ "score": {
+  "personaId": "persona-logistics",
+  "config": "stage1_tools",
+  "ok": true,
+  "groundingRate": 1,
+  "hallucinatedCount": 0,
+  "schemaFailures": 0,
+  "guardrailViolations": 0,
+  "personalization": 75,
+  "usageTokens": 10790,
+  "latencyMs": 13219,
+  "model": "gemini-3.5-flash-lite",
+  "costPerTaskUsd": 0.003237
+ },
+ "payload": {
+  "source": "agentic_pipeline",
+  "config": {
+   "useTools": true,
+   "useVerifier": false
+  },
+  "suggestions": [
+   {
+    "roleTitle": "Business Analyst / Data Specialist",
+    "roleTitleVi": "Chuyên viên Phân tích Kinh doanh & Dữ liệu (BA/BI)",
+    "aiResilienceScore": 82,
+    "matchScore": 88,
+    "reasoning": "Dựa trên dữ liệu từ Stanford HAI (2024), các chuyên viên phân tích kinh doanh sử dụng AI hoàn thành mô hình hóa thị trường nhanh hơn 43% với độ chính xác dự báo cao hơn 25%. Ngành nghề này đang có mức tăng trưởng thuộc nhóm #3 toàn cầu theo WEF Future of Jobs (2023), giúp chuyển dịch từ quy trình thủ công sang chuỗi cung ứng số thông minh.",
+    "whyItFitsYou": "Với 5 năm kinh nghiệm điều phối logistics xuất nhập khẩu, cử nhân Ngoại thương và kỹ năng Excel sẵn có tại Hải Phòng, bạn có nền tảng vững chắc để chuyển đổi sang Phân tích Dữ liệu Vận hành. Điểm yếu báo cáo thủ công sẽ được khắc phục bằng các công cụ AI tự động hóa bảng dữ liệu, tận dụng tối đa thế mạnh tiếng Anh thương mại và tư duy tổ chức của bạn.",
+    "transferableSkillsMatch": [
+     "Tiếng Anh thương mại",
+     "Tổ chức điều phối quy trình",
+     "Xử lý văn bản và báo cáo Excel"
+    ],
+    "skillsGap": [
+     "Viết câu lệnh SQL cơ bản",
+     "Tạo bảng điều khiển Power BI / Tableau",
+     "Làm sạch và chuẩn hóa dữ liệu vận hành"
+    ],
+    "averageSalaryRangeVND": "18,000,000 - 35,000,000 VND / tháng",
+    "evidenceCitations": [
+     {
+      "paperTitle": "Stanford HAI (2024): Business analysts utilizing AI agents complete market modeling 43% faster with 25% higher forecast accuracy.",
+      "source": "Stanford HAI AI Index 2024",
+      "year": 2024,
+      "url": "https://aiindex.stanford.edu/report/",
+      "quoteOrDataPoint": "Business analysts utilizing AI agents complete market modeling 43% faster with 25% higher forecast accuracy."
+     },
+     {
+      "paperTitle": "WEF Future of Jobs (2023): Business Intelligence and Data Analysts ranked as #3 fastest growing occupation globally.",
+      "source": "WEF Future of Jobs Report 2023",
+      "year": 2023,
+      "url": "https://www.weforum.org/reports/the-future-of-jobs-report-2023/",
+      "quoteOrDataPoint": "Business Intelligence and Data Analysts ranked as #3 fastest growing occupation globally."
+     }
+    ],
+    "resilienceDetail": {
+     "occupationTitle": "Business Analyst / Data Specialist",
+     "occupationTitleVi": "Chuyên viên Phân tích Kinh doanh & Dữ liệu (BA/BI)",
+     "molisaCode": "2511",
+     "onetCode": "15-1211.00",
+     "overallResilienceScore": 82,
+     "automationRiskScore": 35,
+     "augmentationPotentialScore": 92,
+     "humanAdvantageCore": [
+      "Deep domain contextualization & Vietnamese business culture insights (Thấu hiểu sâu bối cảnh thị trường nội địa)",
+      "Executive stakeholder alignment & persuasion (Thuyết phục và gắn kết lãnh đạo)",
+      "Problem framing & translating ambiguous business pains into metrics (Định hình bài toán từ nhu cầu mơ hồ)",
+      "Ethical governance of data pipelines (Quản trị đạo đức và pháp lý dữ liệu)"
+     ],
+     "tasksBreakdown": [
+      {
+       "taskName": "Writing standard SQL queries and data cleaning scripts for logistics metrics",
+       "taskNameVi": "Viết câu lệnh SQL và làm sạch dữ liệu container, khai báo hải quan",
+       "exposureType": "ai_augmentation",
+       "exposurePercentage": 80,
+       "onetCode": "15-1211.00-T1",
+       "notes": "AI writes SQL and Python pandas transforms in seconds; analysts review and validate."
+      },
+      {
+       "taskName": "Creating routine operational dashboards for port logistics and supply chain tracking",
+       "taskNameVi": "Tạo dashboard vận hành chuỗi cung ứng và biểu đồ theo dõi container tự động",
+       "exposureType": "ai_augmentation",
+       "exposurePercentage": 70,
+       "onetCode": "15-1211.00-T2",
+       "notes": "Natural language BI tools (Tableau Pulse, Power BI Copilot) generate standard visual summaries automatically."
+      },
+      {
+       "taskName": "Framing strategic business hypotheses and executive consulting for Hai Phong logistics hubs",
+       "taskNameVi": "Định hình giả thuyết chiến lược vận hành cảng và tư vấn lãnh đạo logistics",
+       "exposureType": "human_core",
+       "exposurePercentage": 15,
+       "onetCode": "15-1211.00-T3",
+       "notes": "Requires strategic intuition, political savvy, and nuanced risk appetite."
+      }
+     ],
+     "sources": [
+      {
+       "sourceId": "stanford-hai-ai-index-2024",
+       "citationText": "Stanford HAI (2024): Business analysts utilizing AI agents complete market modeling 43% faster with 25% higher forecast accuracy.",
+       "url": "https://aiindex.stanford.edu/report/"
+      }
+     ],
+     "methodologySummary": "Đánh giá dựa trên mô hình định lượng độ phơi nhiễm công nghệ kết hợp dữ liệu tuyển dụng Việt Nam 2024 từ TopCV và GSO.",
+     "uncertaintyRange": "+/- 5% tùy thuộc tốc độ áp dụng công cụ AI tại doanh nghiệp địa phương.",
+     "vietnamDemandSignal": "high_growth"
+    },
+    "trajectories": [
+     {
+      "pathId": "stay_augment",
+      "pathTitle": "Stay and Augment Current Logistics Role",
+      "pathTitleVi": "Tiếp tục công việc hiện tại và ứng dụng AI tự động hóa",
+      "feasibilityScore": 95,
+      "estimatedTimelineMonths": 3,
+      "shortDescription": "Sử dụng các công cụ AI miễn phí để tự động hóa hoàn toàn các báo cáo thủ công và khai báo hải quan.",
+      "targetRoles": [
+       "Điều phối logistics xuất nhập khẩu cao cấp",
+       "Chuyên viên tối ưu quy trình cảng"
+      ],
+      "skillsToAcquire": [
+       "ChatGPT / Claude cho tự động hóa văn bản",
+       "Advanced Excel & Power Query"
+      ],
+      "transferableSkills": [
+       "Nghiệp vụ xuất nhập khẩu",
+       "Tiếng Anh thương mại"
+      ],
+      "riskLevel": "low",
+      "fiveYearSalaryProjection": [
+       12,
+       14,
+       16,
+       18,
+       21
+      ],
+      "rationale": "Phù hợp với ngân sách 3.5 triệu VND và giới hạn 8 giờ/tuần, giúp giải quyết ngay điểm nghẽn báo cáo thủ công.",
+      "actionStepNow": "Sử dụng 2 giờ đầu tuần để học cách dùng AI tạo câu lệnh Excel tự động hóa bảng biểu báo cáo."
+     },
+     {
+      "pathId": "pivot_adjacent",
+      "pathTitle": "Pivot to Digital Supply Chain & BI",
+      "pathTitleVi": "Chuyển dịch sang Chuỗi cung ứng số và Phân tích Dữ liệu",
+      "feasibilityScore": 80,
+      "estimatedTimelineMonths": 8,
+      "shortDescription": "Nâng cấp kỹ năng phân tích dữ liệu vận hành, kết hợp kinh nghiệm logistics sẵn có.",
+      "targetRoles": [
+       "Chuyên viên Phân tích Dữ liệu Vận hành",
+       "Chuyên viên Chuỗi cung ứng số"
+      ],
+      "skillsToAcquire": [
+       "Power BI cơ bản",
+       "SQL nhập môn",
+       "Phân tích dữ liệu logistics"
+      ],
+      "transferableSkills": [
+       "Hiểu biết quy trình container và hải quan",
+       "Giao tiếp nhà cung cấp"
+      ],
+      "riskLevel": "moderate",
+      "fiveYearSalaryProjection": [
+       12,
+       16,
+       22,
+       28,
+       36
+      ],
+      "rationale": "Tận dụng 5 năm kinh nghiệm thực tế tại Hải Phòng để bước chân vào thị trường phân tích dữ liệu đang có nhu cầu cao.",
+      "actionStepNow": "Tìm kiếm các khóa học trực tuyến miễn phí về Power BI trên YouTube và Coursera với ngân sách dưới 3.5 triệu VND."
+     },
+     {
+      "pathId": "full_switch",
+      "pathTitle": "Full Career Switch to Tech / Data Science",
+      "pathTitleVi": "Chuyển nghề hoàn toàn sang Khoa học Dữ liệu / Kỹ thuật Phần mềm",
+      "feasibilityScore": 40,
+      "estimatedTimelineMonths": 24,
+      "shortDescription": "Học lập trình chuyên sâu và chuyển hẳn sang ngành công nghệ thông tin.",
+      "targetRoles": [
+       "Data Engineer",
+       "Software Developer"
+      ],
+      "skillsToAcquire": [
+       "Python nâng cao",
+       "Machine Learning",
+       "Database Architecture"
+      ],
+      "transferableSkills": [
+       "Tư duy logic",
+       "Tiếng Anh đọc tài liệu"
+      ],
+      "riskLevel": "high",
+      "fiveYearSalaryProjection": [
+       10,
+       15,
+       25,
+       35,
+       50
+      ],
+      "rationale": "Rủi ro cao do vượt quá giới hạn thời gian (8h/tuần) và ngân sách hiện tại, cần đầu tư lớn về thời gian và tài chính.",
+      "actionStepNow": "Cân nhắc kỹ lưỡng về thời gian và nguồn lực trước khi cam kết theo đuổi con đường này."
+     }
+    ],
+    "roadmap": [
+     {
+      "id": "m1",
+      "milestoneNumber": 1,
+      "phaseName": "Automation Quick Wins",
+      "phaseNameVi": "Giải quyết điểm nghẽn thủ công",
+      "title": "Automating Daily Reports with AI & Advanced Excel",
+      "titleVi": "Tự động hóa báo cáo hàng ngày bằng AI và Excel nâng cao",
+      "estimatedHours": 32,
+      "weeksDuration": 4,
+      "skillsCovered": [
+       "Prompt Engineering cho Excel",
+       "Power Query cơ bản",
+       "Tự động hóa email báo cáo"
+      ],
+      "freeResources": [
+       {
+        "name": "Excel Campus - Power Query Tutorials",
+        "provider": "Excel Campus",
+        "url": "https://www.excelcampus.com",
+        "type": "video_course"
+       }
+      ],
+      "checkpointQuiz": {
+       "question": "Công cụ nào giúp tự động hóa việc gộp nhiều file Excel báo cáo logistics mà không cần lập trình phức tạp?",
+       "options": [
+        "Power Query trong Excel",
+        "Notepad",
+        "Paint",
+        "Calculator"
+       ],
+       "correctIndex": 0,
+       "explanation": "Power Query là công cụ tích hợp sẵn trong Excel giúp trích xuất, biến đổi và tải dữ liệu (ETL) một cách tự động."
+      }
+     },
+     {
+      "id": "m2",
+      "milestoneNumber": 2,
+      "phaseName": "Data & BI Foundation",
+      "phaseNameVi": "Nền tảng Phân tích Dữ liệu Vận hành",
+      "title": "Building Supply Chain Dashboards with Power BI",
+      "titleVi": "Xây dựng Dashboard chuỗi cung ứng với Power BI",
+      "estimatedHours": 32,
+      "weeksDuration": 4,
+      "skillsCovered": [
+       "Power BI Desktop cơ bản",
+       "Trực quan hóa dữ liệu tồn kho và vận chuyển",
+       "Kết nối dữ liệu Excel với Dashboard"
+      ],
+      "freeResources": [
+       {
+        "name": "Microsoft Learn - Power BI Free Learning Path",
+        "provider": "Microsoft",
+        "url": "https://learn.microsoft.com/power-bi/",
+        "type": "interactive_tutorial"
+       }
+      ],
+      "checkpointQuiz": {
+       "question": "Mục đích chính của việc tạo Dashboard vận hành trong chuỗi cung ứng là gì?",
+       "options": [
+        "Trực quan hóa các chỉ số KPI theo thời gian thực để ra quyết định nhanh",
+        "Để trang trí màn hình máy tính",
+        "Thay thế hoàn toàn nhân viên kho",
+        "Gửi tin nhắn tự động cho khách hàng"
+       ],
+       "correctIndex": 0,
+       "explanation": "Dashboard giúp các nhà quản lý theo dõi trực quan các chỉ số trọng yếu để đưa ra quyết định kịp thời."
+      }
+     }
+    ]
+   }
+  ],
+  "verification": null,
+  "trajectory": {
+   "runId": "run_1788087515341_j9ge6e",
+   "config": "stage1_tools",
+   "startedAt": "2026-08-30T10:58:35.341Z",
+   "events": [
+    {
+     "ts": "2026-08-30T10:58:35.341Z",
+     "type": "run_start",
+     "message": "pipeline for \"Điều phối logistics xuất nhập khẩu\"",
+     "data": {
+      "config": {
+       "useTools": true,
+       "useVerifier": false
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T10:58:35.341Z",
+     "type": "agent_start",
+     "agent": "profiler"
+    },
+    {
+     "ts": "2026-08-30T10:58:36.800Z",
+     "type": "llm_call",
+     "agent": "profiler",
+     "model": "gemini-3.5-flash-lite",
+     "usageTokens": 502,
+     "latencyMs": 1250
+    },
+    {
+     "ts": "2026-08-30T10:58:36.800Z",
+     "type": "agent_end",
+     "agent": "profiler",
+     "message": "ok",
+     "data": {
+      "keywords": [
+       "Logistics Coordinator",
+       "Supply Chain Analyst",
+       "Operations Specialist"
+      ],
+      "riskFlags": [
+       "limited budget for retraining",
+       "manual reporting workflow bottleneck"
+      ]
+     }
+    },
+    {
+     "ts": "2026-08-30T10:58:36.800Z",
+     "type": "agent_start",
+     "agent": "evidence_gatherer"
+    },
+    {
+     "ts": "2026-08-30T10:58:37.865Z",
+     "type": "llm_call",
+     "agent": "evidence_gatherer",
+     "model": "gemini-3.5-flash-lite",
+     "usageTokens": 558,
+     "latencyMs": 838,
+     "message": "4 tool call(s)"
+    },
+    {
+     "ts": "2026-08-30T10:58:37.865Z",
+     "type": "tool_call",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "lookupOccupation",
+      "args": {
+       "query": "Logistics Coordinator"
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T10:58:37.865Z",
+     "type": "tool_response",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "lookupOccupation",
+      "ok": true,
+      "summary": "0 item(s) - No direct match in the Vietnam occupation database."
+     }
+    },
+    {
+     "ts": "2026-08-30T10:58:37.865Z",
+     "type": "tool_call",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "lookupOccupation",
+      "args": {
+       "query": "Supply Chain Analyst"
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T10:58:37.865Z",
+     "type": "tool_response",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "lookupOccupation",
+      "ok": true,
+      "summary": "1 item(s)"
+     }
+    },
+    {
+     "ts": "2026-08-30T10:58:37.865Z",
+     "type": "tool_call",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "lookupOccupation",
+      "args": {
+       "query": "Operations Specialist"
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T10:58:37.865Z",
+     "type": "tool_response",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "lookupOccupation",
+      "ok": true,
+      "summary": "2 item(s)"
+     }
+    },
+    {
+     "ts": "2026-08-30T10:58:37.865Z",
+     "type": "tool_call",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "searchResearch",
+      "args": {
+       "query": "generative AI supply chain automation Vietnam logistics"
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T10:58:37.866Z",
+     "type": "tool_response",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "searchResearch",
+      "ok": true,
+      "summary": "3 item(s)"
+     }
+    },
+    {
+     "ts": "2026-08-30T10:58:39.202Z",
+     "type": "llm_call",
+     "agent": "evidence_gatherer",
+     "model": "gemini-3.5-flash-lite",
+     "usageTokens": 3296,
+     "latencyMs": 1222,
+     "message": "final turn"
+    },
+    {
+     "ts": "2026-08-30T10:58:39.202Z",
+     "type": "agent_end",
+     "agent": "evidence_gatherer",
+     "data": {
+      "occupations": 2,
+      "research": 3,
+      "news": 0
+     }
+    },
+    {
+     "ts": "2026-08-30T10:58:39.202Z",
+     "type": "agent_start",
+     "agent": "analyst",
+     "message": "initial synthesis"
+    },
+    {
+     "ts": "2026-08-30T10:58:48.560Z",
+     "type": "llm_call",
+     "agent": "analyst",
+     "model": "gemini-3.5-flash-lite",
+     "usageTokens": 6176,
+     "latencyMs": 9108
+    },
+    {
+     "ts": "2026-08-30T10:58:48.560Z",
+     "type": "agent_end",
+     "agent": "analyst",
+     "data": {
+      "suggestions": 1
+     }
+    },
+    {
+     "ts": "2026-08-30T10:58:48.560Z",
+     "type": "run_end",
+     "message": "no verifier (config)"
+    }
+   ]
+  },
+  "meta": {
+   "models": [
+    "gemini-3.5-flash-lite"
+   ],
+   "usageTokens": 10532,
+   "latencyMs": 13219,
+   "degraded": false
+  }
+ }
+}

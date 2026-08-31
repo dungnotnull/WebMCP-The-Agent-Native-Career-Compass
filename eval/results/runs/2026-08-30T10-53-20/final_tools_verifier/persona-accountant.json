@@ -1,0 +1,519 @@
+{
+ "score": {
+  "personaId": "persona-accountant",
+  "config": "final_tools_verifier",
+  "ok": true,
+  "groundingRate": 1,
+  "hallucinatedCount": 0,
+  "schemaFailures": 0,
+  "guardrailViolations": 0,
+  "personalization": 95,
+  "usageTokens": 12928,
+  "latencyMs": 17555,
+  "model": "gemini-3.5-flash-lite",
+  "costPerTaskUsd": 0.0038783999999999997
+ },
+ "payload": {
+  "source": "agentic_pipeline",
+  "config": {
+   "useTools": true,
+   "useVerifier": true
+  },
+  "suggestions": [
+   {
+    "roleTitle": "Financial Data Analyst & Strategic Controller",
+    "roleTitleVi": "Chuyên viên Phân tích Dữ liệu Tài chính & Kiểm soát Chiến lược",
+    "aiResilienceScore": 82,
+    "matchScore": 89,
+    "reasoning": "Với 6 năm kinh nghiệm Kế toán tổng hợp từ Đại học Kinh tế Quốc dân và sự am hiểu sâu sắc về thủ tục thuế cũng như kiểm soát chứng từ, bạn đang sở hữu nền tảng vững chắc để chuyển dịch sang vai trò Chuyên viên Phân tích Kinh doanh & Dữ liệu (BA/BI). Báo cáo từ WEF và Stanford HAI (2024) chỉ ra rằng các chuyên viên phân tích dữ liệu ứng dụng AI hoàn thành mô hình thị trường nhanh hơn 43% và có nhu cầu tuyển dụng tăng trưởng cao hàng đầu tại thị trường Việt Nam.",
+    "whyItFitsYou": "Điểm mạnh của bạn là sự cẩn thận, chi tiết và nắm vững quy trình kế toán cùng tư duy tuân thủ quy định. Các điểm yếu hiện tại về việc chưa biết dùng công cụ phân tích dữ liệu và trình bày số liệu hoàn toàn có thể được khắc phục nhờ quỹ thời gian 10 giờ/tuần của bạn, tận dụng các tài nguyên miễn phí với ngân sách dưới 4 triệu VND mà không cần rủi ro cao.",
+    "transferableSkillsMatch": [
+     "Quy trình kế toán và kiểm soát chứng từ",
+     "Tư duy tuân thủ quy định pháp luật",
+     "Sự cẩn thận và chi tiết trong xử lý số liệu"
+    ],
+    "skillsGap": [
+     "Kỹ năng lập trình câu lệnh SQL cơ bản và làm sạch dữ liệu bảng",
+     "Tạo dashboard vận hành và trực quan hóa số liệu",
+     "Kỹ năng trình bày và kể chuyện số liệu cho ban giám đốc"
+    ],
+    "averageSalaryRangeVND": "18,000,000 - 35,000,000 VND / tháng",
+    "evidenceCitations": [
+     {
+      "paperTitle": "Stanford HAI (2024): Business analysts utilizing AI agents complete market modeling 43% faster with 25% higher forecast accuracy.",
+      "source": "Stanford HAI",
+      "year": 2024,
+      "url": "https://aiindex.stanford.edu/report/",
+      "quoteOrDataPoint": "Business analysts utilizing AI agents complete market modeling 43% faster with 25% higher forecast accuracy."
+     },
+     {
+      "paperTitle": "WEF Future of Jobs (2023): Business Intelligence and Data Analysts ranked as #3 fastest growing occupation globally.",
+      "source": "World Economic Forum",
+      "year": 2023,
+      "url": "https://www.weforum.org/reports/the-future-of-jobs-report-2023/",
+      "quoteOrDataPoint": "Business Intelligence and Data Analysts ranked as #3 fastest growing occupation globally."
+     }
+    ],
+    "resilienceDetail": {
+     "occupationTitle": "Business Analyst / Data Specialist",
+     "occupationTitleVi": "Chuyên viên Phân tích Kinh doanh & Dữ liệu (BA/BI)",
+     "molisaCode": "2511",
+     "onetCode": "15-1211.00",
+     "overallResilienceScore": 82,
+     "automationRiskScore": 35,
+     "augmentationPotentialScore": 92,
+     "humanAdvantageCore": [
+      "Thấu hiểu sâu bối cảnh thị trường nội địa và văn hóa kinh doanh Việt Nam",
+      "Thuyết phục và gắn kết lãnh đạo cấp cao",
+      "Định hình bài toán từ nhu cầu tài chính mơ hồ thành các chỉ số đo lường",
+      "Quản trị đạo đức và pháp lý dữ liệu tài chính"
+     ],
+     "tasksBreakdown": [
+      {
+       "taskName": "Writing standard SQL queries and data cleaning scripts for financial ledgers",
+       "taskNameVi": "Viết câu lệnh SQL cơ bản và làm sạch dữ liệu sổ sách tài chính",
+       "exposureType": "ai_augmentation",
+       "exposurePercentage": 80,
+       "onetCode": "15-1211.00-T1",
+       "notes": "AI supports writing SQL and data transforms in seconds, while the accountant ensures ledger integrity."
+      },
+      {
+       "taskName": "Creating routine operational dashboards and financial charts using MISA and Excel data",
+       "taskNameVi": "Tạo dashboard vận hành và biểu đồ báo cáo tài chính định kỳ từ dữ liệu MISA và Excel",
+       "exposureType": "ai_augmentation",
+       "exposurePercentage": 70,
+       "onetCode": "15-1211.00-T2",
+       "notes": "Natural language BI tools automate standard visual summaries for review."
+      },
+      {
+       "taskName": "Framing strategic business hypotheses and executive consulting on cash flow",
+       "taskNameVi": "Định hình giả thuyết chiến lược và tư vấn lãnh đạo về dòng tiền và tối ưu chi phí",
+       "exposureType": "human_core",
+       "exposurePercentage": 15,
+       "onetCode": "15-1211.00-T3",
+       "notes": "Requires strategic intuition and nuanced risk appetite tailored to Vietnamese enterprise environments."
+      }
+     ],
+     "sources": [
+      {
+       "sourceId": "stanford-hai-ai-index-2024",
+       "citationText": "Stanford HAI (2024): Business analysts utilizing AI agents complete market modeling 43% faster with 25% higher forecast accuracy.",
+       "url": "https://aiindex.stanford.edu/report/"
+      },
+      {
+       "sourceId": "wef-future-of-jobs-2023-2025",
+       "citationText": "WEF Future of Jobs (2023): Business Intelligence and Data Analysts ranked as #3 fastest growing occupation globally.",
+       "url": "https://www.weforum.org/reports/the-future-of-jobs-report-2023/"
+      }
+     ],
+     "methodologySummary": "Sử dụng mô hình đánh giá phơi nhiễm AI của O*NET và các tổ chức nghiên cứu kinh tế quốc tế, kết hợp dữ liệu tuyển dụng tại Việt Nam.",
+     "uncertaintyRange": "+/- 5%",
+     "vietnamDemandSignal": "high_growth"
+    },
+    "trajectories": [
+     {
+      "pathId": "path_1",
+      "pathTitle": "Stay and Augment in Accounting",
+      "pathTitleVi": "Nâng cấp kỹ năng chuyên môn kế toán hiện tại với AI",
+      "feasibilityScore": 95,
+      "estimatedTimelineMonths": 3,
+      "shortDescription": "Tập trung tự động hóa các tác vụ lặp đi lặp lại bằng Excel nâng cao kết hợp AI, chuyển dịch lên vai trò kiểm soát viên thuế và dòng tiền chiến lược.",
+      "targetRoles": [
+       "Kế toán trưởng",
+       "Chuyên viên kiểm toán thuế chiến lược"
+      ],
+      "skillsToAcquire": [
+       "Tự động hóa Excel với AI Copilot",
+       "Tư vấn cấu trúc thuế nâng cao"
+      ],
+      "transferableSkills": [
+       "Nắm vững quy trình kế toán",
+       "Kiểm soát chứng từ",
+       "Thủ thuật thuế"
+      ],
+      "riskLevel": "low",
+      "fiveYearSalaryProjection": [
+       15,
+       18,
+       21,
+       25,
+       30
+      ],
+      "rationale": "Phù hợp với khẩu vị rủi ro thấp và ngân sách hạn chế, giúp tận dụng tối đa 6 năm kinh nghiệm sẵn có.",
+      "actionStepNow": "Học cách ứng dụng AI để tự động hóa đối chiếu chứng từ và hạch toán sổ sách định kỳ."
+     },
+     {
+      "pathId": "path_2",
+      "pathTitle": "Pivot to Financial Data Analyst",
+      "pathTitleVi": "Chuyển dịch sang Chuyên viên Phân tích Dữ liệu Tài chính (BA/BI)",
+      "feasibilityScore": 85,
+      "estimatedTimelineMonths": 6,
+      "shortDescription": "Kết hợp nền tảng kế toán từ Đại học Kinh tế Quốc dân với các công cụ phân tích dữ liệu hiện đại và trực quan hóa số liệu.",
+      "targetRoles": [
+       "Chuyên viên Phân tích Dữ liệu Tài chính",
+       "Business Analyst"
+      ],
+      "skillsToAcquire": [
+       "SQL cơ bản",
+       "Power BI / Tableau",
+       "Kỹ năng trình bày số liệu"
+      ],
+      "transferableSkills": [
+       "Tư duy tuân thủ",
+       "Sự cẩn thận chi tiết",
+       "Hiểu biết nghiệp vụ tài chính doanh nghiệp"
+      ],
+      "riskLevel": "moderate",
+      "fiveYearSalaryProjection": [
+       16,
+       20,
+       25,
+       32,
+       40
+      ],
+      "rationale": "Tận dụng nhu cầu tuyển dụng tăng trưởng mạnh tại thị trường Việt Nam cho các vị trí phân tích dữ liệu kinh doanh.",
+      "actionStepNow": "Bắt đầu khóa học SQL và Power BI miễn phí dành cho người mới trong 10 giờ/tuần đầu tiên."
+     },
+     {
+      "pathId": "path_3",
+      "pathTitle": "Full Switch to Digital Tech Consulting",
+      "pathTitleVi": "Chuyển hướng hoàn toàn sang Tư vấn Giải pháp Phần mềm Tài chính",
+      "feasibilityScore": 60,
+      "estimatedTimelineMonths": 12,
+      "shortDescription": "Trở thành chuyên viên tư vấn triển khai phần mềm quản1 trị doanh nghiệp và tài chính (ERP/MISA AI Solutions).",
+      "targetRoles": [
+       "Chuyên viên Tư vấn Giải pháp ERP",
+       "Product Specialist"
+      ],
+      "skillsToAcquire": [
+       "Quản trị dự án công nghệ",
+       "Tư vấn giải pháp ERP",
+       "Kỹ năng giao tiếp khách hàng doanh nghiệp"
+      ],
+      "transferableSkills": [
+       "Am hiểu phần mềm MISA",
+       "Quy trình tài chính kế toán doanh nghiệp"
+      ],
+      "riskLevel": "high",
+      "fiveYearSalaryProjection": [
+       18,
+       22,
+       28,
+       35,
+       45
+      ],
+      "rationale": "Mở ra không gian phát triển nghề nghiệp rộng lớn trong lĩnh vực chuyển đổi số doanh nghiệp.",
+      "actionStepNow": "Nghiên cứu các xu hướng chuyển đổi số tài chính và tìm hiểu chứng chỉ tư vấn phần mềm doanh nghiệp."
+     }
+    ],
+    "roadmap": [
+     {
+      "id": "milestone_1",
+      "milestoneNumber": 1,
+      "phaseName": "Foundation & Data Literacy",
+      "phaseNameVi": "Xây dựng Nền tảng Phân tích & Trực quan hóa Dữ liệu",
+      "title": "Mastering Data Basics and Visualization",
+      "titleVi": "Làm chủ công cụ phân tích và trực quan hóa dữ liệu cơ bản",
+      "estimatedHours": 60,
+      "weeksDuration": 6,
+      "skillsCovered": [
+       "SQL cơ bản cho kế toán",
+       "Trực quan hóa dữ liệu trên Power BI",
+       "Kỹ năng trình bày số liệu"
+      ],
+      "freeResources": [
+       {
+        "name": "Google Data Analytics Professional Certificate (Financial Audit track)",
+        "provider": "Coursera / Google",
+        "url": "https://www.coursera.org/professional-certificates/google-data-analytics",
+        "type": "Course"
+       }
+      ],
+      "checkpointQuiz": {
+       "question": "Công cụ nào sau đây phù hợp nhất để tự động hóa báo cáo và trực quan hóa dữ liệu tài chính định kỳ cho ban giám đốc?",
+       "options": [
+        "Microsoft Word",
+        "Power BI kết hợp Excel nâng cao",
+        "Notion cơ bản",
+        "Paint"
+       ],
+       "correctIndex": 1,
+       "explanation": "Power BI kết hợp Excel nâng cao cho phép tổng hợp, làm sạch và tạo dashboard trực quan phục vụ phân tích tài chính hiệu quả."
+      }
+     },
+     {
+      "id": "milestone_2",
+      "milestoneNumber": 2,
+      "phaseName": "Integration & Portfolio Building",
+      "phaseNameVi": "Tích hợp Nghiệp vụ và Xây dựng Dự án Thực tế",
+      "title": "Applying Analytics to Accounting and Financial Dashboards",
+      "titleVi": "Ứng dụng phân tích dữ liệu vào báo cáo tài chính và xây dựng sản phẩm mẫu",
+      "estimatedHours": 40,
+      "weeksDuration": 4,
+      "skillsCovered": [
+       "Phân tích chỉ số tài chính bằng BI",
+       "Xây dựng dashboard kiểm soát dòng tiền",
+       "Kỹ năng thuyết trình số liệu"
+      ],
+      "freeResources": [
+       {
+        "name": "FreeCodeCamp Data Analysis with Python / SQL",
+        "provider": "FreeCodeCamp",
+        "url": "https://www.freecodecamp.org/",
+        "type": "Interactive Tutorial"
+       }
+      ],
+      "checkpointQuiz": {
+       "question": "Khi chuyển đổi từ Kế toán tổng hợp sang Phân tích dữ liệu tài chính, thế mạnh cốt lõi nào của bạn cần được phát huy mạnh mẽ nhất?",
+       "options": [
+        "Kỹ năng lập trình game",
+        "Sự am hiểu quy trình kế toán, tuân thủ và tư duy cẩn trọng với số liệu",
+        "Kỹ năng viết báo chí",
+        "Khả năng thiết kế đồ họa"
+       ],
+       "correctIndex": 1,
+       "explanation": "Sự am hiểu sâu sắc về quy trình kế toán, tính tuân thủ và sự cẩn trọng giúp đảm bảo tính chính xác của dữ liệu phân tích."
+      }
+     }
+    ]
+   }
+  ],
+  "verification": {
+   "verdict": "pass",
+   "failures": [],
+   "judge": {
+    "personalization": 95,
+    "groundedness": 90,
+    "rationale": "The guidance directly references the user's specific role (Kế toán tổng hợp), skills (MISA, Excel nâng cao, thuế), and strengths (cẩn thận, tuân thủ) to build a tailored transition plan."
+   },
+   "citationReport": {
+    "total": 2,
+    "verified": 2,
+    "hallucinated": []
+   }
+  },
+  "trajectory": {
+   "runId": "run_1788087633626_x0cyjc",
+   "config": "final_tools_verifier",
+   "startedAt": "2026-08-30T11:00:33.626Z",
+   "events": [
+    {
+     "ts": "2026-08-30T11:00:33.626Z",
+     "type": "run_start",
+     "message": "pipeline for \"Kế toán tổng hợp\"",
+     "data": {
+      "config": {
+       "useTools": true,
+       "useVerifier": true
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T11:00:33.626Z",
+     "type": "agent_start",
+     "agent": "profiler"
+    },
+    {
+     "ts": "2026-08-30T11:00:35.273Z",
+     "type": "llm_call",
+     "agent": "profiler",
+     "model": "gemini-3.5-flash-lite",
+     "usageTokens": 508,
+     "latencyMs": 1402
+    },
+    {
+     "ts": "2026-08-30T11:00:35.273Z",
+     "type": "agent_end",
+     "agent": "profiler",
+     "message": "ok",
+     "data": {
+      "keywords": [
+       "general accountant",
+       "financial analyst",
+       "accounting specialist"
+      ],
+      "riskFlags": [
+       "limited budget for retraining",
+       "lacks data analytics skills",
+       "weak data presentation skills"
+      ]
+     }
+    },
+    {
+     "ts": "2026-08-30T11:00:35.273Z",
+     "type": "agent_start",
+     "agent": "evidence_gatherer"
+    },
+    {
+     "ts": "2026-08-30T11:00:36.612Z",
+     "type": "llm_call",
+     "agent": "evidence_gatherer",
+     "model": "gemini-3.5-flash-lite",
+     "usageTokens": 547,
+     "latencyMs": 1080,
+     "message": "4 tool call(s)"
+    },
+    {
+     "ts": "2026-08-30T11:00:36.612Z",
+     "type": "tool_call",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "lookupOccupation",
+      "args": {
+       "query": "general accountant"
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T11:00:36.612Z",
+     "type": "tool_response",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "lookupOccupation",
+      "ok": true,
+      "summary": "1 item(s)"
+     }
+    },
+    {
+     "ts": "2026-08-30T11:00:36.612Z",
+     "type": "tool_call",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "lookupOccupation",
+      "args": {
+       "query": "financial analyst"
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T11:00:36.612Z",
+     "type": "tool_response",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "lookupOccupation",
+      "ok": true,
+      "summary": "1 item(s)"
+     }
+    },
+    {
+     "ts": "2026-08-30T11:00:36.612Z",
+     "type": "tool_call",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "lookupOccupation",
+      "args": {
+       "query": "accounting specialist"
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T11:00:36.612Z",
+     "type": "tool_response",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "lookupOccupation",
+      "ok": true,
+      "summary": "2 item(s)"
+     }
+    },
+    {
+     "ts": "2026-08-30T11:00:36.612Z",
+     "type": "tool_call",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "searchResearch",
+      "args": {
+       "query": "generative AI accounting Vietnam automation financial analysis skills"
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T11:00:36.613Z",
+     "type": "tool_response",
+     "agent": "evidence_gatherer",
+     "data": {
+      "name": "searchResearch",
+      "ok": true,
+      "summary": "3 item(s)"
+     }
+    },
+    {
+     "ts": "2026-08-30T11:00:38.373Z",
+     "type": "llm_call",
+     "agent": "evidence_gatherer",
+     "model": "gemini-3.5-flash-lite",
+     "usageTokens": 3923,
+     "latencyMs": 1515,
+     "message": "final turn"
+    },
+    {
+     "ts": "2026-08-30T11:00:38.373Z",
+     "type": "agent_end",
+     "agent": "evidence_gatherer",
+     "data": {
+      "occupations": 3,
+      "research": 3,
+      "news": 0
+     }
+    },
+    {
+     "ts": "2026-08-30T11:00:38.373Z",
+     "type": "agent_start",
+     "agent": "analyst",
+     "message": "initial synthesis"
+    },
+    {
+     "ts": "2026-08-30T11:00:49.530Z",
+     "type": "llm_call",
+     "agent": "analyst",
+     "model": "gemini-3.5-flash-lite",
+     "usageTokens": 7130,
+     "latencyMs": 10885
+    },
+    {
+     "ts": "2026-08-30T11:00:49.530Z",
+     "type": "agent_end",
+     "agent": "analyst",
+     "data": {
+      "suggestions": 1
+     }
+    },
+    {
+     "ts": "2026-08-30T11:00:51.181Z",
+     "type": "llm_call",
+     "agent": "verifier",
+     "model": "gemini-3.5-flash-lite",
+     "usageTokens": 557,
+     "latencyMs": 1121
+    },
+    {
+     "ts": "2026-08-30T11:00:51.181Z",
+     "type": "verification_result",
+     "agent": "verifier",
+     "data": {
+      "verdict": "pass",
+      "failures": [],
+      "judge": {
+       "personalization": 95,
+       "groundedness": 90,
+       "rationale": "The guidance directly references the user's specific role (Kế toán tổng hợp), skills (MISA, Excel nâng cao, thuế), and strengths (cẩn thận, tuân thủ) to build a tailored transition plan."
+      }
+     }
+    },
+    {
+     "ts": "2026-08-30T11:00:51.181Z",
+     "type": "run_end",
+     "message": "final verdict: pass"
+    }
+   ]
+  },
+  "meta": {
+   "models": [
+    "gemini-3.5-flash-lite"
+   ],
+   "usageTokens": 12665,
+   "latencyMs": 17555,
+   "degraded": false
+  }
+ }
+}

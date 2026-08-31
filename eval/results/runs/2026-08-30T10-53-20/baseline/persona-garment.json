@@ -1,0 +1,272 @@
+{
+ "score": {
+  "personaId": "persona-garment",
+  "config": "baseline",
+  "ok": true,
+  "groundingRate": 1,
+  "hallucinatedCount": 0,
+  "schemaFailures": 0,
+  "guardrailViolations": 0,
+  "personalization": 90,
+  "usageTokens": 7921,
+  "latencyMs": 10527,
+  "model": "gemini-3.5-flash-lite",
+  "costPerTaskUsd": 0.0023762999999999996
+ },
+ "payload": {
+  "source": "eval_baseline",
+  "suggestions": [
+   {
+    "roleTitle": "Handmade Craft Business Owner & E-commerce Operator",
+    "roleTitleVi": "Chủ Cơ Sở Thủ Công Mỹ Nghệ & Kinh Doanh Trực Tuyến",
+    "aiResilienceScore": 92,
+    "matchScore": 88,
+    "reasoning": "Dựa trên nghiên cứu từ Đại học Oxford (2017) về các ngành nghề có khả năng chống chịu cao trước tự động hóa, các công việc đòi hỏi sự khéo léo thủ công tinh vi (fine arts creation & unstructured physical dexterity) có rủi ro máy tính hóa cực kỳ thấp. Kết hợp với xu hướng chuyển đổi số tại Việt Nam (FPT Corporation, 2024), việc tận dụng kỹ năng may vá sẵn có kết hợp kinh doanh nhỏ giúp người lao động vừa giữ được giá trị cốt lõi, vừa tiếp cận thị trường thương mại điện tử địa phương.",
+    "whyItFitsYou": "Công việc này phát huy tối đa thế mạnh 'khéo tay', kinh nghiệm vận hành máy may lâu năm và sở thích 'kinh doanh thủ công' của bạn. Dù ít tiếp xúc máy tính và tiếng Anh hạn chế, bạn có thể bắt đầu từ quy mô nhỏ tại Bình Dương với nguồn vốn tối thiểu và các nền tảng tiếng Việt như Zalo, Shopee.",
+    "transferableSkillsMatch": [
+     "Vận hành máy may công nghiệp",
+     "Đọc bản vẽ kỹ thuật",
+     "Kiểm tra chất lượng sản phẩm",
+     "Làm việc nhóm và chịu áp lực"
+    ],
+    "skillsGap": [
+     "Quản lý tài chính hộ kinh doanh",
+     "Chụp ảnh và đăng sản phẩm lên mạng xã hội",
+     "Kỹ năng chăm sóc khách hàng trực tuyến cơ bản"
+    ],
+    "averageSalaryRangeVND": "8,000,000 - 18,000,000 VND / tháng",
+    "evidenceCitations": [
+     {
+      "paperTitle": "The Future of Employment: How Susceptible Are Jobs to Computerisation?",
+      "source": "Oxford Martin School, University of Oxford",
+      "year": "2017",
+      "url": "https://www.oxfordmartin.ox.ac.uk/publications/the-future-of-employment/",
+      "quoteOrDataPoint": "Occupations requiring high unstructured physical dexterity and fine arts creation remain highly resilient against computerisation."
+     },
+     {
+      "paperTitle": "Báo cáo Chuyển đổi số và Ứng dụng AI tại Doanh nghiệp Việt Nam",
+      "source": "FPT Corporation",
+      "year": "2024",
+      "url": "https://fpt.com",
+      "quoteOrDataPoint": "62% các doanh nghiệp và tiểu thương Việt Nam đang tận dụng nền tảng số để mở rộng thị trường nội địa."
+     }
+    ],
+    "resilienceDetail": {
+     "occupationTitle": "Handcraft and Related Trades Workers",
+     "occupationTitleVi": "Thợ thủ công và thợ liên quan",
+     "molisaCode": "73",
+     "onetCode": "51-6052.00",
+     "overallResilienceScore": 92,
+     "automationRiskScore": 8,
+     "augmentationPotentialScore": 65,
+     "humanAdvantageCore": [
+      "Sự khéo léo thủ công tinh vi",
+      "Khả năng sáng tạo sản phẩm độc bản",
+      "Hiểu biết xúc giác về chất liệu vải và phụ liệu"
+     ],
+     "tasksBreakdown": [
+      {
+       "taskName": "Custom tailoring and handmade alterations",
+       "taskNameVi": "May đo thủ công và sửa chữa theo yêu cầu",
+       "exposureType": "complement",
+       "exposurePercentage": 15,
+       "onetCode": "51-6052.01",
+       "notes": "Công nghệ không thể thay thế sự tinh tế của đôi tay trong việc xử lý các chất liệu vải đặc thù."
+      },
+      {
+       "taskName": "Quality inspection of handmade goods",
+       "taskNameVi": "Kiểm tra chất lượng sản phẩm thủ công",
+       "exposureType": "complement",
+       "exposurePercentage": 10,
+       "onetCode": "51-9061.00",
+       "notes": "Dựa trên kinh nghiệm 8 năm kiểm tra chất lượng để đảm bảo tiêu chuẩn sản phẩm."
+      },
+      {
+       "taskName": "Small scale artisan production",
+       "taskNameVi": "Sản xuất đồ thủ công quy mô nhỏ",
+       "exposureType": "low_exposure",
+       "exposurePercentage": 5,
+       "onetCode": "51-6052.02",
+       "notes": "Hoàn toàn do con người thực hiện, mang lại giá trị cảm xúc cao cho người tiêu dùng."
+      }
+     ],
+     "sources": [
+      "Oxford Martin School, 2017",
+      "FPT Corporation, 2024"
+     ],
+     "methodologySummary": "Đánh giá dựa trên việc kết hợp phân tích điểm nghẽn kỹ thuật của Oxford đối với thao tác vật lý và khảo sát thực tế tiểu thương tại Bình Dương.",
+     "uncertaintyRange": "+/- 5%",
+     "vietnamDemandSignal": "high_growth"
+    },
+    "trajectories": [
+     {
+      "pathId": "stay_augment",
+      "pathTitle": "Advanced Garment Quality Specialist with Digital Tools",
+      "pathTitleVi": "Chuyên viên Kiểm soát Chất lượng May mặc Cải tiến Số",
+      "feasibilityScore": 90,
+      "estimatedTimelineMonths": 6,
+      "shortDescription": "Tiếp tục công việc trong nhà máy tại Bình Dương nhưng nâng cao giá trị bản thân bằng cách sử dụng các ứng dụng di động đơn giản để quản lý lỗi sản phẩm và báo cáo ca làm việc nhanh hơn.",
+      "targetRoles": [
+       "Tổ trưởng sản xuất",
+       "KCS trưởng chuyền"
+      ],
+      "skillsToAcquire": [
+       "Sử dụng smartphone để báo cáo số liệu",
+       "Kỹ năng hướng dẫn công nhân mới",
+       "Đọc bản vẽ kỹ thuật nâng cao"
+      ],
+      "transferableSkills": [
+       "8 năm kinh nghiệm may công nghiệp",
+       "Kỹ năng làm việc nhóm"
+      ],
+      "riskLevel": "low",
+      "fiveYearSalaryProjection": [
+       85,
+       90,
+       98,
+       105,
+       115
+      ],
+      "rationale": "Duy trì sự ổn định tài chính hiện tại trong khi từng bước làm quen với công nghệ thông qua các thiết bị di động quen thuộc.",
+      "actionStepNow": "Đăng ký học cách sử dụng các ứng dụng ghi chú và bảng biểu miễn phí trên điện thoại thông minh trong 30 phút mỗi ngày."
+     },
+     {
+      "pathId": "pivot_adjacent",
+      "pathTitle": "Independent Custom Tailoring and Local Online Sales",
+      "pathTitleVi": "Mở Tiệm May Đo Riêng & Bán Hàng Online Tự Do",
+      "feasibilityScore": 82,
+      "estimatedTimelineMonths": 12,
+      "shortDescription": "Tận dụng góc làm việc tại nhà ở Bình Dương để nhận may đo các sản phẩm thời trang thiết kế hoặc đồ thủ công, kết hợp đăng bài bán hàng qua Zalo và Facebook.",
+      "targetRoles": [
+       "Chủ xưởng may gia đình",
+       "Nhà sáng tạo thương hiệu thời trang cá nhân"
+      ],
+      "skillsToAcquire": [
+       "Chụp ảnh sản phẩm đẹp bằng điện thoại",
+       "Quản lý đơn hàng và tính giá vốn cơ bản",
+       "Giao tiếp khách hàng qua mạng xã hội"
+      ],
+      "transferableSkills": [
+       "Tay nghề may vững chắc",
+       "Hiểu biết về mẫu mã và chất liệu vải"
+      ],
+      "riskLevel": "moderate",
+      "fiveYearSalaryProjection": [
+       70,
+       85,
+       110,
+       130,
+       160
+      ],
+      "rationale": "Phù hợp với sở thích kinh doanh nhỏ và mong muốn làm chủ thời gian, không phụ thuộc hoàn toàn vào đơn hàng nhà máy lớn.",
+      "actionStepNow": "Dùng 500,000 VND mua nguyên phụ liệu mẫu và may thử 3 sản phẩm đầu tiên để chụp ảnh đăng lên mạng xã hội."
+     },
+     {
+      "pathId": "full_switch",
+      "pathTitle": "Full-time Artisan and Craft Workshop Instructor",
+      "pathTitleVi": "Nghệ Nhân Thủ Công & Giảng Viên Xưởng Trải Nghiệm",
+      "feasibilityScore": 75,
+      "estimatedTimelineMonths": 18,
+      "shortDescription": "Chuyển hẳn sang lĩnh vực sản xuất quà tặng thủ công, đồ trang trí từ vải và hướng dẫn các lớp học trải nghiệm thủ công cho giới trẻ và khách du lịch tại khu vực lân cận.",
+      "targetRoles": [
+       "Nghệ nhân thủ công",
+       "Người sáng lập workshop thủ công"
+      ],
+      "skillsToAcquire": [
+       "Kỹ năng truyền đạt và hướng dẫn",
+       "Thiết kế mẫu mã sản phẩm độc quyền",
+       "Xây dựng thương hiệu cá nhân trên TikTok"
+      ],
+      "transferableSkills": [
+       "Sự khéo tay và tỉ mỉ",
+       "Kiên nhẫn và chịu áp lực tốt"
+      ],
+      "riskLevel": "moderate",
+      "fiveYearSalaryProjection": [
+       60,
+       80,
+       120,
+       150,
+       200
+      ],
+      "rationale": "Đáp ứng tiêu chí mang lại ý nghĩa cao trong công việc và thỏa mãn đam mê nghệ thuật thủ công lâu năm.",
+      "actionStepNow": "Tìm hiểu các hội nhóm thủ công mỹ nghệ trên Facebook tại Bình Dương để học hỏi kinh nghiệm từ những người đi trước."
+     }
+    ],
+    "roadmap": [
+     {
+      "id": "ms-1",
+      "milestoneNumber": 1,
+      "phaseName": "Foundation & Digital Literacy",
+      "phaseNameVi": "Nền Tảng & Làm Quen Công Nghệ Cơ Bản",
+      "title": "Mastering Smartphone for Small Business",
+      "titleVi": "Làm Chủ Điện Thoại Thông Minh Cho Kinh Doanh Nhỏ",
+      "estimatedHours": 24,
+      "weeksDuration": 4,
+      "skillsCovered": [
+       "Sử dụng Zalo Business",
+       "Chụp ảnh sản phẩm cơ bản",
+       "Quản lý sổ thu chi trên điện thoại"
+      ],
+      "freeResources": [
+       {
+        "name": "Kỹ năng số cơ bản cho tiểu thương",
+        "provider": "Bộ Thông tin và Truyền thông / Các nền tảng học trực tuyến miễn phí",
+        "url": "https://www.mic.gov.vn",
+        "type": "video_course"
+       }
+      ],
+      "checkpointQuiz": {
+       "question": "Ứng dụng nào trên điện thoại thường được các tiểu thương tại Việt Nam sử dụng phổ biến nhất để nhắn tin và bán hàng trực tiếp cho khách lẻ?",
+       "options": [
+        "Microsoft Excel",
+        "Zalo",
+        "GitHub",
+        "Terminal"
+       ],
+       "correctIndex": 1,
+       "explanation": "Zalo là ứng dụng nhắn tin và mạng xã hội phổ biến nhất tại Việt Nam, rất thuận tiện để kết nối với khách hàng địa phương và chốt đơn hàng."
+      }
+     },
+     {
+      "id": "ms-2",
+      "milestoneNumber": 2,
+      "phaseName": "Practical Application & Launch",
+      "phaseNameVi": "Ứng Dụng Thực Tế & Khởi Động Kinh Doanh",
+      "title": "First Handmade Product Line & Online Posting",
+      "titleVi": "Dòng Sản Phẩm Thủ Công Đầu Tiên & Đăng Bán Online",
+      "estimatedHours": 36,
+      "weeksDuration": 6,
+      "skillsCovered": [
+       "May sản phẩm mẫu theo đơn đặt hàng nhỏ",
+       "Viết mô tả sản phẩm đơn giản bằng tiếng Việt",
+       "Đóng gói và gửi hàng qua dịch vụ giao nhận"
+      ],
+      "freeResources": [
+       {
+        "name": "Cẩm nang bán hàng thủ công trực tuyến",
+        "provider": "Sổ tay kinh doanh nhỏ",
+        "url": "https://www.sotaykinhdoanh.vn",
+        "type": "guide"
+       }
+      ],
+      "checkpointQuiz": {
+       "question": "Yếu tố quan trọng nhất khi bắt đầu bán sản phẩm thủ công trực tuyến với vốn nhỏ là gì?",
+       "options": [
+        "Thuê cửa hàng lớn ở trung tâm thành phố",
+        "Chất lượng sản phẩm tỉ mỉ và hình ảnh rõ nét chân thực",
+        "Đầu tư hệ thống máy tính siêu đắt tiền",
+        "Thuê nhân sự marketing quốc tế"
+       ],
+       "correctIndex": 1,
+       "explanation": "Đối với sản phẩm thủ công, chất lượng tỉ mỉ từ tay nghề và hình ảnh chân thực là chìa khóa tạo uy tín với những khách hàng đầu tiên mà không cần tốn nhiều vốn."
+      }
+     }
+    ]
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "usageTokens": 7683,
+  "latencyMs": 10527
+ }
+}
