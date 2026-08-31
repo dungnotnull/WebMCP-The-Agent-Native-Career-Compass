@@ -1,96 +1,98 @@
-# La Bàn — Agentic Career Compass for Vietnam's AI Transition
+# La Bàn — The Agent-Native Career Compass for Vietnam's AI Transition
 
 La Bàn (The Compass) helps Vietnamese workers and students see how AI changes
 their jobs and what to do about it — grounded in verifiable evidence instead
-of generic advice.
+of generic advice. **This build makes La Bàn an agent-native web app**: the
+site itself is an MCP server in your browser ([WebMCP](https://webmachinelearning.github.io/webmcp)),
+so your AI agent (ChatGPT's in-app browser, Chrome's agent) can act as your
+career counselor while you stay in control.
 
-## Who has this problem?
+## Why WebMCP?
 
-Vietnamese office workers, industrial workers and students facing the AI
-transition (accountants, garment workers, teachers, developers, nurses,
-farmers...). Career guidance today is either generic listicles or expensive
-human consulting. A junior accountant in Hanoi asking "will AI take my job
-and what should I learn?" gets opinions, not evidence.
+A single LLM prompt produces fluent career advice that cites research papers
+which may not exist. In our measured baseline over 12 personas, 2 of 26
+citations were unverifiable fabrications. For life-altering career decisions,
+that is disqualifying. With WebMCP, the agent does not guess — it calls La
+Bàn's tools to read the curated Vietnam occupation database and research
+library, and every plan it drafts is approved by you, inside the page, before
+anything is saved.
 
-## The bottleneck
+## What humans and agents can do together
 
-Trust. A single LLM prompt produces fluent career advice that cites research
-papers which may not exist. In our measured baseline over 12 personas, 2 of
-26 citations were unverifiable fabrications — and in an exploratory run the
-baseline failed completely on 2/12 personas with malformed JSON. For
-life-altering career decisions, unverifiable evidence is disqualifying.
+- **Ask anything, get evidence.** "Will AI replace warehouse keepers in Hai
+  Phong?" → the agent calls `lookup_occupation` + `search_research` and
+  answers with resilience scores and citations you can click.
+- **Co-create a transition plan.** "Save me a 90-day plan" → the agent drafts
+  it, a modal opens in La Bàn, you edit milestones and approve — only then is
+  it saved to your workspace.
+- **Track the journey across sessions.** "What should I focus on this week?"
+  → the agent reads your saved plans, proposes progress updates, and you
+  confirm them.
+- **See everything the agent does.** The Agent Activity Panel shows every
+  tool call in real time; writes never happen without your explicit approval.
 
-## What existed before vs. what this competition added
+## The 12 WebMCP tools
 
-**Pre-existing (commit 4c5ac25, built earlier for #BuildwithGoogleAI):** the
-React platform, curated data (research library, Vietnam occupation database,
-golden personas), the single-shot Gemini endpoints, community/employer/news
-modules, and the frozen baseline prompt.
-
-**Added during this hackathon (all commits after 4c5ac25):**
-- `src/agents/` — the 4-agent pipeline: Profiler → Evidence Gatherer
-  (Gemini function-calling over 3 deterministic tools) → Analyst → Verifier
-  with a repair loop (max 2 retries, plus parse-error recovery)
-- `eval/` — 12 personas (incl. 1 challenging case), automatic scoring,
-  HTTP-driven runner, published results
-- Agent transparency panel in the UI
-- Removed Firebase (Google auth + Firestore pointed at the author's earlier
-  project with public-write rules) and replaced persistence with localStorage
-  so the submission is fully self-contained
-- This README, the changelog, reproduction guide, evaluation report,
-  trajectories, and video script
-
-## Agent architecture
-
-```
-User intake
-   → Profiler (normalize, extract occupation keywords, risk flags)
-   → Evidence Gatherer (max 6 tool calls: lookupOccupation, searchResearch,
-                        getOccupationNews — only real curated sources enter)
-   → Analyst (synthesize suggestions; may cite ONLY the gathered pack)
-   → Verifier (schema + guardrail + citation-grounding checks + LLM judge;
-               failures fed back → up to 2 repairs; parse errors retried)
-   → Result + full trajectory
-```
-
-Every design choice targets a measured failure mode — see
-[docs/IMPROVEMENT_CHANGELOG.md](docs/IMPROVEMENT_CHANGELOG.md).
-
-## Measured improvement (12 personas, same cases for every config)
-
-| Metric | Baseline | Final agent |
+| Layer | Tools | Confirmation |
 |---|---|---|
-| Evidence grounding rate (primary) | 91.7% | **100%** |
-| Hallucinated citations | 2 | **0** |
-| Schema-valid runs | 12/12 | 12/12 |
-| Personalization (judge 0-100) | 83 | 76 |
-| Cost per task (USD) | $0.0024 | $0.0040 |
+| Evidence (client-side, zero-key) | `lookup_occupation`, `search_research`, `get_transition_stories`, `get_laban_page_context` | none (read-only) |
+| Analysis (verified server pipeline) | `analyze_career_transition`, `compare_occupations`, `get_occupation_news` | none (read-only) |
+| Workspace (writes) | `save_career_plan`, `add_milestone`, `update_milestone_progress`, `share_plan_to_community`, `get_my_plans` | human approval in-page |
 
-Full report: [docs/EVALUATION.md](docs/EVALUATION.md). Representative agent
-runs: [docs/TRAJECTORIES.md](docs/TRAJECTORIES.md).
+Registration uses the standard API:
 
-## Quick start
+```js
+document.modelContext.registerTool({
+  name: "lookup_occupation",
+  description: "Look up an occupation in La Bàn's curated Vietnam resilience database...",
+  inputSchema: { /* JSON Schema */ },
+  annotations: { readOnlyHint: true },
+  execute: async (input) => { /* ... */ }
+});
+```
+
+Plan saves go through the human-in-the-loop gate — when the agent runtime
+supports it, the approval is wrapped in `client.requestUserInteraction()`.
+
+## Pre-existing vs. added for The WebMCP Challenge
+
+**Pre-existing** (baseline import commit, source:
+[dungnotnull/Agentic-Career-Compass-for-AI-Transition](https://github.com/dungnotnull/Agentic-Career-Compass-for-AI-Transition)
+@ f74a178, built for #BuildwithGoogleAI): the React platform, curated data
+(research library, Vietnam occupation database, golden personas), the Gemini
+server endpoints, community/employer/news modules, the 4-agent analysis
+pipeline and its evaluation harness.
+
+**Added for The WebMCP Challenge** (all commits in this repository after the
+baseline import, submission period Aug 25 – Sep 3, 2026):
+
+- `src/webmcp/` — 12 WebMCP tools across 3 layers, JSON schemas, activity
+  logging, the human-approval bridge (`requestUserInteraction`-aware)
+- `src/lib/plansStore.ts` + `src/lib/evidenceSearch.ts` — workspace
+  persistence and browser-safe curated-data search
+- `src/components/` — PlanApprovalModal, AgentConfirm, AgentActivityPanel,
+  PlansView ("My Plans" tab)
+- README, deployment, test checklist, video script
+
+## Try it
+
+1. Open the live URL in ChatGPT's in-app browser (WebMCP works out of the
+   box), or in Chrome 149+ with `chrome://flags/#enable-webmcp-testing`
+   enabled.
+2. Ask your agent in Vietnamese or English: "Tôi là thủ kho ở Hải Phòng, AI
+   có thay thế tôi không? Tôi nên học gì?"
+3. Watch the Agent Activity Panel, approve a plan, find it under My Plans.
+
+## Run locally
 
 ```bash
 npm install
-cp .env.example .env   # set GEMINI_API_KEY
+cp .env.example .env   # set GEMINI_API_KEY (server-side only, optional —
+                       # evidence tools work without it)
 npm run dev            # http://localhost:3000
+npm test               # unit tests (117)
+npm run lint           # type check
 ```
-
-Reproduce the evaluation (server must be running, in a second terminal):
-```bash
-npm run eval
-```
-
-Tests: `npm test` — TypeScript check: `npm run lint`.
-
-## Hot take
-
-Retrieval alone did not stop citation fabrication: with tools but no
-verifier, grounding stayed at 91.7% with 2 hallucinated citations. The
-verification loop that could send work back to the analyst eliminated them
-(100%, zero). When reliability matters, build the agent that can reject and
-retry its own output — not just the one that reads more context.
 
 ## License & attribution
 

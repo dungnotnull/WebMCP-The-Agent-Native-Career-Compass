@@ -525,7 +525,7 @@ export default function App() {
             <div>
               <p className="font-bold text-slate-900 font-sans">LA BÀN - AI Career Compass Vietnam</p>
               <p className="text-[11px] text-slate-500">
-                {language === 'vi' ? 'Dự thi sáng tạo AI Riser Vietnam 2026 (#BuildwithGoogleAI) • Dữ liệu nội bộ (Local Storage)' : 'AI Riser Vietnam 2026 Submission (#BuildwithGoogleAI) • Local Data Persistence'}
+                {language === 'vi' ? 'The WebMCP Challenge (OpenAI) • Agent-native web: người và AI agent cộng tác dựa trên bằng chứng' : 'The WebMCP Challenge (OpenAI) • Agent-native web: humans and AI agents collaborating on evidence'}
               </p>
             </div>
           </div>
