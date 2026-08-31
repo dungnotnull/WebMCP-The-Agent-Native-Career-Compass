@@ -15,7 +15,7 @@ function stubLocalStorage() {
 
 import {
   createPlan, listPlans, getPlan, addMilestoneToPlan,
-  updateMilestoneStatus, planProgress, subscribePlans
+  updateMilestoneStatus, planProgress, subscribePlans, deletePlan
 } from '../plansStore';
 
 describe('plansStore', () => {
@@ -80,5 +80,13 @@ describe('plansStore', () => {
     subscribePlans(listener);
     createPlan({ title: 'Plan A', milestones: [], createdBy: 'agent' });
     expect(listener).toHaveBeenCalled();
+  });
+
+  it('deletes a plan and returns true, false for missing id', () => {
+    const plan = createPlan({ title: 'Plan A', milestones: [], createdBy: 'agent' });
+    expect(deletePlan(plan.id)).toBe(true);
+    expect(getPlan(plan.id)).toBeNull();
+    expect(listPlans()).toHaveLength(0);
+    expect(deletePlan('missing-id')).toBe(false);
   });
 });
