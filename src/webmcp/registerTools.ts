@@ -96,7 +96,7 @@ const TOOL_DEFINITIONS: ToolDefinition[] = [
     title: 'List saved career plans',
     description:
       'List the career plans saved in this La Ban workspace, with milestone progress. Check this before suggesting new plans or milestones.',
-    readOnly: false,
+    readOnly: true,
     handler: getMyPlansHandler
   },
   {

@@ -78,7 +78,7 @@ describe('registerWebMcpTools', () => {
       expect(tool.inputSchema).toEqual(TOOL_SCHEMAS[tool.name as keyof typeof TOOL_SCHEMAS]);
     }
     const readOnly = captured.filter(t => t.annotations?.readOnlyHint);
-    expect(readOnly.length).toBe(7); // 4 evidence + 3 analysis
+    expect(readOnly.length).toBe(8); // 4 evidence + 3 analysis + 1 workspace (get_my_plans)
   });
 
   it('registered execute functions invoke the right handler', async () => {
