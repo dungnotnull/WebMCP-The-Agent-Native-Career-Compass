@@ -29,7 +29,8 @@ import { CurrentRoleOverviewAssessment } from './src/types/careerAnalysis';
 import { generateDynamicCareerSuggestions, generateDynamicCareerAnalysis, generateCurrentRoleOverview } from './src/lib/dynamicCareerGenerator';
 
 const app = express();
-const PORT = 3000;
+// Render and most PaaS providers inject PORT; fall back to 3000 for local dev.
+const PORT = Number(process.env.PORT) || 3000;
 
 app.use(express.json({ limit: '10mb' }));
 
