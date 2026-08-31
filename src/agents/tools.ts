@@ -1,6 +1,5 @@
 import { Type } from '@google/genai';
-import { VIETNAM_OCCUPATIONS_DATABASE } from '../data/vietnamOccupations';
-import { RESEARCH_LIBRARY } from '../data/researchLibrary';
+import { searchOccupations, searchResearchLibrary } from '../lib/evidenceSearch';
 import type { ResilienceScoreDetail, ResearchSource } from '../types';
 import { callGeminiRich, parseGeminiJson } from './geminiClient';
 
@@ -64,70 +63,16 @@ export const AGENT_FUNCTION_DECLARATIONS = [
   }
 ] as any[];
 
-function normalize(s: string): string {
-  return (s || '')
-    .toLowerCase()
-    .replace(/[^a-z0-9\sáàảãạăắằẳẵặâấầẩẫậéèẻẽẹêếềểễệíìỉĩịóòỏõọôốồổỗộơớờởỡợúùủũụưứừửữựýỳỷỹỵđ]/g, ' ')
-    .replace(/\s+/g, ' ')
-    .trim();
-}
-
-function overlapScore(queryTokens: Set<string>, text: string): number {
-  if (queryTokens.size === 0) return 0;
-  const textTokens = new Set(normalize(text).split(' ').filter(Boolean));
-  let hits = 0;
-  for (const t of queryTokens) if (textTokens.has(t)) hits++;
-  return hits / queryTokens.size;
-}
-
 export function lookupOccupation(query: string): ToolResult {
-  const queryTokens = new Set(normalize(query).split(' ').filter(t => t.length > 1));
-  const scored = Object.entries(VIETNAM_OCCUPATIONS_DATABASE)
-    .map(([key, detail]) => ({
-      key,
-      detail,
-      score: Math.max(
-        overlapScore(queryTokens, key.replace(/-/g, ' ')),
-        overlapScore(queryTokens, detail.occupationTitle || ''),
-        overlapScore(queryTokens, detail.occupationTitleVi || '')
-      )
-    }))
-    .sort((a, b) => b.score - a.score);
-
-  const matches = scored.filter(s => s.score > 0).slice(0, 2);
+  const matches = searchOccupations(query, 2);
   if (matches.length === 0) {
     return { ok: true, data: [], note: 'No direct match in the Vietnam occupation database.' };
   }
-  return {
-    ok: true,
-    data: matches.map(m => ({ key: m.key, detail: m.detail, matchedQuery: query }))
-  };
+  return { ok: true, data: matches };
 }
 
 export function searchResearch(query: string): ToolResult {
-  const queryTokens = new Set(normalize(query).split(' ').filter(t => t.length > 1));
-  const scored = RESEARCH_LIBRARY.map(r => ({
-    source: r,
-    score: Math.max(
-      overlapScore(queryTokens, r.title),
-      overlapScore(queryTokens, r.keyFindings),
-      overlapScore(queryTokens, r.vietnamRelevance)
-    )
-  }))
-    .sort((a, b) => b.score - a.score)
-    .slice(0, 3);
-
-  const items = scored
-    .filter(s => s.score > 0)
-    .map(s => ({
-      id: s.source.id,
-      title: s.source.title,
-      institution: s.source.institution,
-      year: s.source.year,
-      url: s.source.url,
-      keyFindings: s.source.keyFindings,
-      vietnamRelevance: s.source.vietnamRelevance
-    }));
+  const items = searchResearchLibrary(query, 3);
   if (items.length === 0) {
     return { ok: true, data: [], note: 'No research source matched the query.' };
   }
