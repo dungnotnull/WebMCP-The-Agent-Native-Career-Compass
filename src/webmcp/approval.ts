@@ -49,12 +49,14 @@ export function getPendingPlan(): CareerPlan | null {
 }
 
 export function resolvePlanApproval(result: PlanApprovalResult): void {
-  pendingPlan?.resolve(result);
+  if (!pendingPlan) return;
+  pendingPlan.resolve(result);
   pendingPlan = null;
   emitter.emit();
 }
 
 export function requestConfirm(message: string): Promise<boolean> {
+  // One visible dialog at a time; deny the newcomer immediately.
   if (pendingConfirm) return Promise.resolve(false);
   return new Promise<boolean>(resolve => {
     pendingConfirm = { message, resolve };
@@ -63,11 +65,12 @@ export function requestConfirm(message: string): Promise<boolean> {
 }
 
 export function getPendingConfirm(): PendingConfirm | null {
-  return pendingConfirm;
+  return pendingConfirm ? { message: pendingConfirm.message } : null;
 }
 
 export function resolveConfirm(ok: boolean): void {
-  pendingConfirm?.resolve(ok);
+  if (!pendingConfirm) return;
+  pendingConfirm.resolve(ok);
   pendingConfirm = null;
   emitter.emit();
 }
