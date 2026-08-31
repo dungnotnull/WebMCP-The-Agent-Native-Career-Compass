@@ -18,17 +18,24 @@ function PlanCard({ plan, language }: { plan: CareerPlan; language: 'vi' | 'en' 
 
   const share = async () => {
     if (!window.confirm(`${labels.share}: "${plan.title}"?`)) return;
-    await fetch('/api/community/posts', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        title: `Ke hoach chuyen nghe: ${plan.title}`,
-        content: plan.milestones.map(m => `- [${m.status === 'done' ? 'x' : ' '}] ${m.title}`).join('\n'),
-        isAnonymous: true,
-        userCurrentRole: plan.fromRole || 'Dang chuyen doi nghe nghiep',
-        tag: 'transition_plan'
-      })
-    });
+    try {
+      const response = await fetch('/api/community/posts', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          title: `Ke hoach chuyen nghe: ${plan.title}`,
+          content: plan.milestones.map(m => `- [${m.status === 'done' ? 'x' : ' '}] ${m.title}`).join('\n'),
+          isAnonymous: true,
+          userCurrentRole: plan.fromRole || 'Dang chuyen doi nghe nghiep',
+          tag: 'transition_plan'
+        })
+      });
+      if (!response.ok) {
+        window.alert(language === 'vi' ? 'Chia sẻ không thành công, vui lòng thử lại.' : 'Sharing failed, please try again.');
+      }
+    } catch {
+      window.alert(language === 'vi' ? 'Chia sẻ không thành công, vui lòng thử lại.' : 'Sharing failed, please try again.');
+    }
   };
 
   return (

@@ -20,6 +20,14 @@ async function humanApprovesPlan(ctx: HandlerContext, draft: CareerPlan) {
   return ctx.requestPlanApproval(draft);
 }
 
+async function humanConfirms(ctx: HandlerContext, message: string): Promise<boolean> {
+  if (ctx.client?.requestUserInteraction) {
+    const result = await ctx.client.requestUserInteraction(() => ctx.requestConfirm(message));
+    return Boolean(result);
+  }
+  return ctx.requestConfirm(message);
+}
+
 export const saveCareerPlanHandler: Handler = (input, ctx) =>
   withActivityLog('save_career_plan', input, async () => {
     const title = String(input?.title || '').trim();
@@ -85,7 +93,7 @@ export const addMilestoneHandler: Handler = (input, ctx) =>
     const plan = getPlan(planId);
     if (!plan) return { ok: false, data: null, note: `Plan ${planId} not found. Call get_my_plans for valid ids.` };
     if (!title) return { ok: false, data: null, note: 'title is required' };
-    const confirmed = await ctx.requestConfirm(`Add milestone "${title}" to plan "${plan.title}"?`);
+    const confirmed = await humanConfirms(ctx, `Add milestone "${title}" to plan "${plan.title}"?`);
     if (!confirmed) {
       return { ok: true, data: { added: false }, note: 'The user declined this milestone.' };
     }
@@ -109,7 +117,8 @@ export const updateMilestoneProgressHandler: Handler = (input, ctx) =>
     if (!plan) return { ok: false, data: null, note: `Plan ${planId} not found.` };
     const milestone = plan.milestones.find(m => m.id === milestoneId);
     if (!milestone) return { ok: false, data: null, note: `Milestone ${milestoneId} not found in plan ${planId}.` };
-    const confirmed = await ctx.requestConfirm(
+    const confirmed = await humanConfirms(
+      ctx,
       `Mark "${milestone.title}" in plan "${plan.title}" as ${status.replace('_', ' ')}?`
     );
     if (!confirmed) {
@@ -124,7 +133,7 @@ export const sharePlanToCommunityHandler: Handler = (input, ctx) =>
     const planId = String(input?.plan_id || '');
     const plan = getPlan(planId);
     if (!plan) return { ok: false, data: null, note: `Plan ${planId} not found.` };
-    const confirmed = await ctx.requestConfirm(`Share plan "${plan.title}" as a community post? It will be posted anonymously.`);
+    const confirmed = await humanConfirms(ctx, `Share plan "${plan.title}" as a community post? It will be posted anonymously.`);
     if (!confirmed) {
       return { ok: true, data: { shared: false }, note: 'The user declined to share.' };
     }

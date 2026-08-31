@@ -109,6 +109,7 @@ export const TOOL_SCHEMAS: Record<ToolName, Record<string, unknown>> = {
       },
       milestones: {
         type: 'array',
+        maxItems: 12,
         items: {
           type: 'object',
           properties: {
