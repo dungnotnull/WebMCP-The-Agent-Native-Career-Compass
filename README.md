@@ -19,8 +19,8 @@ anything is saved.
 
 ## What humans and agents can do together
 
-- **Ask anything, get evidence.** "Will AI replace warehouse keepers in Hai
-  Phong?" → the agent calls `lookup_occupation` + `search_research` and
+- **Ask anything, get evidence.** "Will AI replace accountants in Hanoi?"
+  → the agent calls `lookup_occupation` + `search_research` and
   answers with resilience scores and citations you can click.
 - **Co-create a transition plan.** "Save me a 90-day plan" → the agent drafts
   it, a modal opens in La Bàn, you edit milestones and approve — only then is
@@ -76,10 +76,10 @@ baseline import, submission period Aug 25 – Sep 3, 2026):
 
 ## Try it
 
-1. Open the live URL in ChatGPT's in-app browser (WebMCP works out of the
-   box), or in Chrome 149+ with `chrome://flags/#enable-webmcp-testing`
-   enabled.
-2. Ask your agent in Vietnamese or English: "Tôi là thủ kho ở Hải Phòng, AI
+1. Open https://webmcp-the-agent-native-career-compass.onrender.com in
+   ChatGPT's in-app browser (WebMCP works out of the box), or in Chrome 149+
+   with `chrome://flags/#enable-webmcp-testing` enabled.
+2. Ask your agent in Vietnamese or English: "Tôi là kế toán ở Hà Nội, AI
    có thay thế tôi không? Tôi nên học gì?"
 3. Watch the Agent Activity Panel, approve a plan, find it under My Plans.
 

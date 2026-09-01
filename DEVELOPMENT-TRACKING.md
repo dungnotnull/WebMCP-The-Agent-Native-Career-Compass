@@ -1,5 +1,45 @@
 # Development Tracking
 
+## 2026-09-01 — WebMCP Challenge: Production Deploy + Submission Prep
+
+Scope: deploy the WebMCP build to Render free tier and prepare submission
+materials for The WebMCP Challenge (deadline 2026-09-03 16:00 ET).
+
+### What was done
+
+- **Deployed to Render free tier** via render.yaml (manual web service
+  flow): https://webmcp-the-agent-native-career-compass.onrender.com
+  - Free plan ($0); service sleeps after 15 min idle -> warm up via
+    /api/health before demos.
+  - Health verified: `/api/health` ok, GEMINI_API_KEY active on Render.
+- **Manual E2E on production** (docs/WEBMCP_TEST_CHECKLIST.md via ChatGPT
+  in-app browser):
+  - Layer 1 pass: lookup_occupation ("accountant" -> accountant-auditor with
+    scores/sources), search_research returns real sources; "warehouse keeper"
+    correctly returns honest no-match (DB has 10 occupations, no logistics
+    roles) and the agent falls back to research evidence.
+  - Layer 2 root cause: analyze_career_transition "timed out" in ChatGPT
+    during one session. Direct measurement showed the endpoint is fast when
+    warm (HTTP 200 in 16s, full verified pipeline result), so the timeout was
+    Render free-tier cold start (service spun down during a >15 min idle
+    gap), not a code defect. Mitigation: warm the service before
+    recording/demos; optional keep-alive ping during judging window.
+  - Demo persona switched to accountant (rich DB hit) across README,
+    SUBMISSION.md and the video script; warehouse keeper kept as an honest
+    no-match fallback story.
+- **Docs updated**: SUBMISSION.md live URL placeholder replaced; video script
+  beats 2-3 now match the verified accountant flow ("ke toan o Ha Noi" ->
+  lookup hit 76/100 risk, 84/100 augmentation; 90-day plan -> data analyst).
+  README "Try it" now embeds the live URL and the accountant example.
+
+### Verification results (2026-09-01)
+
+- `npm run test`: 117/117 pass (23 files)
+- `npm run lint` (tsc --noEmit): 0 errors
+- Production health: ok; production career-analyze: HTTP 200 in ~16s warm
+- Remaining before submit: record <3 min YouTube video (script in
+  docs/SUBMISSION.md), fill Devpost form, ensure repo About shows LICENSE.
+
 ## 2026-08-30 — Agentic Hackathon Submission (branch: agentic-hackathon)
 
 Scope: transform the pre-existing La Bàn platform (snapshot commit `4c5ac25`)

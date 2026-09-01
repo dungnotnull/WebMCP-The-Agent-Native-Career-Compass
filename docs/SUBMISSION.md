@@ -1,7 +1,8 @@
 # Devpost Submission Materials
 
 ## Live URL
-<!-- REPLACE after deploy: https://laban-webmcp.onrender.com -->
+
+https://webmcp-the-agent-native-career-compass.onrender.com
 
 ## Text description (paste into Devpost)
 
@@ -35,17 +36,17 @@ available.
 
 **How to test**
 Open the live URL in ChatGPT's in-app browser (or Chrome 149+ with
-chrome://flags/#enable-webmcp-testing). Ask: "I'm a warehouse keeper in Hai
-Phong, will AI replace me? What should I learn?" Then: "Save me a 90-day
-transition plan" and approve it in the page modal.
+chrome://flags/#enable-webmcp-testing). Ask: "I'm an accountant in Hanoi,
+will AI replace me? What should I learn?" Then: "Save me a 90-day transition
+plan to become a data analyst" and approve it in the page modal.
 
 ## Video script (< 3 min, English audio)
 
 | Time | Beat |
 |---|---|
 | 0:00-0:20 | Problem: LLM career advice fabricates citations; show measured baseline (2/26). Vietnamese workers can't bet their careers on that. |
-| 0:20-1:00 | ChatGPT in-app browser on La Bàn. Vietnamese question: "Toi la thu kho o Hai Phong, AI co thay the toi khong?" Agent calls lookup_occupation + search_research (visible in Agent Activity Panel). Answer cites verifiable sources. |
-| 1:00-1:50 | "Save me a 90-day plan" -> PlanApprovalModal opens in-page; human edits a milestone, approves; plan lands in My Plans tab. |
+| 0:20-1:00 | ChatGPT in-app browser on La Bàn. Vietnamese question: "Toi la ke toan o Ha Noi, AI co thay the toi khong?" Agent calls lookup_occupation (DB hit: automation risk 76/100, augmentation 84/100) + search_research (visible in Agent Activity Panel). Answer cites verifiable sources. |
+| 1:00-1:50 | "Save me a 90-day plan to become a data analyst" -> PlanApprovalModal opens in-page; human edits a milestone, approves; plan lands in My Plans tab. |
 | 1:50-2:25 | Later session: "What should I focus on this week?" -> agent reads get_my_plans, proposes marking a milestone done; human confirms via AgentConfirm. |
 | 2:25-2:50 | Close: the human made a career decision together with an agent, grounded in evidence, with the human in control. This is the agent-native web. |
 
