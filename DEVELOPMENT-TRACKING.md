@@ -27,6 +27,12 @@ materials for The WebMCP Challenge (deadline 2026-09-03 16:00 ET).
   - Demo persona switched to accountant (rich DB hit) across README,
     SUBMISSION.md and the video script; warehouse keeper kept as an honest
     no-match fallback story.
+- **Bugfix: requestUserInteraction fallback** (found during production
+  rehearsal): ChatGPT's in-app browser exposes client.requestUserInteraction
+  but calls throw ("not supported by the Codex WebMCP shim"), breaking
+  save_career_plan / confirms. workspace.ts now try/catches the wrapper and
+  falls back to the in-page modal/confirm (still human-gated). +2 regression
+  tests (Codex shim throw -> direct approval / direct confirm).
 - **Docs updated**: SUBMISSION.md live URL placeholder replaced; video script
   beats 2-3 now match the verified accountant flow ("ke toan o Ha Noi" ->
   lookup hit 76/100 risk, 84/100 augmentation; 90-day plan -> data analyst).
@@ -34,7 +40,7 @@ materials for The WebMCP Challenge (deadline 2026-09-03 16:00 ET).
 
 ### Verification results (2026-09-01)
 
-- `npm run test`: 117/117 pass (23 files)
+- `npm run test`: 119/119 pass (23 files, incl. 2 Codex-shim fallback regressions)
 - `npm run lint` (tsc --noEmit): 0 errors
 - Production health: ok; production career-analyze: HTTP 200 in ~16s warm
 - Remaining before submit: record <3 min YouTube video (script in

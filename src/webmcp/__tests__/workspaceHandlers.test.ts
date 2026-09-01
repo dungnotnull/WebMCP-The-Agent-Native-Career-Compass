@@ -75,6 +75,21 @@ describe('save_career_plan', () => {
     await saveCareerPlanHandler(draftInput, ctx);
     expect(interaction).toHaveBeenCalledTimes(1);
   });
+
+  it('falls back to the in-page modal when requestUserInteraction throws (Codex shim)', async () => {
+    const ctx = makeCtx();
+    const approval = vi.fn(ctx.requestPlanApproval);
+    ctx.requestPlanApproval = approval;
+    (ctx as any).client = {
+      requestUserInteraction: () => {
+        throw new Error('requestUserInteraction is not supported by the Codex WebMCP shim.');
+      }
+    };
+    const result = await saveCareerPlanHandler(draftInput, ctx);
+    expect(result.ok).toBe(true);
+    expect(approval).toHaveBeenCalledTimes(1);
+    expect((result.data as any).plan.title).toContain('(approved)');
+  });
 });
 
 describe('get_my_plans', () => {
@@ -108,6 +123,21 @@ describe('add_milestone', () => {
     const result = await addMilestoneHandler({ plan_id: planId, title: 'nope' }, ctx);
     expect(result.ok).toBe(true);
     expect((result.data as any).added).toBe(false);
+  });
+
+  it('falls back to direct confirm when requestUserInteraction throws (Codex shim)', async () => {
+    const saved = await saveCareerPlanHandler(draftInput, makeCtx());
+    const planId = (saved.data as any).planId;
+    const confirm = vi.fn(() => Promise.resolve(true));
+    const ctx = makeCtx({ requestConfirm: confirm });
+    (ctx as any).client = {
+      requestUserInteraction: () => {
+        throw new Error('requestUserInteraction is not supported by the Codex WebMCP shim.');
+      }
+    };
+    const result = await addMilestoneHandler({ plan_id: planId, title: 'Direct confirm milestone' }, ctx);
+    expect(result.ok).toBe(true);
+    expect(confirm).toHaveBeenCalledTimes(1);
   });
 });
 

@@ -14,16 +14,25 @@ const MILESTONE_STATUSES: PlanMilestone['status'][] = ['pending', 'in_progress',
 
 async function humanApprovesPlan(ctx: HandlerContext, draft: CareerPlan) {
   if (ctx.client?.requestUserInteraction) {
-    const result = await ctx.client.requestUserInteraction(() => ctx.requestPlanApproval(draft));
-    return result as { approved: boolean; plan: CareerPlan };
+    try {
+      const result = await ctx.client.requestUserInteraction(() => ctx.requestPlanApproval(draft));
+      return result as { approved: boolean; plan: CareerPlan };
+    } catch {
+      // Some runtimes expose the API but reject calls (e.g. the Codex
+      // WebMCP shim). Fall back to the in-page modal — still human-gated.
+    }
   }
   return ctx.requestPlanApproval(draft);
 }
 
 async function humanConfirms(ctx: HandlerContext, message: string): Promise<boolean> {
   if (ctx.client?.requestUserInteraction) {
-    const result = await ctx.client.requestUserInteraction(() => ctx.requestConfirm(message));
-    return Boolean(result);
+    try {
+      const result = await ctx.client.requestUserInteraction(() => ctx.requestConfirm(message));
+      return Boolean(result);
+    } catch {
+      // Same fallback: the confirm dialog renders directly in the page.
+    }
   }
   return ctx.requestConfirm(message);
 }
