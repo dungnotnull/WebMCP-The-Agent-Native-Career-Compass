@@ -5,7 +5,10 @@ their jobs and what to do about it — grounded in verifiable evidence instead
 of generic advice. **This build makes La Bàn an agent-native web app**: the
 site itself is an MCP server in your browser ([WebMCP](https://webmachinelearning.github.io/webmcp)),
 so your AI agent (ChatGPT's in-app browser, Chrome's agent) can act as your
-career counselor while you stay in control.
+career counselor while you stay in control. Existing tools are either static
+career sites (no agent) or chatbots (no verifiable data, no persistence, no
+human gate) — La Bàn brings the three together: the page supplies the
+evidence, the agent reasons over it, and the human holds the pen.
 
 ## Why WebMCP?
 
