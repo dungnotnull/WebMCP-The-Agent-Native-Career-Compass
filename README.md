@@ -9,10 +9,13 @@ career counselor while you stay in control.
 
 ## Why WebMCP?
 
-A single LLM prompt produces fluent career advice that cites research papers
-which may not exist. In our measured baseline over 12 personas, 2 of 26
-citations were unverifiable fabrications. For life-altering career decisions,
-that is disqualifying. With WebMCP, the agent does not guess — it calls La
+The ILO estimates generative AI could impact more than 20% of jobs in
+Vietnam — nearly 80 million workers across ASEAN are in occupations likely
+to be affected. Those workers are asking AI about their future, and a single
+LLM prompt produces fluent career advice that cites research papers which may
+not exist. In our measured baseline over 12 personas, 2 of 26 citations were
+unverifiable fabrications. For life-altering career decisions, that is
+disqualifying. With WebMCP, the agent does not guess — it calls La
 Bàn's tools to read the curated Vietnam occupation database and research
 library, and every plan it drafts is approved by you, inside the page, before
 anything is saved. Ablation confirmed the mechanism: tools alone changed
@@ -44,7 +47,7 @@ workspace the agent and the human maintain together across sessions.
 - **See everything the agent does.** The Agent Activity Panel shows every
   tool call in real time; writes never happen without your explicit approval.
 - **Honesty over invention.** When an occupation isn't in the database (a
-  warehouse keeper, for example), `lookup_occupation` says so — and the agent
+  watch repairer, for example), `lookup_occupation` says so — and the agent
   falls back to research evidence instead of inventing a resilience score.
 
 ## The 12 WebMCP tools
