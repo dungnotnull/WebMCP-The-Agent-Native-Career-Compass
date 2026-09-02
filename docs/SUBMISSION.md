@@ -16,6 +16,16 @@ and drafts plans that the human approves inside the page. The site is no
 longer just a destination — it is the evidence engine and workspace behind
 every agent conversation about a person's career.
 
+**How it creates a better experience**
+Before, a worker had two bad options: browse a static career site alone, or
+trust a chatbot's unverifiable answer — and nothing either way produced was
+saved or tracked. Now, in a single conversation turn, the agent looks up the
+occupation in the database, pulls matching research, scores the AI risk, and
+drafts an editable 90-day plan — work that used to mean tab-switching between
+a chatbot and a website, with no persistence and no audit trail. Every tool
+call is logged in the page, and the result becomes a living workspace the
+agent and the human maintain together across sessions.
+
 **What people and agents can do together that was difficult or impossible before**
 Before: a worker asks ChatGPT about their AI risk and gets fluent,
 unverifiable advice; the website is a separate, passive page. Now: the agent
@@ -40,22 +50,17 @@ chrome://flags/#enable-webmcp-testing). Ask: "I'm an accountant in Hanoi,
 will AI replace me? What should I learn?" Then: "Save me a 90-day transition
 plan to become a data analyst" and approve it in the page modal.
 
-## Video script (< 3 min, English audio)
+## Demo video
 
-| Time | Beat |
-|---|---|
-| 0:00-0:20 | Problem: LLM career advice fabricates citations; show measured baseline (2/26). Vietnamese workers can't bet their careers on that. |
-| 0:20-1:00 | ChatGPT in-app browser on La Bàn. Vietnamese question: "Toi la ke toan o Ha Noi, AI co thay the toi khong?" Agent calls lookup_occupation (DB hit: automation risk 76/100, augmentation 84/100) + search_research (visible in Agent Activity Panel). Answer cites verifiable sources. |
-| 1:00-1:50 | "Save me a 90-day plan to become a data analyst" -> PlanApprovalModal opens in-page; human edits a milestone, approves; plan lands in My Plans tab. |
-| 1:50-2:25 | Later session: "What should I focus on this week?" -> agent reads get_my_plans, proposes marking a milestone done; human confirms via AgentConfirm. |
-| 2:25-2:50 | Close: the human made a career decision together with an agent, grounded in evidence, with the human in control. This is the agent-native web. |
+Script: docs/VIDEO_SCRIPT.md (target 2:45, hard limit 3:00).
 
-Recording notes: 1080p, browser window + ChatGPT side-by-side, subtitles for
-Vietnamese speech, no copyrighted music.
+Requirements: public on YouTube, English audio, under 3 minutes.
+
+**Video URL (fill after upload):** <!-- REPLACE with YouTube URL -->
 
 ## Pre-submission gate
 
-1. `npm test` — ALL PASS (117/117)
+1. `npm test` — ALL PASS (119/119)
 2. `npm run lint` — clean
 3. Production URL passes docs/WEBMCP_TEST_CHECKLIST.md
 4. README + this file have no `<!-- REPLACE` markers left (live URL + video
